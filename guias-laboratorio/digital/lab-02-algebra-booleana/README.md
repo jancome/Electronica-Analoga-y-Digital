@@ -1,5 +1,13 @@
 # Lab 02 – Álgebra booleana
 
+## Estado
+
+Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
+
+## Archivo principal
+
+- [Resumen Lab 02 – Álgebra booleana](resumen-lab-02-algebra-booleana.md)
+
 ## Propósito
 
 Comprobar métodos de representación y simplificación de ecuaciones lógicas mediante reglas del álgebra booleana, montaje de circuitos y medición de salidas.
@@ -12,10 +20,6 @@ Comprobar métodos de representación y simplificación de ecuaciones lógicas m
 - Complemento.
 - Absorción.
 - Análisis de circuitos lógicos.
-
-## Guía original
-
-Ubicar aquí el archivo PDF de la experiencia de laboratorio correspondiente.
 
 ## Entregable
 

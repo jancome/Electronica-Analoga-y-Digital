@@ -2,7 +2,11 @@
 
 ## Estado
 
-Guía pendiente por desarrollar con formato institucional.
+Guía desarrollada en formato Markdown.
+
+## Archivo principal
+
+- [Guía completa – Experiencia A02](guia-lab-a02-transistor-bjt.md)
 
 ## Propósito
 
@@ -14,19 +18,22 @@ Analizar el funcionamiento del transistor BJT en sus regiones de corte, activa y
 - Identificación de terminales.
 - Corriente de base, colector y emisor.
 - Ganancia de corriente.
+- Regiones de corte, activa y saturación.
 - BJT como interruptor.
 - Activación de LED, relé o carga DC.
+- Diodo de protección para cargas inductivas.
 - Amplificador básico en emisor común.
 
-## Circuitos sugeridos
+## Circuitos incluidos
 
-1. Identificación de terminales del BJT.
-2. BJT como interruptor para LED.
-3. Control de carga DC.
-4. Activación de relé con diodo de protección.
-5. Medición de corrientes IB, IC e IE.
-6. Amplificador básico en emisor común.
+1. Identificación de terminales del transistor.
+2. BJT NPN como interruptor para LED.
+3. Variación de la resistencia de base.
+4. Control de carga DC con transistor.
+5. Activación de relé con diodo de protección.
+6. Medición de corrientes IB, IC e IE.
+7. Amplificador básico en emisor común.
 
 ## Entregable
 
-Informe de laboratorio con cálculos, mediciones, simulación y análisis de región de operación.
+Informe de laboratorio con cálculos, mediciones, simulación, análisis de región de operación, evidencias y conclusiones.

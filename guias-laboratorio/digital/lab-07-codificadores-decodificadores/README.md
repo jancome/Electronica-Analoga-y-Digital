@@ -1,5 +1,13 @@
 # Lab 07 – Codificadores y decodificadores
 
+## Estado
+
+Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
+
+## Archivo principal
+
+- [Resumen Lab 07 – Codificadores y decodificadores](resumen-lab-07-codificadores-decodificadores.md)
+
 ## Propósito
 
 Implementar circuitos combinacionales de codificación y decodificación usando circuitos integrados de función específica.
@@ -12,10 +20,6 @@ Implementar circuitos combinacionales de codificación y decodificación usando 
 - Codificador con prioridad.
 - Display de 7 segmentos.
 - Salidas activas en bajo.
-
-## Guía original
-
-Ubicar aquí el archivo PDF de la experiencia de laboratorio correspondiente.
 
 ## Entregable
 

@@ -2,7 +2,11 @@
 
 ## Estado
 
-Guía pendiente por desarrollar con formato institucional.
+Guía desarrollada en formato Markdown.
+
+## Archivo principal
+
+- [Guía completa – Experiencia A01](guia-lab-a01-diodos-rectificacion-zener.md)
 
 ## Propósito
 
@@ -12,21 +16,24 @@ Comprobar experimentalmente el comportamiento del diodo semiconductor en polariz
 
 - Unión PN.
 - Polarización directa e inversa.
+- LED y resistencia limitadora.
 - Rectificación de media onda.
 - Rectificación de onda completa.
 - Puente rectificador.
 - Filtro capacitivo.
 - Regulación con Zener.
 
-## Circuitos sugeridos
+## Circuitos incluidos
 
-1. Polarización directa del diodo.
-2. Polarización inversa del diodo.
-3. Rectificador de media onda.
-4. Rectificador de onda completa tipo puente.
-5. Filtro capacitivo.
-6. Regulador básico con diodo Zener.
+1. Identificación de terminales.
+2. Polarización directa del diodo.
+3. Polarización inversa del diodo.
+4. LED con resistencia limitadora.
+5. Rectificador de media onda.
+6. Rectificador de onda completa tipo puente.
+7. Filtro capacitivo.
+8. Regulador básico con diodo Zener.
 
 ## Entregable
 
-Informe de laboratorio con simulaciones, mediciones, cálculos, análisis y conclusiones.
+Informe de laboratorio con simulaciones, mediciones, cálculos, análisis, conclusiones y evidencias del montaje o simulación.

@@ -1,5 +1,13 @@
 # Lab 04 – Compuerta XOR y aplicaciones
 
+## Estado
+
+Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
+
+## Archivo principal
+
+- [Resumen Lab 04 – XOR y aplicaciones](resumen-lab-04-xor-aplicaciones.md)
+
 ## Propósito
 
 Estudiar la compuerta OR exclusiva, su construcción con compuertas básicas y sus aplicaciones en circuitos combinacionales.
@@ -9,13 +17,8 @@ Estudiar la compuerta OR exclusiva, su construcción con compuertas básicas y s
 - Compuerta XOR.
 - Compuerta XNOR.
 - Medio sumador.
-- Medio sustractor.
 - Comparador binario.
 - Generador de paridad.
-
-## Guía original
-
-Ubicar aquí el archivo PDF de la experiencia de laboratorio correspondiente.
 
 ## Entregable
 

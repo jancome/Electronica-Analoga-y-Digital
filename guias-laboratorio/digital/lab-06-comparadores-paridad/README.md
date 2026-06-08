@@ -1,5 +1,13 @@
 # Lab 06 – Comparadores, generadores y comprobadores de paridad
 
+## Estado
+
+Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
+
+## Archivo principal
+
+- [Resumen Lab 06 – Comparadores y paridad](resumen-lab-06-comparadores-paridad.md)
+
 ## Propósito
 
 Implementar y analizar circuitos combinacionales dedicados a la comparación de números binarios y a la detección básica de errores mediante paridad.
@@ -12,10 +20,6 @@ Implementar y analizar circuitos combinacionales dedicados a la comparación de 
 - Generación de paridad.
 - Comprobación de paridad.
 - Detección de errores en transmisión digital.
-
-## Guía original
-
-Ubicar aquí el archivo PDF de la experiencia de laboratorio correspondiente.
 
 ## Entregable
 

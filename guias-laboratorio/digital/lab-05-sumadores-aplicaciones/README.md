@@ -1,5 +1,13 @@
 # Lab 05 – Sumadores y aplicaciones
 
+## Estado
+
+Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
+
+## Archivo principal
+
+- [Resumen Lab 05 – Sumadores y aplicaciones](resumen-lab-05-sumadores-aplicaciones.md)
+
 ## Propósito
 
 Implementar y analizar circuitos sumadores utilizando compuertas lógicas y circuitos integrados de mayor nivel de integración.
@@ -12,10 +20,6 @@ Implementar y analizar circuitos sumadores utilizando compuertas lógicas y circ
 - Acarreo de entrada y salida.
 - Decodificación hacia display de 7 segmentos.
 - Aplicaciones como sistema de votación.
-
-## Guía original
-
-Ubicar aquí el archivo PDF de la experiencia de laboratorio correspondiente.
 
 ## Entregable
 

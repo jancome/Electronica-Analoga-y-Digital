@@ -2,7 +2,11 @@
 
 ## Estado
 
-Guía pendiente por desarrollar con formato institucional.
+Guía desarrollada en formato Markdown.
+
+## Archivo principal
+
+- [Guía completa – Experiencia A03](guia-lab-a03-transistor-fet-mosfet.md)
 
 ## Propósito
 
@@ -15,19 +19,23 @@ Estudiar el funcionamiento del transistor FET/MOSFET como dispositivo de control
 - Voltaje VGS.
 - Voltaje VDS.
 - Corriente de drenador.
+- Resistencia de compuerta.
+- Resistencia pull-down.
 - MOSFET como interruptor.
 - Control de cargas DC.
+- Control PWM.
 - Comparación BJT vs MOSFET.
 
-## Circuitos sugeridos
+## Circuitos incluidos
 
 1. Identificación de terminales del MOSFET.
 2. MOSFET canal N como interruptor para LED.
-3. Control de carga DC.
-4. Control de motor DC pequeño.
-5. Comparación técnica BJT vs MOSFET.
-6. Control PWM simulado o físico, si aplica.
+3. Efecto del voltaje de compuerta VGS.
+4. Control de carga DC con MOSFET.
+5. Control de motor DC con diodo de protección.
+6. Comparación BJT vs MOSFET como interruptor.
+7. Control PWM con MOSFET.
 
 ## Entregable
 
-Informe de laboratorio con mediciones de VGS, VDS, corriente de drenador, simulaciones y análisis de conmutación.
+Informe de laboratorio con mediciones de VGS, VDS, corriente de drenador, simulaciones, comparación BJT vs MOSFET y análisis de conmutación.

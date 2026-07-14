@@ -10,36 +10,46 @@ La evaluación de la asignatura se desarrollará por cortes, integrando activida
 - La copia de informes, simulaciones o montajes podrá afectar la calificación individual.
 - La presentación del proyecto no reemplaza las demás notas del curso.
 
+---
+
 ## Componentes sugeridos por corte
 
-### Corte 1 – Electrónica analógica básica
+### Corte 1 – Electrónica analógica
+
+El primer corte cubre la unidad analógica del syllabus: señales, medición, semiconductores, diodos, rectificación, filtrado, LED, Zener, BJT y FET/MOSFET.
 
 | Componente | Descripción | Peso sugerido |
 |---|---|---:|
-| Talleres y ejercicios | Problemas de diodos, rectificación y Zener | 20% |
-| Laboratorio A01 | Diodos, rectificación y regulación con Zener | 30% |
-| Evaluación escrita o práctica | Análisis de circuitos y cálculos básicos | 40% |
-| Participación y trabajo en clase | Desarrollo de ejercicios y participación | 10% |
+| Talleres y ejercicios | Señales, magnitudes, diodos, rectificación, Zener, BJT y MOSFET | 20% |
+| Laboratorio A01 | Diodos, rectificación y regulación con Zener | 25% |
+| Labs A02/A03 o simulaciones orientadas | BJT como interruptor y MOSFET como control de carga | 20% |
+| Evaluación escrita o práctica | Análisis de circuitos analógicos, cálculos y selección de componentes | 30% |
+| Participación y trabajo en clase | Desarrollo de ejercicios, mediciones y discusión técnica | 5% |
 
-### Corte 2 – Transistores y lógica combinacional básica
+### Corte 2 – Fundamentos digitales y lógica combinacional
+
+El segundo corte inicia la unidad digital: sistemas numéricos, aritmética binaria, compuertas lógicas, álgebra booleana, teorema de De Morgan y mapas de Karnaugh. Se considera que la semana del 5 al 11 de octubre corresponde a receso institucional, por lo que no se programa contenido presencial nuevo.
 
 | Componente | Descripción | Peso sugerido |
 |---|---|---:|
-| Laboratorios A02 y A03 | BJT y FET/MOSFET | 25% |
-| Laboratorios digitales 01 a 03 | Compuertas, álgebra booleana y De Morgan | 25% |
-| Talleres | Sistemas numéricos, aritmética, compuertas y simplificación | 20% |
-| Evaluación escrita o práctica | Solución de problemas y análisis de circuitos | 25% |
-| Participación | Trabajo en clase y cumplimiento | 5% |
+| Talleres | Sistemas numéricos, aritmética binaria y mapas de Karnaugh | 25% |
+| Laboratorios digitales 01 a 03 | Compuertas, álgebra booleana y De Morgan | 30% |
+| Evaluación escrita o práctica | Solución de problemas de lógica digital y simplificación | 35% |
+| Participación | Trabajo en clase y cumplimiento | 10% |
 
 ### Corte 3 – Aplicaciones digitales y proyecto final
 
+El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sumadores, restadores, comparadores, paridad, codificadores, decodificadores, MUX, DEMUX, flip-flops, contadores y proyecto final.
+
 | Componente | Descripción | Peso sugerido |
 |---|---|---:|
-| Laboratorios 04 a 08 | XOR, sumadores, comparadores, codificadores, MUX y DEMUX | 30% |
-| Talleres y ejercicios | Karnaugh y diseño combinacional | 15% |
+| Laboratorios 04 a 08 | XOR, sumadores, comparadores, codificadores, decodificadores, MUX y DEMUX | 30% |
+| Talleres y ejercicios | Diseño combinacional y secuencial básico | 15% |
 | Proyecto final | Funcionamiento, estética, informe y video | 30% |
 | Sustentación individual | Preguntas técnicas individuales | 20% |
 | Participación y cierre | Cumplimiento y retroalimentación | 5% |
+
+---
 
 ## Criterios generales para informes de laboratorio
 

@@ -4,6 +4,14 @@
 
 Analizar el uso del diodo rectificador para convertir señales AC en señales DC pulsantes.
 
+## Marco teórico
+
+- [Marco teórico – Semana 04](marco-teorico.md)
+
+## Imagen de apoyo
+
+![Rectificación y filtrado](../../recursos/imagenes/analogica/rectificacion-y-filtrado.svg)
+
 ## Clase de 3 horas
 
 - Rectificador de media onda.

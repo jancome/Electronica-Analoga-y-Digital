@@ -8,6 +8,20 @@ Guía desarrollada en formato Markdown.
 
 - [Guía completa – Experiencia A01](guia-lab-a01-diodos-rectificacion-zener.md)
 
+## Imágenes de apoyo
+
+### Unión PN y polarización del diodo
+
+Esta imagen se recomienda usar al inicio de la práctica, antes de explicar la polarización directa e inversa.
+
+![Unión PN y polarización del diodo](../../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
+
+### Rectificación y filtrado capacitivo
+
+Esta imagen se recomienda usar durante los circuitos de rectificación de media onda, onda completa y filtro capacitivo.
+
+![Rectificación y filtrado capacitivo](../../../recursos/imagenes/analogica/rectificacion-y-filtrado.svg)
+
 ## Propósito
 
 Comprobar experimentalmente el comportamiento del diodo semiconductor en polarización directa e inversa, analizar circuitos rectificadores y verificar la regulación de voltaje mediante diodo Zener.

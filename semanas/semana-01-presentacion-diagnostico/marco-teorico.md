@@ -1,18 +1,138 @@
 # Marco teórico – Semana 01
 
-# Presentación del curso e introducción a la electrónica analógica y digital
+# Presentación del curso, diagnóstico y fundamentos previos de circuitos
 
 ## 1. Tema de la semana
 
 Presentación general de la asignatura **Electrónica Analógica y Digital**, diagnóstico inicial e introducción conceptual a la diferencia entre sistemas analógicos, sistemas digitales y sistemas mixtos.
 
+Además, se realiza una revisión diagnóstica de los fundamentos de circuitos eléctricos que el estudiante necesita para comprender la unidad analógica del primer corte.
+
+---
+
 ## 2. Objetivo de aprendizaje
 
-Reconocer el propósito de la asignatura y diferenciar, a nivel introductorio, los conceptos de electrónica analógica, electrónica digital y sistemas electrónicos mixtos, relacionándolos con aplicaciones propias de la ingeniería eléctrica.
+Reconocer el propósito de la asignatura, diferenciar los conceptos de electrónica analógica, electrónica digital y sistemas mixtos, e identificar el nivel de dominio del estudiante en fundamentos de circuitos eléctricos como Ley de Ohm, leyes de Kirchhoff, circuitos serie/paralelo, potencia y medición.
+
+---
 
 ## 3. Contexto e importancia del tema
 
-La electrónica está presente en la mayoría de los sistemas modernos de ingeniería: fuentes de alimentación, sensores, sistemas de control, protecciones eléctricas, automatización, comunicaciones, instrumentación, variadores de velocidad, sistemas embebidos, cargadores, iluminación LED, equipos industriales y dispositivos de consumo.
+La electrónica está presente en la mayoría de los sistemas modernos de ingeniería: fuentes de alimentación, sensores, sistemas de control, protecciones eléctricas, automatización, comunicaciones, instrumentación, variadores de velocidad, iluminación LED, equipos industriales y dispositivos de consumo.
+
+Sin embargo, antes de estudiar dispositivos electrónicos como diodos, transistores o compuertas lógicas, es necesario recordar que todos ellos forman parte de circuitos eléctricos. Por esta razón, la primera semana no debe limitarse a presentar el curso, sino que también debe verificar si el estudiante domina las bases mínimas para analizar circuitos.
+
+---
+
+## 4. Conocimientos previos esperados
+
+El estudiante debería llegar al curso con dominio básico de:
+
+- Voltaje, corriente y resistencia.
+- Ley de Ohm.
+- Potencia eléctrica.
+- Resistencias en serie y paralelo.
+- Divisor de voltaje.
+- Ley de corrientes de Kirchhoff.
+- Ley de voltajes de Kirchhoff.
+- Concepto de nodo y malla.
+- Uso básico del multímetro.
+- Diferencia entre señales DC y AC.
+
+Estos temas se evalúan en el archivo:
+
+- [Diagnóstico inicial – Fundamentos de circuitos](diagnostico-inicial-circuitos.md)
+
+---
+
+## 5. Ley de Ohm como punto de partida
+
+La Ley de Ohm relaciona voltaje, corriente y resistencia:
+
+```text
+V = I × R
+```
+
+De esta relación se derivan:
+
+```text
+I = V / R
+R = V / I
+```
+
+Esta ley será utilizada durante todo el primer corte. Por ejemplo:
+
+- Para calcular la corriente de un LED.
+- Para determinar la resistencia limitadora de un diodo.
+- Para estimar corrientes en transistores.
+- Para interpretar mediciones de voltaje y corriente.
+- Para calcular divisores de voltaje usados en polarización.
+
+---
+
+## 6. Potencia eléctrica
+
+La potencia indica la energía eléctrica consumida o disipada por unidad de tiempo. En circuitos electrónicos es importante porque los componentes pueden dañarse si se supera su potencia máxima.
+
+Formas comunes de cálculo:
+
+```text
+P = V × I
+P = I² × R
+P = V² / R
+```
+
+En electrónica analógica, este concepto será necesario para analizar resistencias, LED, diodos Zener, transistores y etapas de potencia.
+
+---
+
+## 7. Leyes de Kirchhoff
+
+### Ley de corrientes de Kirchhoff
+
+En un nodo, la suma de corrientes que entran debe ser igual a la suma de corrientes que salen.
+
+Esta idea será importante para analizar divisores, ramas paralelas, corrientes de carga y etapas con transistores.
+
+### Ley de voltajes de Kirchhoff
+
+En una malla cerrada, la suma de elevaciones y caídas de voltaje debe ser igual a cero.
+
+Esta ley será clave para comprender por qué en un circuito con fuente, resistencia y diodo se cumple:
+
+```text
+VS = VR + VD
+```
+
+Por tanto, si se conoce el voltaje de la fuente y la caída del diodo, puede calcularse el voltaje en la resistencia y luego la corriente.
+
+---
+
+## 8. Circuitos serie, paralelo y divisor de voltaje
+
+### Circuito serie
+
+En un circuito serie la corriente es la misma por todos los elementos. La resistencia equivalente se obtiene sumando las resistencias.
+
+```text
+RT = R1 + R2 + R3 + ...
+```
+
+### Circuito paralelo
+
+En un circuito paralelo el voltaje es el mismo en cada rama. La corriente total se divide entre las ramas.
+
+```text
+1/RT = 1/R1 + 1/R2 + 1/R3 + ...
+```
+
+### Divisor de voltaje
+
+El divisor de voltaje permite obtener una fracción del voltaje de entrada usando resistencias en serie. Este concepto se usa en sensores, polarización de transistores, referencias de voltaje y acondicionamiento de señales.
+
+---
+
+## 9. Electrónica analógica, digital y sistemas mixtos
 
 En términos generales, la electrónica puede estudiarse desde dos enfoques complementarios:
 
@@ -21,19 +141,21 @@ En términos generales, la electrónica puede estudiarse desde dos enfoques comp
 
 En la práctica, muchos sistemas reales combinan ambas. Por ejemplo, un sensor puede entregar una señal analógica, un microcontrolador puede procesarla digitalmente y una etapa de potencia puede activar una carga eléctrica.
 
-## 4. Conceptos fundamentales
+---
+
+## 10. Conceptos fundamentales
 
 ### Electrónica
 
-La electrónica es el área de la ingeniería que estudia el comportamiento, control y aplicación de dispositivos y circuitos que permiten procesar señales eléctricas o controlar energía mediante componentes como diodos, transistores, circuitos integrados, sensores y controladores.
+La electrónica estudia el comportamiento, control y aplicación de dispositivos y circuitos que permiten procesar señales eléctricas o controlar energía mediante componentes como diodos, transistores, circuitos integrados, sensores y controladores.
 
 ### Señal eléctrica
 
-Una señal eléctrica es una variación de voltaje o corriente que transporta información o representa una magnitud física. Puede representar temperatura, presión, velocidad, posición, nivel, sonido, luz o cualquier variable que pueda convertirse en una magnitud eléctrica.
+Una señal eléctrica es una variación de voltaje o corriente que transporta información o representa una magnitud física.
 
 ### Sistema analógico
 
-Un sistema analógico utiliza señales continuas. Esto significa que la señal puede tomar muchos valores dentro de un rango. Por ejemplo, una señal de temperatura convertida en voltaje podría variar de 0 V a 5 V de manera gradual.
+Un sistema analógico utiliza señales continuas. Esto significa que la señal puede tomar muchos valores dentro de un rango.
 
 Ejemplos:
 
@@ -70,17 +192,9 @@ Ejemplo:
 4. Un controlador toma una decisión.
 5. Una etapa de potencia activa una carga.
 
-## 5. Comparación entre electrónica analógica y digital
+---
 
-| Aspecto | Electrónica analógica | Electrónica digital |
-|---|---|---|
-| Tipo de señal | Continua | Discreta |
-| Valores posibles | Muchos valores dentro de un rango | Generalmente 0 y 1 |
-| Ejemplos de componentes | Diodos, transistores, amplificadores | Compuertas, flip-flops, contadores |
-| Aplicaciones | Fuentes, sensores, audio, potencia | Procesamiento lógico, control, memoria |
-| Principal dificultad | Ruido, precisión y estabilidad | Temporización, niveles lógicos y codificación |
-
-## 6. Relación con la ingeniería eléctrica
+## 11. Relación con la ingeniería eléctrica
 
 Para un ingeniero eléctrico, la electrónica analógica y digital permite comprender y diseñar sistemas de control, protección, medición y automatización. Algunos ejemplos son:
 
@@ -92,7 +206,9 @@ Para un ingeniero eléctrico, la electrónica analógica y digital permite compr
 - Circuitos de protección y acondicionamiento de señal.
 - Sistemas de medición de voltaje, corriente y potencia.
 
-## 7. Ejemplo guiado
+---
+
+## 12. Ejemplo guiado
 
 Suponga un sistema automático de encendido de una lámpara según la luz ambiente.
 
@@ -115,34 +231,46 @@ La salida puede interpretarse como:
 
 Un transistor, relé o MOSFET activa la lámpara.
 
-Este ejemplo muestra que un sistema real puede combinar electrónica analógica, digital y potencia.
+Este ejemplo muestra que un sistema real puede combinar electrónica analógica, digital y potencia. También muestra por qué se necesitan conceptos previos: Ley de Ohm para limitar corriente, Kirchhoff para analizar la malla y potencia para seleccionar componentes seguros.
 
-## 8. Errores comunes o puntos de cuidado
+---
+
+## 13. Errores comunes o puntos de cuidado
 
 - Pensar que lo analógico y lo digital son áreas totalmente separadas.
-- Creer que una señal digital no tiene voltaje real. En realidad, el 0 y el 1 se representan mediante rangos de voltaje.
-- Confundir una señal variable con una señal necesariamente analógica. Algunas señales digitales también cambian en el tiempo, pero lo hacen entre niveles definidos.
-- Ignorar la importancia de las tierras comunes en circuitos mixtos.
-- Alimentar circuitos integrados sin revisar el pinout.
+- Creer que una señal digital no tiene voltaje real.
+- Confundir GND con ausencia total de voltaje.
+- Medir corriente con el multímetro en paralelo.
+- Conectar un LED sin resistencia limitadora.
+- Confundir circuito abierto con corto circuito.
+- Aplicar fórmulas sin revisar unidades.
+- Ignorar la potencia máxima de resistencias y semiconductores.
 
-## 9. Preguntas orientadoras para la clase
+---
 
-1. ¿Dónde vemos electrónica analógica en sistemas eléctricos reales?
-2. ¿Dónde vemos electrónica digital en sistemas eléctricos reales?
-3. ¿Por qué un sistema moderno normalmente combina ambas?
-4. ¿Qué ventajas tiene procesar información en forma digital?
-5. ¿Qué ventajas tiene trabajar con señales analógicas para medir variables físicas?
+## 14. Preguntas orientadoras para la clase
 
-## 10. Trabajo previo o posterior del estudiante
+1. ¿Por qué la electrónica necesita una base de circuitos eléctricos?
+2. ¿Qué relación existe entre la Ley de Ohm y un LED con resistencia limitadora?
+3. ¿Por qué una malla debe cumplir la ley de voltajes de Kirchhoff?
+4. ¿Qué diferencia hay entre medir voltaje y medir corriente?
+5. ¿Dónde vemos electrónica analógica en sistemas eléctricos reales?
+6. ¿Dónde vemos electrónica digital en sistemas eléctricos reales?
+7. ¿Por qué un sistema moderno normalmente combina ambas?
 
-Para la siguiente clase, el estudiante debe identificar tres sistemas reales y clasificarlos como:
+---
 
-- Analógico.
-- Digital.
-- Mixto.
+## 15. Trabajo previo o posterior del estudiante
 
-Debe explicar brevemente qué señales intervienen y qué función cumple cada etapa.
+Para la siguiente clase, el estudiante debe:
 
-## 11. Conexión con la siguiente semana
+1. Resolver el diagnóstico inicial de circuitos.
+2. Identificar tres sistemas reales y clasificarlos como analógico, digital o mixto.
+3. Repasar Ley de Ohm, circuitos serie/paralelo y leyes de Kirchhoff.
+4. Revisar qué conceptos del diagnóstico se le dificultaron más.
 
-La próxima semana se estudiarán con más detalle las señales analógicas y digitales, los niveles de voltaje, las magnitudes eléctricas básicas y la forma en que una señal puede representar información dentro de un circuito electrónico.
+---
+
+## 16. Conexión con la siguiente semana
+
+La próxima semana se estudiarán con más detalle las señales analógicas y digitales, los niveles de voltaje, las magnitudes eléctricas básicas, la medición y la forma en que una señal puede representar información dentro de un circuito electrónico. Los fundamentos de Ley de Ohm, Kirchhoff y potencia serán usados para conectar las señales con circuitos reales.

@@ -1,18 +1,23 @@
-# Semana 06 – Transistor BJT
+# Semana 06 – Sistemas numéricos
 
 ## Objetivo
 
-Analizar el transistor BJT como dispositivo de control y conmutación en circuitos básicos.
+Comprender la representación de cantidades en sistemas numéricos usados en electrónica digital, especialmente decimal, binario, hexadecimal y BCD.
+
+## Marco teórico
+
+- [Marco teórico – Semana 06](marco-teorico.md)
 
 ## Clase de 3 horas
 
-- Estructura NPN y PNP.
-- Corrientes de base, colector y emisor.
-- Regiones de corte, activa y saturación.
-- BJT como interruptor.
-- Activación de LED, relé o carga DC.
-- Desarrollo del Lab A02.
+- Diferencia entre cantidad física y representación numérica.
+- Sistema decimal.
+- Sistema binario.
+- Sistema hexadecimal.
+- Código BCD.
+- Conversión decimal-binario, binario-decimal, binario-hexadecimal y hexadecimal-binario.
+- Aplicaciones en direcciones, registros, memorias, displays y microcontroladores.
 
 ## Entregable
 
-Cálculos de resistencia de base, mediciones y simulación del Lab A02.
+Taller de conversiones entre decimal, binario, hexadecimal y BCD.

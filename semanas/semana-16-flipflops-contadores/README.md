@@ -1,8 +1,12 @@
-# Semana 16 – Flip-flops y contadores
+# Semana 16 – Flip-flops, contadores y evaluación
 
 ## Objetivo
 
-Introducir la lógica secuencial mediante el estudio de flip-flops y contadores digitales básicos.
+Introducir la lógica secuencial mediante flip-flops y contadores digitales, cerrando los contenidos técnicos del tercer corte.
+
+## Marco teórico
+
+- [Marco teórico – Semana 16](marco-teorico.md)
 
 ## Clase de 3 horas
 

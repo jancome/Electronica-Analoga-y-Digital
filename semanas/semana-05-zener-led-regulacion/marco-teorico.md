@@ -1,247 +1,236 @@
 # Marco teórico – Semana 05
 
-# Diodo Zener, LED y regulación básica
+# Transistores BJT, FET/MOSFET y cierre de la unidad analógica
 
 ## 1. Tema de la semana
 
-Aplicación de diodos especiales en circuitos electrónicos: LED como indicador luminoso y diodo Zener como regulador básico de voltaje.
+Transistores como dispositivos de control en circuitos electrónicos: BJT como interruptor controlado por corriente y MOSFET como interruptor controlado por voltaje. Esta semana también sirve para cerrar la unidad analógica del primer corte.
 
-![Unión PN y polarización del diodo](../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
+![BJT vs MOSFET como interruptor](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
 ---
 
 ## 2. Objetivo de aprendizaje
 
-Diseñar y analizar circuitos básicos con LED y diodo Zener, calculando resistencias limitadoras de corriente, condiciones de operación y potencia disipada en los componentes.
+Analizar el funcionamiento básico de transistores BJT y MOSFET como elementos de conmutación, relacionándolos con aplicaciones de control de cargas, indicadores, motores pequeños, relés y etapas electrónicas de potencia baja o media.
 
 ---
 
-## 3. Contexto e importancia del tema
+## 3. Contexto e importancia
 
-Los diodos no solo se utilizan para rectificar señales. También existen aplicaciones muy comunes como la indicación luminosa y la regulación básica de voltaje.
+Los diodos permiten conducir corriente principalmente en un sentido, rectificar señales y regular voltajes simples. Sin embargo, muchos sistemas electrónicos necesitan algo más: **controlar una carga a partir de una señal pequeña**.
 
-El LED es un diodo diseñado para emitir luz cuando conduce corriente. Se utiliza en indicadores, displays, iluminación, señalización, optoacopladores y sistemas de diagnóstico.
+Ahí aparecen los transistores. Un transistor puede actuar como interruptor electrónico o como amplificador. En sistemas reales se utiliza para encender luces, activar relés, controlar motores, excitar zumbadores, adaptar señales, manejar cargas desde microcontroladores y construir etapas de amplificación.
 
-El diodo Zener se diseña para trabajar en polarización inversa dentro de una zona de ruptura controlada. Esta característica permite mantener un voltaje aproximadamente constante en sus terminales, por lo que se puede utilizar como regulador o referencia de voltaje.
-
----
-
-## 4. LED
-
-LED significa **Light Emitting Diode**, o diodo emisor de luz. Es un dispositivo semiconductor que emite luz cuando se polariza directamente.
-
-Tiene dos terminales:
-
-- Ánodo.
-- Cátodo.
-
-Cuando se conecta correctamente y circula corriente, el LED enciende. Si se conecta invertido, no conduce de forma normal y permanece apagado.
+En ingeniería eléctrica, los transistores aparecen en fuentes, variadores, tarjetas de control, sistemas de protección, electrónica de potencia, automatismos, drivers de motores y circuitos de mando.
 
 ---
 
-## 5. Caída de voltaje en un LED
+## 4. Transistor BJT
 
-La caída de voltaje de un LED depende del color y del material semiconductor. Valores típicos aproximados:
+El BJT, o transistor bipolar de unión, es un dispositivo semiconductor de tres terminales:
 
-| Color del LED | Voltaje directo aproximado |
-|---|---:|
-| Rojo | 1.8 V a 2.2 V |
-| Amarillo | 2.0 V a 2.4 V |
-| Verde | 2.0 V a 3.0 V |
-| Azul | 3.0 V a 3.5 V |
-| Blanco | 3.0 V a 3.5 V |
+- **Base (B)**.
+- **Colector (C)**.
+- **Emisor (E)**.
 
-Estos valores son aproximados. Siempre se debe consultar la hoja de datos del componente.
+En un BJT NPN, una pequeña corriente que entra por la base permite controlar una corriente mayor entre colector y emisor.
+
+Por eso se dice que el BJT es un dispositivo **controlado por corriente**.
 
 ---
 
-## 6. Resistencia limitadora para LED
+## 5. Regiones de operación del BJT
 
-Un LED no debe conectarse directamente a una fuente de voltaje, porque podría circular una corriente excesiva y dañarse.
+Para esta asignatura se trabajarán principalmente tres regiones:
 
-Por eso se utiliza una resistencia en serie para limitar la corriente.
+| Región | Comportamiento | Aplicación típica |
+|---|---|---|
+| Corte | No circula corriente significativa por el colector | Interruptor apagado |
+| Activa | La corriente de colector depende de la corriente de base | Amplificación |
+| Saturación | El transistor conduce al máximo posible según la carga | Interruptor encendido |
 
-La resistencia se calcula con:
+Cuando se usa como interruptor, normalmente se busca trabajar entre **corte** y **saturación**.
+
+---
+
+## 6. BJT como interruptor
+
+Un BJT puede controlar una carga conectada al colector. La base recibe una señal de control a través de una resistencia.
+
+Si no hay corriente de base:
 
 ```text
-R = (VS - VLED) / ILED
+IB = 0  →  IC ≈ 0
+```
+
+El transistor está en corte y la carga permanece apagada.
+
+Si hay corriente suficiente en la base:
+
+```text
+IB suficiente  →  transistor saturado  →  carga encendida
+```
+
+La resistencia de base es importante porque limita la corriente que entra a la base y protege tanto la señal de control como el transistor.
+
+---
+
+## 7. Ganancia de corriente
+
+La relación aproximada entre la corriente de colector y la corriente de base se representa con beta:
+
+```text
+β = IC / IB
 ```
 
 Donde:
 
-- VS es el voltaje de la fuente.
-- VLED es el voltaje directo del LED.
-- ILED es la corriente deseada.
+- **β** es la ganancia de corriente.
+- **IC** es la corriente de colector.
+- **IB** es la corriente de base.
 
-### Ejemplo
+En diseño como interruptor no se debe depender únicamente del valor ideal de beta, porque este puede variar entre dispositivos. Por eso se fuerza una corriente de base suficiente para asegurar saturación.
 
-Se desea conectar un LED rojo a una fuente de 5 V. Se asume:
+---
+
+## 8. Transistor FET/MOSFET
+
+El MOSFET es un transistor de efecto de campo. Sus terminales principales son:
+
+- **Gate (G)** o compuerta.
+- **Drain (D)** o drenador.
+- **Source (S)** o fuente.
+
+A diferencia del BJT, el MOSFET se controla principalmente mediante voltaje entre compuerta y fuente:
 
 ```text
-VLED = 2 V
-ILED = 10 mA
+VGS = VG - VS
 ```
 
-Entonces:
+Por eso se dice que es un dispositivo **controlado por voltaje**.
+
+---
+
+## 9. MOSFET como interruptor
+
+En un MOSFET canal N usado como interruptor de lado bajo:
+
+- La carga se conecta entre el positivo de la fuente y el drenador.
+- El source va a tierra.
+- La compuerta recibe la señal de control.
+
+Si el voltaje de compuerta es bajo:
 
 ```text
-R = (5 V - 2 V) / 0.01 A
-R = 300 Ω
+VGS = 0 V  →  MOSFET apagado
 ```
 
-Se puede usar una resistencia comercial de 330 Ω.
-
----
-
-## 7. Potencia en la resistencia
-
-Además de calcular la resistencia, se debe verificar su potencia.
+Si el voltaje de compuerta es suficiente:
 
 ```text
-P = I² × R
+VGS suficiente  →  MOSFET encendido
 ```
 
-Para el ejemplo anterior:
+En conducción, un MOSFET adecuado presenta una resistencia baja entre drenador y source, conocida como:
 
 ```text
-P = (0.01 A)² × 330 Ω
-P = 0.033 W
+RDS(on)
 ```
 
-Una resistencia de 1/4 W sería suficiente.
+Mientras menor sea esa resistencia, menor será la pérdida de potencia.
 
 ---
 
-## 8. Diodo Zener
+## 10. Comparación BJT vs MOSFET
 
-El diodo Zener es un diodo diseñado para operar en polarización inversa dentro de una región de ruptura controlada.
-
-En esa región, mantiene un voltaje aproximadamente constante llamado **voltaje Zener**.
-
-Por ejemplo, un Zener de 5.1 V intenta mantener en sus terminales un voltaje cercano a 5.1 V cuando está correctamente polarizado.
-
----
-
-## 9. Regulador básico con Zener
-
-Un regulador básico con Zener se construye con:
-
-- Una fuente de entrada.
-- Una resistencia serie.
-- Un diodo Zener conectado en paralelo con la carga.
-- Una resistencia de carga.
-
-La resistencia serie es indispensable porque limita la corriente que llega al Zener y a la carga.
-
-Si se elimina la resistencia serie, el Zener puede dañarse por exceso de corriente.
+| Aspecto | BJT | MOSFET |
+|---|---|---|
+| Variable de control | Corriente de base | Voltaje gate-source |
+| Terminales | Base, colector, emisor | Gate, drain, source |
+| Uso como interruptor | Corte y saturación | Apagado y conducción |
+| Pérdida típica | VCE(sat) × IC | I² × RDS(on) |
+| Ventaja | Económico y fácil de entender | Alta eficiencia y bajo consumo de control |
+| Cuidado principal | Limitar corriente de base | No dejar la compuerta flotante |
 
 ---
 
-## 10. Condiciones de operación del Zener
+## 11. Aplicaciones reales
 
-Para que el Zener regule correctamente:
+- Encendido de LED o tiras LED.
+- Activación de relés.
+- Control de motores DC pequeños.
+- Drivers de cargas desde microcontroladores.
+- Tarjetas de control de portones, bombas o automatismos.
+- Fuentes conmutadas.
+- Etapas de protección y control.
 
-- Debe estar conectado en polarización inversa.
-- El voltaje de entrada debe ser mayor que el voltaje Zener.
-- Debe circular una corriente mínima por el Zener.
-- No debe superarse la potencia máxima del dispositivo.
+---
 
-La potencia aproximada en el Zener se calcula como:
+## 12. Ejemplo guiado
+
+Se desea encender un LED de 20 mA usando un transistor BJT NPN como interruptor. La señal de control es de 5 V y se asume:
 
 ```text
-PZ = VZ × IZ
+VBE ≈ 0.7 V
+IB deseada = 2 mA
 ```
 
----
-
-## 11. Regulación de voltaje
-
-Regular voltaje significa mantener una salida relativamente constante aunque cambie la entrada o la carga dentro de ciertos límites.
-
-El regulador con Zener es simple, económico y útil para corrientes pequeñas. Sin embargo, no es el regulador más eficiente ni el más preciso para cargas grandes.
-
-Para aplicaciones más exigentes se utilizan reguladores integrados, fuentes conmutadas o reguladores lineales dedicados.
-
----
-
-## 12. Aplicaciones reales
-
-### Aplicaciones del LED
-
-- Indicadores de encendido.
-- Señalización.
-- Displays.
-- Iluminación.
-- Optoacopladores.
-- Sistemas de alarma.
-- Diagnóstico visual en tarjetas electrónicas.
-
-### Aplicaciones del Zener
-
-- Referencias de voltaje.
-- Reguladores simples.
-- Protección contra sobretensiones.
-- Limitadores de voltaje.
-- Etapas de polarización.
-- Protección de entradas electrónicas.
-
----
-
-## 13. Ejemplo guiado con Zener
-
-Se tiene una fuente de 12 V, un Zener de 5.1 V y una resistencia serie de 470 Ω. Se desea estimar la corriente que circula por la resistencia si no se considera inicialmente la carga:
+La resistencia de base se calcula así:
 
 ```text
-IR = (VS - VZ) / R
-IR = (12 V - 5.1 V) / 470 Ω
-IR = 6.9 V / 470 Ω
-IR ≈ 14.7 mA
+RB = (VIN - VBE) / IB
+RB = (5 V - 0.7 V) / 0.002 A
+RB = 4.3 V / 0.002 A
+RB = 2150 Ω
 ```
 
-Luego debe verificarse que la potencia del Zener no supere su valor máximo:
-
-```text
-PZ = VZ × IZ
-```
+Se puede seleccionar un valor comercial cercano, por ejemplo 2.2 kΩ.
 
 ---
 
-## 14. Errores comunes
+## 13. Errores comunes
 
-- Conectar un LED sin resistencia limitadora.
-- Confundir ánodo y cátodo del LED.
-- Suponer que todos los LED tienen el mismo voltaje directo.
-- Conectar el Zener en directa cuando se desea regular.
-- Eliminar la resistencia serie del Zener.
-- No calcular la potencia disipada.
-- Usar un Zener con potencia insuficiente.
-
----
-
-## 15. Preguntas orientadoras para clase
-
-1. ¿Por qué un LED necesita resistencia limitadora?
-2. ¿Por qué el color del LED afecta su voltaje directo?
-3. ¿Qué diferencia existe entre un diodo rectificador y un LED?
-4. ¿Qué significa que el Zener trabaje en ruptura controlada?
-5. ¿Por qué el Zener se conecta en polarización inversa para regular?
-6. ¿Qué puede pasar si se elimina la resistencia serie del Zener?
-7. ¿Qué limitaciones tiene un regulador Zener?
+- Conectar mal los terminales del transistor.
+- No usar resistencia de base en el BJT.
+- Confundir colector y emisor.
+- No colocar resistencia pull-down en la compuerta del MOSFET.
+- Usar un MOSFET que no enciende correctamente con 5 V en la compuerta.
+- No usar diodo de protección al controlar relés o motores.
+- No calcular corriente ni potencia de la carga.
 
 ---
 
-## 16. Trabajo independiente
+## 14. Preguntas orientadoras para clase
 
-Antes del cierre del primer corte, el estudiante debe:
-
-1. Calcular resistencias para LED usando fuentes de 5 V, 9 V y 12 V.
-2. Simular un regulador Zener de 5.1 V.
-3. Medir o estimar corriente y potencia en el Zener.
-4. Finalizar el informe del laboratorio A01.
-5. Preparar dudas sobre diodos, LED, rectificación y regulación.
+1. ¿Por qué un transistor permite controlar una carga con una señal pequeña?
+2. ¿Qué diferencia existe entre controlar por corriente y controlar por voltaje?
+3. ¿Qué significa que un BJT esté en corte?
+4. ¿Qué significa que un BJT esté en saturación?
+5. ¿Por qué un MOSFET no debe dejar la compuerta flotante?
+6. ¿Qué transistor sería más conveniente para controlar una carga de mayor corriente?
+7. ¿Por qué se utiliza un diodo en paralelo con cargas inductivas?
 
 ---
 
-## 17. Relación con laboratorio
+## 15. Trabajo independiente
 
-Este marco teórico sirve como base para la parte final de la **Guía A01 – Diodos, rectificación y regulación con Zener**, especialmente en los circuitos de LED con resistencia limitadora y regulador básico con diodo Zener.
+El estudiante debe:
+
+1. Revisar la Guía A02 sobre transistor BJT.
+2. Revisar la Guía A03 sobre FET/MOSFET.
+3. Simular un BJT controlando un LED.
+4. Simular un MOSFET controlando una carga DC.
+5. Comparar ambos circuitos en una tabla.
+6. Prepararse para la evaluación del primer corte.
+
+---
+
+## 16. Relación con laboratorio
+
+Este marco teórico se relaciona con:
+
+- **Lab A02:** Transistor BJT como interruptor y amplificador básico.
+- **Lab A03:** Transistor FET/MOSFET como dispositivo de control.
+
+Por tiempo de corte, estas guías pueden manejarse como práctica orientada, simulación o trabajo complementario, manteniendo el énfasis en el análisis del transistor como dispositivo de control.

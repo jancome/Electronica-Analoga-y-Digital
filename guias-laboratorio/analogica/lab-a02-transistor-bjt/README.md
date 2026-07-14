@@ -8,6 +8,12 @@ Guía desarrollada en formato Markdown.
 
 - [Guía completa – Experiencia A02](guia-lab-a02-transistor-bjt.md)
 
+## Imagen de apoyo
+
+Esta imagen se recomienda usar al explicar el BJT como interruptor y, especialmente, al comparar su forma de control con el MOSFET.
+
+![Comparación BJT vs MOSFET como interruptor](../../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
+
 ## Propósito
 
 Analizar el funcionamiento del transistor BJT en sus regiones de corte, activa y saturación, aplicándolo como interruptor electrónico y como amplificador básico.

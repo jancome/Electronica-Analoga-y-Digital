@@ -1,19 +1,27 @@
-# Semana 15 – Codificadores, decodificadores, MUX y DEMUX
+# Semana 15 – Multiplexores y demultiplexores
 
 ## Objetivo
 
-Analizar aplicaciones de lógica combinacional mediante codificadores, decodificadores, multiplexores y demultiplexores.
+Analizar el funcionamiento de multiplexores y demultiplexores como circuitos de selección y distribución de datos digitales.
+
+## Marco teórico
+
+- [Marco teórico – Semana 15](marco-teorico.md)
 
 ## Clase de 3 horas
 
-- Codificadores.
-- Codificadores con prioridad.
-- Decodificadores.
-- Decodificador BCD a 7 segmentos.
-- Multiplexores.
-- Demultiplexores.
-- Desarrollo de Labs 07 y 08.
+- Concepto de selección de datos.
+- Multiplexor.
+- Entradas de datos.
+- Líneas de selección.
+- Demultiplexor.
+- Distribución de datos.
+- Aplicaciones en comunicación, control y buses digitales.
+
+## Laboratorio asociado
+
+- [Lab 08 – Multiplexores y demultiplexores](../../guias-laboratorio/digital/lab-08-multiplexores-demultiplexores/README.md)
 
 ## Entregable
 
-Evidencias de simulación o montaje de los Labs 07 y 08.
+Tabla de funcionamiento y simulación de un MUX y un DEMUX.

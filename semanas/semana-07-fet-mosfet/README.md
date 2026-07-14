@@ -1,18 +1,24 @@
-# Semana 07 – FET/MOSFET
+# Semana 07 – Aritmética binaria
 
 ## Objetivo
 
-Comprender el funcionamiento del transistor FET/MOSFET como dispositivo de control de alta impedancia.
+Aplicar operaciones aritméticas básicas en sistema binario, incluyendo suma, resta, complemento a 1, complemento a 2 y análisis de desbordamiento.
+
+## Marco teórico
+
+- [Marco teórico – Semana 07](marco-teorico.md)
 
 ## Clase de 3 horas
 
-- Diferencia entre BJT y FET.
-- Terminales Gate, Drain y Source.
-- MOSFET canal N como interruptor.
-- VGS, VDS e ID.
-- Control de carga DC.
-- Desarrollo del Lab A03.
+- Suma binaria.
+- Acarreo.
+- Resta binaria.
+- Complemento a 1.
+- Complemento a 2.
+- Números con signo.
+- Overflow o desbordamiento.
+- Relación con sumadores digitales.
 
 ## Entregable
 
-Informe parcial o completo del Lab A03 con comparación BJT vs MOSFET.
+Taller de aritmética binaria con ejercicios de suma, resta y complemento a 2.

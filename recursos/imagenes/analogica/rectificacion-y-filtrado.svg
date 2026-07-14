@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fff"/>
+  <text x="600" y="45" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">Rectificación y filtrado capacitivo</text>
+
+  <rect x="20" y="80" width="360" height="280" rx="16" fill="#f9fbff" stroke="#9aa7b1" stroke-width="2"/>
+  <text x="55" y="120" font-family="Arial" font-size="30" font-weight="700" fill="#0b49c8">1</text>
+  <text x="200" y="120" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#0b49c8">Entrada AC</text>
+  <circle cx="95" cy="195" r="32" fill="none" stroke="#111" stroke-width="3"/>
+  <path d="M75 195 C85 175,105 215,115 195" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="95" y1="163" x2="95" y2="140" stroke="#111" stroke-width="3"/><line x1="95" y1="227" x2="95" y2="250" stroke="#111" stroke-width="3"/>
+  <line x1="95" y1="140" x2="310" y2="140" stroke="#111" stroke-width="3"/><circle cx="320" cy="140" r="5" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="95" y1="250" x2="310" y2="250" stroke="#111" stroke-width="3"/><circle cx="320" cy="250" r="5" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial" font-size="20" fill="#0b49c8">Forma de onda de entrada</text>
+  <line x1="70" y1="335" x2="340" y2="335" stroke="#111" stroke-width="2"/><line x1="70" y1="335" x2="70" y2="275" stroke="#111" stroke-width="2"/>
+  <path d="M70 335 C100 285,130 285,160 335 S220 385,250 335 S310 285,340 335" fill="none" stroke="#0b49c8" stroke-width="4"/>
+
+  <rect x="420" y="80" width="360" height="280" rx="16" fill="#fffaf6" stroke="#9aa7b1" stroke-width="2"/>
+  <text x="455" y="120" font-family="Arial" font-size="30" font-weight="700" fill="#0b49c8">2</text>
+  <text x="600" y="120" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b49c8">Media onda</text>
+  <circle cx="485" cy="190" r="28" fill="none" stroke="#111" stroke-width="3"/><path d="M470 190 C480 172,495 208,505 190" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="485" y1="162" x2="485" y2="145" stroke="#111" stroke-width="3"/><line x1="485" y1="218" x2="485" y2="245" stroke="#111" stroke-width="3"/>
+  <line x1="485" y1="145" x2="560" y2="145" stroke="#111" stroke-width="3"/>
+  <polygon points="560,125 560,165 595,145" fill="#111"/><line x1="605" y1="123" x2="605" y2="167" stroke="#111" stroke-width="4"/>
+  <line x1="605" y1="145" x2="670" y2="145" stroke="#111" stroke-width="3"/>
+  <polyline points="670,145 670,175 655,185 685,200 655,215 685,230 670,240 670,245" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="670" y1="245" x2="485" y2="245" stroke="#111" stroke-width="3"/>
+  <text x="695" y="205" font-family="Arial" font-size="22">R<tspan baseline-shift="sub" font-size="14">L</tspan></text>
+  <text x="600" y="295" text-anchor="middle" font-family="Arial" font-size="20" fill="#0b49c8">Salida rectificada</text>
+  <line x1="465" y1="335" x2="735" y2="335" stroke="#111" stroke-width="2"/><line x1="465" y1="335" x2="465" y2="275" stroke="#111" stroke-width="2"/>
+  <path d="M465 335 C495 285,525 285,555 335 L600 335 C630 285,660 285,690 335 L735 335" fill="none" stroke="#d40000" stroke-width="4"/>
+
+  <rect x="820" y="80" width="360" height="280" rx="16" fill="#fffaf6" stroke="#9aa7b1" stroke-width="2"/>
+  <text x="855" y="120" font-family="Arial" font-size="30" font-weight="700" fill="#0b49c8">3</text>
+  <text x="1000" y="120" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b49c8">Onda completa</text>
+  <circle cx="875" cy="190" r="28" fill="none" stroke="#111" stroke-width="3"/><path d="M860 190 C870 172,885 208,895 190" fill="none" stroke="#111" stroke-width="3"/>
+  <polygon points="970,140 1000,170 970,200 940,170" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="903" y1="190" x2="940" y2="170" stroke="#111" stroke-width="3"/><line x1="903" y1="190" x2="970" y2="200" stroke="#111" stroke-width="3"/>
+  <line x1="1000" y1="170" x2="1080" y2="170" stroke="#111" stroke-width="3"/>
+  <polyline points="1080,170 1080,195 1065,205 1095,220 1065,235 1095,250 1080,260 1080,275" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="1080" y1="275" x2="970" y2="200" stroke="#111" stroke-width="3"/>
+  <text x="1105" y="230" font-family="Arial" font-size="22">R<tspan baseline-shift="sub" font-size="14">L</tspan></text>
+  <text x="1000" y="295" text-anchor="middle" font-family="Arial" font-size="20" fill="#0b49c8">Salida rectificada</text>
+  <line x1="860" y1="335" x2="1130" y2="335" stroke="#111" stroke-width="2"/><line x1="860" y1="335" x2="860" y2="275" stroke="#111" stroke-width="2"/>
+  <path d="M860 335 C890 285,920 285,950 335 C980 285,1010 285,1040 335 C1070 285,1100 285,1130 335" fill="none" stroke="#d40000" stroke-width="4"/>
+
+  <rect x="20" y="390" width="1160" height="285" rx="16" fill="#f9fbff" stroke="#9aa7b1" stroke-width="2"/>
+  <text x="55" y="435" font-family="Arial" font-size="30" font-weight="700" fill="#0b49c8">4</text>
+  <text x="230" y="435" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#0b49c8">Filtro capacitivo</text>
+  <text x="230" y="470" text-anchor="middle" font-family="Arial" font-size="20">Capacitor en paralelo con la carga</text>
+  <circle cx="90" cy="555" r="28" fill="none" stroke="#111" stroke-width="3"/><path d="M75 555 C85 537,100 573,110 555" fill="none" stroke="#111" stroke-width="3"/>
+  <polygon points="190,505 230,545 190,585 150,545" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="118" y1="555" x2="150" y2="545" stroke="#111" stroke-width="3"/><line x1="230" y1="545" x2="320" y2="545" stroke="#111" stroke-width="3"/>
+  <line x1="320" y1="500" x2="320" y2="590" stroke="#111" stroke-width="3"/>
+  <line x1="340" y1="500" x2="340" y2="590" stroke="#111" stroke-width="3"/>
+  <text x="355" y="550" font-family="Arial" font-size="24">C</text>
+  <polyline points="395,500 395,520 380,530 410,545 380,560 410,575 395,590" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="420" y="550" font-family="Arial" font-size="22">R<tspan baseline-shift="sub" font-size="14">L</tspan></text>
+  <line x1="320" y1="500" x2="395" y2="500" stroke="#111" stroke-width="3"/><line x1="340" y1="590" x2="395" y2="590" stroke="#111" stroke-width="3"/>
+  <text x="780" y="430" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#0b49c8">Salida con menor rizado</text>
+  <line x1="560" y1="610" x2="1080" y2="610" stroke="#111" stroke-width="2"/><line x1="560" y1="610" x2="560" y2="470" stroke="#111" stroke-width="2"/>
+  <line x1="560" y1="510" x2="1080" y2="510" stroke="#0b49c8" stroke-width="3" stroke-dasharray="12 8"/>
+  <path d="M560 500 C600 460,640 460,680 500 C720 460,760 460,800 500 C840 460,880 460,920 500 C960 460,1000 460,1040 500 C1060 480,1070 475,1080 478" fill="none" stroke="#d40000" stroke-width="4"/>
+  <text x="530" y="518" font-family="Arial" font-size="22">V<tspan baseline-shift="sub" font-size="14">DC</tspan></text>
+  <text x="1090" y="505" font-family="Arial" font-size="24" fill="#0b49c8">Menor rizado</text>
+  <text x="1000" y="645" font-family="Arial" font-size="22">Tiempo</text>
+  <text x="535" y="475" font-family="Arial" font-size="22">Voltaje</text>
+</svg>

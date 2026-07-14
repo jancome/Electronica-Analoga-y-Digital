@@ -1,8 +1,8 @@
-# Semana 05 – Zener, LED y regulación
+# Semana 05 – Transistores BJT, FET/MOSFET y cierre analógico
 
 ## Objetivo
 
-Diseñar y analizar circuitos básicos de regulación e indicación usando diodo Zener y LED.
+Comprender el uso de los transistores BJT y FET/MOSFET como dispositivos de control en electrónica analógica, integrando los conceptos de diodos, rectificación, regulación y conmutación trabajados en el primer corte.
 
 ## Marco teórico
 
@@ -10,17 +10,24 @@ Diseñar y analizar circuitos básicos de regulación e indicación usando diodo
 
 ## Imagen de apoyo
 
-![Unión PN y polarización del diodo](../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
+![BJT vs MOSFET como interruptor](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
 ## Clase de 3 horas
 
-- Diodo Zener y región de ruptura.
-- Regulador básico con Zener.
-- LED y resistencia limitadora.
-- Cálculo de corriente y potencia.
-- Cierre y entrega del Lab A01.
-- Evaluación del Corte 1.
+- Revisión rápida de LED, Zener y regulación como cierre de la Semana 04.
+- Transistor BJT: base, colector, emisor, corte y saturación.
+- BJT como interruptor para controlar una carga.
+- FET/MOSFET: gate, drain, source, VGS y control por voltaje.
+- MOSFET como interruptor para control de carga DC.
+- Comparación BJT vs MOSFET.
+- Integración del primer corte: diodo, fuente DC, regulación y transistor de control.
+
+## Laboratorios asociados
+
+- Lab A01: cierre de diodos, rectificación y regulación.
+- Lab A02: BJT como interruptor y amplificador básico.
+- Lab A03: FET/MOSFET como dispositivo de control.
 
 ## Entregable
 
-Informe del Lab A01 y evaluación del primer corte.
+Evaluación del primer corte y actividad integradora de electrónica analógica. Las guías A02 y A03 pueden desarrollarse como práctica orientada, simulación o trabajo complementario según el tiempo disponible.

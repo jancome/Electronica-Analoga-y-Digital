@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fff"/>
+  <rect x="30" y="25" width="520" height="55" rx="10" fill="#0b3f91"/>
+  <text x="290" y="64" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#fff">BJT como interruptor</text>
+  <rect x="650" y="25" width="520" height="55" rx="10" fill="#08702d"/>
+  <text x="910" y="64" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#fff">MOSFET como interruptor</text>
+  <line x1="600" y1="25" x2="600" y2="560" stroke="#999" stroke-width="2"/>
+
+  <!-- BJT circuit -->
+  <rect x="65" y="150" width="165" height="85" rx="8" fill="#fff" stroke="#0b3f91" stroke-width="3"/>
+  <text x="148" y="184" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0b3f91">Controlado</text>
+  <text x="148" y="215" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0b3f91">por corriente</text>
+  <text x="410" y="115" font-family="Arial" font-size="24">+V<tspan baseline-shift="sub" font-size="16">CC</tspan></text>
+  <circle cx="430" cy="135" r="7" fill="#fff" stroke="#111" stroke-width="3"/>
+  <line x1="430" y1="142" x2="430" y2="185" stroke="#111" stroke-width="3"/>
+  <polyline points="430,185 415,195 445,210 415,225 445,240 430,250" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="455" y="222" font-family="Arial" font-size="24">R<tspan baseline-shift="sub" font-size="16">L</tspan></text>
+  <polygon points="405,268 455,268 430,310" fill="#e00000"/>
+  <line x1="405" y1="315" x2="455" y2="315" stroke="#e00000" stroke-width="5"/>
+  <text x="470" y="305" font-family="Arial" font-size="23">LED / Carga</text>
+  <circle cx="430" cy="350" r="5" fill="#111"/>
+  <text x="460" y="360" font-family="Arial" font-size="22" fill="#0b3f91">Colector</text>
+  <circle cx="430" cy="420" r="55" fill="#eaf2ff" stroke="#0b3f91" stroke-width="3"/>
+  <line x1="400" y1="380" x2="400" y2="460" stroke="#111" stroke-width="4"/>
+  <line x1="350" y1="420" x2="400" y2="420" stroke="#111" stroke-width="4"/>
+  <line x1="400" y1="390" x2="455" y2="350" stroke="#111" stroke-width="4"/>
+  <line x1="400" y1="450" x2="455" y2="495" stroke="#111" stroke-width="4"/>
+  <polygon points="445,485 460,498 440,505" fill="#111"/>
+  <line x1="455" y1="350" x2="430" y2="350" stroke="#111" stroke-width="4"/>
+  <line x1="455" y1="495" x2="455" y2="530" stroke="#111" stroke-width="4"/>
+  <line x1="430" y1="315" x2="430" y2="350" stroke="#111" stroke-width="4"/>
+  <text x="485" y="433" font-family="Arial" font-size="22">NPN</text>
+  <text x="285" y="390" font-family="Arial" font-size="22" fill="#0b3f91">Base</text>
+  <text x="470" y="515" font-family="Arial" font-size="22" fill="#0b3f91">Emisor</text>
+  <line x1="95" y1="420" x2="155" y2="420" stroke="#111" stroke-width="3"/><circle cx="85" cy="420" r="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="75" y="398" text-anchor="middle" font-family="Arial" font-size="20">Entrada</text>
+  <polyline points="155,420 170,410 200,430 230,410 260,430 280,420" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="280" y1="420" x2="350" y2="420" stroke="#111" stroke-width="3"/>
+  <text x="195" y="400" font-family="Arial" font-size="23">R<tspan baseline-shift="sub" font-size="15">B</tspan></text>
+  <line x1="455" y1="530" x2="455" y2="550" stroke="#111" stroke-width="3"/><line x1="435" y1="550" x2="475" y2="550" stroke="#111" stroke-width="3"/><line x1="442" y1="560" x2="468" y2="560" stroke="#111" stroke-width="3"/><line x1="449" y1="570" x2="461" y2="570" stroke="#111" stroke-width="3"/>
+  <text x="65" y="560" font-family="Arial" font-size="22" font-weight="700" fill="#0b3f91">Corte:</text><text x="150" y="560" font-family="Arial" font-size="22"> I<tspan baseline-shift="sub" font-size="14">B</tspan>=0 → LED apagado</text>
+  <text x="65" y="595" font-family="Arial" font-size="22" font-weight="700" fill="#0b3f91">Saturación:</text><text x="195" y="595" font-family="Arial" font-size="22"> I<tspan baseline-shift="sub" font-size="14">B</tspan> suficiente → LED encendido</text>
+
+  <!-- MOSFET circuit -->
+  <rect x="685" y="150" width="175" height="85" rx="8" fill="#fff" stroke="#08702d" stroke-width="3"/>
+  <text x="773" y="184" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#08702d">Controlado</text>
+  <text x="773" y="215" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#08702d">por voltaje</text>
+  <text x="1030" y="115" font-family="Arial" font-size="24">+V<tspan baseline-shift="sub" font-size="16">CC</tspan></text>
+  <circle cx="1050" cy="135" r="7" fill="#fff" stroke="#111" stroke-width="3"/>
+  <line x1="1050" y1="142" x2="1050" y2="185" stroke="#111" stroke-width="3"/>
+  <polyline points="1050,185 1035,195 1065,210 1035,225 1065,240 1050,250" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="1075" y="222" font-family="Arial" font-size="24">R<tspan baseline-shift="sub" font-size="16">L</tspan></text>
+  <polygon points="1025,268 1075,268 1050,310" fill="#e00000"/>
+  <line x1="1025" y1="315" x2="1075" y2="315" stroke="#e00000" stroke-width="5"/>
+  <text x="1090" y="305" font-family="Arial" font-size="23">LED / Carga</text>
+  <circle cx="1050" cy="350" r="5" fill="#111"/>
+  <text x="1080" y="360" font-family="Arial" font-size="22" fill="#08702d">Drain</text>
+  <circle cx="1050" cy="425" r="55" fill="#eaffef" stroke="#08702d" stroke-width="3"/>
+  <line x1="1048" y1="380" x2="1048" y2="470" stroke="#111" stroke-width="4"/>
+  <line x1="1010" y1="395" x2="1010" y2="455" stroke="#111" stroke-width="4"/>
+  <line x1="975" y1="425" x2="1010" y2="425" stroke="#111" stroke-width="4"/>
+  <line x1="1050" y1="350" x2="1050" y2="380" stroke="#111" stroke-width="4"/>
+  <line x1="1050" y1="470" x2="1050" y2="530" stroke="#111" stroke-width="4"/>
+  <text x="965" y="400" font-family="Arial" font-size="22" fill="#08702d">Gate</text>
+  <text x="1075" y="515" font-family="Arial" font-size="22" fill="#08702d">Source</text>
+  <text x="1090" y="435" font-family="Arial" font-size="22">N-MOSFET</text>
+  <line x1="705" y1="425" x2="760" y2="425" stroke="#111" stroke-width="3"/><circle cx="695" cy="425" r="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="690" y="398" text-anchor="middle" font-family="Arial" font-size="20">Entrada</text>
+  <polyline points="760,425 775,415 805,435 835,415 865,435 885,425" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="885" y1="425" x2="975" y2="425" stroke="#111" stroke-width="3"/>
+  <text x="800" y="400" font-family="Arial" font-size="23">R<tspan baseline-shift="sub" font-size="15">G</tspan></text>
+  <polyline points="900,425 900,465 890,480 910,500 890,520 910,540 900,560" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="900" y1="560" x2="900" y2="575" stroke="#111" stroke-width="3"/><line x1="880" y1="575" x2="920" y2="575" stroke="#111" stroke-width="3"/><line x1="887" y1="585" x2="913" y2="585" stroke="#111" stroke-width="3"/>
+  <text x="920" y="505" font-family="Arial" font-size="20">R<tspan baseline-shift="sub" font-size="13">PD</tspan></text>
+  <line x1="1050" y1="530" x2="1050" y2="550" stroke="#111" stroke-width="3"/><line x1="1030" y1="550" x2="1070" y2="550" stroke="#111" stroke-width="3"/><line x1="1037" y1="560" x2="1063" y2="560" stroke="#111" stroke-width="3"/><line x1="1044" y1="570" x2="1056" y2="570" stroke="#111" stroke-width="3"/>
+  <text x="685" y="560" font-family="Arial" font-size="22" font-weight="700" fill="#08702d">Corte:</text><text x="760" y="560" font-family="Arial" font-size="22"> V<tspan baseline-shift="sub" font-size="14">GS</tspan>=0 → LED apagado</text>
+  <text x="685" y="595" font-family="Arial" font-size="22" font-weight="700" fill="#08702d">Conducción:</text><text x="835" y="595" font-family="Arial" font-size="22"> V<tspan baseline-shift="sub" font-size="14">GS</tspan> suficiente → LED encendido</text>
+
+  <!-- comparison table -->
+  <rect x="30" y="625" width="1140" height="80" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="625" x2="330" y2="705" stroke="#333" stroke-width="2"/><line x1="750" y1="625" x2="750" y2="705" stroke="#333" stroke-width="2"/>
+  <line x1="30" y1="665" x2="1170" y2="665" stroke="#333" stroke-width="2"/>
+  <text x="180" y="652" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Variable de control</text>
+  <text x="540" y="652" text-anchor="middle" font-family="Arial" font-size="20">Corriente de base</text>
+  <text x="960" y="652" text-anchor="middle" font-family="Arial" font-size="20">Voltaje compuerta-fuente</text>
+  <text x="180" y="692" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Aplicación típica</text>
+  <text x="540" y="692" text-anchor="middle" font-family="Arial" font-size="20">Cargas pequeñas/medianas</text>
+  <text x="960" y="692" text-anchor="middle" font-family="Arial" font-size="20">Conmutación eficiente y rápida</text>
+</svg>

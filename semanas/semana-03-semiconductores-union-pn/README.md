@@ -4,6 +4,14 @@
 
 Comprender el comportamiento básico de los materiales semiconductores y la unión PN como fundamento del diodo.
 
+## Marco teórico
+
+- [Marco teórico – Semana 03](marco-teorico.md)
+
+## Imagen de apoyo
+
+![Unión PN y polarización del diodo](../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
+
 ## Clase de 3 horas
 
 - Conductores, aislantes y semiconductores.

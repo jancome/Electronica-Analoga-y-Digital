@@ -8,6 +8,12 @@ Guía desarrollada en formato Markdown.
 
 - [Guía completa – Experiencia A03](guia-lab-a03-transistor-fet-mosfet.md)
 
+## Imagen de apoyo
+
+Esta imagen se recomienda usar al explicar el MOSFET como interruptor y al comparar su control por voltaje con el control por corriente del BJT.
+
+![Comparación BJT vs MOSFET como interruptor](../../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
+
 ## Propósito
 
 Estudiar el funcionamiento del transistor FET/MOSFET como dispositivo de control de carga, comparando su comportamiento con el transistor BJT.

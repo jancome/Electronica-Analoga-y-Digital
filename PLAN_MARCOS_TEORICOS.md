@@ -6,6 +6,16 @@ Este documento define cómo se desarrollará el material base de cada clase sema
 
 Cada semana debe contar con un archivo `marco-teorico.md` que sirva como base conceptual de la clase. Este archivo no reemplaza la explicación del docente, pero permite que el estudiante llegue con una lectura previa y tenga un punto de referencia para repasar.
 
+## Criterio principal de organización
+
+La planeación semanal debe respetar el syllabus de la asignatura:
+
+- **Corte 1:** unidad analógica completa.
+- **Corte 2:** fundamentos digitales y lógica combinacional.
+- **Corte 3:** aplicaciones combinacionales y secuenciales.
+
+Además, se considera la semana de receso institucional del **5 al 11 de octubre de 2026**, por lo que esa semana no debe incluir clase presencial nueva.
+
 ## Estructura sugerida para cada marco teórico
 
 Cada semana debe incluir:
@@ -21,27 +31,27 @@ Cada semana debe incluir:
 9. **Preguntas orientadoras para la clase.**
 10. **Trabajo previo o posterior del estudiante.**
 
-## Relación semanal
+## Relación semanal corregida
 
-| Semana | Tema | Archivo teórico |
-|---:|---|---|
-| 01 | Presentación, diagnóstico e introducción analógica/digital | `semanas/semana-01-presentacion-diagnostico/marco-teorico.md` |
-| 02 | Señales analógicas y digitales | `semanas/semana-02-senales-analogicas-digitales/marco-teorico.md` |
-| 03 | Semiconductores y unión PN | `semanas/semana-03-semiconductores-union-pn/marco-teorico.md` |
-| 04 | Diodos y rectificación | `semanas/semana-04-diodos-rectificacion/marco-teorico.md` |
-| 05 | Zener, LED y regulación | `semanas/semana-05-zener-led-regulacion/marco-teorico.md` |
-| 06 | Transistor BJT | `semanas/semana-06-transistor-bjt/marco-teorico.md` |
-| 07 | FET/MOSFET | `semanas/semana-07-fet-mosfet/marco-teorico.md` |
-| 08 | Sistemas numéricos | `semanas/semana-08-sistemas-numericos/marco-teorico.md` |
-| 09 | Aritmética binaria | `semanas/semana-09-aritmetica-binaria/marco-teorico.md` |
-| 10 | Receso institucional | `semanas/semana-10-receso-institucional/marco-teorico.md` |
-| 11 | Compuertas lógicas | `semanas/semana-11-compuertas-logicas/marco-teorico.md` |
-| 12 | Álgebra booleana y De Morgan | `semanas/semana-12-algebra-booleana-demorgan/marco-teorico.md` |
-| 13 | Mapas de Karnaugh | `semanas/semana-13-mapas-karnaugh/marco-teorico.md` |
-| 14 | Sumadores y comparadores | `semanas/semana-14-sumadores-comparadores/marco-teorico.md` |
-| 15 | Codificadores, decodificadores, MUX y DEMUX | `semanas/semana-15-codificadores-decodificadores-mux-demux/marco-teorico.md` |
-| 16 | Flip-flops y contadores | `semanas/semana-16-flipflops-contadores/marco-teorico.md` |
-| 17 | Proyecto final y cierre | `semanas/semana-17-proyecto-final-cierre/marco-teorico.md` |
+| Semana | Corte | Tema | Archivo teórico |
+|---:|---|---|---|
+| 01 | Corte 1 | Presentación, diagnóstico e introducción analógica/digital | `semanas/semana-01-presentacion-diagnostico/marco-teorico.md` |
+| 02 | Corte 1 | Señales, magnitudes eléctricas y medición básica | `semanas/semana-02-senales-analogicas-digitales/marco-teorico.md` |
+| 03 | Corte 1 | Semiconductores, unión PN y diodos | `semanas/semana-03-semiconductores-union-pn/marco-teorico.md` |
+| 04 | Corte 1 | Rectificación, filtrado, LED y Zener | `semanas/semana-04-diodos-rectificacion/marco-teorico.md` |
+| 05 | Corte 1 | Transistores BJT, FET/MOSFET y cierre analógico | `semanas/semana-05-cierre-analogico-bjt-fet-mosfet/marco-teorico.md` |
+| 06 | Corte 2 | Sistemas numéricos | `semanas/semana-06-sistemas-numericos/marco-teorico.md` |
+| 07 | Corte 2 | Aritmética binaria | `semanas/semana-07-aritmetica-binaria/marco-teorico.md` |
+| 08 | Corte 2 | Compuertas lógicas | `semanas/semana-08-compuertas-logicas/marco-teorico.md` |
+| 09 | Corte 2 | Álgebra booleana, De Morgan e introducción a Karnaugh | `semanas/semana-09-algebra-demorgan-karnaugh/marco-teorico.md` |
+| 10 | Receso | Receso institucional | `semanas/semana-10-receso-institucional/marco-teorico.md` |
+| 11 | Corte 2 | Mapas de Karnaugh y cierre del corte | `semanas/semana-11-mapas-karnaugh-cierre-corte/marco-teorico.md` |
+| 12 | Corte 3 | XOR, sumadores y restadores | `semanas/semana-12-xor-sumadores-restadores/marco-teorico.md` |
+| 13 | Corte 3 | Comparadores y paridad | `semanas/semana-13-comparadores-paridad/marco-teorico.md` |
+| 14 | Corte 3 | Codificadores y decodificadores | `semanas/semana-14-codificadores-decodificadores/marco-teorico.md` |
+| 15 | Corte 3 | Multiplexores y demultiplexores | `semanas/semana-15-multiplexores-demultiplexores/marco-teorico.md` |
+| 16 | Corte 3 | Flip-flops y contadores | `semanas/semana-16-flipflops-contadores/marco-teorico.md` |
+| 17 | Corte 3 | Proyecto final y cierre | `semanas/semana-17-proyecto-final-cierre/marco-teorico.md` |
 
 ## Criterio de redacción
 

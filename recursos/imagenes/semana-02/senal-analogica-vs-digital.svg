@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Comparación entre señal analógica y señal digital</title>
+  <desc id="desc">Diagrama didáctico que compara una señal analógica senoidal continua con una señal digital cuadrada de dos niveles lógicos.</desc>
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#111">Comparación: Señal analógica vs. Señal digital</text>
+
+  <text x="300" y="125" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0b49c8">Señal analógica</text>
+  <text x="900" y="125" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#08702d">Señal digital</text>
+
+  <!-- Analog axes -->
+  <line x1="90" y1="580" x2="90" y2="180" stroke="#111" stroke-width="3"/>
+  <polygon points="90,165 80,185 100,185" fill="#111"/>
+  <line x1="90" y1="380" x2="525" y2="380" stroke="#111" stroke-width="3"/>
+  <polygon points="545,380 520,368 520,392" fill="#111"/>
+  <text x="55" y="170" font-family="Arial" font-size="25" fill="#111">Voltaje</text>
+  <text x="500" y="420" font-family="Arial" font-size="25" fill="#111">Tiempo</text>
+  <text x="55" y="388" font-family="Arial" font-size="24" fill="#111">0</text>
+  <text x="45" y="255" font-family="Arial" font-size="24" fill="#111">+V<tspan baseline-shift="sub" font-size="16">m</tspan></text>
+  <text x="45" y="520" font-family="Arial" font-size="24" fill="#111">−V<tspan baseline-shift="sub" font-size="16">m</tspan></text>
+  <line x1="78" y1="250" x2="102" y2="250" stroke="#111" stroke-width="3"/>
+  <line x1="78" y1="510" x2="102" y2="510" stroke="#111" stroke-width="3"/>
+  <path d="M 90 380 C 135 205, 190 205, 235 380 S 335 555, 380 380 S 480 205, 525 380" fill="none" stroke="#0b49c8" stroke-width="5"/>
+  <text x="300" y="645" text-anchor="middle" font-family="Arial" font-size="27" font-style="italic" fill="#0b49c8">Valor continuo</text>
+
+  <!-- Digital axes -->
+  <line x1="685" y1="580" x2="685" y2="180" stroke="#111" stroke-width="3"/>
+  <polygon points="685,165 675,185 695,185" fill="#111"/>
+  <line x1="685" y1="380" x2="1115" y2="380" stroke="#111" stroke-width="3"/>
+  <polygon points="1135,380 1110,368 1110,392" fill="#111"/>
+  <text x="645" y="170" font-family="Arial" font-size="25" fill="#111">Voltaje</text>
+  <text x="1080" y="420" font-family="Arial" font-size="25" fill="#111">Tiempo</text>
+  <text x="650" y="388" font-family="Arial" font-size="24" fill="#111">0</text>
+  <text x="642" y="255" font-family="Arial" font-size="24" fill="#111">V<tspan baseline-shift="sub" font-size="16">H</tspan></text>
+  <text x="642" y="520" font-family="Arial" font-size="24" fill="#111">V<tspan baseline-shift="sub" font-size="16">L</tspan></text>
+  <line x1="685" y1="250" x2="1080" y2="250" stroke="#333" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="685" y1="510" x2="1080" y2="510" stroke="#333" stroke-width="3" stroke-dasharray="12 10"/>
+  <polyline points="685,510 740,510 740,250 830,250 830,510 925,510 925,250 1015,250 1015,510 1080,510" fill="none" stroke="#08702d" stroke-width="5"/>
+  <text x="1090" y="258" font-family="Arial" font-size="25" fill="#08702d">Nivel lógico 1</text>
+  <text x="1090" y="520" font-family="Arial" font-size="25" fill="#08702d">Nivel lógico 0</text>
+  <text x="900" y="645" text-anchor="middle" font-family="Arial" font-size="27" font-style="italic" fill="#08702d">Dos niveles discretos</text>
+</svg>

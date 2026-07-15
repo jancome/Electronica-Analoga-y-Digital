@@ -1,10 +1,6 @@
 # Lab 06 – Comparadores, generadores y comprobadores de paridad
 
-## Estado
-
-Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
-
-## Archivo principal
+## Guía
 
 - [Resumen Lab 06 – Comparadores y paridad](resumen-lab-06-comparadores-paridad.md)
 
@@ -21,6 +17,6 @@ Implementar y analizar circuitos combinacionales dedicados a la comparación de 
 - Comprobación de paridad.
 - Detección de errores en transmisión digital.
 
-## Entregable
+## Entrega
 
 Informe con simulaciones, tablas, fotos o capturas, análisis de resultados y conclusiones.

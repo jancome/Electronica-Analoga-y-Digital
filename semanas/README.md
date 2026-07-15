@@ -4,11 +4,12 @@ Esta sección reúne el recorrido semanal del curso. Cada semana cuenta con su m
 
 > Esta distribución respeta el syllabus de la asignatura. El **Corte 1** concentra la unidad analógica completa; el **Corte 2** desarrolla fundamentos digitales y lógica combinacional; el **Corte 3** se enfoca en aplicaciones digitales, lógica secuencial y proyecto final.
 
-## Documento de fortalecimiento teórico
+## Documentos de apoyo
 
 - [Fortalecimiento teórico semanal con bibliografía, recursos abiertos y actividades de refuerzo](FORTALECIMIENTO_TEORICO_SEMANAL.md)
+- [Rutas oficiales del curso](RUTAS_OFICIALES.md)
 
-Este documento complementa los marcos teóricos y sirve como guía para preparar lecturas, ejercicios, aplicaciones y conexiones entre temas.
+El documento de fortalecimiento complementa los marcos teóricos y sirve como guía para preparar lecturas, ejercicios, aplicaciones y conexiones entre temas. El documento de rutas oficiales evita confusiones con carpetas antiguas o versiones no vigentes.
 
 ## Criterio para parciales
 

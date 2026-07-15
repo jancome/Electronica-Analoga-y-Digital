@@ -7,11 +7,13 @@ Cerrar los contenidos nuevos de la unidad analógica, relacionando el uso de dio
 ## Marco teórico
 
 - [Marco teórico – Semana 04](marco-teorico.md)
-- [Apoyo visual BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
+- [Material de apoyo – BJT y MOSFET](../semana-05-cierre-analogico-bjt-fet-mosfet/marco-teorico.md)
 
-## Imagen de apoyo
+## Imágenes de apoyo
 
 ![Rectificación y filtrado](../../recursos/imagenes/analogica/rectificacion-y-filtrado.svg)
+
+![Comparación BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
 ## Desarrollo de la clase
 

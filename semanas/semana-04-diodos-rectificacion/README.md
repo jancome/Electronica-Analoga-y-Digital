@@ -1,8 +1,8 @@
-# Semana 04 – Transistores BJT, FET/MOSFET y control de cargas
+# Semana 04 – Quiz 1, FET/MOSFET y comparación de transistores
 
 ## Propósito
 
-Analizar el transistor BJT y el FET/MOSFET como dispositivos de control y conmutación, relacionándolos con aplicaciones básicas de activación de cargas en electrónica analógica.
+Aplicar el Quiz 1 al inicio de la clase y luego analizar el FET/MOSFET como dispositivo de control de cargas, comparándolo con el transistor BJT.
 
 ## Marco teórico
 
@@ -14,22 +14,22 @@ Analizar el transistor BJT y el FET/MOSFET como dispositivos de control y conmut
 
 ## Desarrollo de la clase
 
-- Repaso corto de diodos, LED, Zener y diodo de protección.
-- Transistor BJT: base, colector y emisor.
-- BJT como interruptor.
-- Regiones de operación: corte, activa y saturación.
-- Cálculo básico de resistencia de base.
+- Quiz 1 al inicio de la clase.
+- Repaso breve de BJT como interruptor.
 - MOSFET: Gate, Drain y Source.
-- MOSFET como interruptor y control de carga.
-- Resistencia de compuerta y resistencia pull-down.
+- MOSFET de canal N como interruptor.
+- Voltajes VGS y VDS.
+- Resistencia de compuerta.
+- Resistencia pull-down.
+- Control de LED, motor DC, relé o carga resistiva.
+- Diodo de protección en cargas inductivas.
 - Comparación BJT vs MOSFET.
-- Aplicaciones en control de LED, relé, motor DC o carga resistiva.
 
-## Evaluación y entregas
+## Evaluación y entrega
 
-- Taller 2 investigativo del Corte 1.
-- Orientación de Labs A02 y A03 como práctica, simulación o trabajo complementario.
-- Evidencias de análisis o simulación de BJT/MOSFET.
+- Quiz 1 – Unidad analógica.
+- Lab A03 – Transistor FET/MOSFET como dispositivo de control.
+- Evidencias de simulación, montaje o análisis de MOSFET.
 
 ## Relación con la siguiente semana
 

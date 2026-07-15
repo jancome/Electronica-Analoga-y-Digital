@@ -34,7 +34,21 @@ Desde la primera semana se conformarán **grupos de 3 estudiantes** para las pr�
 
 ---
 
-## 3. Política de publicación
+## 3. Nota interna de las guías de laboratorio
+
+Cada guía de laboratorio tiene tres notas internas:
+
+| Componente | Descripción |
+|---|---|
+| Preinforme o trabajo en clase | Avance, simulación inicial, montaje, revisión de conexiones, tablas preliminares, mediciones o preguntas cortas realizadas durante el laboratorio. |
+| Informe completo | Documento final del grupo con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. |
+| Aporte individual | Parte trabajada por cada estudiante, explicación de su participación y dominio del circuito. |
+
+La suma de estas tres partes conforma la nota de la guía. El informe puede ser grupal, pero el aporte individual se valora por estudiante.
+
+---
+
+## 4. Política de publicación
 
 Los archivos públicos de quizzes, talleres y parciales permanecerán como avisos de programación hasta su fecha de apertura. El contenido específico se publicará el día señalado a las **2:00 p. m. hora Colombia**.
 
@@ -65,7 +79,7 @@ Consultar:
 | Taller integrador Corte 1 | Miércoles 12 de agosto de 2026 – 2:00 p. m. | 4% | [Ver aviso](corte-1-analogica/taller-integrador-corte-1.md) |
 | Quiz 1 | Miércoles 26 de agosto de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-1-analogica/quiz-1-unidad-analogica.md) |
 | Parcial 1 | Miércoles 2 de septiembre de 2026 – 2:00 p. m. | 20% | [Ver aviso](corte-1-analogica/parcial-1-unidad-analogica.md) |
-| Guías A01, A02 y A03 | Semanas 02, 03 y 04 | 4% | Guías de laboratorio analógicas |
+| Guías A01, A02 y A03 | Semanas 02, 03 y 04 | 4% | Preinforme, informe completo y aporte individual |
 | **Total Corte 1** |  | **30%** |  |
 
 ---
@@ -90,7 +104,7 @@ Consultar:
 | Quiz 2 | Miércoles 16 de septiembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-2-digital/quiz-2-fundamentos-digitales.md) |
 | Taller 2 investigativo | Miércoles 30 de septiembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-2-digital/taller-2-investigativo-corte-2.md) |
 | Parcial 2 | Miércoles 14 de octubre de 2026 – 2:00 p. m. | 20% | [Ver aviso](corte-2-digital/parcial-2-fundamentos-digitales.md) |
-| Labs 01, 02 y 03 | Semanas 08 y 09 | 4% | Guías de laboratorio digitales |
+| Labs 01, 02 y 03 | Semanas 08 y 09 | 4% | Preinforme, informe completo y aporte individual |
 | **Total Corte 2** |  | **30%** |  |
 
 ---
@@ -114,33 +128,6 @@ Consultar:
 | Taller 1 aplicado | Miércoles 21 de octubre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-3-aplicaciones/taller-1-corte-3.md) |
 | Taller 2 investigativo | Miércoles 4 de noviembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-3-aplicaciones/taller-2-investigativo-corte-3.md) |
 | Quiz 3 | Miércoles 18 de noviembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-3-aplicaciones/quiz-3-aplicaciones-digitales.md) |
-| Labs 04 a 08 / avances prácticos | Semanas 12 a 15 | 4% | Guías de laboratorio digitales |
+| Labs 04 a 08 / avances prácticos | Semanas 12 a 15 | 4% | Preinforme, informe completo y aporte individual |
 | Proyecto final con sustentación | Miércoles 25 de noviembre de 2026 – 2:00 p. m. | 20% | [Proyecto final](../PROYECTO_FINAL.md) |
 | **Total Corte 3** |  | **30%** |  |
-
----
-
-## Taller investigativo
-
-El componente investigativo debe aparecer en cada corte. En el Corte 1 queda integrado dentro del Taller integrador. En los cortes 2 y 3 se mantiene como Taller 2 investigativo.
-
-Cada trabajo investigativo debe incluir, cuando aplique:
-
-1. Fuente académica o técnica consultada.
-2. Base de datos o fuente utilizada.
-3. Referencia en formato IEEE.
-4. Resumen propio en español.
-5. Glosario técnico bilingüe.
-6. Relación con el tema del corte.
-7. Aplicación en ingeniería eléctrica.
-8. Evidencia de consulta.
-
----
-
-## Observaciones
-
-- Los quizzes serán cortos y principalmente prácticos.
-- Los talleres fortalecerán cálculo, análisis, diseño, investigación y argumentación técnica.
-- Las guías deben incluir evidencias, mediciones, simulaciones, análisis y conclusiones.
-- Los parciales de los cortes 1 y 2 serán individuales.
-- El Corte 3 se cierra con proyecto final, no con parcial escrito.

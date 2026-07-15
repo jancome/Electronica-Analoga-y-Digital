@@ -1,30 +1,21 @@
-# RESUMEN – LAB 01
-
-# COMPUERTAS LÓGICAS
+# Lab 01 – Compuertas lógicas
 
 **Asignatura:** Electrónica Analógica y Digital  
-**Periodo:** 2026-2  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
+**Periodo:** 2026-2
 
----
-
-## 1. Propósito
+## Propósito
 
 Comprobar el funcionamiento de las compuertas lógicas básicas mediante montaje físico o simulación, medición de voltajes, elaboración de tablas de verdad y análisis de entradas y salidas digitales.
 
----
+## Lo que se espera comprobar
 
-## 2. Objetivos
+- Identificación de circuitos integrados para compuertas básicas.
+- Operación de compuertas AND, OR, NOT, NAND y NOR.
+- Medición de niveles lógicos altos y bajos.
+- Construcción de tablas de verdad a partir de mediciones.
+- Comparación entre teoría, simulación y montaje.
 
-- Identificar los circuitos integrados utilizados para compuertas lógicas básicas.
-- Comprobar la operación de compuertas AND, OR, NOT, NAND y NOR.
-- Medir niveles lógicos altos y bajos en entradas y salidas.
-- Construir tablas de verdad a partir de mediciones.
-- Comparar los resultados teóricos, simulados y experimentales.
-
----
-
-## 3. Temas asociados
+## Temas asociados
 
 - Sistemas digitales.
 - Niveles lógicos alto y bajo.
@@ -33,9 +24,7 @@ Comprobar el funcionamiento de las compuertas lógicas básicas mediante montaje
 - Circuitos integrados TTL.
 - Medición de voltajes digitales.
 
----
-
-## 4. Recursos sugeridos
+## Recursos sugeridos
 
 - Protoboard.
 - Fuente DC de 5 V.
@@ -46,9 +35,7 @@ Comprobar el funcionamiento de las compuertas lógicas básicas mediante montaje
 - Circuitos integrados: 7432, 7404, 7408, 7402, 7400, 7420 o equivalentes.
 - Software de simulación: Proteus, Multisim, Tinkercad o equivalente.
 
----
-
-## 5. Actividades principales
+## Desarrollo de la práctica
 
 1. Identificar el pinout de cada circuito integrado.
 2. Alimentar correctamente cada integrado con VCC y GND.
@@ -59,9 +46,7 @@ Comprobar el funcionamiento de las compuertas lógicas básicas mediante montaje
 7. Realizar la simulación correspondiente.
 8. Comparar teoría, simulación y montaje.
 
----
-
-## 6. Evidencias obligatorias
+## Evidencias
 
 - Tabla de verdad de cada compuerta.
 - Capturas de simulación.
@@ -70,9 +55,7 @@ Comprobar el funcionamiento de las compuertas lógicas básicas mediante montaje
 - Análisis de resultados.
 - Conclusiones.
 
----
-
-## 7. Preguntas de análisis
+## Preguntas de análisis
 
 1. ¿Qué diferencia existe entre un nivel lógico alto y bajo?
 2. ¿Qué ocurre si un circuito integrado no se alimenta correctamente?
@@ -80,8 +63,6 @@ Comprobar el funcionamiento de las compuertas lógicas básicas mediante montaje
 4. ¿Qué diferencias se encontraron entre la tabla teórica y la medición?
 5. ¿Cuál compuerta puede considerarse universal y por qué?
 
----
-
-## 8. Entregable
+## Entrega
 
 Informe de laboratorio con tablas de verdad, mediciones, simulaciones, evidencias y conclusiones.

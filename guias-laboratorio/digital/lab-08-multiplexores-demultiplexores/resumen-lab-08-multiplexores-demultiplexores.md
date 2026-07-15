@@ -1,88 +1,61 @@
-# RESUMEN – LAB 08
-
-# MULTIPLEXORES Y DEMULTIPLEXORES
+# Lab 08 – Multiplexores y demultiplexores
 
 **Asignatura:** Electrónica Analógica y Digital  
-**Periodo:** 2026-2  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
+**Periodo:** 2026-2
 
----
-
-## 1. Propósito
+## Propósito
 
 Implementar y analizar circuitos de selección y distribución de datos digitales mediante multiplexores y demultiplexores, reconociendo su importancia en sistemas de comunicación, control y procesamiento digital.
 
----
+## Lo que se espera comprobar
 
-## 2. Objetivos
+- Funcionamiento de un multiplexor.
+- Funcionamiento de un demultiplexor.
+- Uso de líneas de selección.
+- Uso de señales de habilitación.
+- Aplicaciones como selector o distribuidor de datos.
 
-- Comprender el funcionamiento de un multiplexor.
-- Comprender el funcionamiento de un demultiplexor.
-- Analizar el uso de entradas de selección.
-- Implementar o simular un selector de datos.
-- Implementar o simular un distribuidor de datos.
-- Relacionar MUX y DEMUX con aplicaciones reales de ingeniería.
-
----
-
-## 3. Temas asociados
+## Temas asociados
 
 - Multiplexor.
-- Demultiplexor.
 - Selector de datos.
+- Demultiplexor.
 - Distribuidor de datos.
 - Entradas de selección.
 - Salidas activas en bajo.
-- Circuitos combinacionales MSI.
+- Aplicaciones con display de 7 segmentos.
 
----
-
-## 4. Recursos sugeridos
+## Recursos sugeridos
 
 - Protoboard.
 - Fuente DC de 5 V.
 - Multímetro digital.
-- Resistencias.
 - LED indicadores.
+- Resistencias.
+- Display de 7 segmentos, si aplica.
 - Cables de conexión.
-- Circuitos integrados 74151, 74157, 74139, 74154, 7400, 7404 o equivalentes.
+- Circuitos integrados 74151, 74157, 74139, 74154 o equivalentes.
 - Software de simulación.
 
----
+## Desarrollo de la práctica
 
-## 5. Actividades principales
+1. Analizar la función de un multiplexor.
+2. Verificar el comportamiento de las líneas de selección.
+3. Simular o montar una aplicación con MUX.
+4. Analizar la función de un demultiplexor.
+5. Simular o montar una aplicación con DEMUX.
+6. Registrar tablas de funcionamiento.
+7. Relacionar el circuito con una aplicación de selección o distribución de señales.
 
-1. Identificar el pinout de los circuitos integrados utilizados.
-2. Implementar o simular un multiplexor.
-3. Verificar la selección de entradas mediante líneas de control.
-4. Implementar o simular un demultiplexor.
-5. Verificar la distribución de una entrada hacia diferentes salidas.
-6. Completar tablas de funcionamiento.
-7. Registrar evidencias de simulación o montaje.
+## Evidencias
 
----
-
-## 6. Evidencias obligatorias
-
-- Tabla de funcionamiento del multiplexor.
-- Tabla de funcionamiento del demultiplexor.
+- Tablas de funcionamiento.
+- Circuitos implementados o simulados.
 - Capturas de simulación.
 - Fotos o capturas del montaje.
-- Análisis de selección y distribución de datos.
+- Análisis de resultados.
 - Conclusiones.
 
----
+## Entrega
 
-## 7. Preguntas de análisis
-
-1. ¿Qué función cumple un multiplexor?
-2. ¿Qué función cumple un demultiplexor?
-3. ¿Para qué sirven las entradas de selección?
-4. ¿Cuántas entradas puede seleccionar un MUX con 3 líneas de selección?
-5. ¿En qué aplicaciones reales se utilizan multiplexores y demultiplexores?
-
----
-
-## 8. Entregable
-
-Informe de laboratorio con tablas, simulaciones, evidencias, análisis de funcionamiento y conclusiones.
+Informe con tablas, evidencias de simulación o montaje, análisis de datos y conclusiones.

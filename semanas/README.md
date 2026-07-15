@@ -1,10 +1,16 @@
 # Semanas de clase
 
-El curso se organiza en sesiones semanales de 3 horas. Cada semana cuenta con propósito, contenidos principales, marco teórico, actividad presencial, trabajo independiente y entregable.
+El curso se organiza en sesiones semanales de 3 horas. Cada semana debe contar con propósito, contenidos principales, marco teórico, actividad presencial, trabajo independiente y entregable.
 
 > **Planeación corregida:** esta distribución respeta el syllabus de la asignatura. El **Corte 1** concentra la unidad analógica completa; el **Corte 2** inicia la unidad digital y considera la semana de receso institucional; el **Corte 3** se enfoca en aplicaciones combinacionales, secuenciales y proyecto final.
 
-## Índice oficial semana a semana
+## Documento de fortalecimiento teórico
+
+- [Fortalecimiento teórico semanal con bibliografía, recursos abiertos y actividades de refuerzo](FORTALECIMIENTO_TEORICO_SEMANAL.md)
+
+Este documento complementa los marcos teóricos semana a semana y sirve como guía para preparar lecturas, ejercicios, aplicaciones y conexiones entre temas.
+
+## Índice oficial corregido
 
 | Semana | Corte | Tema oficial | Carpeta |
 |---:|---|---|---|

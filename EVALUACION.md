@@ -1,53 +1,101 @@
 # Evaluación de la asignatura
 
-La evaluación de la asignatura se desarrollará por cortes, integrando actividades teóricas, prácticas, laboratorios, talleres, informes, simulaciones, proyecto final y sustentación individual.
+La evaluación de la asignatura se desarrollará por cortes, integrando actividades teóricas, talleres, investigación académica, laboratorios, simulaciones, informes, parciales y sustentaciones individuales cuando aplique.
 
-## Principios de evaluación
+## Estructura general de la nota final
 
-- Se evaluará tanto el resultado final como el proceso desarrollado.
-- Las prácticas de laboratorio deben incluir mediciones, evidencias, análisis y conclusiones.
-- Los proyectos deben ser sustentados individualmente.
-- La copia de informes, simulaciones o montajes podrá afectar la calificación individual.
-- La presentación del proyecto no reemplaza las demás notas del curso.
+| Componente | Peso sobre nota final |
+|---|---:|
+| Corte 1 – Unidad analógica | 30% |
+| Corte 2 – Fundamentos digitales y lógica combinacional | 30% |
+| Corte 3 – Aplicaciones digitales y secuenciales | 30% |
+| Examen institucional de la universidad | 10% |
+| **Total** | **100%** |
+
+El docente desarrolla y califica el **90% correspondiente a la asignatura**. El **10% restante** corresponde al examen institucional definido por la universidad.
 
 ---
 
-## Componentes sugeridos por corte
+## Distribución interna sugerida por corte
+
+Cada corte tendrá una estructura equivalente:
+
+| Instrumento | Peso sobre nota final | Descripción |
+|---|---:|---|
+| Quiz del corte | 2% | Verificación corta de conceptos esenciales. |
+| Taller 1 – Aplicación, cálculo y análisis | 2% | Ejercicios, diseño, procedimientos y solución de problemas. |
+| Taller 2 – Investigación académica en otro idioma | 2% | Consulta en bases de datos institucionales, preferiblemente en inglés. |
+| Guías de laboratorio / actividad práctica | 4% | Simulación, montaje, medición, evidencias, análisis y conclusiones. |
+| Parcial del corte | 20% | Evaluación individual integral de la unidad. |
+| **Total por corte** | **30%** |  |
+
+---
+
+## Taller investigativo obligatorio por corte
+
+En cada corte, uno de los talleres debe involucrar investigación académica en bases de datos de la universidad en un idioma diferente al español, preferiblemente inglés.
+
+El taller investigativo debe incluir:
+
+1. Fuente académica o técnica consultada.
+2. Base de datos utilizada.
+3. Referencia en formato IEEE.
+4. Resumen propio en español.
+5. Glosario técnico bilingüe.
+6. Relación con el tema del corte.
+7. Aplicación en ingeniería eléctrica.
+8. Evidencia de consulta.
+
+---
+
+## Componentes por corte
 
 ### Corte 1 – Electrónica analógica
 
 El primer corte cubre la unidad analógica del syllabus: señales, medición, semiconductores, diodos, rectificación, filtrado, LED, Zener, BJT y FET/MOSFET.
 
-| Componente | Descripción | Peso sugerido |
+| Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Talleres y ejercicios | Señales, magnitudes, diodos, rectificación, Zener, BJT y MOSFET | 20% |
-| Laboratorio A01 | Diodos, rectificación y regulación con Zener | 25% |
-| Labs A02/A03 o simulaciones orientadas | BJT como interruptor y MOSFET como control de carga | 20% |
-| Evaluación escrita o práctica | Análisis de circuitos analógicos, cálculos y selección de componentes | 30% |
-| Participación y trabajo en clase | Desarrollo de ejercicios, mediciones y discusión técnica | 5% |
+| Quiz 1 | Fundamentos de circuitos, señales, diodos, BJT y MOSFET | 2% |
+| Taller 1 | Cálculo y análisis de circuitos analógicos básicos | 2% |
+| Taller 2 investigativo | Consulta en inglés sobre dispositivos semiconductores o aplicaciones analógicas | 2% |
+| Guías A01, A02 y A03 | Diodos, rectificación, Zener, BJT y MOSFET | 4% |
+| Parcial 1 | Evaluación integral de la unidad analógica | 20% |
+| **Total Corte 1** |  | **30%** |
 
 ### Corte 2 – Fundamentos digitales y lógica combinacional
 
-El segundo corte inicia la unidad digital: sistemas numéricos, aritmética binaria, compuertas lógicas, álgebra booleana, teorema de De Morgan y mapas de Karnaugh. Se considera que la semana del 5 al 11 de octubre corresponde a receso institucional, por lo que no se programa contenido presencial nuevo.
+El segundo corte inicia la unidad digital: sistemas numéricos, aritmética binaria, compuertas lógicas, álgebra booleana, teorema de De Morgan y mapas de Karnaugh.
 
-| Componente | Descripción | Peso sugerido |
+| Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Talleres | Sistemas numéricos, aritmética binaria y mapas de Karnaugh | 25% |
-| Laboratorios digitales 01 a 03 | Compuertas, álgebra booleana y De Morgan | 30% |
-| Evaluación escrita o práctica | Solución de problemas de lógica digital y simplificación | 35% |
-| Participación | Trabajo en clase y cumplimiento | 10% |
+| Quiz 2 | Sistemas numéricos, aritmética binaria y compuertas | 2% |
+| Taller 1 | Conversiones, operaciones binarias, tablas de verdad y simplificación | 2% |
+| Taller 2 investigativo | Consulta en inglés sobre lógica digital, simplificación o aplicaciones combinacionales | 2% |
+| Labs 01, 02 y 03 | Compuertas, álgebra booleana y De Morgan | 4% |
+| Parcial 2 | Evaluación integral de fundamentos digitales y Karnaugh | 20% |
+| **Total Corte 2** |  | **30%** |
 
-### Corte 3 – Aplicaciones digitales y proyecto final
+### Corte 3 – Aplicaciones digitales y secuenciales
 
 El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sumadores, restadores, comparadores, paridad, codificadores, decodificadores, MUX, DEMUX, flip-flops, contadores y proyecto final.
 
-| Componente | Descripción | Peso sugerido |
+| Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Laboratorios 04 a 08 | XOR, sumadores, comparadores, codificadores, decodificadores, MUX y DEMUX | 30% |
-| Talleres y ejercicios | Diseño combinacional y secuencial básico | 15% |
-| Proyecto final | Funcionamiento, estética, informe y video | 30% |
-| Sustentación individual | Preguntas técnicas individuales | 20% |
-| Participación y cierre | Cumplimiento y retroalimentación | 5% |
+| Quiz 3 | Aplicaciones digitales combinacionales y secuenciales básicas | 2% |
+| Taller 1 | Diseño de sumadores, comparadores, codificadores, MUX/DEMUX y contadores | 2% |
+| Taller 2 investigativo | Consulta en inglés sobre aplicaciones digitales en ingeniería eléctrica | 2% |
+| Labs 04 a 08 / proyecto orientado | XOR, sumadores, comparadores, codificadores, MUX/DEMUX y evidencias de aplicación | 4% |
+| Parcial 3 | Evaluación integral de aplicaciones digitales y secuenciales | 20% |
+| **Total Corte 3** |  | **30%** |
+
+---
+
+## Archivo detallado de instrumentos
+
+Los quizzes, talleres, talleres investigativos y parciales sugeridos están desarrollados en:
+
+- [Instrumentos de evaluación por corte](evaluaciones/instrumentos-evaluacion-por-corte.md)
 
 ---
 

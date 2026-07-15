@@ -4,7 +4,7 @@
 
 Corte 3 – Aplicaciones combinacionales y secuenciales.
 
-## Objetivo
+## Propósito
 
 Analizar la compuerta XOR y aplicarla en circuitos aritméticos básicos como medio sumador, sumador completo y restador.
 
@@ -12,7 +12,7 @@ Analizar la compuerta XOR y aplicarla en circuitos aritméticos básicos como me
 
 - [Marco teórico – Semana 12](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Compuerta XOR y XNOR.
 - Detección de diferencia entre bits.
@@ -22,6 +22,6 @@ Analizar la compuerta XOR y aplicarla en circuitos aritméticos básicos como me
 - Restador completo, si aplica.
 - Relación con Labs 04 y 05.
 
-## Entregable
+## Entrega
 
 Tablas de verdad, simulaciones y evidencias de Labs 04 y 05.

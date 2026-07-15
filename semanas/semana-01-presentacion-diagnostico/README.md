@@ -1,8 +1,10 @@
-# Semana 01 – Presentación, diagnóstico y fundamentos previos
+# Semana 01 – Inicio del curso, diagnóstico corto, señales y medición
 
 ## Propósito
 
-Presentar la asignatura, explicar la metodología, revisar el syllabus, socializar las normas de trabajo y aplicar un diagnóstico inicial sobre circuitos eléctricos antes de iniciar la unidad de electrónica analógica.
+Presentar la asignatura, organizar los grupos de laboratorio, aplicar un diagnóstico breve de circuitos eléctricos e iniciar el trabajo con señales, magnitudes eléctricas y medición básica.
+
+El diagnóstico no se manejará como un bloque extenso, sino como una actividad corta para identificar vacíos y conectar de inmediato con los temas de electrónica analógica.
 
 ## Material base
 
@@ -11,28 +13,28 @@ Presentar la asignatura, explicar la metodología, revisar el syllabus, socializ
 
 ## Desarrollo de la clase
 
-- Presentación del curso y del repositorio.
-- Revisión del syllabus y del cronograma.
-- Explicación de la evaluación y del proyecto final.
-- Diagnóstico de conocimientos previos.
-- Repaso orientador de fundamentos de circuitos:
+- Presentación del curso, repositorio, evaluación y proyecto final.
+- Organización de grupos de laboratorio de 3 estudiantes.
+- Diagnóstico corto de fundamentos de circuitos.
+- Repaso aplicado de:
   - Ley de Ohm.
   - Voltaje, corriente, resistencia y potencia.
-  - Circuitos serie y paralelo.
+  - Circuitos serie/paralelo.
   - Divisor de voltaje.
   - Leyes de Kirchhoff: nodos y mallas.
   - Uso básico del multímetro.
-- Introducción a la diferencia entre electrónica analógica y digital.
-- Relación entre circuitos eléctricos básicos y electrónica analógica.
+- Señales analógicas y digitales.
+- Magnitudes eléctricas medibles.
+- Relación entre circuitos básicos y electrónica analógica.
 
 ## Entrega
 
-Diagnóstico inicial de circuitos básicos y mapa conceptual del curso.
+Diagnóstico inicial corto y actividad de identificación de señales o sistemas analógicos, digitales y mixtos.
 
 ## Trabajo posterior
 
-Identificar tres sistemas reales y clasificarlos como analógicos, digitales o mixtos, explicando brevemente qué señales intervienen en cada caso. Además, repasar los ejercicios de Ley de Ohm, circuitos serie/paralelo y leyes de Kirchhoff que presentaron mayor dificultad en el diagnóstico.
+Repasar los ejercicios de Ley de Ohm, divisor de voltaje, circuitos serie/paralelo y leyes de Kirchhoff que presentaron mayor dificultad. Además, identificar tres sistemas reales e indicar si son analógicos, digitales o mixtos.
 
 ## Relación con la siguiente clase
 
-Los conceptos de voltaje, corriente, resistencia, potencia, mallas y nodos servirán como base para analizar señales, mediciones, polarización de diodos, resistencias limitadoras, divisores de voltaje y transistores durante el primer corte.
+La siguiente semana se entra directamente a semiconductores, unión PN, diodos, LED y primera aproximación al Zener. Por eso es importante llegar con claridad sobre voltaje, corriente, polaridad, resistencia limitadora y medición.

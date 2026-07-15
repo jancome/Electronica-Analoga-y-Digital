@@ -23,6 +23,18 @@ Desde el inicio del curso se deben conformar **grupos de 3 estudiantes** para la
 - Cada entrega grupal debe incluir roles y aportes de cada integrante.
 - La nota grupal puede ajustarse individualmente mediante sustentación o preguntas técnicas.
 
+## Nota interna de las guías de laboratorio
+
+Cada guía de laboratorio se compone de tres notas internas:
+
+| Componente | Descripción |
+|---|---|
+| Preinforme o trabajo en clase | Avance realizado durante el laboratorio, simulación inicial, montaje, revisión, tablas preliminares o mediciones. |
+| Informe completo | Documento final del grupo con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. |
+| Aporte individual | Parte desarrollada por cada estudiante y dominio demostrado sobre su aporte y el circuito. |
+
+Estas tres notas conforman la nota final de la guía. El informe puede ser grupal, pero el aporte individual puede generar diferencias en la nota personal.
+
 ## Publicación de evaluaciones
 
 Los estudiantes podrán ver desde el inicio el calendario, el peso, la modalidad y los temas generales de cada evaluación. Los enunciados específicos de quizzes, talleres y parciales se publicarán el día correspondiente a las **2:00 p. m. hora Colombia**.
@@ -111,5 +123,5 @@ El producto debe incluir fuente académica o técnica, base de datos o fuente co
 
 - Los quizzes deben ser cortos y comprobar aplicación práctica.
 - Los talleres deben fortalecer cálculo, análisis, diseño, investigación y argumentación técnica.
-- Las guías deben incluir evidencias, mediciones, simulaciones, análisis y conclusiones.
+- Las guías deben incluir preinforme o trabajo en clase, informe completo y aporte individual.
 - Los cortes 1 y 2 tendrán parcial individual y esa semana no tendrá tema nuevo.

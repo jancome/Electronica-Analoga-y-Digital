@@ -31,6 +31,17 @@ Reglas generales:
 
 ---
 
+## Publicación de evaluaciones
+
+Los estudiantes podrán conocer desde el inicio el calendario, los pesos, la modalidad y los temas generales de cada evaluación. Los enunciados específicos de quizzes, talleres y parciales se publicarán únicamente el día señalado a las **2:00 p. m. hora Colombia**.
+
+La política de publicación se encuentra en:
+
+- [Control de publicación de evaluaciones](evaluaciones/CONTROL_PUBLICACION_EVALUACIONES.md)
+- [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
+
+---
+
 ## Criterio para los quizzes
 
 Los quizzes serán cortos, pero estarán orientados principalmente a ejercicios de aplicación. Deben incluir cálculos, conversiones, análisis de circuitos, tablas de verdad o identificación de salidas. Las preguntas teóricas se usarán solo como apoyo para verificar comprensión básica.
@@ -99,7 +110,7 @@ El corte 3 **no tendrá parcial escrito**, porque el componente principal será 
 | 16 | Quiz 3, avance de proyecto |
 | 17 | Proyecto final con sustentación |
 
-El calendario detallado se encuentra en:
+El calendario con fechas y hora de apertura se encuentra en:
 
 - [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
 
@@ -130,7 +141,7 @@ El primer corte cubre la unidad analógica del syllabus: señales, medición, se
 
 | Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Quiz 1 | Ejercicios de circuitos, diodos, LED, Zener, BJT y MOSFET | 2% |
+| Quiz 1 | Fundamentos de circuitos, señales, diodos, BJT y MOSFET | 2% |
 | Taller integrador | Cálculo, análisis y consulta técnica breve sobre dispositivos analógicos | 4% |
 | Guías A01, A02 y A03 | A01 diodos/Zener, A02 BJT y A03 FET/MOSFET | 4% |
 | Parcial 1 | Evaluación integral de la unidad analógica | 20% |
@@ -142,7 +153,7 @@ El segundo corte inicia la unidad digital: sistemas numéricos, aritmética bina
 
 | Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Quiz 2 | Ejercicios de conversiones, BCD, suma, resta y lógica básica | 2% |
+| Quiz 2 | Sistemas numéricos, aritmética binaria y compuertas | 2% |
 | Taller 1 | Conversiones, operaciones binarias, tablas de verdad y simplificación | 2% |
 | Taller 2 investigativo | Consulta en inglés sobre lógica digital, simplificación o aplicaciones combinacionales | 2% |
 | Labs 01, 02 y 03 | Compuertas, álgebra booleana y De Morgan | 4% |
@@ -155,7 +166,7 @@ El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sum
 
 | Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Quiz 3 | Ejercicios de XOR, sumadores, comparadores, paridad, MUX/DEMUX, flip-flops y contadores | 2% |
+| Quiz 3 | Aplicaciones digitales combinacionales y secuenciales básicas | 2% |
 | Taller 1 | Diseño de sumadores, comparadores, codificadores, MUX/DEMUX y contadores | 2% |
 | Taller 2 investigativo | Consulta en inglés sobre aplicaciones digitales en ingeniería eléctrica | 2% |
 | Labs 04 a 08 / avances prácticos | XOR, sumadores, comparadores, codificadores, MUX/DEMUX y evidencias de aplicación | 4% |

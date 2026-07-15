@@ -1,87 +1,60 @@
-# RESUMEN – LAB 05
-
-# SUMADORES Y APLICACIONES
+# Lab 05 – Sumadores y aplicaciones
 
 **Asignatura:** Electrónica Analógica y Digital  
-**Periodo:** 2026-2  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
+**Periodo:** 2026-2
 
----
-
-## 1. Propósito
+## Propósito
 
 Implementar y analizar circuitos sumadores mediante compuertas lógicas y circuitos integrados, relacionando la aritmética binaria con aplicaciones digitales reales.
 
----
+## Lo que se espera comprobar
 
-## 2. Objetivos
+- Funcionamiento del medio sumador.
+- Funcionamiento del sumador completo.
+- Relación entre suma binaria y circuitos lógicos.
+- Uso de acarreo de entrada y salida.
+- Aplicación de sumadores en sistemas digitales.
 
-- Construir un medio sumador.
-- Construir un sumador completo.
-- Analizar el acarreo de entrada y salida.
-- Implementar o simular un sumador paralelo de varios bits.
-- Relacionar los sumadores con sistemas de votación, conteo o procesamiento digital.
+## Temas asociados
 
----
-
-## 3. Temas asociados
-
-- Aritmética binaria.
 - Medio sumador.
 - Sumador completo.
-- Acarreo.
-- Sumador paralelo.
-- Display de 7 segmentos, si aplica.
-- Aplicaciones combinacionales.
+- Sumador paralelo de 4 bits.
+- Acarreo de entrada y salida.
+- Decodificación hacia display de 7 segmentos.
+- Aplicaciones como sistema de votación.
 
----
-
-## 4. Recursos sugeridos
+## Recursos sugeridos
 
 - Protoboard.
 - Fuente DC de 5 V.
 - Multímetro digital.
-- Resistencias.
 - LED indicadores.
+- Resistencias.
+- Cables de conexión.
+- Circuitos integrados 7486, 7408, 7432, 7447, 7483, 74283 o equivalentes.
 - Display de 7 segmentos, si aplica.
-- Circuitos integrados 7408, 7432, 7486, 7447, 74183, 74283 o equivalentes.
 - Software de simulación.
 
----
+## Desarrollo de la práctica
 
-## 5. Actividades principales
+1. Construir la tabla de verdad de un medio sumador.
+2. Implementar el medio sumador.
+3. Construir la tabla de verdad de un sumador completo.
+4. Implementar el sumador completo.
+5. Analizar el comportamiento del acarreo.
+6. Simular o montar una aplicación con sumador paralelo.
+7. Comparar teoría, simulación y montaje.
 
-1. Diseñar el medio sumador.
-2. Construir la tabla de verdad del medio sumador.
-3. Implementar el sumador completo.
-4. Analizar las salidas de suma y acarreo.
-5. Simular un sumador paralelo de 4 bits.
-6. Implementar una aplicación basada en suma binaria, si aplica.
-7. Registrar mediciones y evidencias.
-
----
-
-## 6. Evidencias obligatorias
+## Evidencias
 
 - Tablas de verdad.
-- Expresiones lógicas de suma y acarreo.
+- Esquemas de circuito.
 - Capturas de simulación.
 - Fotos o capturas del montaje.
-- Análisis de resultados.
-- Conclusiones.
+- Mediciones o validaciones de salida.
+- Análisis y conclusiones.
 
----
+## Entrega
 
-## 7. Preguntas de análisis
-
-1. ¿Cuál es la diferencia entre medio sumador y sumador completo?
-2. ¿Qué función cumple el acarreo de entrada?
-3. ¿Qué función cumple el acarreo de salida?
-4. ¿Cómo se relaciona la suma binaria con un circuito físico?
-5. ¿Qué ventajas tiene utilizar un circuito integrado sumador?
-
----
-
-## 8. Entregable
-
-Informe de laboratorio con diseño, tablas, simulaciones, montaje o evidencia digital, análisis y conclusiones.
+Informe con tablas de verdad, simulaciones, capturas, mediciones y análisis de datos.

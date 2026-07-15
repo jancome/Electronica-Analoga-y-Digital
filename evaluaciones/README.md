@@ -34,6 +34,8 @@ Desde el inicio del curso se deben conformar **grupos de 3 estudiantes** para la
 | Parcial del corte | 20% |
 | **Total por corte** | **30%** |
 
+Las semanas de parcial no tendrán tema nuevo.
+
 ## Distribución interna del corte 3
 
 El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **proyecto final con sustentación**.
@@ -49,7 +51,7 @@ El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **
 
 ## Ubicación semanal
 
-- [Ubicación semanal de evaluaciones y guías](ubicacion-semanal-evaluaciones.md)
+- [Calendario semanal de evaluaciones](calendario-evaluacion-semanal.md)
 
 Este archivo muestra en qué semana se ubica cada quiz, taller, taller investigativo, guía, parcial y proyecto final.
 

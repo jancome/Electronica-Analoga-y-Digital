@@ -4,7 +4,7 @@
 
 Corte 3 – Aplicaciones combinacionales y secuenciales.
 
-## Objetivo
+## Propósito
 
 Diseñar y analizar circuitos combinacionales de comparación y circuitos de generación/comprobación de paridad.
 
@@ -12,7 +12,7 @@ Diseñar y analizar circuitos combinacionales de comparación y circuitos de gen
 
 - [Marco teórico – Semana 13](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Comparador de igualdad.
 - Comparador de magnitud.
@@ -22,6 +22,6 @@ Diseñar y analizar circuitos combinacionales de comparación y circuitos de gen
 - Comprobador de paridad.
 - Relación con Lab 06.
 
-## Entregable
+## Entrega
 
 Simulación y tabla de funcionamiento del Lab 06.

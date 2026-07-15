@@ -17,13 +17,23 @@ Este repositorio funcionará como aula de apoyo para el segundo semestre de 2026
 3. **Aplicaciones combinacionales y secuenciales**  
    Sumadores, restadores, comparadores, codificadores, decodificadores, multiplexores, demultiplexores, displays, flip-flops y contadores.
 
+## Para empezar
+
+- [Guía rápida para estudiantes](GUIA_RAPIDA_ESTUDIANTES.md)
+- [Checklist de inicio del curso](CHECKLIST_INICIO_CURSO.md)
+- [Mapa general del curso](MAPA_DEL_CURSO.md)
+
 ## Navegación principal
 
 - [Syllabus resumido](SYLLABUS.md)
 - [Cronograma 2026-2](CRONOGRAMA_2026_2.md)
+- [Semanas de clase](semanas/README.md)
 - [Evaluación](EVALUACION.md)
+- [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
+- [Control de publicación de evaluaciones](evaluaciones/CONTROL_PUBLICACION_EVALUACIONES.md)
 - [Proyecto final](PROYECTO_FINAL.md)
 - [Normas de clase](NORMAS_DE_CLASE.md)
+- [Plantillas de entrega](plantillas/README.md)
 
 ## Documentos principales
 
@@ -35,6 +45,8 @@ Este repositorio funcionará como aula de apoyo para el segundo semestre de 2026
 - [Enlaces de apoyo](documentos-principales/enlaces-clases/README.md)
 
 ## Guías de laboratorio
+
+Cada guía de laboratorio se trabaja en grupos de 3 estudiantes y se compone de tres notas internas: preinforme o trabajo en clase, informe completo y aporte individual.
 
 ### Electrónica analógica
 
@@ -55,7 +67,7 @@ Este repositorio funcionará como aula de apoyo para el segundo semestre de 2026
 
 ## Organización semanal
 
-El curso está organizado en sesiones de 3 horas. Cada semana incluirá, según corresponda, teoría, ejercicios guiados, práctica o simulación, entregable y trabajo independiente.
+El curso está organizado por semanas. Cada semana combina explicación, ejercicios guiados, laboratorio, simulación, entregas y trabajo independiente, según corresponda.
 
 Ver carpeta: [semanas](semanas/README.md)
 

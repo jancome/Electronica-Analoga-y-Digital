@@ -34,13 +34,24 @@ Desde la primera semana se deben conformar **grupos de 3 estudiantes** para las 
 
 ---
 
-## 3. Distribución del Corte 1
+## 3. Criterio para los quizzes
+
+Los quizzes serán cortos, pero deben tener mayor énfasis en ejercicios que en teoría. La idea es comprobar si el estudiante puede aplicar lo visto en clase mediante cálculos rápidos, conversiones, tablas de verdad, análisis de circuitos o identificación de salidas.
+
+Se recomienda que cada quiz tenga aproximadamente:
+
+- 70% a 80% ejercicios de aplicación.
+- 20% a 30% preguntas conceptuales breves.
+
+---
+
+## 4. Distribución del Corte 1
 
 El primer corte se compacta para aprovechar mejor el tiempo. Tendrá un solo taller integrador, las tres guías analógicas distribuidas entre las semanas 2, 3 y 4, quiz al inicio de la Semana 04 y parcial en la Semana 05.
 
 | Instrumento | Peso sobre nota final | Ubicación | Propósito |
 |---|---:|---|---|
-| Quiz 1 | 2% | Semana 04, al inicio | Verificar conceptos mínimos antes de cerrar la unidad. |
+| Quiz 1 | 2% | Semana 04, al inicio | Resolver ejercicios cortos de circuitos, diodos, LED, Zener y BJT. |
 | Taller integrador Corte 1 | 4% | Semana 02 | Reforzar cálculo, análisis y consulta técnica breve en otro idioma. |
 | Guías A01, A02 y A03 | 4% | Semanas 02, 03 y 04 | Evidenciar simulación, montaje, medición, análisis y conclusiones. |
 | Parcial 1 | 20% | Semana 05 | Evaluar integralmente la unidad analógica. |
@@ -54,26 +65,30 @@ El primer corte se compacta para aprovechar mejor el tiempo. Tendrá un solo tal
 | 03 | Lab A02 | Transistor BJT como interruptor y amplificador básico |
 | 04 | Lab A03 | Transistor FET/MOSFET como dispositivo de control |
 
-## 4. Distribución del Corte 2
+---
+
+## 5. Distribución del Corte 2
 
 El Corte 2 mantiene dos talleres, uno aplicado y uno investigativo, además de quiz, guías y parcial.
 
 | Instrumento | Peso sobre nota final | Propósito |
 |---|---:|---|
-| Quiz 2 | 2% | Verificar conceptos mínimos de la unidad. |
+| Quiz 2 | 2% | Resolver ejercicios cortos de sistemas numéricos y aritmética binaria. |
 | Taller 1 – Aplicación, cálculo y análisis | 2% | Fortalecer análisis, procedimientos y solución de problemas. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consultar bases de datos institucionales y relacionar teoría con aplicaciones actuales. |
 | Guías de laboratorio / actividad práctica | 4% | Evidenciar simulación, montaje, medición, análisis y conclusiones. |
 | Parcial 2 | 20% | Evaluar integralmente la unidad. |
 | **Total Corte 2** | **30%** |  |
 
-## 5. Distribución del Corte 3
+---
+
+## 6. Distribución del Corte 3
 
 El **Corte 3 no tendrá parcial escrito**. El componente central será el **proyecto final con sustentación**.
 
 | Instrumento | Peso sobre nota final | Propósito |
 |---|---:|---|
-| Quiz 3 | 2% | Verificar conceptos esenciales de aplicaciones digitales. |
+| Quiz 3 | 2% | Resolver ejercicios cortos de circuitos combinacionales y secuenciales. |
 | Taller 1 – Aplicación y diseño | 2% | Diseñar circuitos combinacionales y secuenciales básicos. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consultar aplicaciones digitales en bases de datos institucionales. |
 | Guías de laboratorio / avances prácticos | 4% | Evidenciar laboratorios 04 a 08, simulaciones o avances del montaje. |
@@ -82,7 +97,7 @@ El **Corte 3 no tendrá parcial escrito**. El componente central será el **proy
 
 ---
 
-## 6. Condiciones del componente investigativo
+## 7. Condiciones del componente investigativo
 
 El componente investigativo debe aparecer en cada corte. En el Corte 1 se integra dentro del **Taller integrador** de la Semana 02 para no generar una segunda entrega adicional. En los cortes 2 y 3 se mantiene como taller investigativo independiente.
 
@@ -176,18 +191,16 @@ El estudiante debe entregar referencia en formato IEEE, resumen propio en españ
 **Semana:** 04, al inicio de la clase.  
 **Tipo:** individual.
 
-### Preguntas sugeridas
+### Ejercicios sugeridos
 
-1. Explique brevemente la diferencia entre voltaje y corriente.
-2. Una resistencia de 1 kΩ se conecta a una fuente de 5 V. Calcule la corriente.
-3. ¿Por qué una resistencia puede limitar la corriente en un LED?
-4. Enuncie la ley de voltajes de Kirchhoff para una malla.
-5. ¿Qué diferencia existe entre una señal DC y una señal AC?
-6. ¿Qué es una unión PN?
-7. ¿Qué ocurre con un diodo en polarización directa?
-8. ¿Para qué se utiliza un diodo Zener?
-9. ¿Qué función cumple la corriente de base en un BJT?
-10. Compare brevemente BJT y MOSFET como dispositivos de control.
+1. Una resistencia de 1 kΩ se conecta a una fuente de 5 V DC. Calcule la corriente y la potencia disipada.
+2. En un circuito serie con fuente de 12 V, R1 = 1 kΩ y R2 = 2.2 kΩ, calcule la corriente total y el voltaje en cada resistencia.
+3. Se desea encender un LED rojo con fuente de 9 V, VLED = 2 V e ILED = 10 mA. Calcule la resistencia limitadora y la potencia aproximada en la resistencia.
+4. En un circuito fuente-resistencia-diodo con VS = 5 V, R = 1 kΩ y VD = 0.7 V, calcule la corriente aproximada del circuito.
+5. Una señal de 6 V RMS entra a un rectificador. Calcule el voltaje pico aproximado de entrada.
+6. Para un regulador Zener con VS = 12 V, VZ = 5.1 V y RS = 330 Ω, calcule la corriente aproximada por la resistencia si no hay carga conectada.
+7. Para un BJT NPN con VIN = 5 V, VBE = 0.7 V e IB deseada de 2 mA, calcule la resistencia de base aproximada.
+8. En un MOSFET que controla una carga de 12 V y 120 Ω, calcule la corriente de carga. Indique una razón para usar resistencia pull-down en la compuerta.
 
 ## Parcial 1 – Unidad analógica
 
@@ -228,21 +241,21 @@ El estudiante debe entregar referencia en formato IEEE, resumen propio en españ
 ## Quiz 2 – Fundamentos digitales
 
 **Peso:** 2% de la nota final.  
-**Duración sugerida:** 20 a 30 minutos.  
+**Semana sugerida:** 07.  
 **Tipo:** individual.
 
-### Preguntas sugeridas
+### Ejercicios sugeridos
 
-1. Convierta el número decimal 25 a binario.
-2. Convierta el número binario 101101 a decimal.
-3. ¿Qué es un bit?
-4. ¿Qué es un nibble?
+1. Convierta 25 decimal a binario.
+2. Convierta 101101 binario a decimal.
+3. Convierta 11110010 binario a hexadecimal.
+4. Escriba en BCD los números 59 y 408.
 5. Realice la suma binaria: 1011 + 0110.
-6. Escriba la tabla de verdad de una compuerta AND de dos entradas.
-7. Escriba la tabla de verdad de una compuerta OR de dos entradas.
-8. ¿Qué hace una compuerta NOT?
-9. Enuncie uno de los teoremas de De Morgan.
-10. ¿Para qué sirve un mapa de Karnaugh?
+6. Realice la resta 13 - 5 usando representación binaria de 4 bits y complemento a 2.
+7. Determine si hay overflow en la suma de 4 bits: 0111 + 0011.
+8. Complete la tabla de verdad de la función F = A·B para las cuatro combinaciones de entrada.
+9. Aplique De Morgan a la expresión (A + B)̅.
+10. A partir de la expresión F = A + B̅, indique la salida para A = 0 y B = 1.
 
 ## Taller 1 – Aplicación y cálculo: sistemas numéricos y lógica básica
 
@@ -320,21 +333,21 @@ Ficha académica, resumen propio en español, glosario técnico bilingüe, ejemp
 ## Quiz 3 – Aplicaciones digitales
 
 **Peso:** 2% de la nota final.  
-**Duración sugerida:** 20 a 30 minutos.  
+**Semana sugerida:** 16.  
 **Tipo:** individual.
 
-### Preguntas sugeridas
+### Ejercicios sugeridos
 
-1. ¿Qué función cumple una compuerta XOR?
-2. ¿Qué diferencia existe entre medio sumador y sumador completo?
-3. ¿Qué es el acarreo de salida?
-4. ¿Qué hace un comparador de magnitud?
-5. ¿Qué es paridad par?
-6. ¿Qué diferencia existe entre codificador y decodificador?
-7. ¿Para qué sirve un multiplexor?
-8. ¿Para qué sirve un demultiplexor?
-9. ¿Qué diferencia existe entre lógica combinacional y lógica secuencial?
-10. ¿Qué función cumple un flip-flop?
+1. Complete la tabla de verdad de una compuerta XOR de dos entradas.
+2. Para un medio sumador con A = 1 y B = 1, determine Suma y Carry.
+3. Para un sumador completo con A = 1, B = 0 y Cin = 1, determine Suma y Cout.
+4. Compare A = 10₂ y B = 11₂. Indique si A>B, A=B o A<B.
+5. Para el dato 1011, agregue un bit de paridad par.
+6. En un MUX 4:1 con I0=0, I1=1, I2=0, I3=1 y selección S1S0=01, indique la salida.
+7. En un DEMUX 1:4 con entrada D=1 y selección S1S0=10, indique qué salida se activa.
+8. Para un flip-flop D, si D=1 en el flanco activo del reloj, indique el valor siguiente de Q.
+9. En un contador binario de 3 bits que está en 011, indique el siguiente estado.
+10. Proponga una aplicación breve de un contador en un sistema eléctrico o de automatización.
 
 ## Taller 1 – Aplicación y diseño: circuitos combinacionales y secuenciales
 

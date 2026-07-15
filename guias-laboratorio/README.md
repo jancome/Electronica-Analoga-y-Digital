@@ -4,6 +4,18 @@ Esta carpeta reúne las prácticas del curso. Las guías están organizadas en d
 
 Cada práctica busca conectar la teoría con simulaciones, montaje, mediciones, análisis y conclusiones. Los grupos de trabajo serán de **3 estudiantes**, salvo autorización expresa del docente.
 
+## Cómo se evalúa cada guía
+
+Cada guía de laboratorio se califica a partir de tres componentes:
+
+| Componente | Descripción |
+|---|---|
+| Preinforme o trabajo en clase | Evidencia del avance realizado durante el laboratorio: simulación inicial, montaje, revisión de conexiones, tablas preliminares, mediciones o preguntas cortas. |
+| Informe completo | Documento final del grupo con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. |
+| Aporte individual | Cada estudiante debe indicar qué parte trabajó y demostrar dominio de su aporte y del funcionamiento general del circuito. |
+
+Estas tres notas internas conforman la nota final de la guía. El informe puede ser grupal, pero la participación y sustentación individual pueden modificar la nota personal de cada integrante.
+
 ## Electrónica analógica
 
 - [Lab A01 – Diodos, rectificación y Zener](analogica/lab-a01-diodos-rectificacion-zener/README.md)
@@ -23,4 +35,4 @@ Cada práctica busca conectar la teoría con simulaciones, montaje, mediciones, 
 
 ## Entrega general
 
-Cada guía debe entregarse con evidencias suficientes: simulación, montaje o captura del circuito, tablas de datos, cálculos, análisis de resultados y conclusiones propias.
+Cada guía debe entregarse con evidencias suficientes: simulación, montaje o captura del circuito, tablas de datos, cálculos, análisis de resultados, conclusiones propias y aportes individuales claramente identificados.

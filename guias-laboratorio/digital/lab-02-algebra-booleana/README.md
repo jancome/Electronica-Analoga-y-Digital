@@ -1,10 +1,6 @@
 # Lab 02 – Álgebra booleana
 
-## Estado
-
-Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
-
-## Archivo principal
+## Guía
 
 - [Resumen Lab 02 – Álgebra booleana](resumen-lab-02-algebra-booleana.md)
 
@@ -21,6 +17,6 @@ Comprobar métodos de representación y simplificación de ecuaciones lógicas m
 - Absorción.
 - Análisis de circuitos lógicos.
 
-## Entregable
+## Entrega
 
 Informe con circuitos, tablas de medición, formas de onda, simulaciones y análisis de equivalencia lógica.

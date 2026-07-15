@@ -4,7 +4,7 @@
 
 Corte 2 – Fundamentos digitales y lógica combinacional.
 
-## Objetivo
+## Propósito
 
 Aplicar leyes del álgebra booleana y los teoremas de De Morgan para simplificar expresiones lógicas e introducir el uso de mapas de Karnaugh.
 
@@ -12,7 +12,7 @@ Aplicar leyes del álgebra booleana y los teoremas de De Morgan para simplificar
 
 - [Marco teórico – Semana 09](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Variables booleanas.
 - Operaciones suma, producto y complemento.
@@ -22,6 +22,6 @@ Aplicar leyes del álgebra booleana y los teoremas de De Morgan para simplificar
 - Introducción a minterminos y mapas de Karnaugh.
 - Relación con Labs 02 y 03.
 
-## Entregable
+## Entrega
 
 Taller de simplificación y avance de Labs 02 y 03.

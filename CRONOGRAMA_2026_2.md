@@ -10,14 +10,16 @@ En el tercer corte no habrá parcial escrito. El cierre se hará mediante **proy
 
 ## Ajuste del primer corte
 
-La unidad analógica contiene muchos temas y solo cuenta con cinco semanas, incluyendo la semana del parcial. Por eso el diagnóstico inicial se manejará como una actividad corta y aplicada, no como una sesión extensa de repaso. Desde la primera semana se empezará a trabajar con señales, medición y relación con circuitos reales.
+La unidad analógica concentra muchos temas y solo cuenta con cinco semanas, incluyendo la semana del parcial. Por eso el diagnóstico inicial será breve y aplicado. Desde la primera semana se trabajará con señales, medición y relación con circuitos reales.
+
+Para aprovechar mejor el tiempo, el Corte 1 tendrá **un solo taller integrador en la Semana 02**, las tres guías analógicas distribuidas entre las semanas 2, 3 y 4, y el **Quiz 1 se aplicará al inicio de la Semana 04**.
 
 La distribución del primer corte queda así:
 
 - **Semana 01:** presentación breve, diagnóstico corto, repaso aplicado de circuitos, señales y medición básica.
-- **Semana 02:** semiconductores, unión PN, diodos, LED y primera aproximación al Zener.
-- **Semana 03:** rectificación, filtrado, regulación con Zener y cierre del Lab A01.
-- **Semana 04:** transistores BJT, FET/MOSFET, control de cargas y orientación de Labs A02/A03.
+- **Semana 02:** semiconductores, unión PN, diodos, LED, rectificación básica, Zener y Lab A01.
+- **Semana 03:** BJT como interruptor, control de carga, protección con diodo y Lab A02.
+- **Semana 04:** Quiz 1 al inicio, FET/MOSFET, control de cargas, comparación BJT/MOSFET y Lab A03.
 - **Semana 05:** repaso, aclaración de dudas y Parcial 1. No se programa tema nuevo.
 
 ## Semana de receso
@@ -35,9 +37,9 @@ Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido
 | Semana | Fecha aproximada | Corte | Tema central | Trabajo en clase | Evaluación, guía o entrega |
 |---:|---|---|---|---|---|
 | 1 | 03 al 09 agosto | Corte 1 | Inicio del curso, diagnóstico corto, señales y medición | Syllabus, reglas, grupos de laboratorio, diagnóstico aplicado, Ley de Ohm, Kirchhoff básico, señales analógicas/digitales y medición | Diagnóstico inicial corto + actividad de señales |
-| 2 | 10 al 16 agosto | Corte 1 | Semiconductores, unión PN, diodos, LED y Zener introductorio | Conductores, aislantes, semiconductores, dopaje, unión PN, polarización del diodo, LED, resistencia limitadora e introducción al Zener | Taller 1 Corte 1 + inicio Lab A01 |
-| 3 | 17 al 23 agosto | Corte 1 | Rectificación, filtrado y regulación con Zener | Rectificador de media onda, onda completa, puente rectificador, filtro capacitivo, rizado y regulación básica con Zener | Desarrollo/cierre Lab A01 + Quiz 1 |
-| 4 | 24 al 30 agosto | Corte 1 | Transistores BJT, FET/MOSFET y control de cargas | BJT como interruptor, regiones de operación, MOSFET como interruptor, control de cargas, diodo de protección y comparación BJT vs MOSFET | Taller 2 investigativo Corte 1 + Labs A02/A03 orientados |
+| 2 | 10 al 16 agosto | Corte 1 | Semiconductores, diodos, rectificación básica y Zener | Unión PN, polarización del diodo, LED, resistencia limitadora, rectificación básica, filtrado introductorio y Zener | Taller integrador Corte 1 + Lab A01 |
+| 3 | 17 al 23 agosto | Corte 1 | Transistor BJT y control de cargas | BJT como interruptor, regiones de operación, resistencia de base, control de LED/relé/carga DC y diodo de protección | Lab A02 |
+| 4 | 24 al 30 agosto | Corte 1 | Quiz 1, FET/MOSFET y comparación de transistores | Quiz al inicio, MOSFET como interruptor, resistencia de compuerta, pull-down, control de cargas y comparación BJT/MOSFET | Quiz 1 + Lab A03 |
 | 5 | 31 agosto al 06 septiembre | Corte 1 | Parcial 1 – Unidad analógica | Repaso, aclaración de dudas y aplicación del parcial | Parcial 1. No se programa tema nuevo |
 | 6 | 07 al 13 septiembre | Corte 2 | Sistemas numéricos | Decimal, binario, hexadecimal y BCD | Taller 1 Corte 2 – conversiones |
 | 7 | 14 al 20 septiembre | Corte 2 | Aritmética binaria | Suma, resta, complemento a 1, complemento a 2 y overflow | Quiz 2 |
@@ -60,9 +62,9 @@ Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido
 
 - **Semanas:** 1 a 5.
 - **Enfoque:** fundamentos mínimos de circuitos, señales, medición, semiconductores, diodos, LED, Zener, rectificación, filtrado, BJT y FET/MOSFET.
-- **Evidencias:** diagnóstico corto, Taller 1, Lab A01, Quiz 1, Taller 2 investigativo, orientación de Labs A02/A03 y Parcial 1.
+- **Evidencias:** diagnóstico corto, Taller integrador del Corte 1, Labs A01/A02/A03, Quiz 1 y Parcial 1.
 - **Semana de parcial:** semana 5, sin tema nuevo.
-- **Observación:** para cubrir toda la unidad analógica, el diagnóstico se reduce a lo esencial y se integra con señales y medición desde el inicio.
+- **Observación:** para cubrir toda la unidad analógica, el diagnóstico se reduce a lo esencial y las prácticas se distribuyen entre las semanas 2, 3 y 4.
 
 ### Corte 2 – Fundamentos digitales y lógica combinacional
 
@@ -86,5 +88,5 @@ Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido
 - La semana de receso no tendrá tema nuevo.
 - Las semanas de parcial no tendrán tema nuevo.
 - Los temas se agrupan para respetar el syllabus y las fechas institucionales de corte.
-- Las guías A02 y A03 pueden manejarse como práctica orientada, simulación o trabajo complementario del primer corte si el tiempo presencial no alcanza para montajes completos.
+- Las guías A01, A02 y A03 se trabajan de forma progresiva en las semanas 2, 3 y 4.
 - Cada encuentro debe combinar explicación conceptual, ejemplo guiado, actividad práctica o simulación, cierre y trabajo independiente, excepto las semanas destinadas a parcial o sustentación final.

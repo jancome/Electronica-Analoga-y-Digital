@@ -14,10 +14,10 @@ En el tercer corte no habrá parcial escrito; el cierre será el proyecto final 
 
 | Semana | Corte | Evaluación o entrega | Observación |
 |---:|---|---|---|
-| 01 | Corte 1 | Diagnóstico inicial | No tiene peso de nota; orienta el refuerzo inicial. |
-| 02 | Corte 1 | Taller 1 – Aplicación y cálculo analógico | Fundamentos de circuitos, señales y medición. |
-| 03 | Corte 1 | Inicio Lab A01 | Semiconductores, unión PN y diodos. |
-| 04 | Corte 1 | Quiz 1, Taller 2 investigativo, Labs A01/A02/A03 orientados | Última semana con tema nuevo del Corte 1. |
+| 01 | Corte 1 | Diagnóstico inicial corto | No tiene peso de nota; orienta el refuerzo inicial. |
+| 02 | Corte 1 | Taller integrador Corte 1 + Lab A01 | Semiconductores, diodos, rectificación básica y Zener. |
+| 03 | Corte 1 | Lab A02 | Transistor BJT como interruptor y control de cargas. |
+| 04 | Corte 1 | Quiz 1 + Lab A03 | El quiz se aplica al inicio; luego se trabaja FET/MOSFET. |
 | 05 | Corte 1 | Parcial 1 | Semana sin tema nuevo. |
 | 06 | Corte 2 | Taller 1 – Sistemas numéricos y lógica básica | Conversiones, representación y códigos. |
 | 07 | Corte 2 | Quiz 2 | Sistemas numéricos y aritmética binaria. |
@@ -41,9 +41,10 @@ En el tercer corte no habrá parcial escrito; el cierre será el proyecto final 
 | Instrumento | Semana | Peso sobre nota final |
 |---|---:|---:|
 | Quiz 1 | 04 | 2% |
-| Taller 1 aplicado | 02 | 2% |
-| Taller 2 investigativo | 04 | 2% |
-| Guías A01/A02/A03 | 03–04 | 4% |
+| Taller integrador | 02 | 4% |
+| Lab A01 | 02 | Parte del 4% de guías |
+| Lab A02 | 03 | Parte del 4% de guías |
+| Lab A03 | 04 | Parte del 4% de guías |
 | Parcial 1 | 05 | 20% |
 | **Total Corte 1** |  | **30%** |
 
@@ -73,4 +74,4 @@ En el tercer corte no habrá parcial escrito; el cierre será el proyecto final 
 
 ## Nota sobre talleres investigativos
 
-El Taller 2 de cada corte debe incluir consulta en bases de datos de la universidad en un idioma diferente al español, preferiblemente inglés. Debe entregar referencia IEEE, resumen propio, glosario técnico bilingüe, relación con el corte, aplicación en ingeniería eléctrica y evidencia de consulta.
+El componente investigativo debe aparecer en cada corte. En el Corte 1 se integra dentro del Taller integrador de la Semana 02. En los cortes 2 y 3 se mantiene como Taller 2 investigativo. Debe incluir referencia IEEE, resumen propio, glosario técnico bilingüe, relación con el corte, aplicación en ingeniería eléctrica y evidencia de consulta.

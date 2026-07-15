@@ -1,4 +1,4 @@
-# Semana 11 – Mapas de Karnaugh y cierre del Corte 2
+# Semana 11 – Parcial 2: Fundamentos digitales
 
 ## Corte
 
@@ -6,22 +6,22 @@ Corte 2 – Fundamentos digitales y lógica combinacional.
 
 ## Propósito
 
-Simplificar funciones lógicas mediante mapas de Karnaugh y cerrar el segundo corte con ejercicios integradores.
+Cerrar el segundo corte mediante repaso, aclaración de dudas y aplicación del Parcial 2. Esta semana no se programará tema nuevo.
 
-## Marco teórico
+## Material de repaso
 
 - [Marco teórico – Semana 11](marco-teorico.md)
 
 ## Desarrollo de la clase
 
+- Repaso breve de sistemas numéricos.
+- Repaso de aritmética binaria.
+- Repaso de compuertas lógicas y tablas de verdad.
 - Repaso de álgebra booleana y De Morgan.
-- Minterminos y maxterminos.
-- Mapas de 2, 3 y 4 variables.
-- Agrupaciones de 1, 2, 4 y 8.
-- Condiciones de no importa.
-- Obtención de expresión simplificada.
-- Cierre del Corte 2.
+- Repaso de mapas de Karnaugh trabajados antes del parcial.
+- Aclaración de dudas del corte.
+- Aplicación del Parcial 2.
 
 ## Entrega
 
-Taller de mapas de Karnaugh y actividad de cierre del Corte 2.
+Parcial 2 – Fundamentos digitales. No se recibe tema nuevo en esta semana, salvo pendientes previamente acordados del corte.

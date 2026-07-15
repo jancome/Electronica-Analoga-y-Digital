@@ -1,35 +1,37 @@
-# Semana 03 – Rectificación, filtrado y regulación con Zener
+# Semana 03 – Transistor BJT y control de cargas
 
 ## Propósito
 
-Aplicar el diodo en circuitos de rectificación y filtrado, y analizar el uso del diodo Zener como elemento básico de regulación de voltaje.
+Analizar el transistor BJT como dispositivo de control y conmutación, aplicándolo en circuitos básicos de activación de LED, relé o carga DC.
 
 ## Marco teórico
 
 - [Marco teórico – Semana 03](marco-teorico.md)
-- [Marco teórico – Semana 04: rectificación y filtrado](../semana-04-diodos-rectificacion/marco-teorico.md)
+- [Material de apoyo – BJT y MOSFET](../semana-05-cierre-analogico-bjt-fet-mosfet/marco-teorico.md)
 
 ## Imágenes de apoyo
 
 ![Unión PN y polarización del diodo](../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
 
-![Rectificación y filtrado](../../recursos/imagenes/analogica/rectificacion-y-filtrado.svg)
+![Comparación BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
 ## Desarrollo de la clase
 
-- Repaso breve de unión PN, polarización y LED.
-- Rectificador de media onda.
-- Rectificador de onda completa.
-- Puente rectificador.
-- Voltaje pico, RMS y promedio.
-- Filtro capacitivo y rizado.
-- Regulación básica con Zener.
-- Cierre del Lab A01.
+- Repaso breve de diodo, LED, Zener y diodo de protección.
+- Transistor BJT: base, colector y emisor.
+- Diferencia entre NPN y PNP.
+- Regiones de operación: corte, activa y saturación.
+- BJT como interruptor.
+- Cálculo básico de resistencia de base.
+- Control de LED, relé o carga DC.
+- Diodo de protección en cargas inductivas.
+- Relación entre una señal pequeña y el control de una carga mayor.
 
-## Entrega
+## Evaluación y entrega
 
-Desarrollo o cierre del Lab A01, con simulaciones, formas de onda, cálculos y análisis de regulación con Zener.
+- Lab A02 – Transistor BJT como interruptor y amplificador básico.
+- Evidencias de simulación, montaje o análisis de BJT.
 
 ## Relación con la siguiente clase
 
-Después de estudiar el diodo como elemento de rectificación y regulación, la siguiente semana se trabajará el transistor como dispositivo de control de carga.
+La siguiente semana iniciará con el Quiz 1 y luego se trabajará el FET/MOSFET como dispositivo de control, comparándolo con el BJT.

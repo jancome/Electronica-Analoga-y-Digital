@@ -49,7 +49,7 @@ El primer corte tiene muchos temas analógicos y poco tiempo disponible. Por eso
 ### Corte 1 – Unidad analógica
 
 - Diagnóstico corto y fundamentos mínimos de circuitos.
-- Señales y medicición básica.
+- Señales y medición básica.
 - Semiconductores y unión PN.
 - Diodos, LED, Zener, rectificación y filtrado.
 - Transistores BJT y FET/MOSFET.

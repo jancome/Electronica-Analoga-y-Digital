@@ -1,18 +1,18 @@
 # Semanas de clase
 
-El curso se organiza en sesiones semanales de 3 horas. Cada semana debe contar con propósito, contenidos principales, marco teórico, actividad presencial, trabajo independiente y entregable.
+Esta sección reúne el recorrido semanal del curso. Cada semana cuenta con su marco teórico, actividades de apoyo, trabajo independiente y entregables asociados.
 
-> **Planeación corregida:** esta distribución respeta el syllabus de la asignatura. El **Corte 1** concentra la unidad analógica completa; el **Corte 2** inicia la unidad digital y considera la semana de receso institucional; el **Corte 3** se enfoca en aplicaciones combinacionales, secuenciales y proyecto final.
+> Esta distribución respeta el syllabus de la asignatura. El **Corte 1** concentra la unidad analógica completa; el **Corte 2** desarrolla fundamentos digitales y lógica combinacional; el **Corte 3** se enfoca en aplicaciones digitales, lógica secuencial y proyecto final.
 
 ## Documento de fortalecimiento teórico
 
 - [Fortalecimiento teórico semanal con bibliografía, recursos abiertos y actividades de refuerzo](FORTALECIMIENTO_TEORICO_SEMANAL.md)
 
-Este documento complementa los marcos teóricos semana a semana y sirve como guía para preparar lecturas, ejercicios, aplicaciones y conexiones entre temas.
+Este documento complementa los marcos teóricos y sirve como guía para preparar lecturas, ejercicios, aplicaciones y conexiones entre temas.
 
-## Índice oficial corregido
+## Índice oficial
 
-| Semana | Corte | Tema oficial | Carpeta |
+| Semana | Corte | Tema | Carpeta |
 |---:|---|---|---|
 | 01 | Corte 1 | Presentación, diagnóstico e introducción | [Semana 01](semana-01-presentacion-diagnostico/README.md) |
 | 02 | Corte 1 | Señales, magnitudes eléctricas y medición | [Semana 02](semana-02-senales-analogicas-digitales/README.md) |
@@ -29,7 +29,7 @@ Este documento complementa los marcos teóricos semana a semana y sirve como gu�
 | 13 | Corte 3 | Comparadores y paridad | [Semana 13](semana-13-comparadores-paridad/README.md) |
 | 14 | Corte 3 | Codificadores y decodificadores | [Semana 14](semana-14-codificadores-decodificadores/README.md) |
 | 15 | Corte 3 | Multiplexores y demultiplexores | [Semana 15](semana-15-multiplexores-demultiplexores/README.md) |
-| 16 | Corte 3 | Flip-flops, contadores y evaluación | [Semana 16](semana-16-flipflops-contadores/README.md) |
+| 16 | Corte 3 | Flip-flops, contadores y avances del proyecto | [Semana 16](semana-16-flipflops-contadores/README.md) |
 | 17 | Corte 3 | Proyecto final y cierre | [Semana 17](semana-17-proyecto-final-cierre/README.md) |
 
 ## Distribución por cortes

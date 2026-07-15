@@ -10,16 +10,19 @@ Cerrar el primer corte mediante repaso, aclaración de dudas y aplicación del P
 
 ## Material de repaso
 
-- [Marco teórico – Semana 05](marco-teorico.md)
+- Señales, magnitudes eléctricas y medición.
+- Fundamentos mínimos de circuitos: Ley de Ohm, potencia, nodos y mallas.
+- Semiconductores, unión PN, diodos y LED.
+- Rectificación, filtrado y regulación con Zener.
+- BJT como interruptor.
+- FET/MOSFET como dispositivo de control.
 - [Imagen BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
 ## Desarrollo de la clase
 
-- Repaso breve de señales, medición y fundamentos de circuitos.
-- Repaso de semiconductores, unión PN y diodos.
-- Repaso de rectificación, filtrado, LED y Zener.
-- Repaso de BJT y MOSFET como dispositivos de control.
-- Aclaración de dudas del corte.
+- Repaso breve de los temas del corte.
+- Aclaración de dudas.
+- Revisión de pendientes acordados.
 - Aplicación del Parcial 1.
 
 ## Entrega

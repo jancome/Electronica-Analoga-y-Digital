@@ -34,20 +34,40 @@ Desde la primera semana se deben conformar **grupos de 3 estudiantes** para las 
 
 ---
 
-## 3. Distribución de cortes 1 y 2
+## 3. Distribución del Corte 1
 
-Los cortes 1 y 2 tendrán la misma estructura, con parcial individual:
+El primer corte se compacta para aprovechar mejor el tiempo. Tendrá un solo taller integrador, las tres guías analógicas distribuidas entre las semanas 2, 3 y 4, quiz al inicio de la Semana 04 y parcial en la Semana 05.
+
+| Instrumento | Peso sobre nota final | Ubicación | Propósito |
+|---|---:|---|---|
+| Quiz 1 | 2% | Semana 04, al inicio | Verificar conceptos mínimos antes de cerrar la unidad. |
+| Taller integrador Corte 1 | 4% | Semana 02 | Reforzar cálculo, análisis y consulta técnica breve en otro idioma. |
+| Guías A01, A02 y A03 | 4% | Semanas 02, 03 y 04 | Evidenciar simulación, montaje, medición, análisis y conclusiones. |
+| Parcial 1 | 20% | Semana 05 | Evaluar integralmente la unidad analógica. |
+| **Total Corte 1** | **30%** |  |  |
+
+### Distribución de guías analógicas
+
+| Semana | Guía | Tema |
+|---:|---|---|
+| 02 | Lab A01 | Diodos, rectificación y regulación con Zener |
+| 03 | Lab A02 | Transistor BJT como interruptor y amplificador básico |
+| 04 | Lab A03 | Transistor FET/MOSFET como dispositivo de control |
+
+## 4. Distribución del Corte 2
+
+El Corte 2 mantiene dos talleres, uno aplicado y uno investigativo, además de quiz, guías y parcial.
 
 | Instrumento | Peso sobre nota final | Propósito |
 |---|---:|---|
-| Quiz del corte | 2% | Verificar conceptos mínimos de la unidad. |
+| Quiz 2 | 2% | Verificar conceptos mínimos de la unidad. |
 | Taller 1 – Aplicación, cálculo y análisis | 2% | Fortalecer análisis, procedimientos y solución de problemas. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consultar bases de datos institucionales y relacionar teoría con aplicaciones actuales. |
 | Guías de laboratorio / actividad práctica | 4% | Evidenciar simulación, montaje, medición, análisis y conclusiones. |
-| Parcial del corte | 20% | Evaluar integralmente la unidad. |
-| **Total por corte** | **30%** |  |
+| Parcial 2 | 20% | Evaluar integralmente la unidad. |
+| **Total Corte 2** | **30%** |  |
 
-## 4. Distribución del corte 3
+## 5. Distribución del Corte 3
 
 El **Corte 3 no tendrá parcial escrito**. El componente central será el **proyecto final con sustentación**.
 
@@ -62,9 +82,9 @@ El **Corte 3 no tendrá parcial escrito**. El componente central será el **proy
 
 ---
 
-## 5. Condiciones del taller investigativo en otro idioma
+## 6. Condiciones del componente investigativo
 
-En cada corte, uno de los talleres debe involucrar búsqueda académica en bases de datos de la universidad en un idioma diferente al español, preferiblemente **inglés**.
+El componente investigativo debe aparecer en cada corte. En el Corte 1 se integra dentro del **Taller integrador** de la Semana 02 para no generar una segunda entrega adicional. En los cortes 2 y 3 se mantiene como taller investigativo independiente.
 
 ### Bases de datos o fuentes institucionales sugeridas
 
@@ -80,10 +100,10 @@ En cada corte, uno de los talleres debe involucrar búsqueda académica en bases
 
 ### Producto mínimo esperado
 
-Cada taller investigativo debe incluir:
+El componente investigativo debe incluir:
 
 1. Título del artículo, capítulo o recurso consultado.
-2. Base de datos utilizada.
+2. Base de datos utilizada o fuente técnica confiable.
 3. Referencia en formato IEEE.
 4. Resumen en español, redactado por el estudiante.
 5. Cinco términos técnicos en el idioma original con su traducción.
@@ -117,10 +137,43 @@ Cada taller investigativo debe incluir:
 - Guía A02 – Transistor BJT como interruptor y amplificador básico.
 - Guía A03 – Transistor FET/MOSFET como dispositivo de control.
 
+## Taller integrador Corte 1 – Circuitos analógicos básicos y consulta técnica
+
+**Peso:** 4% de la nota final.  
+**Semana:** 02.  
+**Tipo:** grupos de 3 estudiantes o parejas, según disponibilidad del grupo.
+
+### Propósito
+
+Reforzar los fundamentos de circuitos eléctricos necesarios para analizar señales y circuitos con diodos, LED, Zener, BJT y MOSFET, integrando además una consulta técnica breve en inglés.
+
+### Actividades de cálculo y análisis
+
+1. Para una fuente de 12 V y resistencias de 1 kΩ y 2.2 kΩ en serie, calcule resistencia equivalente, corriente total, caída de voltaje y potencia en cada resistencia.
+2. Diseñe un divisor de voltaje que entregue aproximadamente 5 V a partir de una fuente de 12 V. Justifique los valores elegidos.
+3. Explique cómo se conecta un multímetro para medir voltaje y cómo se conecta para medir corriente.
+4. Dibuje una señal DC, una señal senoidal y una señal cuadrada. Indique cuál puede ser analógica, digital o ambas según el contexto.
+5. Analice un circuito compuesto por fuente de 5 V, resistencia de 1 kΩ y diodo de silicio en polarización directa. Calcule la corriente aproximada suponiendo VD = 0.7 V.
+6. Diseñe un circuito LED con fuente de 9 V, LED rojo de 2 V y corriente deseada de 10 mA.
+7. Explique de forma breve cómo se usaría un BJT para encender una carga pequeña.
+8. Explique de forma breve cómo se usaría un MOSFET canal N para controlar una carga DC.
+
+### Componente de consulta técnica en inglés
+
+Consultar una hoja de datos, nota de aplicación, capítulo de libro o artículo corto en inglés relacionado con uno de estos temas:
+
+1. Diodos rectificadores en fuentes de alimentación.
+2. Diodos Zener como referencia o protección de voltaje.
+3. BJT como interruptor.
+4. MOSFET en control de cargas DC.
+5. Semiconductores en sistemas de energía, automatización o control eléctrico.
+
+El estudiante debe entregar referencia en formato IEEE, resumen propio en español de 150 a 250 palabras, cinco términos técnicos en inglés con traducción y una relación con una de las guías analógicas.
+
 ## Quiz 1 – Unidad analógica
 
 **Peso:** 2% de la nota final.  
-**Duración sugerida:** 20 a 30 minutos.  
+**Semana:** 04, al inicio de la clase.  
 **Tipo:** individual.
 
 ### Preguntas sugeridas
@@ -130,47 +183,11 @@ Cada taller investigativo debe incluir:
 3. ¿Por qué una resistencia puede limitar la corriente en un LED?
 4. Enuncie la ley de voltajes de Kirchhoff para una malla.
 5. ¿Qué diferencia existe entre una señal DC y una señal AC?
-6. ¿Qué es una señal analógica?
-7. ¿Qué es una unión PN?
-8. ¿Qué ocurre con un diodo en polarización directa?
-9. ¿Qué ocurre con un diodo en polarización inversa?
+6. ¿Qué es una unión PN?
+7. ¿Qué ocurre con un diodo en polarización directa?
+8. ¿Para qué se utiliza un diodo Zener?
+9. ¿Qué función cumple la corriente de base en un BJT?
 10. Compare brevemente BJT y MOSFET como dispositivos de control.
-
-## Taller 1 – Aplicación y cálculo: circuitos analógicos básicos
-
-**Peso:** 2% de la nota final.  
-**Tipo:** individual o parejas.
-
-### Actividades
-
-1. Para una fuente de 12 V y resistencias de 1 kΩ y 2.2 kΩ en serie, calcule resistencia equivalente, corriente total, caída de voltaje y potencia en cada resistencia.
-2. Diseñe un divisor de voltaje que entregue aproximadamente 5 V a partir de una fuente de 12 V. Justifique los valores elegidos.
-3. Explique cómo se conecta un multímetro para medir voltaje y cómo se conecta para medir corriente.
-4. Dibuje una señal DC, una señal senoidal y una señal cuadrada. Indique cuál puede ser analógica, digital o ambas según el contexto.
-5. Analice un circuito compuesto por fuente de 5 V, resistencia de 1 kΩ y diodo de silicio en polarización directa. Calcule la corriente aproximada suponiendo VD = 0.7 V.
-6. Diseñe un circuito LED con fuente de 9 V, LED rojo de 2 V y corriente deseada de 10 mA.
-7. Diseñe un circuito con BJT NPN como interruptor para encender una carga pequeña.
-8. Diseñe un MOSFET canal N como interruptor para controlar una carga DC.
-
-## Taller 2 – Investigación académica en inglés: dispositivos semiconductores
-
-**Peso:** 2% de la nota final.  
-**Tipo:** grupos de 3 estudiantes.  
-**Idioma de consulta:** inglés.
-
-### Tema sugerido
-
-Seleccionar uno de los siguientes temas:
-
-1. Diodos rectificadores en fuentes de alimentación.
-2. Diodos Zener como referencia o protección de voltaje.
-3. BJT como interruptor o amplificador básico.
-4. MOSFET en control de cargas DC o electrónica de potencia.
-5. Uso de semiconductores en sistemas de energía, automatización o control eléctrico.
-
-### Producto esperado
-
-Ficha académica, resumen propio en español, glosario técnico bilingüe, relación con el corte, aplicación en ingeniería eléctrica y evidencia de consulta.
 
 ## Parcial 1 – Unidad analógica
 
@@ -390,7 +407,7 @@ Ficha académica, resumen propio en español, glosario técnico bilingüe, relac
 ## Observaciones para aplicación
 
 - El docente puede cambiar los ejercicios numéricos conservando la misma estructura.
-- El taller investigativo debe mantener el componente de consulta en otro idioma y base de datos institucional.
+- El componente investigativo debe mantener consulta en otro idioma y base de datos institucional o fuente técnica confiable.
 - Las guías pueden evaluarse como informes completos, simulaciones, evidencias de montaje o sustentaciones cortas.
 - Los parciales de los cortes 1 y 2 deben ser individuales.
 - El corte 3 se cierra con proyecto final, no con parcial escrito.

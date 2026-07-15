@@ -1,6 +1,8 @@
 # Guías de laboratorio
 
-Esta carpeta contiene las experiencias prácticas de la asignatura, separadas en electrónica analógica y electrónica digital.
+Esta carpeta reúne las prácticas del curso. Las guías están organizadas en dos bloques: electrónica analógica y electrónica digital.
+
+Cada práctica busca conectar la teoría con simulaciones, montaje, mediciones, análisis y conclusiones. Los grupos de trabajo serán de **3 estudiantes**, salvo autorización expresa del docente.
 
 ## Electrónica analógica
 
@@ -18,3 +20,7 @@ Esta carpeta contiene las experiencias prácticas de la asignatura, separadas en
 - [Lab 06 – Comparadores y paridad](digital/lab-06-comparadores-paridad/README.md)
 - [Lab 07 – Codificadores y decodificadores](digital/lab-07-codificadores-decodificadores/README.md)
 - [Lab 08 – Multiplexores y demultiplexores](digital/lab-08-multiplexores-demultiplexores/README.md)
+
+## Entrega general
+
+Cada guía debe entregarse con evidencias suficientes: simulación, montaje o captura del circuito, tablas de datos, cálculos, análisis de resultados y conclusiones propias.

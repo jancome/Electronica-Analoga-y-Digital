@@ -1,16 +1,12 @@
 # Lab A02 – Transistor BJT como interruptor y amplificador básico
 
-## Estado
+## Guía
 
-Guía desarrollada en formato Markdown.
-
-## Archivo principal
-
-- [Guía completa – Experiencia A02](guia-lab-a02-transistor-bjt.md)
+- [Experiencia A02 – Transistor BJT](guia-lab-a02-transistor-bjt.md)
 
 ## Imagen de apoyo
 
-Esta imagen se recomienda usar al explicar el BJT como interruptor y, especialmente, al comparar su forma de control con el MOSFET.
+Esta imagen ayuda a comparar el BJT como dispositivo controlado por corriente frente al MOSFET como dispositivo controlado por voltaje.
 
 ![Comparación BJT vs MOSFET como interruptor](../../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
@@ -30,7 +26,7 @@ Analizar el funcionamiento del transistor BJT en sus regiones de corte, activa y
 - Diodo de protección para cargas inductivas.
 - Amplificador básico en emisor común.
 
-## Circuitos incluidos
+## Circuitos de la práctica
 
 1. Identificación de terminales del transistor.
 2. BJT NPN como interruptor para LED.
@@ -40,6 +36,6 @@ Analizar el funcionamiento del transistor BJT en sus regiones de corte, activa y
 6. Medición de corrientes IB, IC e IE.
 7. Amplificador básico en emisor común.
 
-## Entregable
+## Entrega
 
 Informe de laboratorio con cálculos, mediciones, simulación, análisis de región de operación, evidencias y conclusiones.

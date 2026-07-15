@@ -1,8 +1,8 @@
-# Semana 03 – Semiconductores y unión PN
+# Semana 03 – Semiconductores, unión PN y diodos
 
-## Objetivo
+## Propósito
 
-Comprender el comportamiento básico de los materiales semiconductores y la unión PN como fundamento del diodo.
+Comprender el comportamiento básico de los materiales semiconductores y de la unión PN como fundamento del diodo.
 
 ## Marco teórico
 
@@ -12,15 +12,16 @@ Comprender el comportamiento básico de los materiales semiconductores y la uni�
 
 ![Unión PN y polarización del diodo](../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Conductores, aislantes y semiconductores.
 - Dopaje tipo P y tipo N.
 - Unión PN.
 - Polarización directa e inversa.
 - Curva característica del diodo.
+- Relación entre diodo, Ley de Ohm y Kirchhoff.
 - Inicio del Lab A01.
 
-## Entregable
+## Entrega
 
 Tabla comparativa entre diodo ideal, práctico y real.

@@ -4,6 +4,8 @@
 **Periodo:** 2026-2  
 **Programa:** Ingeniería Eléctrica
 
+Este documento presenta la estructura pública de las evaluaciones. Los estudiantes podrán consultar fechas, pesos, modalidad y temas generales. Los enunciados específicos se publicarán únicamente en la fecha indicada a las **2:00 p. m. hora Colombia**.
+
 ---
 
 ## 1. Estructura general de la nota
@@ -16,122 +18,30 @@
 | Examen institucional de la universidad | 10% |
 | **Total** | **100%** |
 
-El docente desarrolla y califica el **90% correspondiente a la asignatura**. El **10% restante** corresponde a un examen institucional de la universidad, externo a la planeación del docente.
+El docente desarrolla y califica el **90% correspondiente a la asignatura**. El **10% restante** corresponde a un examen institucional de la universidad.
 
 ---
 
-## 2. Organización de grupos desde el inicio
+## 2. Organización de grupos
 
-Desde la primera semana se deben conformar **grupos de 3 estudiantes** para las prácticas de laboratorio. Estos grupos se mantendrán, en lo posible, durante el semestre y serán la base para el proyecto final.
-
-### Reglas generales
+Desde la primera semana se conformarán **grupos de 3 estudiantes** para las prácticas de laboratorio. Estos grupos se mantendrán, en lo posible, durante el semestre y serán la base para el proyecto final.
 
 - Las guías de laboratorio se desarrollarán en grupos de **3 estudiantes**.
 - El proyecto final se desarrollará en grupos de **3 estudiantes**.
-- Cada informe o entrega grupal debe indicar los roles y aportes de cada integrante.
-- La nota grupal puede ajustarse de manera individual según sustentación, preguntas técnicas, evidencias de trabajo y dominio del montaje.
-- Cualquier excepción al número de integrantes debe ser autorizada por el docente.
+- Cada informe o entrega grupal debe indicar roles y aportes.
+- La nota grupal puede ajustarse individualmente según sustentación, preguntas técnicas y evidencias de trabajo.
+- Cualquier excepción debe ser autorizada por el docente.
 
 ---
 
-## 3. Criterio para los quizzes
+## 3. Política de publicación
 
-Los quizzes serán cortos, pero deben tener mayor énfasis en ejercicios que en teoría. La idea es comprobar si el estudiante puede aplicar lo visto en clase mediante cálculos rápidos, conversiones, tablas de verdad, análisis de circuitos o identificación de salidas.
+Los archivos públicos de quizzes, talleres y parciales permanecerán como avisos de programación hasta su fecha de apertura. El contenido específico se publicará el día señalado a las **2:00 p. m. hora Colombia**.
 
-Se recomienda que cada quiz tenga aproximadamente:
+Consultar:
 
-- 70% a 80% ejercicios de aplicación.
-- 20% a 30% preguntas conceptuales breves.
-
----
-
-## 4. Distribución del Corte 1
-
-El primer corte se compacta para aprovechar mejor el tiempo. Tendrá un solo taller integrador, las tres guías analógicas distribuidas entre las semanas 2, 3 y 4, quiz al inicio de la Semana 04 y parcial en la Semana 05.
-
-| Instrumento | Peso sobre nota final | Ubicación | Propósito |
-|---|---:|---|---|
-| Quiz 1 | 2% | Semana 04, al inicio | Resolver ejercicios cortos de circuitos, diodos, LED, Zener y BJT. |
-| Taller integrador Corte 1 | 4% | Semana 02 | Reforzar cálculo, análisis y consulta técnica breve en otro idioma. |
-| Guías A01, A02 y A03 | 4% | Semanas 02, 03 y 04 | Evidenciar simulación, montaje, medición, análisis y conclusiones. |
-| Parcial 1 | 20% | Semana 05 | Evaluar integralmente la unidad analógica. |
-| **Total Corte 1** | **30%** |  |  |
-
-### Distribución de guías analógicas
-
-| Semana | Guía | Tema |
-|---:|---|---|
-| 02 | Lab A01 | Diodos, rectificación y regulación con Zener |
-| 03 | Lab A02 | Transistor BJT como interruptor y amplificador básico |
-| 04 | Lab A03 | Transistor FET/MOSFET como dispositivo de control |
-
----
-
-## 5. Distribución del Corte 2
-
-El Corte 2 mantiene dos talleres, uno aplicado y uno investigativo, además de quiz, guías y parcial.
-
-| Instrumento | Peso sobre nota final | Propósito |
-|---|---:|---|
-| Quiz 2 | 2% | Resolver ejercicios cortos de sistemas numéricos y aritmética binaria. |
-| Taller 1 – Aplicación, cálculo y análisis | 2% | Fortalecer análisis, procedimientos y solución de problemas. |
-| Taller 2 – Investigación académica en otro idioma | 2% | Consultar bases de datos institucionales y relacionar teoría con aplicaciones actuales. |
-| Guías de laboratorio / actividad práctica | 4% | Evidenciar simulación, montaje, medición, análisis y conclusiones. |
-| Parcial 2 | 20% | Evaluar integralmente la unidad. |
-| **Total Corte 2** | **30%** |  |
-
----
-
-## 6. Distribución del Corte 3
-
-El **Corte 3 no tendrá parcial escrito**. El componente central será el **proyecto final con sustentación**.
-
-| Instrumento | Peso sobre nota final | Propósito |
-|---|---:|---|
-| Quiz 3 | 2% | Resolver ejercicios cortos de circuitos combinacionales y secuenciales. |
-| Taller 1 – Aplicación y diseño | 2% | Diseñar circuitos combinacionales y secuenciales básicos. |
-| Taller 2 – Investigación académica en otro idioma | 2% | Consultar aplicaciones digitales en bases de datos institucionales. |
-| Guías de laboratorio / avances prácticos | 4% | Evidenciar laboratorios 04 a 08, simulaciones o avances del montaje. |
-| Proyecto final con sustentación | 20% | Integrar diseño, simulación, montaje, informe, video y sustentación individual. |
-| **Total Corte 3** | **30%** |  |
-
----
-
-## 7. Condiciones del componente investigativo
-
-El componente investigativo debe aparecer en cada corte. En el Corte 1 se integra dentro del **Taller integrador** de la Semana 02 para no generar una segunda entrega adicional. En los cortes 2 y 3 se mantiene como taller investigativo independiente.
-
-### Bases de datos o fuentes institucionales sugeridas
-
-- IEEE Xplore.
-- ScienceDirect.
-- SpringerLink.
-- Scopus.
-- EBSCOhost.
-- ProQuest.
-- Taylor & Francis.
-- Wiley Online Library.
-- Libros electrónicos de Pearson, McGraw-Hill, Cengage u otros proveedores institucionales.
-
-### Producto mínimo esperado
-
-El componente investigativo debe incluir:
-
-1. Título del artículo, capítulo o recurso consultado.
-2. Base de datos utilizada o fuente técnica confiable.
-3. Referencia en formato IEEE.
-4. Resumen en español, redactado por el estudiante.
-5. Cinco términos técnicos en el idioma original con su traducción.
-6. Explicación de cómo el recurso se relaciona con el tema del corte.
-7. Una aplicación en ingeniería eléctrica.
-8. Evidencia de consulta: captura de la base de datos, DOI, enlace institucional o ficha bibliográfica.
-
-### Criterios éticos
-
-- No se debe copiar y pegar el resumen del artículo.
-- La traducción automática puede usarse como apoyo, pero el análisis debe ser propio.
-- El uso de IA debe declararse si se emplea para apoyo de redacción, traducción o corrección.
-- Las fuentes deben ser académicas o técnicas; no se aceptan blogs sin respaldo técnico como fuente principal.
+- [Control de publicación de evaluaciones](CONTROL_PUBLICACION_EVALUACIONES.md)
+- [Calendario semanal de evaluaciones](calendario-evaluacion-semanal.md)
 
 ---
 
@@ -139,84 +49,24 @@ El componente investigativo debe incluir:
 
 ## Temas del corte
 
-- Fundamentos de circuitos eléctricos para electrónica.
-- Ley de Ohm, potencia, nodos, mallas y leyes de Kirchhoff.
-- Señales, magnitudes eléctricas y medición básica.
-- Semiconductores, unión PN y diodos.
-- Rectificación, filtrado, LED y Zener.
-- Transistores BJT y FET/MOSFET como dispositivos de control.
+- Fundamentos básicos de circuitos.
+- Ley de Ohm, potencia, nodos y mallas.
+- Señales y medición.
+- Semiconductores y unión PN.
+- Diodos, LED y Zener.
+- Rectificación y filtrado.
+- BJT como interruptor.
+- FET/MOSFET como dispositivo de control.
 
-## Guías asociadas
+## Instrumentos
 
-- Guía A01 – Diodos, rectificación y regulación con Zener.
-- Guía A02 – Transistor BJT como interruptor y amplificador básico.
-- Guía A03 – Transistor FET/MOSFET como dispositivo de control.
-
-## Taller integrador Corte 1 – Circuitos analógicos básicos y consulta técnica
-
-**Peso:** 4% de la nota final.  
-**Semana:** 02.  
-**Tipo:** grupos de 3 estudiantes o parejas, según disponibilidad del grupo.
-
-### Propósito
-
-Reforzar los fundamentos de circuitos eléctricos necesarios para analizar señales y circuitos con diodos, LED, Zener, BJT y MOSFET, integrando además una consulta técnica breve en inglés.
-
-### Actividades de cálculo y análisis
-
-1. Para una fuente de 12 V y resistencias de 1 kΩ y 2.2 kΩ en serie, calcule resistencia equivalente, corriente total, caída de voltaje y potencia en cada resistencia.
-2. Diseñe un divisor de voltaje que entregue aproximadamente 5 V a partir de una fuente de 12 V. Justifique los valores elegidos.
-3. Explique cómo se conecta un multímetro para medir voltaje y cómo se conecta para medir corriente.
-4. Dibuje una señal DC, una señal senoidal y una señal cuadrada. Indique cuál puede ser analógica, digital o ambas según el contexto.
-5. Analice un circuito compuesto por fuente de 5 V, resistencia de 1 kΩ y diodo de silicio en polarización directa. Calcule la corriente aproximada suponiendo VD = 0.7 V.
-6. Diseñe un circuito LED con fuente de 9 V, LED rojo de 2 V y corriente deseada de 10 mA.
-7. Explique de forma breve cómo se usaría un BJT para encender una carga pequeña.
-8. Explique de forma breve cómo se usaría un MOSFET canal N para controlar una carga DC.
-
-### Componente de consulta técnica en inglés
-
-Consultar una hoja de datos, nota de aplicación, capítulo de libro o artículo corto en inglés relacionado con uno de estos temas:
-
-1. Diodos rectificadores en fuentes de alimentación.
-2. Diodos Zener como referencia o protección de voltaje.
-3. BJT como interruptor.
-4. MOSFET en control de cargas DC.
-5. Semiconductores en sistemas de energía, automatización o control eléctrico.
-
-El estudiante debe entregar referencia en formato IEEE, resumen propio en español de 150 a 250 palabras, cinco términos técnicos en inglés con traducción y una relación con una de las guías analógicas.
-
-## Quiz 1 – Unidad analógica
-
-**Peso:** 2% de la nota final.  
-**Semana:** 04, al inicio de la clase.  
-**Tipo:** individual.
-
-### Ejercicios sugeridos
-
-1. Una resistencia de 1 kΩ se conecta a una fuente de 5 V DC. Calcule la corriente y la potencia disipada.
-2. En un circuito serie con fuente de 12 V, R1 = 1 kΩ y R2 = 2.2 kΩ, calcule la corriente total y el voltaje en cada resistencia.
-3. Se desea encender un LED rojo con fuente de 9 V, VLED = 2 V e ILED = 10 mA. Calcule la resistencia limitadora y la potencia aproximada en la resistencia.
-4. En un circuito fuente-resistencia-diodo con VS = 5 V, R = 1 kΩ y VD = 0.7 V, calcule la corriente aproximada del circuito.
-5. Una señal de 6 V RMS entra a un rectificador. Calcule el voltaje pico aproximado de entrada.
-6. Para un regulador Zener con VS = 12 V, VZ = 5.1 V y RS = 330 Ω, calcule la corriente aproximada por la resistencia si no hay carga conectada.
-7. Para un BJT NPN con VIN = 5 V, VBE = 0.7 V e IB deseada de 2 mA, calcule la resistencia de base aproximada.
-8. En un MOSFET que controla una carga de 12 V y 120 Ω, calcule la corriente de carga. Indique una razón para usar resistencia pull-down en la compuerta.
-
-## Parcial 1 – Unidad analógica
-
-**Peso:** 20% de la nota final.  
-**Duración sugerida:** 90 a 120 minutos.  
-**Tipo:** individual.
-
-### Estructura sugerida
-
-| Sección | Tema | Peso dentro del parcial |
-|---|---|---:|
-| A | Fundamentos de circuitos, Ley de Ohm, Kirchhoff y medición | 20% |
-| B | Señales, valores eléctricos y análisis básico | 15% |
-| C | Diodos, polarización y rectificación | 25% |
-| D | LED, Zener y potencia | 20% |
-| E | BJT/MOSFET como interruptores | 20% |
+| Instrumento | Fecha de apertura | Peso | Archivo |
+|---|---|---:|---|
+| Taller integrador Corte 1 | Miércoles 12 de agosto de 2026 – 2:00 p. m. | 4% | [Ver aviso](corte-1-analogica/taller-integrador-corte-1.md) |
+| Quiz 1 | Miércoles 26 de agosto de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-1-analogica/quiz-1-unidad-analogica.md) |
+| Parcial 1 | Miércoles 2 de septiembre de 2026 – 2:00 p. m. | 20% | [Ver aviso](corte-1-analogica/parcial-1-unidad-analogica.md) |
+| Guías A01, A02 y A03 | Semanas 02, 03 y 04 | 4% | Guías de laboratorio analógicas |
+| **Total Corte 1** |  | **30%** |  |
 
 ---
 
@@ -232,81 +82,16 @@ El estudiante debe entregar referencia en formato IEEE, resumen propio en españ
 - Teoremas de De Morgan.
 - Mapas de Karnaugh.
 
-## Guías asociadas
+## Instrumentos
 
-- Lab 01 – Compuertas lógicas.
-- Lab 02 – Álgebra booleana.
-- Lab 03 – Teorema de De Morgan.
-
-## Quiz 2 – Fundamentos digitales
-
-**Peso:** 2% de la nota final.  
-**Semana sugerida:** 07.  
-**Tipo:** individual.
-
-### Ejercicios sugeridos
-
-1. Convierta 25 decimal a binario.
-2. Convierta 101101 binario a decimal.
-3. Convierta 11110010 binario a hexadecimal.
-4. Escriba en BCD los números 59 y 408.
-5. Realice la suma binaria: 1011 + 0110.
-6. Realice la resta 13 - 5 usando representación binaria de 4 bits y complemento a 2.
-7. Determine si hay overflow en la suma de 4 bits: 0111 + 0011.
-8. Complete la tabla de verdad de la función F = A·B para las cuatro combinaciones de entrada.
-9. Aplique De Morgan a la expresión (A + B)̅.
-10. A partir de la expresión F = A + B̅, indique la salida para A = 0 y B = 1.
-
-## Taller 1 – Aplicación y cálculo: sistemas numéricos y lógica básica
-
-**Peso:** 2% de la nota final.  
-**Tipo:** individual o parejas.
-
-### Actividades
-
-1. Realizar conversiones entre decimal, binario, hexadecimal y BCD.
-2. Resolver operaciones binarias con acarreo y complemento a 2.
-3. Construir tablas de verdad de funciones de dos y tres variables.
-4. Obtener expresiones booleanas desde tablas de verdad.
-5. Simplificar expresiones usando leyes booleanas y De Morgan.
-6. Resolver un mapa de Karnaugh de 3 o 4 variables.
-7. Dibujar el circuito lógico final con compuertas.
-
-## Taller 2 – Investigación académica en inglés: lógica digital y simplificación
-
-**Peso:** 2% de la nota final.  
-**Tipo:** grupos de 3 estudiantes.  
-**Idioma de consulta:** inglés.
-
-### Tema sugerido
-
-Seleccionar uno de los siguientes temas:
-
-1. Aplicaciones de lógica combinacional en sistemas de control.
-2. Uso de compuertas lógicas en electrónica industrial.
-3. Métodos de simplificación lógica en diseño digital.
-4. Mapas de Karnaugh en diseño de circuitos combinacionales.
-5. Implementación de lógica digital en sistemas embebidos o PLC.
-
-### Producto esperado
-
-Ficha académica, resumen propio en español, glosario técnico bilingüe, ejemplo de aplicación y evidencia de consulta.
-
-## Parcial 2 – Fundamentos digitales y lógica combinacional
-
-**Peso:** 20% de la nota final.  
-**Duración sugerida:** 90 a 120 minutos.  
-**Tipo:** individual.
-
-### Estructura sugerida
-
-| Sección | Tema | Peso dentro del parcial |
-|---|---|---:|
-| A | Sistemas numéricos y códigos | 20% |
-| B | Aritmética binaria | 20% |
-| C | Compuertas y tablas de verdad | 20% |
-| D | Álgebra booleana y De Morgan | 20% |
-| E | Mapas de Karnaugh | 20% |
+| Instrumento | Fecha de apertura | Peso | Archivo |
+|---|---|---:|---|
+| Taller 1 aplicado | Miércoles 9 de septiembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-2-digital/taller-1-corte-2.md) |
+| Quiz 2 | Miércoles 16 de septiembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-2-digital/quiz-2-fundamentos-digitales.md) |
+| Taller 2 investigativo | Miércoles 30 de septiembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-2-digital/taller-2-investigativo-corte-2.md) |
+| Parcial 2 | Miércoles 14 de octubre de 2026 – 2:00 p. m. | 20% | [Ver aviso](corte-2-digital/parcial-2-fundamentos-digitales.md) |
+| Labs 01, 02 y 03 | Semanas 08 y 09 | 4% | Guías de laboratorio digitales |
+| **Total Corte 2** |  | **30%** |  |
 
 ---
 
@@ -322,106 +107,40 @@ Ficha académica, resumen propio en español, glosario técnico bilingüe, ejemp
 - Flip-flops y contadores.
 - Proyecto final.
 
-## Guías asociadas
+## Instrumentos
 
-- Lab 04 – XOR y aplicaciones.
-- Lab 05 – Sumadores y aplicaciones.
-- Lab 06 – Comparadores y paridad.
-- Lab 07 – Codificadores y decodificadores.
-- Lab 08 – Multiplexores y demultiplexores.
-
-## Quiz 3 – Aplicaciones digitales
-
-**Peso:** 2% de la nota final.  
-**Semana sugerida:** 16.  
-**Tipo:** individual.
-
-### Ejercicios sugeridos
-
-1. Complete la tabla de verdad de una compuerta XOR de dos entradas.
-2. Para un medio sumador con A = 1 y B = 1, determine Suma y Carry.
-3. Para un sumador completo con A = 1, B = 0 y Cin = 1, determine Suma y Cout.
-4. Compare A = 10₂ y B = 11₂. Indique si A>B, A=B o A<B.
-5. Para el dato 1011, agregue un bit de paridad par.
-6. En un MUX 4:1 con I0=0, I1=1, I2=0, I3=1 y selección S1S0=01, indique la salida.
-7. En un DEMUX 1:4 con entrada D=1 y selección S1S0=10, indique qué salida se activa.
-8. Para un flip-flop D, si D=1 en el flanco activo del reloj, indique el valor siguiente de Q.
-9. En un contador binario de 3 bits que está en 011, indique el siguiente estado.
-10. Proponga una aplicación breve de un contador en un sistema eléctrico o de automatización.
-
-## Taller 1 – Aplicación y diseño: circuitos combinacionales y secuenciales
-
-**Peso:** 2% de la nota final.  
-**Tipo:** grupos de 3 estudiantes.
-
-### Actividades
-
-1. Construir la tabla de verdad de un medio sumador y un sumador completo.
-2. Diseñar un circuito comparador de dos números de 2 bits.
-3. Diseñar un generador de paridad par para un dato de 3 bits.
-4. Explicar el funcionamiento de un decodificador BCD a 7 segmentos.
-5. Proponer una aplicación con multiplexor para seleccionar una de cuatro señales.
-6. Proponer una aplicación con demultiplexor para activar una de varias salidas.
-7. Explicar la diferencia entre un latch y un flip-flop.
-8. Simular o describir un contador básico y relacionarlo con automatización.
-
-## Taller 2 – Investigación académica en inglés: aplicaciones digitales en ingeniería eléctrica
-
-**Peso:** 2% de la nota final.  
-**Tipo:** grupos de 3 estudiantes.  
-**Idioma de consulta:** inglés.
-
-### Tema sugerido
-
-Seleccionar uno de los siguientes temas:
-
-1. Aplicaciones de sumadores o ALU en sistemas digitales.
-2. Comparadores digitales en medición, control o protección.
-3. Codificadores y decodificadores en interfaces hombre-máquina.
-4. Multiplexores en adquisición de datos o comunicaciones.
-5. Flip-flops y contadores en automatización o instrumentación.
-6. Aplicaciones digitales en sistemas embebidos usados en ingeniería eléctrica.
-
-### Producto esperado
-
-Ficha académica, resumen propio en español, glosario técnico bilingüe, relación con laboratorio, propuesta de aplicación y evidencia de consulta.
-
-## Proyecto final con sustentación
-
-**Peso:** 20% de la nota final.  
-**Tipo:** grupos de 3 estudiantes.  
-**Condición:** no hay parcial escrito en el tercer corte.
-
-### Producto esperado
-
-1. Propuesta del proyecto.
-2. Diagrama de bloques.
-3. Simulación.
-4. Montaje físico o evidencia funcional equivalente.
-5. Informe técnico.
-6. Video corto de funcionamiento.
-7. Lista de materiales y costos.
-8. Roles y aportes de cada integrante.
-9. Sustentación grupal e individual.
-
-### Rúbrica sugerida del proyecto final
-
-| Criterio | Peso dentro del proyecto |
-|---|---:|
-| Funcionamiento del circuito o sistema | 25% |
-| Sustentación individual | 30% |
-| Informe técnico | 20% |
-| Simulación y coherencia con el montaje | 10% |
-| Estética, orden y presentación | 10% |
-| Costos, roles y evidencias de trabajo | 5% |
+| Instrumento | Fecha de apertura | Peso | Archivo |
+|---|---|---:|---|
+| Taller 1 aplicado | Miércoles 21 de octubre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-3-aplicaciones/taller-1-corte-3.md) |
+| Taller 2 investigativo | Miércoles 4 de noviembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-3-aplicaciones/taller-2-investigativo-corte-3.md) |
+| Quiz 3 | Miércoles 18 de noviembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-3-aplicaciones/quiz-3-aplicaciones-digitales.md) |
+| Labs 04 a 08 / avances prácticos | Semanas 12 a 15 | 4% | Guías de laboratorio digitales |
+| Proyecto final con sustentación | Miércoles 25 de noviembre de 2026 – 2:00 p. m. | 20% | [Proyecto final](../PROYECTO_FINAL.md) |
+| **Total Corte 3** |  | **30%** |  |
 
 ---
 
-## Observaciones para aplicación
+## Taller investigativo
 
-- El docente puede cambiar los ejercicios numéricos conservando la misma estructura.
-- El componente investigativo debe mantener consulta en otro idioma y base de datos institucional o fuente técnica confiable.
-- Las guías pueden evaluarse como informes completos, simulaciones, evidencias de montaje o sustentaciones cortas.
-- Los parciales de los cortes 1 y 2 deben ser individuales.
-- El corte 3 se cierra con proyecto final, no con parcial escrito.
-- Los trabajos en grupo deben incluir sustentación o preguntas individuales para validar participación.
+El componente investigativo debe aparecer en cada corte. En el Corte 1 queda integrado dentro del Taller integrador. En los cortes 2 y 3 se mantiene como Taller 2 investigativo.
+
+Cada trabajo investigativo debe incluir, cuando aplique:
+
+1. Fuente académica o técnica consultada.
+2. Base de datos o fuente utilizada.
+3. Referencia en formato IEEE.
+4. Resumen propio en español.
+5. Glosario técnico bilingüe.
+6. Relación con el tema del corte.
+7. Aplicación en ingeniería eléctrica.
+8. Evidencia de consulta.
+
+---
+
+## Observaciones
+
+- Los quizzes serán cortos y principalmente prácticos.
+- Los talleres fortalecerán cálculo, análisis, diseño, investigación y argumentación técnica.
+- Las guías deben incluir evidencias, mediciones, simulaciones, análisis y conclusiones.
+- Los parciales de los cortes 1 y 2 serán individuales.
+- El Corte 3 se cierra con proyecto final, no con parcial escrito.

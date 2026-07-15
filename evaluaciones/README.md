@@ -23,13 +23,17 @@ Desde el inicio del curso se deben conformar **grupos de 3 estudiantes** para la
 - Cada entrega grupal debe incluir roles y aportes de cada integrante.
 - La nota grupal puede ajustarse individualmente mediante sustentación o preguntas técnicas.
 
+## Criterio para los quizzes
+
+Los quizzes deben ser cortos y prácticos. Deben tener más ejercicios que preguntas teóricas, usando cálculos, conversiones, tablas de verdad, análisis de circuitos o identificación de salidas.
+
 ## Distribución interna del Corte 1
 
 El primer corte tendrá una distribución compacta para aprovechar el tiempo disponible:
 
 | Componente Corte 1 | Peso sobre nota final |
 |---|---:|
-| Quiz 1 | 2% |
+| Quiz 1 – ejercicios cortos de unidad analógica | 2% |
 | Taller integrador – aplicación, cálculo y consulta técnica | 4% |
 | Guías A01, A02 y A03 | 4% |
 | Parcial 1 | 20% |
@@ -54,14 +58,12 @@ El Quiz 1 se aplicará al inicio de la Semana 04.
 
 | Componente Corte 2 | Peso sobre nota final |
 |---|---:|
-| Quiz 2 | 2% |
+| Quiz 2 – ejercicios de sistemas numéricos y aritmética binaria | 2% |
 | Taller 1 – Aplicación, cálculo y análisis | 2% |
 | Taller 2 – Investigación académica en otro idioma | 2% |
 | Guías de laboratorio / actividad práctica | 4% |
 | Parcial 2 | 20% |
 | **Total Corte 2** | **30%** |
-
-Las semanas de parcial no tendrán tema nuevo.
 
 ## Distribución interna del Corte 3
 
@@ -69,7 +71,7 @@ El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **
 
 | Componente Corte 3 | Peso sobre nota final |
 |---|---:|
-| Quiz 3 | 2% |
+| Quiz 3 – ejercicios de aplicaciones digitales | 2% |
 | Taller 1 – Aplicación y diseño | 2% |
 | Taller 2 – Investigación académica en otro idioma | 2% |
 | Guías de laboratorio / avances prácticos | 4% |
@@ -91,12 +93,12 @@ El producto debe incluir fuente académica o técnica, base de datos o fuente co
 ## Instrumentos
 
 - [Instrumentos sugeridos por corte](instrumentos-evaluacion-por-corte.md)
+- [Quiz 2 – Fundamentos digitales](corte-2-digital/quiz-2-fundamentos-digitales.md)
+- [Quiz 3 – Aplicaciones digitales](corte-3-aplicaciones/quiz-3-aplicaciones-digitales.md)
 
 ## Criterios generales
 
-- Los quizzes deben ser cortos y comprobar conceptos esenciales.
+- Los quizzes deben comprobar aplicación mediante ejercicios cortos.
 - Los talleres deben fortalecer cálculo, análisis, diseño, investigación y argumentación técnica.
 - Las guías deben incluir evidencias, mediciones, simulaciones, análisis y conclusiones.
 - Los cortes 1 y 2 tendrán parcial individual y esa semana no tendrá tema nuevo.
-- El corte 3 se evaluará principalmente mediante proyecto final con sustentación.
-- El examen institucional no depende del docente, por lo que no se modifica desde esta planeación.

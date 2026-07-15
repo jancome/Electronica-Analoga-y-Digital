@@ -1,5 +1,7 @@
 # Normas de clase y entrega
 
+Este documento resume las reglas de trabajo del curso. Debe explicarse desde la presentación inicial para que todos los estudiantes conozcan cómo se trabajarán las clases, laboratorios, entregas, grupos y evaluaciones.
+
 ## Asistencia y puntualidad
 
 - La asistencia a clase es importante para el seguimiento de prácticas, talleres y laboratorios.
@@ -14,6 +16,24 @@
 - Cada grupo debe distribuir roles de trabajo y evidenciar el aporte de cada integrante.
 - La nota grupal puede ajustarse individualmente según sustentación, participación real y dominio técnico.
 - Cualquier excepción al número de integrantes debe ser autorizada por el docente.
+
+## Cómo se califica una guía de laboratorio
+
+Cada guía de laboratorio se construye con **tres notas internas**. La suma de estas tres partes conforma la nota final de esa guía.
+
+| Componente de la guía | Qué se evalúa | Carácter |
+|---|---|---|
+| Preinforme o trabajo en clase | Preparación, avance durante el laboratorio, revisión del circuito, simulación inicial, tablas preliminares, mediciones o evidencias tomadas durante la clase. | Grupal, con revisión del trabajo en clase. |
+| Informe completo | Documento final con portada, resumen, introducción, cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. | Grupal. |
+| Aporte individual | Parte específica desarrollada por cada estudiante, explicación de su aporte, dominio del circuito y respuesta a preguntas del docente. | Individual. |
+
+Reglas para esta valoración:
+
+- Cada estudiante debe indicar en el informe **qué parte trabajó**.
+- No basta con aparecer en el grupo; cada integrante debe evidenciar participación real.
+- El informe completo tiene una nota grupal, pero el aporte individual puede cambiar la nota personal.
+- El preinforme o avance de laboratorio se genera durante la clase y puede incluir revisión del montaje, simulación, tabla preliminar o preguntas cortas.
+- Un estudiante que no conozca el funcionamiento del circuito puede recibir una calificación individual diferente aunque el informe grupal esté completo.
 
 ## Trabajo en laboratorio
 
@@ -31,6 +51,7 @@
 - Las conclusiones deben estar relacionadas con los objetivos de la práctica.
 - Las referencias deben presentarse preferiblemente en formato IEEE.
 - Deben indicar los roles y aportes de cada integrante.
+- Cada estudiante debe escribir con claridad la parte en la que trabajó dentro de la práctica.
 
 ## Entregas
 

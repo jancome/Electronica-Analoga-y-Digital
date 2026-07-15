@@ -1,85 +1,57 @@
-# RESUMEN – LAB 04
-
-# COMPUERTA XOR Y APLICACIONES
+# Lab 04 – Compuerta XOR y aplicaciones
 
 **Asignatura:** Electrónica Analógica y Digital  
-**Periodo:** 2026-2  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
+**Periodo:** 2026-2
 
----
-
-## 1. Propósito
+## Propósito
 
 Estudiar la compuerta OR exclusiva, su comportamiento lógico y sus aplicaciones en circuitos combinacionales como medio sumador, comparador binario y generador de paridad.
 
----
+## Lo que se espera comprobar
 
-## 2. Objetivos
+- Tabla de verdad de la compuerta XOR.
+- Implementación de XOR con circuito integrado dedicado.
+- Construcción de XOR a partir de compuertas básicas.
+- Uso de XOR como detector de diferencia entre bits.
+- Aplicaciones de XOR en suma binaria, comparación y paridad.
 
-- Comprobar la tabla de verdad de la compuerta XOR.
-- Implementar una compuerta XOR usando circuito integrado dedicado.
-- Analizar aplicaciones básicas de la compuerta XOR.
-- Construir un medio sumador.
-- Relacionar la XOR con comparación de bits y paridad.
-
----
-
-## 3. Temas asociados
+## Temas asociados
 
 - Compuerta XOR.
 - Compuerta XNOR.
 - Medio sumador.
-- Comparador binario de 1 bit.
+- Comparador binario.
 - Generador de paridad.
-- Tablas de verdad.
 
----
-
-## 4. Recursos sugeridos
+## Recursos sugeridos
 
 - Protoboard.
 - Fuente DC de 5 V.
 - Multímetro digital.
+- LED indicadores.
 - Resistencias.
-- LED indicadores, si aplica.
 - Cables de conexión.
-- Circuitos integrados 7486, 7400, 7402, 7404, 7420 o equivalentes.
+- Circuitos integrados 7486, 7408, 7432, 7404 o equivalentes.
 - Software de simulación.
 
----
+## Desarrollo de la práctica
 
-## 5. Actividades principales
+1. Construir la tabla de verdad de XOR y XNOR.
+2. Simular la compuerta XOR.
+3. Implementar XOR con circuito integrado dedicado.
+4. Construir una aplicación básica con XOR.
+5. Analizar su uso en medio sumador, comparación o paridad.
+6. Comparar teoría, simulación y montaje.
 
-1. Comprobar la tabla de verdad de la compuerta XOR.
-2. Implementar la compuerta XOR con CI 7486 o equivalente.
-3. Construir un medio sumador.
-4. Verificar la función de comparación entre dos bits.
-5. Implementar o simular un generador de paridad simple.
-6. Registrar mediciones y evidencias.
+## Evidencias
 
----
-
-## 6. Evidencias obligatorias
-
-- Tabla de verdad de la XOR.
-- Tabla de verdad del medio sumador.
+- Tablas de verdad.
+- Circuitos usados.
 - Capturas de simulación.
 - Fotos o capturas del montaje.
-- Análisis de funcionamiento.
+- Análisis de resultados.
 - Conclusiones.
 
----
+## Entrega
 
-## 7. Preguntas de análisis
-
-1. ¿Cuándo la salida de una compuerta XOR es 1?
-2. ¿Por qué la XOR es útil para detectar bits diferentes?
-3. ¿Cómo se obtiene la suma en un medio sumador?
-4. ¿Qué relación existe entre XOR y paridad?
-5. ¿En qué aplicaciones se puede utilizar una compuerta XOR?
-
----
-
-## 8. Entregable
-
-Informe de laboratorio con tablas de verdad, simulaciones, evidencias, análisis de aplicaciones y conclusiones.
+Informe con montaje, simulación, tablas de verdad, evidencias y análisis de resultados.

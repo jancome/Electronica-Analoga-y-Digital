@@ -1,12 +1,13 @@
-# Semana 04 – Rectificación, filtrado, LED y Zener
+# Semana 04 – Rectificación, filtrado, LED, Zener, BJT y MOSFET
 
 ## Propósito
 
-Analizar el uso del diodo rectificador para convertir señales AC en señales DC pulsantes y relacionar este comportamiento con fuentes básicas, LED y regulación con Zener.
+Cerrar los contenidos nuevos de la unidad analógica, relacionando el uso de diodos, LED, Zener, BJT y MOSFET con aplicaciones básicas de alimentación, regulación y control de cargas.
 
 ## Marco teórico
 
 - [Marco teórico – Semana 04](marco-teorico.md)
+- [Apoyo visual BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
 ## Imagen de apoyo
 
@@ -21,8 +22,17 @@ Analizar el uso del diodo rectificador para convertir señales AC en señales DC
 - Rizado y filtrado básico.
 - LED y resistencia limitadora.
 - Zener como regulador básico.
-- Desarrollo del Lab A01.
+- BJT como interruptor.
+- MOSFET como interruptor y control de carga.
+- Relación entre diodos, Zener, BJT y MOSFET dentro de una aplicación analógica.
 
-## Entrega
+## Evaluación y entregas
 
-Capturas de simulación y análisis de formas de onda de rectificación.
+- Quiz 1 – Unidad analógica.
+- Taller 2 investigativo – Dispositivos semiconductores o aplicaciones analógicas.
+- Desarrollo y evidencias de Lab A01.
+- Orientación de Labs A02 y A03 como práctica, simulación o trabajo complementario.
+
+## Relación con la siguiente semana
+
+La siguiente semana se destinará al Parcial 1. No se programará tema nuevo.

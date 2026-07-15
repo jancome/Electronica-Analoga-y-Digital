@@ -1,10 +1,6 @@
 # Lab 01 – Compuertas lógicas
 
-## Estado
-
-Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
-
-## Archivo principal
+## Guía
 
 - [Resumen Lab 01 – Compuertas lógicas](resumen-lab-01-compuertas-logicas.md)
 
@@ -20,6 +16,6 @@ Comprobar el funcionamiento de compuertas lógicas básicas mediante montaje, me
 - Tablas de verdad.
 - Medición de entradas y salidas.
 
-## Entregable
+## Entrega
 
 Informe de laboratorio con tablas completas, capturas de simulación, fotos del montaje y análisis de resultados.

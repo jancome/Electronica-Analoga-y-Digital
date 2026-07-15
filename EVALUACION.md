@@ -31,13 +31,19 @@ Reglas generales:
 
 ---
 
+## Criterio para los quizzes
+
+Los quizzes serán cortos, pero estarán orientados principalmente a ejercicios de aplicación. Deben incluir cálculos, conversiones, análisis de circuitos, tablas de verdad o identificación de salidas. Las preguntas teóricas se usarán solo como apoyo para verificar comprensión básica.
+
+---
+
 ## Distribución interna del Corte 1
 
 El primer corte tendrá **un solo taller integrador** en la Semana 02, para no recargar las semanas 3 y 4. Las tres guías analógicas se distribuyen entre las semanas 2, 3 y 4.
 
 | Instrumento | Peso sobre nota final | Descripción |
 |---|---:|---|
-| Quiz 1 | 2% | Verificación corta al inicio de la Semana 04. |
+| Quiz 1 | 2% | Ejercicios cortos de circuitos, diodos, LED, Zener, BJT y MOSFET. |
 | Taller integrador Corte 1 | 4% | Aplicación, cálculo, análisis y componente breve de consulta técnica en otro idioma. |
 | Guías A01, A02 y A03 | 4% | A01 en Semana 02, A02 en Semana 03 y A03 en Semana 04. |
 | Parcial 1 | 20% | Evaluación individual integral de la unidad analógica. |
@@ -47,7 +53,7 @@ El primer corte tendrá **un solo taller integrador** en la Semana 02, para no r
 
 | Instrumento | Peso sobre nota final | Descripción |
 |---|---:|---|
-| Quiz 2 | 2% | Verificación corta de conceptos esenciales. |
+| Quiz 2 | 2% | Ejercicios cortos de sistemas numéricos y aritmética binaria. |
 | Taller 1 – Aplicación, cálculo y análisis | 2% | Ejercicios, diseño, procedimientos y solución de problemas. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consulta en bases de datos institucionales, preferiblemente en inglés. |
 | Guías de laboratorio / actividad práctica | 4% | Simulación, montaje, medición, evidencias, análisis y conclusiones. |
@@ -62,7 +68,7 @@ El corte 3 **no tendrá parcial escrito**, porque el componente principal será 
 
 | Instrumento | Peso sobre nota final | Descripción |
 |---|---:|---|
-| Quiz 3 | 2% | Verificación corta de conceptos de aplicaciones digitales. |
+| Quiz 3 | 2% | Ejercicios cortos de aplicaciones digitales combinacionales y secuenciales. |
 | Taller 1 – Aplicación y diseño | 2% | Diseño de circuitos combinacionales y secuenciales básicos. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consulta en bases de datos institucionales sobre aplicaciones digitales. |
 | Guías de laboratorio / actividad práctica | 4% | Evidencias de laboratorios 04 a 08, simulaciones o avances orientados. |
@@ -124,7 +130,7 @@ El primer corte cubre la unidad analógica del syllabus: señales, medición, se
 
 | Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Quiz 1 | Fundamentos de circuitos, señales, diodos, BJT y MOSFET | 2% |
+| Quiz 1 | Ejercicios de circuitos, diodos, LED, Zener, BJT y MOSFET | 2% |
 | Taller integrador | Cálculo, análisis y consulta técnica breve sobre dispositivos analógicos | 4% |
 | Guías A01, A02 y A03 | A01 diodos/Zener, A02 BJT y A03 FET/MOSFET | 4% |
 | Parcial 1 | Evaluación integral de la unidad analógica | 20% |
@@ -136,7 +142,7 @@ El segundo corte inicia la unidad digital: sistemas numéricos, aritmética bina
 
 | Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Quiz 2 | Sistemas numéricos, aritmética binaria y compuertas | 2% |
+| Quiz 2 | Ejercicios de conversiones, BCD, suma, resta y lógica básica | 2% |
 | Taller 1 | Conversiones, operaciones binarias, tablas de verdad y simplificación | 2% |
 | Taller 2 investigativo | Consulta en inglés sobre lógica digital, simplificación o aplicaciones combinacionales | 2% |
 | Labs 01, 02 y 03 | Compuertas, álgebra booleana y De Morgan | 4% |
@@ -149,7 +155,7 @@ El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sum
 
 | Instrumento | Descripción | Peso final |
 |---|---|---:|
-| Quiz 3 | Aplicaciones digitales combinacionales y secuenciales básicas | 2% |
+| Quiz 3 | Ejercicios de XOR, sumadores, comparadores, paridad, MUX/DEMUX, flip-flops y contadores | 2% |
 | Taller 1 | Diseño de sumadores, comparadores, codificadores, MUX/DEMUX y contadores | 2% |
 | Taller 2 investigativo | Consulta en inglés sobre aplicaciones digitales en ingeniería eléctrica | 2% |
 | Labs 04 a 08 / avances prácticos | XOR, sumadores, comparadores, codificadores, MUX/DEMUX y evidencias de aplicación | 4% |

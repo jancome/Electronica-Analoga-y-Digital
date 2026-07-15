@@ -31,20 +31,30 @@ Reglas generales:
 
 ---
 
-## Distribución interna de los cortes 1 y 2
+## Distribución interna del Corte 1
 
-Los cortes 1 y 2 tendrán parcial individual. Cada uno se distribuye así:
+El primer corte tendrá **un solo taller integrador** en la Semana 02, para no recargar las semanas 3 y 4. Las tres guías analógicas se distribuyen entre las semanas 2, 3 y 4.
 
 | Instrumento | Peso sobre nota final | Descripción |
 |---|---:|---|
-| Quiz del corte | 2% | Verificación corta de conceptos esenciales. |
+| Quiz 1 | 2% | Verificación corta al inicio de la Semana 04. |
+| Taller integrador Corte 1 | 4% | Aplicación, cálculo, análisis y componente breve de consulta técnica en otro idioma. |
+| Guías A01, A02 y A03 | 4% | A01 en Semana 02, A02 en Semana 03 y A03 en Semana 04. |
+| Parcial 1 | 20% | Evaluación individual integral de la unidad analógica. |
+| **Total Corte 1** | **30%** |  |
+
+## Distribución interna del Corte 2
+
+| Instrumento | Peso sobre nota final | Descripción |
+|---|---:|---|
+| Quiz 2 | 2% | Verificación corta de conceptos esenciales. |
 | Taller 1 – Aplicación, cálculo y análisis | 2% | Ejercicios, diseño, procedimientos y solución de problemas. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consulta en bases de datos institucionales, preferiblemente en inglés. |
 | Guías de laboratorio / actividad práctica | 4% | Simulación, montaje, medición, evidencias, análisis y conclusiones. |
-| Parcial del corte | 20% | Evaluación individual integral de la unidad. |
-| **Total por corte** | **30%** |  |
+| Parcial 2 | 20% | Evaluación individual integral de la unidad. |
+| **Total Corte 2** | **30%** |  |
 
-La semana del parcial no tendrá tema nuevo.
+Las semanas de parcial no tendrán tema nuevo.
 
 ## Distribución interna del corte 3
 
@@ -65,10 +75,10 @@ El corte 3 **no tendrá parcial escrito**, porque el componente principal será 
 
 | Semana | Evaluación o entrega principal |
 |---:|---|
-| 01 | Diagnóstico inicial |
-| 02 | Taller 1 Corte 1 |
-| 03 | Inicio Lab A01 |
-| 04 | Quiz 1, Taller 2 investigativo Corte 1, Labs A01/A02/A03 orientados |
+| 01 | Diagnóstico inicial corto |
+| 02 | Taller integrador Corte 1 + Lab A01 |
+| 03 | Lab A02 |
+| 04 | Quiz 1 + Lab A03 |
 | 05 | Parcial 1. Sin tema nuevo |
 | 06 | Taller 1 Corte 2 |
 | 07 | Quiz 2 |
@@ -91,12 +101,12 @@ El calendario detallado se encuentra en:
 
 ## Taller investigativo obligatorio por corte
 
-En cada corte, uno de los talleres debe involucrar investigación académica en bases de datos de la universidad en un idioma diferente al español, preferiblemente inglés.
+El componente investigativo se mantiene en cada corte. En el Corte 1 queda integrado dentro del **Taller integrador**, para no crear una segunda entrega adicional en una unidad con poco tiempo disponible.
 
-El taller investigativo debe incluir:
+Debe incluir, cuando aplique:
 
 1. Fuente académica o técnica consultada.
-2. Base de datos utilizada.
+2. Base de datos utilizada o fuente técnica confiable.
 3. Referencia en formato IEEE.
 4. Resumen propio en español.
 5. Glosario técnico bilingüe.
@@ -115,9 +125,8 @@ El primer corte cubre la unidad analógica del syllabus: señales, medición, se
 | Instrumento | Descripción | Peso final |
 |---|---|---:|
 | Quiz 1 | Fundamentos de circuitos, señales, diodos, BJT y MOSFET | 2% |
-| Taller 1 | Cálculo y análisis de circuitos analógicos básicos | 2% |
-| Taller 2 investigativo | Consulta en inglés sobre dispositivos semiconductores o aplicaciones analógicas | 2% |
-| Guías A01, A02 y A03 | Diodos, rectificación, Zener, BJT y MOSFET | 4% |
+| Taller integrador | Cálculo, análisis y consulta técnica breve sobre dispositivos analógicos | 4% |
+| Guías A01, A02 y A03 | A01 diodos/Zener, A02 BJT y A03 FET/MOSFET | 4% |
 | Parcial 1 | Evaluación integral de la unidad analógica | 20% |
 | **Total Corte 1** |  | **30%** |
 
@@ -146,14 +155,6 @@ El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sum
 | Labs 04 a 08 / avances prácticos | XOR, sumadores, comparadores, codificadores, MUX/DEMUX y evidencias de aplicación | 4% |
 | Proyecto final con sustentación | Funcionamiento, informe, simulación, video, estética, roles y sustentación individual | 20% |
 | **Total Corte 3** |  | **30%** |
-
----
-
-## Archivo detallado de instrumentos
-
-Los quizzes, talleres, talleres investigativos, parciales de los cortes 1 y 2, y proyecto final del corte 3 están desarrollados en:
-
-- [Instrumentos de evaluación por corte](evaluaciones/instrumentos-evaluacion-por-corte.md)
 
 ---
 

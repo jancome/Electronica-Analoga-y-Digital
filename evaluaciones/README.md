@@ -43,6 +43,13 @@ Las guías se distribuyen así:
 
 El Quiz 1 se aplicará al inicio de la Semana 04.
 
+### Instrumentos desarrollados del Corte 1
+
+- [Paquete Corte 1 – Unidad analógica](corte-1-analogica/README.md)
+- [Quiz 1 – Unidad analógica](corte-1-analogica/quiz-1-unidad-analogica.md)
+- [Taller integrador Corte 1](corte-1-analogica/taller-integrador-corte-1.md)
+- [Parcial 1 – Unidad analógica](corte-1-analogica/parcial-1-unidad-analogica.md)
+
 ## Distribución interna del Corte 2
 
 | Componente Corte 2 | Peso sobre nota final |

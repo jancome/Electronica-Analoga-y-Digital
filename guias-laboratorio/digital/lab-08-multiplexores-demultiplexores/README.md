@@ -1,10 +1,6 @@
 # Lab 08 – Multiplexores y demultiplexores
 
-## Estado
-
-Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
-
-## Archivo principal
+## Guía
 
 - [Resumen Lab 08 – Multiplexores y demultiplexores](resumen-lab-08-multiplexores-demultiplexores.md)
 
@@ -22,6 +18,6 @@ Implementar y analizar circuitos de selección y distribución de datos digitale
 - Salidas activas en bajo.
 - Aplicaciones con display de 7 segmentos.
 
-## Entregable
+## Entrega
 
 Informe con tablas, evidencias de simulación o montaje, análisis de datos y conclusiones.

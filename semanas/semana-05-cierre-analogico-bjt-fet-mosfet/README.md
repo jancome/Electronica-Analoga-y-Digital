@@ -4,7 +4,7 @@
 
 Corte 1 – Electrónica analógica.
 
-## Objetivo
+## Propósito
 
 Integrar los fundamentos analógicos del primer corte mediante el análisis de transistores BJT y FET/MOSFET como dispositivos de control y conmutación.
 
@@ -16,7 +16,7 @@ Integrar los fundamentos analógicos del primer corte mediante el análisis de t
 
 ![Comparación BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Repaso breve de diodos, rectificación, LED y Zener.
 - Transistor BJT: base, colector, emisor.
@@ -32,6 +32,6 @@ Integrar los fundamentos analógicos del primer corte mediante el análisis de t
 - Guía A02 – Transistor BJT.
 - Guía A03 – Transistor FET/MOSFET.
 
-## Entregable
+## Entrega
 
-Ejercicios de análisis, simulación orientada o informe parcial de BJT/MOSFET, más evaluación o actividad de cierre del Corte 1.
+Ejercicios de análisis, simulación orientada o informe parcial de BJT/MOSFET, más actividad de cierre del Corte 1.

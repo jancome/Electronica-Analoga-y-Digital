@@ -47,13 +47,19 @@ El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **
 | Proyecto final con sustentación | 20% |
 | **Total Corte 3** | **30%** |
 
+## Ubicación semanal
+
+- [Ubicación semanal de evaluaciones y guías](ubicacion-semanal-evaluaciones.md)
+
+Este archivo muestra en qué semana se ubica cada quiz, taller, taller investigativo, guía, parcial y proyecto final.
+
 ## Taller investigativo obligatorio por corte
 
 En cada corte, uno de los dos talleres debe incluir consulta en bases de datos de la universidad en un idioma diferente al español, preferiblemente inglés.
 
 El producto debe incluir fuente académica, base de datos, referencia IEEE, resumen propio, glosario técnico bilingüe, relación con el tema del corte, aplicación en ingeniería eléctrica y evidencia de consulta.
 
-## Archivo principal
+## Instrumentos
 
 - [Instrumentos sugeridos por corte](instrumentos-evaluacion-por-corte.md)
 
@@ -62,6 +68,6 @@ El producto debe incluir fuente académica, base de datos, referencia IEEE, resu
 - Los quizzes deben ser cortos y comprobar conceptos esenciales.
 - Los talleres deben fortalecer cálculo, análisis, diseño, investigación y argumentación técnica.
 - Las guías deben incluir evidencias, mediciones, simulaciones, análisis y conclusiones.
-- Los cortes 1 y 2 tendrán parcial individual.
+- Los cortes 1 y 2 tendrán parcial individual y esa semana no tendrá tema nuevo.
 - El corte 3 se evaluará principalmente mediante proyecto final con sustentación.
 - El examen institucional no depende del docente, por lo que no se modifica desde esta planeación.

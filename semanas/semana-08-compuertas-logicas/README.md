@@ -4,7 +4,7 @@
 
 Corte 2 – Fundamentos digitales y lógica combinacional.
 
-## Objetivo
+## Propósito
 
 Reconocer y comprobar el funcionamiento de las compuertas lógicas básicas mediante tablas de verdad, expresiones booleanas, simulación y montaje.
 
@@ -12,7 +12,7 @@ Reconocer y comprobar el funcionamiento de las compuertas lógicas básicas medi
 
 - [Marco teórico – Semana 08](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Concepto de variable lógica.
 - Niveles lógicos 0 y 1.
@@ -22,6 +22,6 @@ Reconocer y comprobar el funcionamiento de las compuertas lógicas básicas medi
 - Expresiones booleanas asociadas a compuertas.
 - Relación con Lab 01 – Compuertas lógicas.
 
-## Entregable
+## Entrega
 
 Tabla de verdad, simulación y evidencia del Lab 01.

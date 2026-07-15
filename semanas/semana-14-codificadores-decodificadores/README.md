@@ -4,7 +4,7 @@
 
 Corte 3 – Aplicaciones combinacionales y secuenciales.
 
-## Objetivo
+## Propósito
 
 Analizar circuitos de codificación y decodificación, incluyendo aplicaciones con BCD y display de 7 segmentos.
 
@@ -12,7 +12,7 @@ Analizar circuitos de codificación y decodificación, incluyendo aplicaciones c
 
 - [Marco teórico – Semana 14](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Codificadores.
 - Codificadores con prioridad.
@@ -22,6 +22,6 @@ Analizar circuitos de codificación y decodificación, incluyendo aplicaciones c
 - Display de 7 segmentos.
 - Relación con Lab 07.
 
-## Entregable
+## Entrega
 
 Simulación o montaje del Lab 07 con tabla de funcionamiento.

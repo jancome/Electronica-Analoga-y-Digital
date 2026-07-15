@@ -1,44 +1,44 @@
 # Plan de marcos teóricos por semana
 
-Este documento define cómo se desarrollará el material base de cada clase semanal de la asignatura **Electrónica Analógica y Digital – 2026-2**.
+Este documento orienta la elaboración del material base de cada semana para la asignatura **Electrónica Analógica y Digital – 2026-2**.
 
 ## Propósito
 
-Cada semana debe contar con un archivo `marco-teorico.md` que sirva como base conceptual de la clase. Este archivo no reemplaza la explicación del docente, pero permite que el estudiante llegue con una lectura previa y tenga un punto de referencia para repasar.
+Cada semana contará con un archivo `marco-teorico.md` como lectura y guía de estudio. No reemplaza la explicación del docente, pero ayuda a que el estudiante llegue con una idea previa y tenga un punto de referencia para repasar.
 
-Además, se dispone del documento complementario:
+También se dispone del documento complementario:
 
 - [Fortalecimiento teórico semanal](semanas/FORTALECIMIENTO_TEORICO_SEMANAL.md)
 
-Este documento contiene bibliografía base, recursos abiertos, actividades de refuerzo y conexiones entre semanas.
+Allí se recopilan bibliografía base, recursos abiertos, actividades de refuerzo y conexiones entre semanas.
 
-## Criterio principal de organización
+## Organización general
 
-La planeación semanal debe respetar el syllabus de la asignatura:
+La secuencia semanal debe mantenerse alineada con el syllabus:
 
 - **Corte 1:** unidad analógica completa.
 - **Corte 2:** fundamentos digitales y lógica combinacional.
-- **Corte 3:** aplicaciones combinacionales y secuenciales.
+- **Corte 3:** aplicaciones combinacionales, secuenciales y proyecto final.
 
-Además, se considera la semana de receso institucional del **5 al 11 de octubre de 2026**, por lo que esa semana no debe incluir clase presencial nueva.
+También se considera la semana de receso institucional del **5 al 11 de octubre de 2026**, por lo que esa semana no incluye contenido nuevo.
 
-## Estructura sugerida para cada marco teórico
+## Elementos recomendados para cada marco teórico
 
-Cada semana debe incluir:
+Cada marco puede incluir:
 
-1. **Tema de la semana.**
-2. **Objetivo de aprendizaje.**
-3. **Contexto o importancia del tema.**
-4. **Conceptos fundamentales.**
-5. **Explicación teórica principal.**
-6. **Relación con aplicaciones reales.**
-7. **Ejemplo guiado.**
-8. **Errores comunes o puntos de cuidado.**
-9. **Preguntas orientadoras para la clase.**
-10. **Trabajo previo o posterior del estudiante.**
-11. **Bibliografía o recursos de apoyo.**
+1. Tema de la semana.
+2. Propósito de la clase.
+3. Importancia del tema.
+4. Conceptos fundamentales.
+5. Desarrollo teórico.
+6. Relación con aplicaciones reales.
+7. Ejemplo guiado.
+8. Errores comunes o puntos de cuidado.
+9. Preguntas para orientar la discusión.
+10. Trabajo previo o posterior del estudiante.
+11. Bibliografía o recursos de apoyo.
 
-## Relación semanal corregida
+## Relación semanal
 
 | Semana | Corte | Tema | Archivo teórico |
 |---:|---|---|---|
@@ -62,8 +62,8 @@ Cada semana debe incluir:
 
 ## Nota sobre rutas
 
-Las rutas indicadas en esta tabla son la referencia válida del curso. Las carpetas antiguas que quedaron de una primera versión no deben usarse como ruta principal si no coinciden con esta tabla.
+Las rutas indicadas en esta tabla son la referencia principal del curso. Las carpetas antiguas que quedaron de una primera versión no deben usarse como ruta principal si no coinciden con esta tabla.
 
 ## Criterio de redacción
 
-Los marcos teóricos deben estar escritos en lenguaje claro, técnico y aplicable a estudiantes de ingeniería eléctrica. Deben evitar ser demasiado extensos, pero deben contener suficiente base para orientar la clase de 3 horas.
+Los marcos teóricos deben mantener un lenguaje claro, técnico y cercano al estudiante. La idea es que funcionen como apoyo real para estudiar, preparar preguntas y conectar la teoría con el laboratorio.

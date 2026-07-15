@@ -1,14 +1,14 @@
 # Semana 17 – Proyecto final y cierre
 
-## Objetivo
+## Propósito
 
-Realizar la sustentación del proyecto final, validar funcionamiento, hacer preguntas individuales y cerrar la asignatura con retroalimentación.
+Presentar el proyecto final, validar su funcionamiento, responder preguntas individuales y cerrar la asignatura con retroalimentación.
 
 ## Marco teórico
 
 - [Marco teórico – Semana 17](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Revisión de proyectos.
 - Sustentación grupal.
@@ -17,6 +17,6 @@ Realizar la sustentación del proyecto final, validar funcionamiento, hacer preg
 - Revisión de informe y video.
 - Retroalimentación final.
 
-## Entregable
+## Entrega
 
 Proyecto final, informe, video de funcionamiento y sustentación individual.

@@ -1,10 +1,6 @@
 # Lab 04 – Compuerta XOR y aplicaciones
 
-## Estado
-
-Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
-
-## Archivo principal
+## Guía
 
 - [Resumen Lab 04 – XOR y aplicaciones](resumen-lab-04-xor-aplicaciones.md)
 
@@ -20,6 +16,6 @@ Estudiar la compuerta OR exclusiva, su construcción con compuertas básicas y s
 - Comparador binario.
 - Generador de paridad.
 
-## Entregable
+## Entrega
 
 Informe con montaje, simulación, tablas de verdad, evidencias y análisis de resultados.

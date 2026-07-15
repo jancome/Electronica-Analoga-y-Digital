@@ -1,25 +1,26 @@
-# Semana 02 – Señales analógicas y digitales
+# Semana 02 – Señales, magnitudes eléctricas y medición
 
-## Objetivo
+## Propósito
 
-Diferenciar señales analógicas y digitales, relacionándolas con aplicaciones reales de ingeniería eléctrica y electrónica.
+Diferenciar señales analógicas y digitales, relacionándolas con magnitudes eléctricas medibles y con aplicaciones reales de ingeniería eléctrica y electrónica.
 
 ## Marco teórico
 
-- [Marco teórico – Señales analógicas y digitales](marco-teorico.md)
+- [Marco teórico – Señales, magnitudes eléctricas y medición](marco-teorico.md)
 
 ## Imagen de apoyo
 
 ![Comparación entre señal analógica y digital](../../recursos/imagenes/semana-02/senal-analogica-vs-digital.svg)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Señales continuas y discretas.
-- Magnitudes eléctricas básicas.
+- Voltaje, corriente, resistencia y potencia.
+- Referencia o tierra común en una medición.
 - Niveles lógicos.
 - Sensores y conversión de señales.
-- Ejercicios guiados de identificación de sistemas analógicos, digitales y mixtos.
+- Ejercicios guiados para identificar sistemas analógicos, digitales y mixtos.
 
-## Entregable
+## Entrega
 
 Actividad comparativa sobre sistemas analógicos, digitales y mixtos.

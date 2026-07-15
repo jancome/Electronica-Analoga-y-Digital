@@ -1,16 +1,12 @@
 # Lab A03 – Transistor FET/MOSFET como dispositivo de control
 
-## Estado
+## Guía
 
-Guía desarrollada en formato Markdown.
-
-## Archivo principal
-
-- [Guía completa – Experiencia A03](guia-lab-a03-transistor-fet-mosfet.md)
+- [Experiencia A03 – FET/MOSFET](guia-lab-a03-transistor-fet-mosfet.md)
 
 ## Imagen de apoyo
 
-Esta imagen se recomienda usar al explicar el MOSFET como interruptor y al comparar su control por voltaje con el control por corriente del BJT.
+Esta imagen ayuda a comparar el control por voltaje del MOSFET con el control por corriente del BJT.
 
 ![Comparación BJT vs MOSFET como interruptor](../../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
 
@@ -32,7 +28,7 @@ Estudiar el funcionamiento del transistor FET/MOSFET como dispositivo de control
 - Control PWM.
 - Comparación BJT vs MOSFET.
 
-## Circuitos incluidos
+## Circuitos de la práctica
 
 1. Identificación de terminales del MOSFET.
 2. MOSFET canal N como interruptor para LED.
@@ -42,6 +38,6 @@ Estudiar el funcionamiento del transistor FET/MOSFET como dispositivo de control
 6. Comparación BJT vs MOSFET como interruptor.
 7. Control PWM con MOSFET.
 
-## Entregable
+## Entrega
 
 Informe de laboratorio con mediciones de VGS, VDS, corriente de drenador, simulaciones, comparación BJT vs MOSFET y análisis de conmutación.

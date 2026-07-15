@@ -4,7 +4,7 @@
 
 Corte 2 – Fundamentos digitales y lógica combinacional.
 
-## Objetivo
+## Propósito
 
 Representar información digital mediante sistemas decimal, binario, hexadecimal y BCD, realizando conversiones básicas entre ellos.
 
@@ -12,7 +12,7 @@ Representar información digital mediante sistemas decimal, binario, hexadecimal
 
 - [Marco teórico – Semana 06](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Qué significa representar información.
 - Sistema decimal.
@@ -23,6 +23,6 @@ Representar información digital mediante sistemas decimal, binario, hexadecimal
 - Conversiones guiadas.
 - Ejercicios de aplicación.
 
-## Entregable
+## Entrega
 
 Taller de conversión entre sistemas numéricos.

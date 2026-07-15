@@ -16,16 +16,20 @@ Las semanas destinadas a parcial no tendrán tema nuevo. Se usarán para repaso 
 
 ## Ajuste del primer corte
 
-El primer corte tiene muchos temas analógicos y poco tiempo disponible. Por eso el diagnóstico inicial se trabajará de forma breve y aplicada, y desde la primera semana se empezará con señales, medición y conexión con circuitos reales.
+El primer corte tiene muchos temas analógicos y poco tiempo disponible. Por eso el diagnóstico inicial se trabajará de forma breve y aplicada. Además, se manejará **un solo taller integrador en la Semana 02**, el **Quiz 1 al inicio de la Semana 04** y las guías analógicas se repartirán así:
+
+- **Semana 02:** Lab A01.
+- **Semana 03:** Lab A02.
+- **Semana 04:** Lab A03.
 
 ## Índice oficial
 
 | Semana | Corte | Tema | Evaluación o entrega principal | Carpeta |
 |---:|---|---|---|---|
 | 01 | Corte 1 | Inicio del curso, diagnóstico corto, señales y medición | Diagnóstico inicial corto + actividad de señales | [Semana 01](semana-01-presentacion-diagnostico/README.md) |
-| 02 | Corte 1 | Semiconductores, unión PN, diodos, LED y Zener introductorio | Taller 1 Corte 1 + inicio Lab A01 | [Semana 02](semana-02-senales-analogicas-digitales/README.md) |
-| 03 | Corte 1 | Rectificación, filtrado y regulación con Zener | Desarrollo/cierre Lab A01 + Quiz 1 | [Semana 03](semana-03-semiconductores-union-pn/README.md) |
-| 04 | Corte 1 | Transistores BJT, FET/MOSFET y control de cargas | Taller 2 investigativo, Labs A02/A03 orientados | [Semana 04](semana-04-diodos-rectificacion/README.md) |
+| 02 | Corte 1 | Semiconductores, diodos, rectificación básica y Zener | Taller integrador Corte 1 + Lab A01 | [Semana 02](semana-02-senales-analogicas-digitales/README.md) |
+| 03 | Corte 1 | Transistor BJT y control de cargas | Lab A02 | [Semana 03](semana-03-semiconductores-union-pn/README.md) |
+| 04 | Corte 1 | Quiz 1, FET/MOSFET y comparación de transistores | Quiz 1 + Lab A03 | [Semana 04](semana-04-diodos-rectificacion/README.md) |
 | 05 | Corte 1 | Parcial 1 – Unidad analógica | Parcial 1. Sin tema nuevo | [Semana 05](semana-05-cierre-analogico-bjt-fet-mosfet/README.md) |
 | 06 | Corte 2 | Sistemas numéricos | Taller 1 Corte 2 | [Semana 06](semana-06-sistemas-numericos/README.md) |
 | 07 | Corte 2 | Aritmética binaria | Quiz 2 | [Semana 07](semana-07-aritmetica-binaria/README.md) |
@@ -45,12 +49,13 @@ El primer corte tiene muchos temas analógicos y poco tiempo disponible. Por eso
 ### Corte 1 – Unidad analógica
 
 - Diagnóstico corto y fundamentos mínimos de circuitos.
-- Señales y medición.
+- Señales y medicición básica.
 - Semiconductores y unión PN.
-- Diodos, LED y Zener.
-- Rectificación, filtrado y regulación.
+- Diodos, LED, Zener, rectificación y filtrado.
 - Transistores BJT y FET/MOSFET.
-- Parcial 1 en la semana 5, sin tema nuevo.
+- Lab A01 en Semana 02, Lab A02 en Semana 03 y Lab A03 en Semana 04.
+- Quiz 1 al inicio de Semana 04.
+- Parcial 1 en la Semana 05, sin tema nuevo.
 
 ### Corte 2 – Fundamentos digitales
 

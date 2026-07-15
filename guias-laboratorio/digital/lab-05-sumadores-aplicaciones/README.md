@@ -1,10 +1,6 @@
 # Lab 05 – Sumadores y aplicaciones
 
-## Estado
-
-Resumen en Markdown creado. Pendiente subir o enlazar la guía PDF original.
-
-## Archivo principal
+## Guía
 
 - [Resumen Lab 05 – Sumadores y aplicaciones](resumen-lab-05-sumadores-aplicaciones.md)
 
@@ -21,6 +17,6 @@ Implementar y analizar circuitos sumadores utilizando compuertas lógicas y circ
 - Decodificación hacia display de 7 segmentos.
 - Aplicaciones como sistema de votación.
 
-## Entregable
+## Entrega
 
 Informe con tablas de verdad, simulaciones, capturas, mediciones y análisis de datos.

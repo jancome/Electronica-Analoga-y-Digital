@@ -1,30 +1,21 @@
-# RESUMEN – LAB 02
-
-# ÁLGEBRA BOOLEANA
+# Lab 02 – Álgebra booleana
 
 **Asignatura:** Electrónica Analógica y Digital  
-**Periodo:** 2026-2  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
+**Periodo:** 2026-2
 
----
+## Propósito
 
-## 1. Propósito
+Comprobar reglas y propiedades del álgebra booleana mediante circuitos lógicos equivalentes, tablas de verdad, simulación y medición de salidas.
 
-Comprobar experimentalmente reglas y propiedades del álgebra booleana mediante circuitos lógicos equivalentes, tablas de verdad, simulación y medición de salidas.
+## Lo que se espera comprobar
 
----
+- Aplicación de leyes básicas del álgebra de Boole.
+- Representación de expresiones booleanas mediante circuitos lógicos.
+- Validación de equivalencias con tablas de verdad.
+- Simplificación de expresiones booleanas.
+- Comparación entre circuitos originales y simplificados.
 
-## 2. Objetivos
-
-- Aplicar leyes básicas del álgebra de Boole.
-- Representar expresiones booleanas mediante circuitos lógicos.
-- Comprobar equivalencias lógicas mediante tablas de verdad.
-- Simplificar expresiones booleanas usando reglas algebraicas.
-- Comparar circuitos originales y simplificados.
-
----
-
-## 3. Temas asociados
+## Temas asociados
 
 - Variables booleanas.
 - Operaciones OR, AND y NOT.
@@ -33,9 +24,7 @@ Comprobar experimentalmente reglas y propiedades del álgebra booleana mediante 
 - Circuitos equivalentes.
 - Tablas de verdad.
 
----
-
-## 4. Recursos sugeridos
+## Recursos sugeridos
 
 - Protoboard.
 - Fuente DC de 5 V.
@@ -46,9 +35,7 @@ Comprobar experimentalmente reglas y propiedades del álgebra booleana mediante 
 - Circuitos integrados lógicos TTL o CMOS.
 - Software de simulación.
 
----
-
-## 5. Actividades principales
+## Desarrollo de la práctica
 
 1. Analizar las expresiones booleanas propuestas.
 2. Construir la tabla de verdad teórica.
@@ -59,9 +46,7 @@ Comprobar experimentalmente reglas y propiedades del álgebra booleana mediante 
 7. Verificar equivalencia lógica.
 8. Documentar mediciones y capturas de simulación.
 
----
-
-## 6. Evidencias obligatorias
+## Evidencias
 
 - Desarrollo algebraico de la simplificación.
 - Tabla de verdad del circuito original.
@@ -71,9 +56,7 @@ Comprobar experimentalmente reglas y propiedades del álgebra booleana mediante 
 - Comparación de resultados.
 - Conclusiones.
 
----
-
-## 7. Preguntas de análisis
+## Preguntas de análisis
 
 1. ¿Qué ventaja tiene simplificar una expresión booleana?
 2. ¿Cómo se comprueba que dos circuitos son equivalentes?
@@ -81,8 +64,6 @@ Comprobar experimentalmente reglas y propiedades del álgebra booleana mediante 
 4. ¿Qué ocurre con el número de compuertas al simplificar una expresión?
 5. ¿Por qué una tabla de verdad permite validar una expresión lógica?
 
----
-
-## 8. Entregable
+## Entrega
 
 Informe de laboratorio con simplificaciones, tablas de verdad, circuitos, mediciones, simulaciones y conclusiones.

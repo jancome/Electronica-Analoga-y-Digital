@@ -4,7 +4,7 @@
 
 Corte 2 – Fundamentos digitales y lógica combinacional.
 
-## Objetivo
+## Propósito
 
 Resolver operaciones aritméticas básicas en sistema binario y analizar su relación con circuitos digitales aritméticos.
 
@@ -12,7 +12,7 @@ Resolver operaciones aritméticas básicas en sistema binario y analizar su rela
 
 - [Marco teórico – Semana 07](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Suma binaria.
 - Resta binaria.
@@ -22,6 +22,6 @@ Resolver operaciones aritméticas básicas en sistema binario y analizar su rela
 - Overflow.
 - Ejercicios guiados.
 
-## Entregable
+## Entrega
 
 Taller de aritmética binaria.

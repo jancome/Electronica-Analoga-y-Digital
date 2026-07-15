@@ -4,7 +4,7 @@
 
 Corte 2 – Fundamentos digitales y lógica combinacional.
 
-## Objetivo
+## Propósito
 
 Simplificar funciones lógicas mediante mapas de Karnaugh y cerrar el segundo corte con ejercicios integradores.
 
@@ -12,7 +12,7 @@ Simplificar funciones lógicas mediante mapas de Karnaugh y cerrar el segundo co
 
 - [Marco teórico – Semana 11](marco-teorico.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
 - Repaso de álgebra booleana y De Morgan.
 - Minterminos y maxterminos.
@@ -20,8 +20,8 @@ Simplificar funciones lógicas mediante mapas de Karnaugh y cerrar el segundo co
 - Agrupaciones de 1, 2, 4 y 8.
 - Condiciones de no importa.
 - Obtención de expresión simplificada.
-- Evaluación o cierre del Corte 2.
+- Cierre del Corte 2.
 
-## Entregable
+## Entrega
 
-Taller de mapas de Karnaugh y evaluación o actividad de cierre del Corte 2.
+Taller de mapas de Karnaugh y actividad de cierre del Corte 2.

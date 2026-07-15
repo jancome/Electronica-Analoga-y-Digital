@@ -23,24 +23,44 @@ Desde el inicio del curso se deben conformar **grupos de 3 estudiantes** para la
 - Cada entrega grupal debe incluir roles y aportes de cada integrante.
 - La nota grupal puede ajustarse individualmente mediante sustentación o preguntas técnicas.
 
-## Distribución interna de cortes 1 y 2
+## Distribución interna del Corte 1
 
-| Componente por corte | Peso sobre nota final |
+El primer corte tendrá una distribución compacta para aprovechar el tiempo disponible:
+
+| Componente Corte 1 | Peso sobre nota final |
 |---|---:|
-| Quiz del corte | 2% |
+| Quiz 1 | 2% |
+| Taller integrador – aplicación, cálculo y consulta técnica | 4% |
+| Guías A01, A02 y A03 | 4% |
+| Parcial 1 | 20% |
+| **Total Corte 1** | **30%** |
+
+Las guías se distribuyen así:
+
+- Semana 02: Lab A01.
+- Semana 03: Lab A02.
+- Semana 04: Lab A03.
+
+El Quiz 1 se aplicará al inicio de la Semana 04.
+
+## Distribución interna del Corte 2
+
+| Componente Corte 2 | Peso sobre nota final |
+|---|---:|
+| Quiz 2 | 2% |
 | Taller 1 – Aplicación, cálculo y análisis | 2% |
 | Taller 2 – Investigación académica en otro idioma | 2% |
 | Guías de laboratorio / actividad práctica | 4% |
-| Parcial del corte | 20% |
-| **Total por corte** | **30%** |
+| Parcial 2 | 20% |
+| **Total Corte 2** | **30%** |
 
 Las semanas de parcial no tendrán tema nuevo.
 
-## Distribución interna del corte 3
+## Distribución interna del Corte 3
 
 El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **proyecto final con sustentación**.
 
-| Componente del corte 3 | Peso sobre nota final |
+| Componente Corte 3 | Peso sobre nota final |
 |---|---:|
 | Quiz 3 | 2% |
 | Taller 1 – Aplicación y diseño | 2% |
@@ -57,9 +77,9 @@ Este archivo muestra en qué semana se ubica cada quiz, taller, taller investiga
 
 ## Taller investigativo obligatorio por corte
 
-En cada corte, uno de los dos talleres debe incluir consulta en bases de datos de la universidad en un idioma diferente al español, preferiblemente inglés.
+El componente investigativo se conserva en cada corte. En el Corte 1 queda integrado dentro del **Taller integrador** de la Semana 02, para no crear una segunda entrega adicional.
 
-El producto debe incluir fuente académica, base de datos, referencia IEEE, resumen propio, glosario técnico bilingüe, relación con el tema del corte, aplicación en ingeniería eléctrica y evidencia de consulta.
+El producto debe incluir fuente académica o técnica, base de datos o fuente consultada, referencia IEEE, resumen propio, glosario técnico bilingüe, relación con el tema del corte, aplicación en ingeniería eléctrica y evidencia de consulta.
 
 ## Instrumentos
 

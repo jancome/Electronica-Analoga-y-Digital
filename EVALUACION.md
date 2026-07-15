@@ -1,6 +1,6 @@
 # Evaluación de la asignatura
 
-La evaluación de la asignatura se desarrollará por cortes, integrando actividades teóricas, talleres, investigación académica, laboratorios, simulaciones, informes, parciales y sustentaciones individuales cuando aplique.
+La evaluación de la asignatura se desarrollará por cortes, integrando actividades teóricas, talleres, investigación académica, laboratorios, simulaciones, informes, parciales, proyecto final y sustentaciones individuales cuando aplique.
 
 ## Estructura general de la nota final
 
@@ -8,7 +8,7 @@ La evaluación de la asignatura se desarrollará por cortes, integrando activida
 |---|---:|
 | Corte 1 – Unidad analógica | 30% |
 | Corte 2 – Fundamentos digitales y lógica combinacional | 30% |
-| Corte 3 – Aplicaciones digitales y secuenciales | 30% |
+| Corte 3 – Aplicaciones digitales, secuenciales y proyecto final | 30% |
 | Examen institucional de la universidad | 10% |
 | **Total** | **100%** |
 
@@ -16,9 +16,24 @@ El docente desarrolla y califica el **90% correspondiente a la asignatura**. El 
 
 ---
 
-## Distribución interna sugerida por corte
+## Organización de grupos
 
-Cada corte tendrá una estructura equivalente:
+Desde el inicio del curso se deben conformar **grupos de laboratorio de 3 estudiantes**. Estos grupos se mantendrán, en lo posible, durante las guías de laboratorio, talleres grupales y proyecto final.
+
+Reglas generales:
+
+- Cada grupo debe estar conformado por **3 estudiantes**.
+- Las guías de laboratorio se desarrollarán en grupos de 3 estudiantes.
+- El proyecto final se desarrollará en grupos de 3 estudiantes.
+- Cada entrega grupal debe indicar roles y aportes de cada integrante.
+- La nota grupal puede ajustarse individualmente según sustentación, participación real y dominio técnico.
+- Cualquier excepción al número de integrantes debe ser autorizada por el docente.
+
+---
+
+## Distribución interna de los cortes 1 y 2
+
+Los cortes 1 y 2 tendrán parcial individual. Cada uno se distribuye así:
 
 | Instrumento | Peso sobre nota final | Descripción |
 |---|---:|---|
@@ -28,6 +43,19 @@ Cada corte tendrá una estructura equivalente:
 | Guías de laboratorio / actividad práctica | 4% | Simulación, montaje, medición, evidencias, análisis y conclusiones. |
 | Parcial del corte | 20% | Evaluación individual integral de la unidad. |
 | **Total por corte** | **30%** |  |
+
+## Distribución interna del corte 3
+
+El corte 3 **no tendrá parcial escrito**, porque el componente principal será el **proyecto final con sustentación**.
+
+| Instrumento | Peso sobre nota final | Descripción |
+|---|---:|---|
+| Quiz 3 | 2% | Verificación corta de conceptos de aplicaciones digitales. |
+| Taller 1 – Aplicación y diseño | 2% | Diseño de circuitos combinacionales y secuenciales básicos. |
+| Taller 2 – Investigación académica en otro idioma | 2% | Consulta en bases de datos institucionales sobre aplicaciones digitales. |
+| Guías de laboratorio / actividad práctica | 4% | Evidencias de laboratorios 04 a 08, simulaciones o avances orientados. |
+| Proyecto final con sustentación | 20% | Diseño, simulación, montaje, informe, video y sustentación individual. |
+| **Total Corte 3** | **30%** |  |
 
 ---
 
@@ -76,7 +104,7 @@ El segundo corte inicia la unidad digital: sistemas numéricos, aritmética bina
 | Parcial 2 | Evaluación integral de fundamentos digitales y Karnaugh | 20% |
 | **Total Corte 2** |  | **30%** |
 
-### Corte 3 – Aplicaciones digitales y secuenciales
+### Corte 3 – Aplicaciones digitales, secuenciales y proyecto final
 
 El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sumadores, restadores, comparadores, paridad, codificadores, decodificadores, MUX, DEMUX, flip-flops, contadores y proyecto final.
 
@@ -85,15 +113,15 @@ El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sum
 | Quiz 3 | Aplicaciones digitales combinacionales y secuenciales básicas | 2% |
 | Taller 1 | Diseño de sumadores, comparadores, codificadores, MUX/DEMUX y contadores | 2% |
 | Taller 2 investigativo | Consulta en inglés sobre aplicaciones digitales en ingeniería eléctrica | 2% |
-| Labs 04 a 08 / proyecto orientado | XOR, sumadores, comparadores, codificadores, MUX/DEMUX y evidencias de aplicación | 4% |
-| Parcial 3 | Evaluación integral de aplicaciones digitales y secuenciales | 20% |
+| Labs 04 a 08 / avances prácticos | XOR, sumadores, comparadores, codificadores, MUX/DEMUX y evidencias de aplicación | 4% |
+| Proyecto final con sustentación | Funcionamiento, informe, simulación, video, estética, roles y sustentación individual | 20% |
 | **Total Corte 3** |  | **30%** |
 
 ---
 
 ## Archivo detallado de instrumentos
 
-Los quizzes, talleres, talleres investigativos y parciales sugeridos están desarrollados en:
+Los quizzes, talleres, talleres investigativos, parciales de los cortes 1 y 2, y proyecto final del corte 3 están desarrollados en:
 
 - [Instrumentos de evaluación por corte](evaluaciones/instrumentos-evaluacion-por-corte.md)
 

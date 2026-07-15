@@ -21,6 +21,19 @@ Reglas generales:
 - La nota grupal puede ajustarse individualmente según dominio técnico, participación real y sustentación.
 - Cualquier excepción al número de integrantes debe ser autorizada por el docente.
 
+## Ruta de avances
+
+El proyecto final no debe dejarse para la última semana. Durante el tercer corte se trabajará por avances:
+
+| Semana | Avance esperado | Evidencia sugerida |
+|---:|---|---|
+| 12 | Lluvia de ideas y selección preliminar del proyecto. | Lista de ideas y justificación de la opción escogida. |
+| 13 | Propuesta inicial del proyecto. | Problema, objetivo, integrantes, roles preliminares y componentes posibles. |
+| 14 | Diagrama de bloques y lista de materiales. | Diagrama, explicación de etapas, materiales y costos aproximados. |
+| 15 | Simulación o prueba parcial. | Capturas de simulación, tabla de pruebas o avance funcional. |
+| 16 | Avance funcional del montaje. | Evidencia del circuito, fallas encontradas y ajustes pendientes. |
+| 17 | Sustentación final. | Informe, video, montaje o evidencia funcional y sustentación individual. |
+
 ## Enfoque del proyecto
 
 El proyecto puede utilizar uno o varios de los siguientes elementos:
@@ -86,6 +99,10 @@ Este 20% hace parte del **Corte 3**, que equivale al 30% de la nota final.
 - Comparador de señales o niveles con salida visual.
 - Cerradura lógica con combinación binaria.
 - Contador con display de 7 segmentos.
+
+## Plantilla de apoyo
+
+- [Plantilla de proyecto final](plantillas/plantilla-proyecto-final.md)
 
 ## Sustentación individual
 

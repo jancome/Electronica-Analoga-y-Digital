@@ -4,6 +4,23 @@
 
 El proyecto final busca que los estudiantes integren conceptos de electrónica analógica y digital mediante el diseño, simulación, montaje y sustentación de una solución funcional.
 
+Este proyecto corresponde al componente principal del **Corte 3**. Por esta razón, el tercer corte **no tendrá parcial escrito**; se evaluará mediante proyecto final, guías, talleres, quiz y sustentación.
+
+## Organización de grupos
+
+El proyecto final se desarrollará en **grupos de 3 estudiantes**.
+
+Los grupos de laboratorio deben conformarse desde el inicio del curso, también con **3 estudiantes**, y servirán como base para el desarrollo del proyecto final.
+
+Reglas generales:
+
+- Cada grupo debe tener 3 estudiantes.
+- Cada integrante debe conocer el funcionamiento completo del proyecto.
+- El informe debe indicar los roles y aportes de cada integrante.
+- La sustentación tendrá una parte grupal y preguntas individuales.
+- La nota grupal puede ajustarse individualmente según dominio técnico, participación real y sustentación.
+- Cualquier excepción al número de integrantes debe ser autorizada por el docente.
+
 ## Enfoque del proyecto
 
 El proyecto puede utilizar uno o varios de los siguientes elementos:
@@ -27,6 +44,8 @@ El proyecto puede utilizar uno o varios de los siguientes elementos:
 5. Debe presentarse informe técnico.
 6. Debe incluir video corto de funcionamiento.
 7. Cada estudiante debe sustentar individualmente su participación.
+8. Debe incluir lista de materiales y costos.
+9. Debe explicar los cálculos, tablas de verdad o criterios de diseño empleados.
 
 ## Entregables
 
@@ -38,9 +57,17 @@ El proyecto puede utilizar uno o varios de los siguientes elementos:
 - Distribución de roles de los integrantes.
 - Sustentación grupal e individual.
 
+## Peso en la nota
+
+| Componente | Peso sobre nota final |
+|---|---:|
+| Proyecto final con sustentación | 20% |
+
+Este 20% hace parte del **Corte 3**, que equivale al 30% de la nota final.
+
 ## Criterios de evaluación sugeridos
 
-| Criterio | Descripción | Peso sugerido |
+| Criterio | Descripción | Peso dentro del proyecto |
 |---|---|---:|
 | Funcionamiento | El circuito cumple la función propuesta | 25% |
 | Sustentación individual | Cada estudiante explica su aporte y fundamentos técnicos | 30% |
@@ -70,3 +97,5 @@ Cada integrante podrá recibir preguntas como:
 - ¿Qué función cumple cada etapa?
 - ¿Qué diferencias encontró entre simulación y montaje?
 - ¿Qué fallas se presentaron y cómo se corrigieron?
+- ¿Qué parte del circuito corresponde a electrónica analógica?
+- ¿Qué parte del circuito corresponde a electrónica digital?

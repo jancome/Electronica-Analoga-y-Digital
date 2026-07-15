@@ -31,6 +31,20 @@ Reglas generales:
 
 ---
 
+## Cómo se califica cada guía de laboratorio
+
+La nota de cada guía de laboratorio estará conformada por tres componentes internos:
+
+| Componente | Qué se evalúa | Tipo de nota |
+|---|---|---|
+| Preinforme o trabajo en clase | Preparación, avance realizado durante el laboratorio, simulación inicial, montaje, revisión de conexiones, tablas preliminares, mediciones o preguntas cortas. | Grupal, con evidencia del trabajo en clase. |
+| Informe completo | Documento final con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. | Grupal. |
+| Aporte individual | Parte específica desarrollada por cada estudiante, explicación de su aporte, dominio técnico y respuesta a preguntas. | Individual. |
+
+Estas tres notas internas conforman la nota final de la guía. El informe completo puede ser grupal, pero cada estudiante debe indicar la parte en la que trabajó y puede recibir una valoración individual diferente según su participación y dominio.
+
+---
+
 ## Publicación de evaluaciones
 
 Los estudiantes podrán conocer desde el inicio el calendario, los pesos, la modalidad y los temas generales de cada evaluación. Los enunciados específicos de quizzes, talleres y parciales se publicarán únicamente el día señalado a las **2:00 p. m. hora Colombia**.
@@ -56,7 +70,7 @@ El primer corte tendrá **un solo taller integrador** en la Semana 02, para no r
 |---|---:|---|
 | Quiz 1 | 2% | Ejercicios cortos de circuitos, diodos, LED, Zener, BJT y MOSFET. |
 | Taller integrador Corte 1 | 4% | Aplicación, cálculo, análisis y componente breve de consulta técnica en otro idioma. |
-| Guías A01, A02 y A03 | 4% | A01 en Semana 02, A02 en Semana 03 y A03 en Semana 04. |
+| Guías A01, A02 y A03 | 4% | A01 en Semana 02, A02 en Semana 03 y A03 en Semana 04. Cada guía se compone de preinforme, informe completo y aporte individual. |
 | Parcial 1 | 20% | Evaluación individual integral de la unidad analógica. |
 | **Total Corte 1** | **30%** |  |
 
@@ -67,7 +81,7 @@ El primer corte tendrá **un solo taller integrador** en la Semana 02, para no r
 | Quiz 2 | 2% | Ejercicios cortos de sistemas numéricos y aritmética binaria. |
 | Taller 1 – Aplicación, cálculo y análisis | 2% | Ejercicios, diseño, procedimientos y solución de problemas. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consulta en bases de datos institucionales, preferiblemente en inglés. |
-| Guías de laboratorio / actividad práctica | 4% | Simulación, montaje, medición, evidencias, análisis y conclusiones. |
+| Guías de laboratorio / actividad práctica | 4% | Cada guía se compone de preinforme, informe completo y aporte individual. |
 | Parcial 2 | 20% | Evaluación individual integral de la unidad. |
 | **Total Corte 2** | **30%** |  |
 
@@ -82,7 +96,7 @@ El corte 3 **no tendrá parcial escrito**, porque el componente principal será 
 | Quiz 3 | 2% | Ejercicios cortos de aplicaciones digitales combinacionales y secuenciales. |
 | Taller 1 – Aplicación y diseño | 2% | Diseño de circuitos combinacionales y secuenciales básicos. |
 | Taller 2 – Investigación académica en otro idioma | 2% | Consulta en bases de datos institucionales sobre aplicaciones digitales. |
-| Guías de laboratorio / actividad práctica | 4% | Evidencias de laboratorios 04 a 08, simulaciones o avances orientados. |
+| Guías de laboratorio / actividad práctica | 4% | Cada guía se compone de preinforme, informe completo y aporte individual. |
 | Proyecto final con sustentación | 20% | Diseño, simulación, montaje, informe, video y sustentación individual. |
 | **Total Corte 3** | **30%** |  |
 
@@ -158,7 +172,6 @@ El segundo corte inicia la unidad digital: sistemas numéricos, aritmética bina
 | Taller 2 investigativo | Consulta en inglés sobre lógica digital, simplificación o aplicaciones combinacionales | 2% |
 | Labs 01, 02 y 03 | Compuertas, álgebra booleana y De Morgan | 4% |
 | Parcial 2 | Evaluación integral de fundamentos digitales y Karnaugh | 20% |
-| **Total Corte 2** |  | **30%** |
 
 ### Corte 3 – Aplicaciones digitales, secuenciales y proyecto final
 
@@ -171,7 +184,6 @@ El tercer corte desarrolla aplicaciones combinacionales y secuenciales: XOR, sum
 | Taller 2 investigativo | Consulta en inglés sobre aplicaciones digitales en ingeniería eléctrica | 2% |
 | Labs 04 a 08 / avances prácticos | XOR, sumadores, comparadores, codificadores, MUX/DEMUX y evidencias de aplicación | 4% |
 | Proyecto final con sustentación | Funcionamiento, informe, simulación, video, estética, roles y sustentación individual | 20% |
-| **Total Corte 3** |  | **30%** |
 
 ---
 
@@ -189,6 +201,7 @@ Todo informe debe incluir:
 8. Cálculos solicitados.
 9. Conclusiones.
 10. Bibliografía en formato IEEE.
+11. Roles y aportes específicos de cada estudiante.
 
 ## Criterios para sustentaciones individuales
 

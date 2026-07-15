@@ -22,6 +22,16 @@ La secuencia semanal debe mantenerse alineada con el syllabus:
 
 También se considera la semana de receso institucional del **5 al 11 de octubre de 2026**, por lo que esa semana no incluye contenido nuevo.
 
+## Ajuste del primer corte
+
+El primer corte se compacta para poder cubrir señales, medición, semiconductores, diodos, Zener, BJT y FET/MOSFET antes del Parcial 1. La Semana 05 queda reservada para repaso y parcial, sin tema nuevo.
+
+Las guías analógicas se distribuyen así:
+
+- **Semana 02:** Lab A01.
+- **Semana 03:** Lab A02.
+- **Semana 04:** Lab A03.
+
 ## Elementos recomendados para cada marco teórico
 
 Cada marco puede incluir:
@@ -42,17 +52,17 @@ Cada marco puede incluir:
 
 | Semana | Corte | Tema | Archivo teórico |
 |---:|---|---|---|
-| 01 | Corte 1 | Presentación, diagnóstico e introducción | `semanas/semana-01-presentacion-diagnostico/marco-teorico.md` |
-| 02 | Corte 1 | Señales, magnitudes eléctricas y medición básica | `semanas/semana-02-senales-analogicas-digitales/marco-teorico.md` |
-| 03 | Corte 1 | Semiconductores, unión PN y diodos | `semanas/semana-03-semiconductores-union-pn/marco-teorico.md` |
-| 04 | Corte 1 | Rectificación, filtrado, LED y Zener | `semanas/semana-04-diodos-rectificacion/marco-teorico.md` |
-| 05 | Corte 1 | Transistores BJT, FET/MOSFET y cierre analógico | `semanas/semana-05-cierre-analogico-bjt-fet-mosfet/marco-teorico.md` |
+| 01 | Corte 1 | Inicio del curso, diagnóstico corto, señales y medición | `semanas/semana-01-presentacion-diagnostico/marco-teorico.md` |
+| 02 | Corte 1 | Semiconductores, diodos, rectificación básica y Zener | `semanas/semana-02-senales-analogicas-digitales/marco-teorico.md` |
+| 03 | Corte 1 | Transistor BJT y control de cargas | `semanas/semana-03-semiconductores-union-pn/marco-teorico.md` |
+| 04 | Corte 1 | Quiz 1, FET/MOSFET y comparación de transistores | `semanas/semana-04-diodos-rectificacion/marco-teorico.md` |
+| 05 | Corte 1 | Parcial 1 – Unidad analógica | `semanas/semana-05-cierre-analogico-bjt-fet-mosfet/marco-teorico.md` |
 | 06 | Corte 2 | Sistemas numéricos | `semanas/semana-06-sistemas-numericos/marco-teorico.md` |
 | 07 | Corte 2 | Aritmética binaria | `semanas/semana-07-aritmetica-binaria/marco-teorico.md` |
 | 08 | Corte 2 | Compuertas lógicas | `semanas/semana-08-compuertas-logicas/marco-teorico.md` |
 | 09 | Corte 2 | Álgebra booleana, De Morgan e introducción a Karnaugh | `semanas/semana-09-algebra-demorgan-karnaugh/marco-teorico.md` |
 | 10 | Receso | Receso institucional | `semanas/semana-10-receso-institucional/marco-teorico.md` |
-| 11 | Corte 2 | Mapas de Karnaugh y cierre del corte | `semanas/semana-11-mapas-karnaugh-cierre-corte/marco-teorico.md` |
+| 11 | Corte 2 | Parcial 2 – Fundamentos digitales | `semanas/semana-11-mapas-karnaugh-cierre-corte/marco-teorico.md` |
 | 12 | Corte 3 | XOR, sumadores y restadores | `semanas/semana-12-xor-sumadores-restadores/marco-teorico.md` |
 | 13 | Corte 3 | Comparadores y paridad | `semanas/semana-13-comparadores-paridad/marco-teorico.md` |
 | 14 | Corte 3 | Codificadores y decodificadores | `semanas/semana-14-codificadores-decodificadores/marco-teorico.md` |
@@ -62,7 +72,7 @@ Cada marco puede incluir:
 
 ## Nota sobre rutas
 
-Las rutas indicadas en esta tabla son la referencia principal del curso. Las carpetas antiguas que quedaron de una primera versión no deben usarse como ruta principal si no coinciden con esta tabla.
+Las rutas indicadas en esta tabla son la referencia principal del curso. Algunas carpetas conservan nombres de una primera versión, pero el contenido interno se ajusta a la planeación actual.
 
 ## Criterio de redacción
 

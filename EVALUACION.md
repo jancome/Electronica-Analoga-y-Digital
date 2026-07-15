@@ -44,6 +44,8 @@ Los cortes 1 y 2 tendrán parcial individual. Cada uno se distribuye así:
 | Parcial del corte | 20% | Evaluación individual integral de la unidad. |
 | **Total por corte** | **30%** |  |
 
+La semana del parcial no tendrá tema nuevo.
+
 ## Distribución interna del corte 3
 
 El corte 3 **no tendrá parcial escrito**, porque el componente principal será el **proyecto final con sustentación**.
@@ -56,6 +58,34 @@ El corte 3 **no tendrá parcial escrito**, porque el componente principal será 
 | Guías de laboratorio / actividad práctica | 4% | Evidencias de laboratorios 04 a 08, simulaciones o avances orientados. |
 | Proyecto final con sustentación | 20% | Diseño, simulación, montaje, informe, video y sustentación individual. |
 | **Total Corte 3** | **30%** |  |
+
+---
+
+## Ubicación semanal de evaluaciones
+
+| Semana | Evaluación o entrega principal |
+|---:|---|
+| 01 | Diagnóstico inicial |
+| 02 | Taller 1 Corte 1 |
+| 03 | Inicio Lab A01 |
+| 04 | Quiz 1, Taller 2 investigativo Corte 1, Labs A01/A02/A03 orientados |
+| 05 | Parcial 1. Sin tema nuevo |
+| 06 | Taller 1 Corte 2 |
+| 07 | Quiz 2 |
+| 08 | Lab 01 |
+| 09 | Labs 02 y 03, Taller 2 investigativo Corte 2 |
+| 10 | Receso institucional |
+| 11 | Parcial 2. Sin tema nuevo |
+| 12 | Labs 04 y 05, Taller 1 Corte 3 |
+| 13 | Lab 06 |
+| 14 | Lab 07, Taller 2 investigativo Corte 3 |
+| 15 | Lab 08, avance de proyecto |
+| 16 | Quiz 3, avance de proyecto |
+| 17 | Proyecto final con sustentación |
+
+El calendario detallado se encuentra en:
+
+- [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
 
 ---
 

@@ -1,19 +1,19 @@
 # Semana 01 – Presentación, diagnóstico y fundamentos previos
 
-## Objetivo
+## Propósito
 
-Presentar la asignatura, explicar la metodología, revisar el syllabus, socializar normas de clase y aplicar un diagnóstico inicial que permita identificar el dominio de conceptos básicos de circuitos eléctricos antes de iniciar la unidad de electrónica analógica.
+Presentar la asignatura, explicar la metodología, revisar el syllabus, socializar las normas de trabajo y aplicar un diagnóstico inicial sobre circuitos eléctricos antes de iniciar la unidad de electrónica analógica.
 
-## Material base de la clase
+## Material base
 
 - [Marco teórico – Semana 01](marco-teorico.md)
 - [Diagnóstico inicial – Fundamentos de circuitos](diagnostico-inicial-circuitos.md)
 
-## Clase de 3 horas
+## Desarrollo de la clase
 
-- Presentación del curso y repositorio.
-- Revisión del syllabus y cronograma.
-- Explicación de evaluación y proyecto final.
+- Presentación del curso y del repositorio.
+- Revisión del syllabus y del cronograma.
+- Explicación de la evaluación y del proyecto final.
 - Diagnóstico de conocimientos previos.
 - Repaso orientador de fundamentos de circuitos:
   - Ley de Ohm.
@@ -25,7 +25,7 @@ Presentar la asignatura, explicar la metodología, revisar el syllabus, socializ
 - Introducción a la diferencia entre electrónica analógica y digital.
 - Relación entre circuitos eléctricos básicos y electrónica analógica.
 
-## Entregable
+## Entrega
 
 Diagnóstico inicial de circuitos básicos y mapa conceptual del curso.
 

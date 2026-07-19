@@ -1,28 +1,13 @@
-# Taller 1 – Corte 2
+# Archivo reemplazado – Corte 2
 
-**Corte:** 2  
-**Fecha de publicación:** miércoles 9 de septiembre de 2026  
-**Hora de publicación:** 2:00 p. m. Colombia  
-**Peso:** 2% de la nota final  
-**Modalidad:** individual o parejas, según indique el docente
+El Taller 1 del Corte 2 fue reemplazado por el **Preproyecto ABP 2**.
 
-## Estado
+La evaluación ahora se articula con la estrategia de Aprendizaje Basado en Proyectos. La entrega correspondiente se encuentra en:
 
-El contenido específico del taller estará disponible a partir de la fecha y hora indicadas.
+- [Preproyecto ABP 2 – Corte 2](../preproyectos/preproyecto-abp-corte-2.md)
 
-Hasta ese momento, este archivo funciona como aviso de programación.
+## Criterio
 
-## Temas que debe repasar el estudiante
+La entrega se enfoca en variables digitales, tabla de verdad, expresión booleana, simplificación y lógica con compuertas asociada a la problemática seleccionada por el grupo.
 
-- Sistemas numéricos.
-- Conversiones entre decimal, binario, hexadecimal y BCD.
-- Aritmética binaria.
-- Complemento a 1 y complemento a 2.
-- Compuertas lógicas.
-- Tablas de verdad.
-
-## Orientación
-
-El taller será práctico y estará orientado a ejercicios de conversión, operaciones binarias, tablas de verdad y análisis lógico básico.
-
-No se publican los ejercicios antes de la hora programada.
+El cambio se realiza para que las actividades evaluativas estén conectadas con el proyecto de curso y no queden como talleres aislados.

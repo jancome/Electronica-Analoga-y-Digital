@@ -1,29 +1,13 @@
-# Taller 1 – Corte 3
+# Archivo reemplazado – Corte 3
 
-**Corte:** 3  
-**Fecha de publicación:** miércoles 21 de octubre de 2026  
-**Hora de publicación:** 2:00 p. m. Colombia  
-**Peso:** 2% de la nota final  
-**Modalidad:** grupos de 3 estudiantes
+El Taller 1 del Corte 3 fue reemplazado por el avance e integración del **Proyecto ABP final**.
 
-## Estado
+La evaluación correspondiente al cierre del curso se encuentra en:
 
-El contenido específico del taller estará disponible a partir de la fecha y hora indicadas.
+- [Proyecto ABP final](../../PROYECTO_FINAL.md)
 
-Hasta ese momento, este archivo funciona como aviso de programación.
+## Criterio
 
-## Temas generales
+En el Corte 3 no se manejarán talleres separados. El componente fuerte será el proyecto final, que evaluará la integración completa de las etapas, el funcionamiento, la muestra, el informe, el video y la sustentación individual.
 
-- XOR y XNOR.
-- Medio sumador.
-- Sumador completo.
-- Restadores.
-- Comparadores.
-- Paridad.
-- Aplicaciones combinacionales.
-
-## Orientación
-
-El taller será práctico y estará orientado a diseño, tablas de verdad, simulación y análisis de circuitos digitales combinacionales.
-
-No se publican los ejercicios antes de la hora programada.
+El proyecto final no será la suma automática de los preproyectos anteriores. Se calificará el estado final corregido e integrado.

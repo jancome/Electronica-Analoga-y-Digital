@@ -8,7 +8,7 @@ Esta carpeta reúne la propuesta de evaluación por cortes para la asignatura.
 |---|---:|
 | Corte 1 – Unidad analógica | 30% |
 | Corte 2 – Fundamentos digitales y lógica combinacional | 30% |
-| Corte 3 – Aplicaciones digitales, secuenciales y proyecto final | 30% |
+| Corte 3 – Aplicaciones digitales, secuenciales y proyecto ABP | 30% |
 | Examen institucional de la universidad | 10% |
 | **Total** | **100%** |
 
@@ -16,10 +16,11 @@ El docente evalúa el **90% de la asignatura**. El **10% restante** corresponde 
 
 ## Organización de grupos
 
-Desde el inicio del curso se deben conformar **grupos de 3 estudiantes** para las prácticas de laboratorio. Estos grupos se mantendrán, en lo posible, durante las guías y servirán como base para el proyecto final.
+Desde el inicio del curso se deben conformar **grupos de 3 estudiantes** para las prácticas de laboratorio. Estos grupos se mantendrán, en lo posible, durante las guías y servirán como base para los preproyectos y el proyecto ABP final.
 
 - Guías de laboratorio: grupos de 3 estudiantes.
-- Proyecto final: grupos de 3 estudiantes.
+- Preproyectos ABP: grupos de 3 estudiantes.
+- Proyecto ABP final: grupos de 3 estudiantes.
 - Cada entrega grupal debe incluir roles y aportes de cada integrante.
 - La nota grupal puede ajustarse individualmente mediante sustentación o preguntas técnicas.
 
@@ -37,19 +38,36 @@ Estas tres notas conforman la nota final de la guía. El informe puede ser grupa
 
 ## Publicación de evaluaciones
 
-Los estudiantes podrán ver desde el inicio el calendario, el peso, la modalidad y los temas generales de cada evaluación. Los enunciados específicos de quizzes, talleres y parciales se publicarán el día correspondiente a las **2:00 p. m. hora Colombia**.
+Los estudiantes podrán ver desde el inicio el calendario, el peso, la modalidad y los temas generales de cada evaluación. Los enunciados específicos de quizzes, preproyectos y parciales se publicarán el día correspondiente a las **2:00 p. m. hora Colombia**, cuando aplique.
 
 - [Control de publicación de evaluaciones](CONTROL_PUBLICACION_EVALUACIONES.md)
 - [Calendario semanal de evaluaciones](calendario-evaluacion-semanal.md)
 
-## Distribución interna del Corte 1
+## Preproyectos ABP
 
-El primer corte tendrá una distribución compacta para aprovechar el tiempo disponible:
+Los talleres dejan de manejarse como entregas separadas. En su lugar, cada corte tendrá una entrega conectada al proyecto ABP.
+
+| Corte | Entrega | Peso sobre nota final | Sentido |
+|---|---|---:|---|
+| Corte 1 | Preproyecto ABP 1 | 4% | Problema, justificación y etapa común AC/DC. |
+| Corte 2 | Preproyecto ABP 2 | 4% | Variables digitales, tabla de verdad, expresión booleana y lógica con compuertas. |
+| Corte 3 | Proyecto ABP final | 24% | Parte final, integración completa, muestra, informe, video y sustentación. |
+
+El proyecto final no será la suma automática de los preproyectos anteriores. Los preproyectos sirven para avanzar, recibir observaciones y corregir. En la sustentación final se evaluará la integración completa y el estado final de la solución.
+
+### Instrumentos ABP
+
+- [Preproyectos ABP](preproyectos/README.md)
+- [Preproyecto ABP 1 – Corte 1](preproyectos/preproyecto-abp-corte-1.md)
+- [Preproyecto ABP 2 – Corte 2](preproyectos/preproyecto-abp-corte-2.md)
+- [Proyecto final ABP](../PROYECTO_FINAL.md)
+
+## Distribución interna del Corte 1
 
 | Componente Corte 1 | Peso sobre nota final |
 |---|---:|
 | Quiz 1 | 2% |
-| Taller integrador – aplicación, cálculo y consulta técnica | 4% |
+| Preproyecto ABP 1 | 4% |
 | Guías A01, A02 y A03 | 4% |
 | Parcial 1 | 20% |
 | **Total Corte 1** | **30%** |
@@ -60,12 +78,10 @@ Las guías se distribuyen así:
 - Semana 03: Lab A02.
 - Semana 04: Lab A03.
 
-El Quiz 1 se publicará el miércoles 26 de agosto de 2026 a las 2:00 p. m. hora Colombia.
-
 ### Instrumentos del Corte 1
 
 - [Paquete Corte 1 – Unidad analógica](corte-1-analogica/README.md)
-- [Taller integrador Corte 1](corte-1-analogica/taller-integrador-corte-1.md)
+- [Preproyecto ABP 1](preproyectos/preproyecto-abp-corte-1.md)
 - [Quiz 1 – Unidad analógica](corte-1-analogica/quiz-1-unidad-analogica.md)
 - [Parcial 1 – Unidad analógica](corte-1-analogica/parcial-1-unidad-analogica.md)
 
@@ -74,8 +90,7 @@ El Quiz 1 se publicará el miércoles 26 de agosto de 2026 a las 2:00 p. m. hora
 | Componente Corte 2 | Peso sobre nota final |
 |---|---:|
 | Quiz 2 | 2% |
-| Taller 1 – Aplicación, cálculo y análisis | 2% |
-| Taller 2 – Investigación académica en otro idioma | 2% |
+| Preproyecto ABP 2 | 4% |
 | Guías de laboratorio / actividad práctica | 4% |
 | Parcial 2 | 20% |
 | **Total Corte 2** | **30%** |
@@ -84,36 +99,31 @@ Las semanas de parcial no tendrán tema nuevo.
 
 ### Instrumentos del Corte 2
 
-- [Taller 1 – Corte 2](corte-2-digital/taller-1-corte-2.md)
+- [Preproyecto ABP 2](preproyectos/preproyecto-abp-corte-2.md)
 - [Quiz 2 – Fundamentos digitales](corte-2-digital/quiz-2-fundamentos-digitales.md)
-- [Taller 2 investigativo – Corte 2](corte-2-digital/taller-2-investigativo-corte-2.md)
 - [Parcial 2 – Fundamentos digitales](corte-2-digital/parcial-2-fundamentos-digitales.md)
 
 ## Distribución interna del Corte 3
 
-El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **proyecto final con sustentación**.
+El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **proyecto ABP final con muestra y sustentación**.
 
 | Componente Corte 3 | Peso sobre nota final |
 |---|---:|
 | Quiz 3 | 2% |
-| Taller 1 – Aplicación y diseño | 2% |
-| Taller 2 – Investigación académica en otro idioma | 2% |
 | Guías de laboratorio / avances prácticos | 4% |
-| Proyecto final con sustentación | 20% |
+| Proyecto ABP final con muestra y sustentación | 24% |
 | **Total Corte 3** | **30%** |
 
 ### Instrumentos del Corte 3
 
-- [Taller 1 – Corte 3](corte-3-aplicaciones/taller-1-corte-3.md)
-- [Taller 2 investigativo – Corte 3](corte-3-aplicaciones/taller-2-investigativo-corte-3.md)
 - [Quiz 3 – Aplicaciones digitales](corte-3-aplicaciones/quiz-3-aplicaciones-digitales.md)
-- [Proyecto final](../PROYECTO_FINAL.md)
+- [Proyecto final ABP](../PROYECTO_FINAL.md)
 
-## Taller investigativo obligatorio por corte
+## Investigación aplicada
 
-El componente investigativo se conserva en cada corte. En el Corte 1 queda integrado dentro del **Taller integrador** de la Semana 02, para no crear una segunda entrega adicional.
+El componente investigativo se integra dentro de los preproyectos y del proyecto ABP final. No se manejará como taller separado.
 
-El producto debe incluir fuente académica o técnica, base de datos o fuente consultada, referencia IEEE, resumen propio, glosario técnico bilingüe, relación con el tema del corte, aplicación en ingeniería eléctrica y evidencia de consulta.
+El producto debe incluir, cuando aplique, fuente académica o técnica, base de datos o fuente consultada, referencia IEEE, resumen propio, glosario técnico bilingüe, relación con la problemática, aplicación en ingeniería eléctrica y evidencia de consulta.
 
 ## Instrumentos
 
@@ -122,6 +132,6 @@ El producto debe incluir fuente académica o técnica, base de datos o fuente co
 ## Criterios generales
 
 - Los quizzes deben ser cortos y comprobar aplicación práctica.
-- Los talleres deben fortalecer cálculo, análisis, diseño, investigación y argumentación técnica.
+- Los preproyectos deben evidenciar avance real del ABP y permitir corrección.
 - Las guías deben incluir preinforme o trabajo en clase, informe completo y aporte individual.
 - Los cortes 1 y 2 tendrán parcial individual y esa semana no tendrá tema nuevo.

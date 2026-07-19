@@ -2,9 +2,27 @@
 
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2  
-**Propósito:** servir como guía complementaria para fortalecer cada semana de clase con bibliografía base, recursos abiertos, conceptos clave, actividades de refuerzo y conexión entre temas.
+**Propósito:** servir como guía complementaria para fortalecer cada semana de clase con bibliografía base, recursos abiertos, conceptos clave, actividades de refuerzo y conexión con el proyecto ABP.
 
 > Este documento no reemplaza los `marco-teorico.md` de cada semana. Funciona como mapa de apoyo para preparar la clase, orientar lecturas y seleccionar ejercicios. Los libros completos protegidos por derechos de autor no deben subirse al repositorio; se pueden citar como bibliografía y orientar al estudiante a consultarlos por biblioteca o medios institucionales.
+
+---
+
+## Enfoque ABP del curso
+
+La asignatura se trabajará bajo la estrategia **ABP – Aprendizaje Basado en Proyectos**. La teoría, los laboratorios y las evaluaciones deben conectarse con una problemática común:
+
+> **Gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe.**
+
+Los talleres fueron reemplazados por **preproyectos ABP**. Por eso, el fortalecimiento teórico de cada semana debe ayudar a que los estudiantes avancen en su proyecto y no vean los temas como contenidos aislados.
+
+| Corte | Enfoque del proyecto | Entrega asociada |
+|---|---|---|
+| Corte 1 | Etapa común AC/DC en baja tensión: rectificación, filtrado, regulación básica, protección e indicador de estado. | Preproyecto ABP 1 |
+| Corte 2 | Variables digitales, tabla de verdad, expresión booleana, simplificación y lógica con compuertas. | Preproyecto ABP 2 |
+| Corte 3 | Integración, muestra, correcciones, informe, video y sustentación. | Proyecto ABP final |
+
+Los preproyectos sirven para recibir retroalimentación. El proyecto final no será una suma automática de esas entregas; en el cierre se evaluará la integración final, el funcionamiento, las correcciones y la sustentación individual.
 
 ---
 
@@ -15,7 +33,7 @@
 - Boylestad, R. L., & Nashelsky, L. **Electrónica: Teoría de circuitos y dispositivos electrónicos**. Pearson.
 - Floyd, T. L. **Dispositivos electrónicos** y/o **Fundamentos de sistemas digitales**, según disponibilidad institucional.
 - Hayt, W. H., Kemmerly, J. E., & Durbin, S. M. **Análisis de circuitos en ingeniería**. McGraw-Hill.
-- Guías de laboratorio del curso: compuertas lógicas, álgebra booleana, De Morgan, XOR, sumadores, comparadores, codificadores, decodificadores, multiplexores y demultiplexores.
+- Guías de laboratorio del curso: diodos, BJT, FET/MOSFET, compuertas lógicas, álgebra booleana, De Morgan, XOR, sumadores, comparadores, codificadores, decodificadores, multiplexores y demultiplexores.
 
 ### Recursos abiertos sugeridos
 
@@ -27,141 +45,62 @@
 
 ---
 
-# Semana 01 – Presentación, diagnóstico y fundamentos previos
+# Semana 01 – Presentación, diagnóstico y problemática ABP
 
 ## Enfoque de fortalecimiento
 
-La primera semana debe permitir reconocer el punto de partida del grupo. Antes de entrar a electrónica analógica, el estudiante debe demostrar manejo básico de circuitos eléctricos. Por eso el diagnóstico debe incluir Ley de Ohm, potencia, circuitos serie/paralelo, divisores de voltaje, mallas, nodos, leyes de Kirchhoff y uso básico del multímetro.
+La primera semana debe presentar la asignatura, aplicar un diagnóstico corto y explicar la problemática ABP. El estudiante debe entender que el proyecto inicia desde el primer corte y que cada laboratorio aportará una pieza de la solución.
 
 ## Conceptos que deben quedar claros
 
-- Voltaje como diferencia de potencial entre dos nodos.
-- Corriente como flujo de carga en un circuito cerrado.
-- Resistencia como oposición al paso de corriente.
-- Potencia eléctrica como variable de diseño térmico y de seguridad.
-- Ley de Ohm.
-- Ley de voltajes de Kirchhoff: suma de voltajes en una malla.
-- Ley de corrientes de Kirchhoff: balance de corrientes en un nodo.
-- Diferencia entre medir voltaje y medir corriente.
-- Relación entre circuitos básicos y los futuros circuitos con diodos y transistores.
+- Propósito de la asignatura.
+- Problemática general: uso eficiente y responsable de la energía eléctrica.
+- Organización de grupos de 3 estudiantes.
+- Ley de Ohm, potencia, nodos, mallas y medición básica.
+- Diferencia entre señal analógica y señal digital.
+- Relación entre circuitos básicos y el futuro proyecto ABP.
 
 ## Actividad sugerida
 
-Aplicar un diagnóstico corto con problemas de cálculo y preguntas conceptuales. Después, resolver en clase dos ejercicios: uno de divisor de voltaje y otro de malla simple. Cerrar mostrando cómo esos mismos cálculos aparecerán en un LED con resistencia, un Zener y un BJT como interruptor.
+Aplicar un diagnóstico corto con ejercicios de circuitos básicos. Después, presentar posibles problemas del contexto: ahorro energético, control de cargas, aviso de baja tensión, monitoreo básico o apoyo a sistemas de riego de baja potencia.
 
-## Bibliografía y recursos sugeridos
+## Conexión ABP
 
-- Hayt, Kemmerly & Durbin: leyes de circuitos, mallas y nodos.
-- Boylestad & Nashelsky: repaso de análisis de circuitos aplicado a dispositivos electrónicos.
-- All About Circuits – Direct Current: Ley de Ohm, divisores, Kirchhoff y mediciones.
+Cada grupo debe empezar a pensar qué situación real quiere abordar dentro de la línea del curso.
 
 ---
 
-# Semana 02 – Señales, magnitudes eléctricas y medición
+# Semana 02 – Diodos, rectificación básica y Zener
 
 ## Enfoque de fortalecimiento
 
-Esta semana debe unir el diagnóstico de circuitos con el lenguaje propio de la electrónica. Una señal no debe verse solo como una forma de onda, sino como una magnitud eléctrica que existe entre nodos, transporta información y puede medirse con instrumentos.
+Esta semana inicia la etapa común AC/DC del proyecto. Los diodos no se estudian solo como componentes, sino como la base para rectificar, proteger, indicar estado y construir una fuente DC básica en baja tensión.
 
 ## Conceptos que deben quedar claros
 
-- Señal analógica: variación continua de voltaje o corriente.
-- Señal digital: niveles discretos interpretados como 0 y 1.
-- Diferencia entre valor instantáneo, valor pico, valor promedio y valor RMS.
-- Referencia o tierra común en mediciones.
-- Ruido y tolerancia de niveles lógicos.
-- Uso del multímetro y, si está disponible, osciloscopio.
-- Relación entre señal eléctrica, información y energía.
-
-## Actividad sugerida
-
-Comparar una señal senoidal, una señal DC y una señal cuadrada. Pedir al estudiante que identifique: tipo de señal, magnitud medida, referencia, posible aplicación y qué instrumento usaría.
-
-## Puente con la Semana 03
-
-Explicar que los semiconductores permitirán controlar el paso de corriente de forma no lineal. Es decir, ya no bastará con aplicar solo resistencias: aparecerán elementos como diodos que conducen en ciertas condiciones.
-
-## Bibliografía y recursos sugeridos
-
-- All About Circuits – Direct Current: señales de instrumentación, voltaje, corriente, multímetros.
-- OpenStax University Physics Vol. 2: corriente, resistencia, potencia y mediciones eléctricas.
-- Boylestad & Nashelsky: introducción a señales y dispositivos electrónicos.
-
----
-
-# Semana 03 – Semiconductores, unión PN y diodos
-
-## Enfoque de fortalecimiento
-
-El objetivo es pasar de circuitos resistivos a circuitos electrónicos. La unión PN debe entenderse como la base física del diodo, pero la clase debe aterrizar rápidamente el concepto a circuitos con fuente, resistencia y medición.
-
-## Conceptos que deben quedar claros
-
-- Diferencia entre conductor, aislante y semiconductor.
-- Silicio como material semiconductor común.
-- Dopaje tipo P y tipo N.
-- Formación de la región de agotamiento.
-- Ánodo y cátodo.
+- Unión PN.
 - Polarización directa e inversa.
-- Caída típica de un diodo de silicio.
-- Diodo ideal, práctico y real.
-- Uso de Ley de Ohm y KVL en un circuito con diodo.
-
-## Actividad sugerida
-
-Analizar un circuito fuente-resistencia-diodo. Primero con el modelo ideal, luego con caída aproximada de 0.7 V. Comparar corriente estimada y discutir por qué la resistencia sigue siendo necesaria.
-
-## Puente con la Semana 04
-
-Mostrar que si el diodo conduce en un solo sentido, puede usarse para convertir AC en DC pulsante. Esta es la base de los rectificadores.
-
-## Bibliografía y recursos sugeridos
-
-- Boylestad & Nashelsky: unión PN, diodos y curvas características.
-- Floyd: dispositivos semiconductores y diodos.
-- All About Circuits – Semiconductors: unión PN, diodos y verificación con medidor.
-
----
-
-# Semana 04 – Rectificación, filtrado, LED y Zener
-
-## Enfoque de fortalecimiento
-
-Esta semana debe conectar la teoría del diodo con aplicaciones visibles: fuentes DC, indicadores LED y regulación básica. Es importante trabajar con formas de onda y no solo con esquemas.
-
-## Conceptos que deben quedar claros
-
-- Rectificador de media onda.
-- Rectificador de onda completa.
-- Puente rectificador.
-- Voltaje pico, RMS y promedio.
-- Caída de voltaje en diodos.
-- Filtro capacitivo y rizado.
+- Rectificación de media onda y puente rectificador.
+- Filtrado capacitivo introductorio.
 - LED y resistencia limitadora.
-- Diodo Zener en ruptura controlada.
-- Potencia en resistencia, LED y Zener.
+- Regulación básica con Zener.
+- Medición de voltaje antes y después de rectificar, filtrar y regular.
 
 ## Actividad sugerida
 
-Simular una fuente AC con rectificador de media onda, luego puente rectificador y finalmente capacitor. Solicitar capturas de entrada y salida. Cerrar con un cálculo de resistencia para LED y un regulador Zener simple.
+Simular o montar una fuente AC de baja tensión con rectificación, filtro, LED indicador y regulación básica. Registrar voltajes y explicar qué cambia en cada etapa.
 
-## Puente con la Semana 05
+## Conexión ABP
 
-Explicar que el diodo permite controlar dirección de corriente, pero el transistor permite controlar una corriente mayor con una señal pequeña.
-
-## Bibliografía y recursos sugeridos
-
-- Boylestad & Nashelsky: rectificadores, filtros y reguladores básicos.
-- Floyd: diodos, fuentes de alimentación y Zener.
-- All About Circuits – Semiconductors: diodes and rectifiers, Zener diodes.
+Avance del **Preproyecto ABP 1**: inicio de la etapa común AC/DC segura.
 
 ---
 
-# Semana 05 – BJT, FET/MOSFET y cierre analógico
+# Semana 03 – BJT y control de cargas
 
 ## Enfoque de fortalecimiento
 
-Esta semana debe cerrar la unidad analógica. El punto más importante es que el estudiante comprenda el transistor como dispositivo de control: una señal pequeña permite gobernar una carga. Se debe comparar BJT y MOSFET desde la perspectiva de aplicación.
+El BJT debe presentarse como un dispositivo que permite controlar una carga usando una señal pequeña. Esta idea conecta directamente con soluciones de ahorro, alarmas o control básico dentro del proyecto.
 
 ## Conceptos que deben quedar claros
 
@@ -170,59 +109,87 @@ Esta semana debe cerrar la unidad analógica. El punto más importante es que el
 - Corriente de base y corriente de colector.
 - Corte, activa y saturación.
 - BJT como interruptor.
-- MOSFET canal N.
-- Gate, Drain y Source.
-- VGS, VDS e ID.
-- Resistencia pull-down en MOSFET.
-- Diodo flyback para cargas inductivas.
-- Comparación: BJT controlado por corriente, MOSFET controlado por voltaje.
+- Resistencia de base.
+- Diodo de protección para cargas inductivas.
 
 ## Actividad sugerida
 
-Resolver un caso de control de carga DC: primero con BJT y luego con MOSFET. Comparar cálculo de resistencia de base, resistencia de gate, pull-down y protección de carga inductiva.
+Diseñar un circuito que active un LED, relé o carga DC de baja potencia mediante BJT. Calcular resistencia de base y explicar cuándo el transistor está en corte o saturación.
 
-## Cierre de corte
+## Conexión ABP
 
-Realizar una matriz de integración: Ley de Ohm, Kirchhoff, diodo, Zener, BJT y MOSFET. El estudiante debe explicar qué función cumple cada dispositivo dentro de un sistema real.
-
-## Bibliografía y recursos sugeridos
-
-- Boylestad & Nashelsky: BJT, polarización y FET/MOSFET.
-- Floyd: transistores como interruptores y amplificadores.
-- All About Circuits – Semiconductors: BJT, JFET y MOSFET.
+Avance del **Preproyecto ABP 1**: control de una salida o indicador usando la etapa AC/DC del proyecto.
 
 ---
 
-# Semana 06 – Sistemas numéricos
+# Semana 04 – FET/MOSFET y cierre de etapa analógica
 
 ## Enfoque de fortalecimiento
 
-Iniciar la unidad digital mostrando que los circuitos digitales trabajan con información codificada. El estudiante debe entender que binario, hexadecimal y BCD no son solo conversiones matemáticas, sino formas de representar datos en sistemas electrónicos.
+El MOSFET debe compararse con el BJT como alternativa de control de carga. La semana cierra la etapa analógica del proyecto y prepara el Preproyecto ABP 1.
+
+## Conceptos que deben quedar claros
+
+- MOSFET canal N.
+- Gate, Drain y Source.
+- VGS, VDS e ID.
+- MOSFET como interruptor.
+- Resistencia de compuerta y pull-down.
+- Control de carga de baja potencia.
+- Comparación BJT vs MOSFET.
+
+## Actividad sugerida
+
+Resolver un caso de control de carga primero con BJT y luego con MOSFET. Comparar ventajas, cálculos y cuidados de conexión.
+
+## Conexión ABP
+
+Preparación del **Preproyecto ABP 1**: etapa AC/DC, indicador, protección y posible control de carga.
+
+---
+
+# Semana 05 – Parcial 1 y Preproyecto ABP 1
+
+## Enfoque de fortalecimiento
+
+La semana no introduce tema nuevo. Se usa para repasar la unidad analógica, aplicar el Parcial 1 y presentar el Preproyecto ABP 1.
+
+## Conceptos que deben integrarse
+
+- Ley de Ohm y potencia.
+- Medición de voltaje y corriente.
+- Diodos, LED, Zener y rectificación.
+- Filtrado básico.
+- BJT y MOSFET como interruptores.
+- Seguridad en baja tensión.
+
+## Producto ABP
+
+El Preproyecto ABP 1 debe incluir problema seleccionado, justificación, diagrama de bloques preliminar, etapa común AC/DC, cálculos, simulación o mediciones iniciales y correcciones pendientes.
+
+---
+
+# Semana 06 – Sistemas numéricos y variables del proyecto
+
+## Enfoque de fortalecimiento
+
+Iniciar la unidad digital mostrando que las condiciones del proyecto pueden representarse con estados 0 y 1. Los sistemas numéricos ayudan a codificar datos, estados, conteos o niveles.
 
 ## Conceptos que deben quedar claros
 
 - Bit, nibble, byte y palabra.
-- Sistema decimal.
-- Sistema binario.
-- Sistema hexadecimal.
-- Código BCD.
-- Conversión decimal-binario.
-- Conversión binario-hexadecimal.
+- Decimal, binario, hexadecimal y BCD.
+- Conversión entre sistemas.
 - Diferencia entre número binario y código.
+- Variables digitales de entrada y salida.
 
 ## Actividad sugerida
 
-Convertir valores usados en aplicaciones reales: número de display, dirección digital, conteo de pulsos, lectura de sensor o representación de una entrada de PLC.
+Cada grupo debe proponer posibles variables digitales para su proyecto: consumo alto/bajo, nivel suficiente/bajo, horario permitido/no permitido, sensor activo/inactivo o energía disponible/no disponible.
 
-## Puente con la Semana 07
+## Conexión ABP
 
-Explicar que si los números se representan en binario, entonces también deben poder sumarse, restarse y manejar signo en binario.
-
-## Bibliografía y recursos sugeridos
-
-- Floyd: sistemas digitales y sistemas de numeración.
-- All About Circuits – Digital Circuits: numeration systems.
-- Guías digitales del curso: preparación para compuertas y tablas de verdad.
+Inicio del **Preproyecto ABP 2**: definición de entradas y salidas digitales.
 
 ---
 
@@ -230,32 +197,25 @@ Explicar que si los números se representan en binario, entonces también deben 
 
 ## Enfoque de fortalecimiento
 
-El objetivo es que el estudiante no solo haga conversiones, sino que entienda cómo un circuito digital puede realizar operaciones aritméticas. Esta semana prepara directamente los sumadores y restadores del tercer corte.
+La aritmética binaria permite representar conteos, comparaciones y estados dentro de un sistema digital. No debe verse solo como operación manual, sino como base de circuitos aritméticos.
 
 ## Conceptos que deben quedar claros
 
 - Suma binaria.
 - Acarreo.
 - Resta binaria.
-- Complemento a 1.
-- Complemento a 2.
+- Complemento a 1 y complemento a 2.
 - Números con signo.
 - Overflow.
-- Relación entre operación manual y circuito sumador.
+- Relación entre operación binaria y circuito sumador.
 
 ## Actividad sugerida
 
-Resolver operaciones binarias paso a paso y luego identificar qué señales serían necesarias para implementarlas en un sumador completo.
+Resolver operaciones binarias asociadas a conteo de eventos, niveles o estados. Relacionar los resultados con posibles indicadores o decisiones del proyecto.
 
-## Puente con la Semana 08
+## Conexión ABP
 
-Mostrar que las operaciones binarias se construyen con compuertas lógicas básicas; por ejemplo, la suma de un bit involucra XOR y AND.
-
-## Bibliografía y recursos sugeridos
-
-- Floyd: aritmética binaria y códigos.
-- All About Circuits – Digital Circuits: binary arithmetic.
-- Boylestad & Nashelsky: apoyo para interpretación electrónica de niveles lógicos.
+Apoyo al Preproyecto ABP 2 cuando el proyecto requiera conteo, códigos o comparación de valores.
 
 ---
 
@@ -263,7 +223,7 @@ Mostrar que las operaciones binarias se construyen con compuertas lógicas bási
 
 ## Enfoque de fortalecimiento
 
-Esta semana debe llevar al estudiante del 0/1 abstracto al circuito físico. Las compuertas tienen entradas, salidas, alimentación, tierra, niveles lógicos y limitaciones eléctricas. La práctica debe insistir en consultar hojas de datos.
+Esta semana debe llevar al estudiante del 0/1 abstracto al circuito físico. Las compuertas se usarán como primera implementación de una decisión digital del proyecto.
 
 ## Conceptos que deben quedar claros
 
@@ -272,59 +232,42 @@ Esta semana debe llevar al estudiante del 0/1 abstracto al circuito físico. Las
 - XOR, XNOR.
 - Tabla de verdad.
 - Expresión booleana.
-- Terminales del circuito integrado.
-- VCC y GND.
-- Familia TTL/CMOS.
-- Niveles alto y bajo como rangos de voltaje, no valores perfectos.
+- VCC y GND en circuitos integrados.
+- Niveles alto y bajo como rangos de voltaje.
 
 ## Actividad sugerida
 
-Medir entradas y salidas de compuertas TTL con fuente de 5 V. Comparar tabla de verdad teórica con mediciones reales y calcular error o diferencia porcentual cuando aplique.
+Tomar dos o tres variables del proyecto y construir una tabla de verdad que active una salida: alarma, indicador, habilitación o bloqueo de carga.
 
-## Puente con la Semana 09
+## Conexión ABP
 
-Explicar que las compuertas se pueden combinar, pero para no desperdiciar componentes se deben simplificar expresiones mediante álgebra booleana y De Morgan.
-
-## Bibliografía y recursos sugeridos
-
-- Guía de laboratorio 01 – Compuertas lógicas.
-- Floyd: compuertas y tablas de verdad.
-- All About Circuits – Digital Circuits: logic gates.
-- Hojas de datos: 7400, 7402, 7404, 7408, 7432, 7420, 7451 o equivalentes.
+Avance del **Preproyecto ABP 2**: primer circuito lógico con compuertas.
 
 ---
 
-# Semana 09 – Álgebra booleana, De Morgan e introducción a Karnaugh
+# Semana 09 – Álgebra booleana, De Morgan y Karnaugh
 
 ## Enfoque de fortalecimiento
 
-El estudiante debe pasar de armar compuertas a diseñar lógica. La simplificación no debe verse como manipulación matemática aislada, sino como una forma de reducir compuertas, conexiones, consumo, costo y probabilidad de falla.
+La simplificación se presenta como una forma de reducir compuertas, conexiones, consumo, costo y probabilidad de falla. Debe aplicarse a la lógica real propuesta por cada grupo.
 
 ## Conceptos que deben quedar claros
 
 - Variable booleana.
-- Suma lógica OR.
-- Producto lógico AND.
-- Complemento NOT.
-- Identidad, nulidad, idempotencia y complemento.
-- Absorción.
+- Suma lógica, producto lógico y complemento.
+- Leyes básicas del álgebra de Boole.
 - Teoremas de De Morgan.
-- Conversión entre circuito, tabla de verdad y expresión.
-- Idea inicial de minterminos y mapas de Karnaugh.
+- Minterminos.
+- Introducción a mapas de Karnaugh.
+- Equivalencia entre tabla, expresión y circuito.
 
 ## Actividad sugerida
 
-Tomar una expresión no simplificada, construir su tabla de verdad, simplificarla algebraicamente y comparar el número de compuertas antes y después.
+Cada grupo debe tomar su tabla de verdad, escribir una expresión booleana inicial, simplificarla y comparar el circuito antes y después.
 
-## Puente con la Semana 11
+## Conexión ABP
 
-El receso corta la secuencia, por eso se debe dejar una actividad autónoma breve para repasar leyes booleanas antes de entrar a mapas de Karnaugh.
-
-## Bibliografía y recursos sugeridos
-
-- Guías de laboratorio 02 y 03.
-- Floyd: álgebra booleana y De Morgan.
-- All About Circuits – Digital Circuits: Boolean algebra y DeMorgan’s theorems.
+Preparación del **Preproyecto ABP 2**: lógica digital simplificada y justificada.
 
 ---
 
@@ -332,51 +275,37 @@ El receso corta la secuencia, por eso se debe dejar una actividad autónoma brev
 
 ## Enfoque de fortalecimiento
 
-No se debe cargar contenido nuevo. La semana debe usarse como repaso autónomo de lo ya trabajado en el segundo corte.
+No se debe cargar contenido nuevo. La semana puede usarse para revisar la lógica del proyecto, corregir tablas de verdad, mejorar expresiones booleanas y preparar dudas.
 
 ## Actividad autónoma sugerida
 
 - Repasar conversiones numéricas.
-- Rehacer dos ejercicios de aritmética binaria.
 - Rehacer una tabla de verdad.
-- Simplificar dos expresiones booleanas.
-- Preparar dudas sobre De Morgan y Karnaugh.
-
-## Producto sugerido
-
-No asignar entregable nuevo obligatorio. Como apoyo, puede dejarse una guía opcional de repaso para quien necesite reforzar.
+- Simplificar expresiones booleanas.
+- Revisar el circuito lógico del proyecto.
+- Preparar el Preproyecto ABP 2.
 
 ---
 
-# Semana 11 – Mapas de Karnaugh y cierre del corte
+# Semana 11 – Parcial 2 y Preproyecto ABP 2
 
 ## Enfoque de fortalecimiento
 
-El mapa de Karnaugh debe presentarse como una herramienta visual para simplificar funciones lógicas a partir de tablas de verdad. Es importante explicar que las celdas se organizan en código Gray para que entre posiciones vecinas cambie solo una variable.
+La semana no introduce tema nuevo. Se usa para cerrar la unidad digital, aplicar el Parcial 2 y entregar el Preproyecto ABP 2.
 
-## Conceptos que deben quedar claros
+## Conceptos que deben integrarse
 
-- Minterminos.
-- Maxterminos.
-- Mapas de 2, 3 y 4 variables.
-- Agrupaciones de 1, 2, 4 y 8.
-- Condiciones de no importa.
-- Obtención de expresión simplificada.
-- Implementación final con compuertas.
+- Sistemas numéricos.
+- Aritmética binaria.
+- Compuertas lógicas.
+- Tablas de verdad.
+- Álgebra booleana.
+- De Morgan.
+- Karnaugh introductorio.
 
-## Actividad sugerida
+## Producto ABP
 
-Resolver un caso de control lógico de ingeniería: por ejemplo, activar una alarma cuando se cumplan ciertas condiciones de sensores. Construir tabla, mapa, expresión simplificada y circuito.
-
-## Cierre de corte
-
-Evaluar sistemas numéricos, aritmética binaria, compuertas, álgebra booleana, De Morgan y Karnaugh.
-
-## Bibliografía y recursos sugeridos
-
-- Floyd: mapas de Karnaugh y simplificación.
-- All About Circuits – Digital Circuits: Karnaugh mapping.
-- Guías de laboratorio 01 a 03.
+El Preproyecto ABP 2 debe incluir variables de entrada y salida, tabla de verdad, expresión booleana, simplificación, circuito con compuertas y relación clara con la problemática seleccionada.
 
 ---
 
@@ -389,26 +318,19 @@ Entrar al tercer corte mostrando aplicaciones reales de la lógica combinacional
 ## Conceptos que deben quedar claros
 
 - XOR y XNOR.
-- Paridad básica.
 - Medio sumador.
 - Sumador completo.
-- Acarreo de entrada y salida.
+- Acarreo.
 - Restador básico.
 - Relación entre aritmética binaria y circuito lógico.
 
 ## Actividad sugerida
 
-Construir tabla de verdad de medio sumador y sumador completo. Después simular un sumador de 1 bit y explicar la función de SUM y CARRY.
+Revisar si el proyecto requiere detectar diferencia, sumar estados, contar eventos o comparar entradas. Integrar la función cuando tenga sentido técnico.
 
-## Puente con la Semana 13
+## Conexión ABP
 
-Mostrar que además de sumar, los circuitos digitales comparan valores y detectan errores mediante paridad.
-
-## Bibliografía y recursos sugeridos
-
-- Guías de laboratorio 04 y 05.
-- Floyd: XOR, sumadores y circuitos aritméticos.
-- All About Circuits – Digital Circuits: combinational logic functions, half-adder y full-adder.
+Inicio de la integración final del proyecto ABP.
 
 ---
 
@@ -416,35 +338,31 @@ Mostrar que además de sumar, los circuitos digitales comparan valores y detecta
 
 ## Enfoque de fortalecimiento
 
-El estudiante debe comprender que un sistema digital no solo calcula, también decide. Los comparadores permiten establecer igualdad, mayor que o menor que; la paridad ayuda a detectar errores simples.
+Los comparadores permiten tomar decisiones: mayor, menor, igual o condición válida. La paridad ayuda a detectar errores simples.
 
 ## Conceptos que deben quedar claros
 
 - Comparador de igualdad.
 - Comparador de magnitud.
 - Salidas A>B, A=B y A<B.
-- Comparador de 4 bits.
 - Paridad par e impar.
-- Generador de paridad.
-- Verificador de paridad.
+- Generador y verificador de paridad.
 
 ## Actividad sugerida
 
-Diseñar una lógica simple de validación: permitir acceso si un código binario coincide con una referencia o activar una alarma si hay error de paridad.
+Aplicar un comparador o una lógica de validación al proyecto: por ejemplo, activar aviso por nivel bajo, condición fuera de rango o combinación incorrecta.
 
-## Bibliografía y recursos sugeridos
+## Conexión ABP
 
-- Guía de laboratorio 06.
-- Floyd: comparadores y paridad.
-- Hojas de datos: 7485, 74280, 74266 o equivalentes.
+Avance funcional para la solución final.
 
 ---
 
-# Semana 14 – Codificadores y decodificadores
+# Semana 14 – Codificadores, decodificadores y primera revisión
 
 ## Enfoque de fortalecimiento
 
-Relacionar estos circuitos con sistemas visibles para estudiantes: displays, alarmas, teclados, selección de salidas, sensores y automatización. La meta no es memorizar pines, sino entender entradas, salidas y aplicación.
+Relacionar estos circuitos con sistemas visibles: displays, alarmas, teclados, selección de salidas, sensores y automatización. Esta semana sirve como primera revisión formal del prototipo.
 
 ## Conceptos que deben quedar claros
 
@@ -453,28 +371,23 @@ Relacionar estos circuitos con sistemas visibles para estudiantes: displays, ala
 - Decodificador.
 - BCD.
 - Display de 7 segmentos.
-- Entradas activas en bajo.
-- Salidas activas en bajo.
-- Diferencia entre codificar información y activar salidas.
+- Entradas y salidas activas en bajo.
 
 ## Actividad sugerida
 
-Analizar un sistema con display de 7 segmentos. Identificar el dato BCD, el decodificador, las salidas hacia segmentos y la función de las resistencias limitadoras.
+Analizar cómo mostrar estados del proyecto en LED o display. Revisar el diagrama completo del sistema y detectar correcciones antes de la muestra.
 
-## Bibliografía y recursos sugeridos
+## Conexión ABP
 
-- Guía de laboratorio 07.
-- Taller individual de codificadores y descodificadores.
-- Floyd: codificadores, decodificadores y displays.
-- Hojas de datos: 7447, 74147, 74148, 74154 o equivalentes.
+Primera revisión formal del prototipo.
 
 ---
 
-# Semana 15 – Multiplexores y demultiplexores
+# Semana 15 – Multiplexores, demultiplexores y muestra de proyectos
 
 ## Enfoque de fortalecimiento
 
-Presentar el MUX como selector de datos y el DEMUX como distribuidor. Relacionarlos con selección de canales, comunicaciones, entradas de sensores, expansión de entradas/salidas y control digital.
+Presentar el MUX como selector de datos y el DEMUX como distribuidor. Relacionarlos con selección de señales, sensores, modos de operación y expansión de entradas/salidas.
 
 ## Conceptos que deben quedar claros
 
@@ -482,29 +395,25 @@ Presentar el MUX como selector de datos y el DEMUX como distribuidor. Relacionar
 - Demultiplexor.
 - Líneas de selección.
 - Entrada de habilitación.
-- Salidas activas en bajo.
 - Selector de datos.
 - Distribuidor de datos.
 - Implementación de funciones lógicas con MUX.
 
 ## Actividad sugerida
 
-Diseñar un sistema que seleccione una de cuatro señales de sensores usando líneas de selección. Luego analizar cómo distribuir una señal hacia varias salidas mediante DEMUX.
+Realizar la muestra de proyectos. Cada grupo debe explicar su problemática, etapa AC/DC, lógica digital, estado del prototipo, fallas detectadas y ajustes pendientes.
 
-## Bibliografía y recursos sugeridos
+## Conexión ABP
 
-- Guía de laboratorio 08.
-- Floyd: multiplexores y demultiplexores.
-- All About Circuits – Digital Circuits: multiplexers and demultiplexers.
-- Hojas de datos: 74151, 74157, 74139, 74154 o equivalentes.
+Muestra de proyectos y retroalimentación para la entrega final.
 
 ---
 
-# Semana 16 – Flip-flops, contadores y evaluación
+# Semana 16 – Flip-flops, contadores y ajustes finales
 
 ## Enfoque de fortalecimiento
 
-Cerrar el curso técnico mostrando la diferencia entre lógica combinacional y lógica secuencial. Aquí aparece memoria digital: la salida no depende solo de las entradas actuales, sino también del estado anterior.
+Cerrar el curso técnico mostrando la diferencia entre lógica combinacional y lógica secuencial. La semana también se usa para ajustes finales del proyecto.
 
 ## Conceptos que deben quedar claros
 
@@ -512,39 +421,35 @@ Cerrar el curso técnico mostrando la diferencia entre lógica combinacional y l
 - Latch.
 - Flip-flop SR, D, JK y T.
 - Reloj.
-- Flanco de subida y flanco de bajada.
 - Estado almacenado.
-- Contador asíncrono.
-- Contador síncrono.
+- Contador asíncrono y síncrono.
 - Aplicaciones en conteo, temporización y automatización.
 
 ## Actividad sugerida
 
-Simular un contador básico con flip-flops y explicar el significado de cada salida. Relacionarlo con conteo de pulsos de un sensor, encoder o final de carrera.
+Simular un contador básico o revisar si el proyecto requiere memoria, conteo o temporización. Ajustar el prototipo, preparar evidencias, video e informe.
 
-## Bibliografía y recursos sugeridos
+## Conexión ABP
 
-- Floyd: flip-flops, registros y contadores.
-- All About Circuits – Digital Circuits: multivibrators, sequential circuits and counters.
-- Hojas de datos de flip-flops y contadores usados en clase.
+Correcciones finales antes de la sustentación.
 
 ---
 
-# Semana 17 – Proyecto final y cierre
+# Semana 17 – Proyecto ABP final y cierre
 
 ## Enfoque de fortalecimiento
 
-La última semana debe evaluar integración. El estudiante debe demostrar funcionamiento, comprensión y capacidad de explicar decisiones técnicas. La sustentación individual es clave para verificar participación real.
+La última semana evalúa integración. El estudiante debe demostrar funcionamiento, comprensión, correcciones realizadas y capacidad de explicar decisiones técnicas.
 
 ## Conceptos que deben integrarse
 
-- Fuente o alimentación del circuito.
+- Problemática seleccionada.
+- Etapa AC/DC corregida si fue necesario.
 - Señales de entrada.
-- Procesamiento analógico o digital.
-- Compuertas, codificadores, MUX/DEMUX o flip-flops, si aplica.
-- Etapa de salida o potencia.
-- Mediciones realizadas.
-- Simulación y montaje.
+- Lógica digital de decisión.
+- Aplicaciones combinacionales o secuenciales.
+- Etapa de salida o control de carga.
+- Simulación, montaje, mediciones y evidencia de funcionamiento.
 - Fallas encontradas y correcciones.
 
 ## Actividad sugerida
@@ -556,25 +461,23 @@ Cada grupo debe presentar:
 3. Circuito o simulación.
 4. Tabla de verdad, cálculos o lógica utilizada.
 5. Evidencia de funcionamiento.
-6. Explicación individual por integrante.
-7. Conclusiones y mejoras posibles.
+6. Mejoras realizadas frente a los preproyectos.
+7. Explicación individual por integrante.
+8. Conclusiones y mejoras posibles.
 
-## Bibliografía y recursos sugeridos
+## Criterio de cierre
 
-- Modelo de informe de laboratorio del curso.
-- Rúbricas del curso.
-- Bibliografía usada durante el semestre.
-- Hojas de datos de los componentes empleados.
-- Repositorios o fuentes técnicas consultadas, cuando el proyecto lo requiera.
+El proyecto final se califica por el estado final integrado. Los preproyectos anteriores sirvieron para avanzar y corregir, pero no se suman automáticamente como partes del proyecto final.
 
 ---
 
 ## Recomendación metodológica general
 
-Cada semana debe cerrar con tres preguntas:
+Cada semana debe cerrar con cuatro preguntas:
 
 1. ¿Qué concepto nuevo aprendimos?
 2. ¿Qué medición, cálculo o tabla permite comprobarlo?
 3. ¿Cómo se conecta este tema con una aplicación real de ingeniería eléctrica?
+4. ¿Qué parte del proyecto ABP ayuda a mejorar o construir?
 
-Esta estructura ayuda a que la clase no sea solo teoría, sino una ruta hacia análisis, simulación, montaje, medición y sustentación técnica.
+Esta estructura ayuda a que la clase no sea solo teoría, sino una ruta hacia análisis, simulación, montaje, medición, corrección y sustentación técnica.

@@ -29,7 +29,7 @@ Cada grupo seleccionará una problemática particular dentro de esa línea, por 
 
 El proyecto se desarrollará en **grupos de 3 estudiantes**.
 
-Los grupos de laboratorio se conforman desde el inicio del curso y servirán como base para el proyecto ABP.
+Los grupos de laboratorio se conforman desde el inicio del curso y servirán como base para los preproyectos y el proyecto ABP final.
 
 Reglas generales:
 
@@ -60,13 +60,19 @@ La etapa común puede incluir:
 6. Protección o criterio de seguridad.
 7. Medición de voltajes antes y después de rectificar, filtrar y regular.
 
-## Etapas por corte
+## Preproyectos y mejora
 
-| Corte | Enfoque | Producto esperado |
+Durante el semestre habrá dos preproyectos y una entrega final:
+
+| Corte | Entrega | Sentido |
 |---|---|---|
-| Corte 1 | Etapa común analógica: conversión AC/DC, rectificación, filtrado, regulación, protección básica e indicador de estado. | Fuente DC básica simulada o montada, cálculos, mediciones y justificación de protecciones. |
-| Corte 2 | Etapa digital de decisión: uso de compuertas, tablas de verdad y simplificación para responder a una condición del problema. | Lógica combinacional que active una salida, alarma, indicador o decisión según variables de entrada. |
-| Corte 3 | Integración y aplicación: circuitos combinacionales o secuenciales para completar la solución. | Prototipo funcional, simulación, informe, video, muestra de proyecto y sustentación individual. |
+| Corte 1 | Preproyecto ABP 1 | Problema, justificación y etapa común AC/DC. |
+| Corte 2 | Preproyecto ABP 2 | Variables digitales, tabla de verdad, simplificación y compuertas. |
+| Corte 3 | Proyecto ABP final | Integración final, muestra, informe, video y sustentación. |
+
+Los preproyectos permiten avanzar y recibir retroalimentación. **La nota del proyecto final no será la suma automática de los preproyectos anteriores**. En el cierre se calificará el estado final del proyecto, su integración, funcionamiento y sustentación.
+
+Esto le da al grupo la oportunidad de corregir una etapa si no le fue bien en una entrega previa. Lo importante es que en el proyecto final se evidencie que el error fue corregido y que la solución completa funciona de manera coherente.
 
 ## Ruta de avances
 
@@ -76,13 +82,13 @@ La etapa común puede incluir:
 | 02 | Inicio de etapa común AC/DC. | Rectificación, filtrado, regulación básica y primeras mediciones o simulación. |
 | 03 | Control de carga con BJT. | Etapa de activación de LED, relé o carga DC de baja potencia. |
 | 04 | Control de carga con FET/MOSFET y cierre de etapa analógica. | Comparación BJT/MOSFET y ajuste de la etapa común. |
-| 05 | Cierre del Corte 1. | Parcial y revisión de aprendizajes de la etapa analógica. |
+| 05 | Cierre del Corte 1. | Parcial y Preproyecto ABP 1. |
 | 06 | Definición de variables digitales del problema. | Entradas, salidas y primera tabla lógica. |
 | 07 | Representación y operaciones binarias si aplican. | Datos, códigos o estados usados por el proyecto. |
 | 08 | Implementación inicial con compuertas. | Primer circuito lógico de decisión. |
 | 09 | Simplificación lógica. | Expresión booleana, De Morgan o Karnaugh. |
 | 10 | Receso. | Repaso y ajustes autónomos. |
-| 11 | Cierre del Corte 2. | Parcial y revisión de la etapa digital. |
+| 11 | Cierre del Corte 2. | Parcial y Preproyecto ABP 2. |
 | 12 | Integración con XOR, sumadores o restadores si aplica. | Circuito o simulación parcial. |
 | 13 | Comparadores, paridad o indicadores de decisión. | Avance funcional orientado a la problemática. |
 | 14 | Codificadores, decodificadores o display. | Primera revisión formal del prototipo. |
@@ -96,10 +102,10 @@ La muestra de proyectos se realizará preferiblemente entre las **semanas 14 y 1
 
 Después de la muestra, los grupos podrán realizar ajustes finales para la sustentación y entrega definitiva.
 
-## Requisitos mínimos
+## Requisitos mínimos del proyecto final
 
 1. El proyecto debe responder a una problemática definida dentro de la línea general del curso.
-2. Debe incluir la etapa común AC/DC del primer corte.
+2. Debe incluir la etapa común AC/DC del primer corte, corregida si fue necesario.
 3. Debe incluir al menos una etapa de lógica digital con compuertas.
 4. Debe integrar, cuando aplique, algún circuito combinacional o secuencial del tercer corte.
 5. Debe ser simulado antes del montaje físico.
@@ -108,8 +114,9 @@ Después de la muestra, los grupos podrán realizar ajustes finales para la sust
 8. Cada estudiante debe sustentar individualmente su participación.
 9. Debe incluir lista de materiales y costos.
 10. Debe explicar cálculos, tablas de verdad, expresiones booleanas o criterios de diseño empleados.
+11. Debe evidenciar qué se corrigió o mejoró frente a los preproyectos anteriores.
 
-## Entregables
+## Entregables finales
 
 - Informe en formato establecido por el curso.
 - Simulación del circuito.
@@ -119,25 +126,26 @@ Después de la muestra, los grupos podrán realizar ajustes finales para la sust
 - Distribución de roles de los integrantes.
 - Evidencia de la muestra de proyectos.
 - Sustentación grupal e individual.
+- Registro de mejoras realizadas después de la retroalimentación.
 
 ## Peso en la nota
 
 | Componente | Peso sobre nota final |
 |---|---:|
-| Proyecto ABP con muestra y sustentación | 20% |
+| Proyecto ABP final con muestra y sustentación | 24% |
 
-Este 20% hace parte del **Corte 3**, que equivale al 30% de la nota final.
+Este 24% hace parte del **Corte 3**, que equivale al 30% de la nota final.
 
 ## Criterios de evaluación sugeridos
 
 | Criterio | Descripción | Peso dentro del proyecto |
 |---|---|---:|
 | Relación con la problemática | El proyecto responde a una necesidad real dentro de la línea del curso | 15% |
-| Funcionamiento del circuito o sistema | La solución cumple la función propuesta | 25% |
+| Funcionamiento e integración | La solución integra correctamente etapa analógica, lógica digital y aplicación final | 30% |
 | Sustentación individual | Cada estudiante explica su aporte y fundamentos técnicos | 25% |
-| Informe técnico | Claridad, estructura, cálculos, evidencias y conclusiones | 15% |
+| Informe técnico | Claridad, estructura, cálculos, evidencias, correcciones y conclusiones | 15% |
 | Simulación y coherencia con el montaje | La simulación respalda el funcionamiento del prototipo | 10% |
-| Estética, orden, costos y roles | Presentación, organización, presupuesto y distribución de responsabilidades | 10% |
+| Estética, orden, costos y roles | Presentación, organización, presupuesto y distribución de responsabilidades | 5% |
 
 ## Ideas de proyectos
 
@@ -148,23 +156,3 @@ Este 20% hace parte del **Corte 3**, que equivale al 30% de la nota final.
 - Alarma de baja tensión en una fuente DC.
 - Sistema de encendido condicionado por varias variables.
 - Control básico de iluminación con lógica combinacional.
-- Contador o indicador de eventos asociados al uso de una carga.
-
-## Plantilla de apoyo
-
-- [Plantilla de proyecto final](plantillas/plantilla-proyecto-final.md)
-
-## Sustentación individual
-
-Cada integrante podrá recibir preguntas como:
-
-- ¿Cuál fue la problemática seleccionada por el grupo?
-- ¿Cuál fue su aporte específico?
-- ¿Cómo funciona la etapa AC/DC común?
-- ¿Qué protección o criterio de seguridad utilizaron?
-- ¿Qué función cumple cada etapa analógica?
-- ¿Qué variables digitales definieron?
-- ¿Cómo se obtuvo la tabla de verdad o expresión booleana?
-- ¿Qué diferencias encontraron entre simulación y montaje?
-- ¿Qué fallas se presentaron y cómo se corrigieron?
-- ¿Cómo se relaciona el proyecto con la ingeniería eléctrica?

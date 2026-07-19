@@ -1,64 +1,113 @@
-# Proyecto final – Electrónica Analógica y Digital
+# Proyecto de curso ABP – Electrónica Analógica y Digital
 
 ## Propósito
 
-El proyecto final busca que los estudiantes integren conceptos de electrónica analógica y digital mediante el diseño, simulación, montaje y sustentación de una solución funcional.
+El proyecto de curso se desarrollará bajo la estrategia **ABP – Aprendizaje Basado en Proyectos**. No será una actividad aislada del final del semestre, sino un proceso progresivo que inicia desde el primer corte y se construye por etapas.
 
-Este proyecto corresponde al componente principal del **Corte 3**. Por esta razón, el tercer corte **no tendrá parcial escrito**; se evaluará mediante proyecto final, guías, talleres, quiz y sustentación.
+La intención es que los estudiantes relacionen la electrónica analógica y digital con una problemática real, desarrollen autonomía, trabajen de forma colaborativa y comprendan cómo cada guía de laboratorio aporta una parte de la solución.
+
+Documento base de la estrategia:
+
+- [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md)
+
+## Problemática general
+
+El proyecto estará orientado a la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**.
+
+Cada grupo seleccionará una problemática particular dentro de esa línea, por ejemplo:
+
+- Monitoreo básico de consumo eléctrico.
+- Control eficiente de cargas.
+- Indicadores de estado de energía.
+- Alertas por baja tensión, sobrecarga o uso innecesario de cargas.
+- Apoyo a sistemas de riego o bombeo de baja potencia.
+- Automatización sencilla para ahorro energético.
+- Sistemas de aviso para condiciones eléctricas anormales.
+- Soluciones de bajo consumo aplicadas a vivienda, campo, comercio o institución.
 
 ## Organización de grupos
 
-El proyecto final se desarrollará en **grupos de 3 estudiantes**.
+El proyecto se desarrollará en **grupos de 3 estudiantes**.
 
-Los grupos de laboratorio deben conformarse desde el inicio del curso, también con **3 estudiantes**, y servirán como base para el desarrollo del proyecto final.
+Los grupos de laboratorio se conforman desde el inicio del curso y servirán como base para el proyecto ABP.
 
 Reglas generales:
 
 - Cada grupo debe tener 3 estudiantes.
 - Cada integrante debe conocer el funcionamiento completo del proyecto.
-- El informe debe indicar los roles y aportes de cada integrante.
+- El informe debe indicar roles y aportes de cada integrante.
 - La sustentación tendrá una parte grupal y preguntas individuales.
 - La nota grupal puede ajustarse individualmente según dominio técnico, participación real y sustentación.
 - Cualquier excepción al número de integrantes debe ser autorizada por el docente.
 
-## Ruta de avances
+## Etapa común del primer corte
 
-El proyecto final no debe dejarse para la última semana. Durante el tercer corte se trabajará por avances:
+Todos los grupos desarrollarán una etapa común:
+
+> **Conversión de corriente alterna a corriente directa, con filtrado, regulación básica e indicadores de protección o estado.**
+
+Esta etapa se trabajará con baja tensión y permitirá que todos los proyectos tengan una base analógica común.
+
+Por seguridad, los montajes en protoboard o laboratorio deben realizarse con **baja tensión AC proveniente de transformador, fuente de laboratorio o simulador**. No se permite conectar montajes directamente a la red eléctrica de 120 V.
+
+La etapa común puede incluir:
+
+1. Entrada AC de baja tensión.
+2. Rectificación con diodos o puente rectificador.
+3. Filtro capacitivo.
+4. Regulación básica con Zener o regulador.
+5. LED indicador de estado.
+6. Protección o criterio de seguridad.
+7. Medición de voltajes antes y después de rectificar, filtrar y regular.
+
+## Etapas por corte
+
+| Corte | Enfoque | Producto esperado |
+|---|---|---|
+| Corte 1 | Etapa común analógica: conversión AC/DC, rectificación, filtrado, regulación, protección básica e indicador de estado. | Fuente DC básica simulada o montada, cálculos, mediciones y justificación de protecciones. |
+| Corte 2 | Etapa digital de decisión: uso de compuertas, tablas de verdad y simplificación para responder a una condición del problema. | Lógica combinacional que active una salida, alarma, indicador o decisión según variables de entrada. |
+| Corte 3 | Integración y aplicación: circuitos combinacionales o secuenciales para completar la solución. | Prototipo funcional, simulación, informe, video, muestra de proyecto y sustentación individual. |
+
+## Ruta de avances
 
 | Semana | Avance esperado | Evidencia sugerida |
 |---:|---|---|
-| 12 | Lluvia de ideas y selección preliminar del proyecto. | Lista de ideas y justificación de la opción escogida. |
-| 13 | Propuesta inicial del proyecto. | Problema, objetivo, integrantes, roles preliminares y componentes posibles. |
-| 14 | Diagrama de bloques y lista de materiales. | Diagrama, explicación de etapas, materiales y costos aproximados. |
-| 15 | Simulación o prueba parcial. | Capturas de simulación, tabla de pruebas o avance funcional. |
-| 16 | Avance funcional del montaje. | Evidencia del circuito, fallas encontradas y ajustes pendientes. |
-| 17 | Sustentación final. | Informe, video, montaje o evidencia funcional y sustentación individual. |
+| 01 | Presentación de la problemática general y conformación de grupos. | Grupo definido y primera discusión de posibles problemas. |
+| 02 | Inicio de etapa común AC/DC. | Rectificación, filtrado, regulación básica y primeras mediciones o simulación. |
+| 03 | Control de carga con BJT. | Etapa de activación de LED, relé o carga DC de baja potencia. |
+| 04 | Control de carga con FET/MOSFET y cierre de etapa analógica. | Comparación BJT/MOSFET y ajuste de la etapa común. |
+| 05 | Cierre del Corte 1. | Parcial y revisión de aprendizajes de la etapa analógica. |
+| 06 | Definición de variables digitales del problema. | Entradas, salidas y primera tabla lógica. |
+| 07 | Representación y operaciones binarias si aplican. | Datos, códigos o estados usados por el proyecto. |
+| 08 | Implementación inicial con compuertas. | Primer circuito lógico de decisión. |
+| 09 | Simplificación lógica. | Expresión booleana, De Morgan o Karnaugh. |
+| 10 | Receso. | Repaso y ajustes autónomos. |
+| 11 | Cierre del Corte 2. | Parcial y revisión de la etapa digital. |
+| 12 | Integración con XOR, sumadores o restadores si aplica. | Circuito o simulación parcial. |
+| 13 | Comparadores, paridad o indicadores de decisión. | Avance funcional orientado a la problemática. |
+| 14 | Codificadores, decodificadores o display. | Primera revisión formal del prototipo. |
+| 15 | Multiplexores, demultiplexores y muestra de proyectos. | Muestra de proyecto o prototipo funcional preliminar. |
+| 16 | Ajustes finales. | Correcciones, video, informe y preparación de sustentación. |
+| 17 | Cierre y sustentación. | Entrega final, sustentación individual y retroalimentación. |
 
-## Enfoque del proyecto
+## Muestra de proyectos
 
-El proyecto puede utilizar uno o varios de los siguientes elementos:
+La muestra de proyectos se realizará preferiblemente entre las **semanas 14 y 15**. En esa muestra los grupos deberán presentar el avance funcional de su solución, explicar la problemática escogida y demostrar cómo se integran las etapas analógica y digital.
 
-- Diodos rectificadores o LED.
-- Regulación con Zener.
-- Transistores BJT como interruptores.
-- Transistores FET/MOSFET como controladores de carga.
-- Compuertas lógicas.
-- Sumadores, comparadores o codificadores.
-- Decodificadores y display de 7 segmentos.
-- Multiplexores o demultiplexores.
-- Flip-flops o contadores básicos.
+Después de la muestra, los grupos podrán realizar ajustes finales para la sustentación y entrega definitiva.
 
 ## Requisitos mínimos
 
-1. El proyecto debe resolver una necesidad o representar una aplicación real.
-2. Debe incluir al menos una etapa analógica o de potencia básica.
-3. Debe incluir al menos una etapa digital o lógica.
-4. Debe ser simulado antes del montaje físico.
-5. Debe presentarse informe técnico.
-6. Debe incluir video corto de funcionamiento.
-7. Cada estudiante debe sustentar individualmente su participación.
-8. Debe incluir lista de materiales y costos.
-9. Debe explicar los cálculos, tablas de verdad o criterios de diseño empleados.
+1. El proyecto debe responder a una problemática definida dentro de la línea general del curso.
+2. Debe incluir la etapa común AC/DC del primer corte.
+3. Debe incluir al menos una etapa de lógica digital con compuertas.
+4. Debe integrar, cuando aplique, algún circuito combinacional o secuencial del tercer corte.
+5. Debe ser simulado antes del montaje físico.
+6. Debe presentarse informe técnico.
+7. Debe incluir video corto de funcionamiento.
+8. Cada estudiante debe sustentar individualmente su participación.
+9. Debe incluir lista de materiales y costos.
+10. Debe explicar cálculos, tablas de verdad, expresiones booleanas o criterios de diseño empleados.
 
 ## Entregables
 
@@ -68,13 +117,14 @@ El proyecto puede utilizar uno o varios de los siguientes elementos:
 - Video de funcionamiento.
 - Lista de materiales y costos.
 - Distribución de roles de los integrantes.
+- Evidencia de la muestra de proyectos.
 - Sustentación grupal e individual.
 
 ## Peso en la nota
 
 | Componente | Peso sobre nota final |
 |---|---:|
-| Proyecto final con sustentación | 20% |
+| Proyecto ABP con muestra y sustentación | 20% |
 
 Este 20% hace parte del **Corte 3**, que equivale al 30% de la nota final.
 
@@ -82,23 +132,23 @@ Este 20% hace parte del **Corte 3**, que equivale al 30% de la nota final.
 
 | Criterio | Descripción | Peso dentro del proyecto |
 |---|---|---:|
-| Funcionamiento | El circuito cumple la función propuesta | 25% |
-| Sustentación individual | Cada estudiante explica su aporte y fundamentos técnicos | 30% |
-| Informe técnico | Claridad, estructura, cálculos, evidencias y conclusiones | 20% |
-| Simulación | Coherencia entre simulación y montaje físico | 10% |
-| Estética y orden | Montaje organizado, cableado claro y presentación | 10% |
-| Costos y roles | Presupuesto y distribución de responsabilidades | 5% |
+| Relación con la problemática | El proyecto responde a una necesidad real dentro de la línea del curso | 15% |
+| Funcionamiento del circuito o sistema | La solución cumple la función propuesta | 25% |
+| Sustentación individual | Cada estudiante explica su aporte y fundamentos técnicos | 25% |
+| Informe técnico | Claridad, estructura, cálculos, evidencias y conclusiones | 15% |
+| Simulación y coherencia con el montaje | La simulación respalda el funcionamiento del prototipo | 10% |
+| Estética, orden, costos y roles | Presentación, organización, presupuesto y distribución de responsabilidades | 10% |
 
 ## Ideas de proyectos
 
-- Sistema de alarma con sensores y compuertas lógicas.
-- Indicador de nivel con transistores y LED.
-- Control básico de motor DC con MOSFET.
-- Semáforo digital con compuertas o contadores.
-- Sistema de votación con sumadores y display.
-- Comparador de señales o niveles con salida visual.
-- Cerradura lógica con combinación binaria.
-- Contador con display de 7 segmentos.
+- Sistema de aviso para consumo alto de energía.
+- Indicador de disponibilidad de energía con lógica de estados.
+- Control eficiente de una carga DC de baja potencia.
+- Indicador de nivel para apoyo a riego o bombeo de baja potencia.
+- Alarma de baja tensión en una fuente DC.
+- Sistema de encendido condicionado por varias variables.
+- Control básico de iluminación con lógica combinacional.
+- Contador o indicador de eventos asociados al uso de una carga.
 
 ## Plantilla de apoyo
 
@@ -108,11 +158,13 @@ Este 20% hace parte del **Corte 3**, que equivale al 30% de la nota final.
 
 Cada integrante podrá recibir preguntas como:
 
+- ¿Cuál fue la problemática seleccionada por el grupo?
 - ¿Cuál fue su aporte específico?
-- ¿Por qué seleccionó esos componentes?
-- ¿Cómo se calcula la resistencia del LED o de base?
-- ¿Qué función cumple cada etapa?
-- ¿Qué diferencias encontró entre simulación y montaje?
+- ¿Cómo funciona la etapa AC/DC común?
+- ¿Qué protección o criterio de seguridad utilizaron?
+- ¿Qué función cumple cada etapa analógica?
+- ¿Qué variables digitales definieron?
+- ¿Cómo se obtuvo la tabla de verdad o expresión booleana?
+- ¿Qué diferencias encontraron entre simulación y montaje?
 - ¿Qué fallas se presentaron y cómo se corrigieron?
-- ¿Qué parte del circuito corresponde a electrónica analógica?
-- ¿Qué parte del circuito corresponde a electrónica digital?
+- ¿Cómo se relaciona el proyecto con la ingeniería eléctrica?

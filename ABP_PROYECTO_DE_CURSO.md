@@ -33,6 +33,20 @@ Esta etapa se trabajará durante el primer corte y servirá como base de aliment
 
 Por seguridad, esta etapa debe desarrollarse con **baja tensión AC proveniente de transformador, fuente de laboratorio o simulador**. No se permite conectar montajes de protoboard directamente a la red eléctrica de 120 V.
 
+## Preproyectos y proyecto final
+
+Los talleres se reemplazan por entregas de proyecto:
+
+| Corte | Entrega | Sentido |
+|---|---|---|
+| Corte 1 | Preproyecto ABP 1 | Problema seleccionado, justificación y etapa común AC/DC. |
+| Corte 2 | Preproyecto ABP 2 | Variables digitales, tabla de verdad, simplificación y lógica con compuertas. |
+| Corte 3 | Proyecto ABP final | Parte final, integración completa, muestra, informe, video y sustentación. |
+
+Los preproyectos no deben entenderse como partes acumulativas que se suman automáticamente al final. Funcionan como cortes de avance, retroalimentación y mejora. En el proyecto final se evaluará la solución corregida e integrada.
+
+Si un grupo tuvo dificultades en el primer o segundo preproyecto, tendrá oportunidad de corregirlas. Lo importante es que en la entrega final se evidencie que la etapa fue ajustada, integrada y comprendida por los integrantes.
+
 ## Etapas por corte
 
 | Corte | Enfoque ABP | Producto esperado |
@@ -99,13 +113,13 @@ La muestra de proyectos se programará preferiblemente entre las **semanas 14 y 
 | 02 | Inicio de etapa común AC/DC: diodos, rectificación, filtrado y Zener. |
 | 03 | Revisión de control de carga con BJT. |
 | 04 | Revisión de control de carga con FET/MOSFET y cierre de la etapa analógica. |
-| 05 | Corte 1: revisión de fundamentos y parcial. |
+| 05 | Corte 1: parcial y entrega del Preproyecto ABP 1. |
 | 06 | Definición de variables digitales del problema. |
 | 07 | Operaciones y representación de datos si el proyecto lo requiere. |
 | 08 | Implementación inicial con compuertas. |
-| 09 | Simplificación de la lógica y ajuste de tabla de verdad. |
+| 09 | Simplificación de la lógica y entrega del Preproyecto ABP 2. |
 | 10 | Receso y revisión autónoma. |
-| 11 | Cierre del Corte 2. |
+| 11 | Cierre del Corte 2 y parcial. |
 | 12 | Integración de XOR, sumadores o restadores si aplica. |
 | 13 | Comparadores, paridad o indicadores de decisión. |
 | 14 | Codificadores, decodificadores o display. Primera revisión formal del prototipo. |
@@ -115,7 +129,7 @@ La muestra de proyectos se programará preferiblemente entre las **semanas 14 y 
 
 ## Entregables mínimos por corte
 
-### Corte 1
+### Corte 1 – Preproyecto ABP 1
 
 - Problema seleccionado por el grupo dentro de la línea general del curso.
 - Justificación de la necesidad.
@@ -124,7 +138,7 @@ La muestra de proyectos se programará preferiblemente entre las **semanas 14 y 
 - Cálculos de rectificación, filtrado, regulación y resistencia de LED.
 - Evidencias de medición o simulación.
 
-### Corte 2
+### Corte 2 – Preproyecto ABP 2
 
 - Variables de entrada y salida.
 - Tabla de verdad.
@@ -133,10 +147,11 @@ La muestra de proyectos se programará preferiblemente entre las **semanas 14 y 
 - Circuito con compuertas.
 - Simulación o evidencia de funcionamiento.
 - Relación clara entre la lógica digital y la problemática seleccionada.
+- Consulta técnica o académica en otro idioma, cuando aplique.
 
-### Corte 3
+### Corte 3 – Proyecto ABP final
 
-- Integración de etapas.
+- Integración de etapas corregidas.
 - Prototipo funcional o simulación completa.
 - Informe técnico.
 - Video corto de funcionamiento.

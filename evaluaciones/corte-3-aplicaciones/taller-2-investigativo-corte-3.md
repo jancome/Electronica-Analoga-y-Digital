@@ -1,29 +1,15 @@
-# Taller 2 investigativo – Corte 3
+# Archivo integrado al Proyecto ABP final
 
-**Corte:** 3  
-**Fecha de publicación:** miércoles 4 de noviembre de 2026  
-**Hora de publicación:** 2:00 p. m. Colombia  
-**Peso:** 2% de la nota final  
-**Modalidad:** grupos de 3 estudiantes  
-**Idioma de consulta:** inglés u otro idioma diferente al español
+El Taller 2 investigativo del Corte 3 deja de manejarse como entrega separada.
 
-## Estado
+El componente investigativo se integrará dentro del **Proyecto ABP final**:
 
-El contenido específico del taller estará disponible a partir de la fecha y hora indicadas.
+- [Proyecto ABP final](../../PROYECTO_FINAL.md)
 
-Hasta ese momento, este archivo funciona como aviso de programación.
+## Criterio
 
-## Temas generales
+La consulta técnica o académica debe apoyar la aplicación final del proyecto y relacionarse con la problemática seleccionada por el grupo.
 
-- Aplicaciones digitales en ingeniería eléctrica.
-- Sumadores y comparadores.
-- Codificadores y decodificadores.
-- Multiplexores y demultiplexores.
-- Flip-flops y contadores.
-- Sistemas embebidos o automatización básica.
+Debe incluir, cuando aplique, fuente académica o técnica, referencia IEEE, resumen propio, glosario técnico bilingüe y relación con ingeniería eléctrica.
 
-## Orientación
-
-Este taller tendrá un componente de consulta en bases de datos de la universidad o fuentes técnicas confiables en otro idioma.
-
-No se publican las instrucciones específicas antes de la hora programada.
+En el Corte 3 la nota fuerte corresponde al proyecto final, su integración, funcionamiento, muestra, informe, video y sustentación individual.

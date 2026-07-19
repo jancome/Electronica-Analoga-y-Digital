@@ -4,7 +4,15 @@ Repositorio académico de la asignatura **Electrónica Analógica y Digital**, d
 
 ## Propósito
 
-Este repositorio funcionará como aula de apoyo para el segundo semestre de 2026. Su objetivo es que los estudiantes encuentren de forma ordenada los contenidos teóricos, actividades prácticas, guías de laboratorio, documentos de evaluación y lineamientos del proyecto final.
+Este repositorio funcionará como aula de apoyo para el segundo semestre de 2026. Su objetivo es que los estudiantes encuentren de forma ordenada los contenidos teóricos, actividades prácticas, guías de laboratorio, documentos de evaluación, lineamientos del proyecto de curso y orientaciones de trabajo.
+
+## Estrategia de trabajo
+
+La asignatura se desarrollará con una estrategia de **ABP – Aprendizaje Basado en Proyectos**. El proyecto no se dejará para el final del semestre; se construirá por etapas desde el primer corte.
+
+La problemática general estará orientada a la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**. Todos los grupos iniciarán con una etapa común de conversión AC/DC en baja tensión y, a partir del segundo corte, cada proyecto tomará un enfoque propio según la problemática seleccionada.
+
+- [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md)
 
 ## Unidades del curso
 
@@ -22,6 +30,7 @@ Este repositorio funcionará como aula de apoyo para el segundo semestre de 2026
 - [Guía rápida para estudiantes](GUIA_RAPIDA_ESTUDIANTES.md)
 - [Checklist de inicio del curso](CHECKLIST_INICIO_CURSO.md)
 - [Mapa general del curso](MAPA_DEL_CURSO.md)
+- [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md)
 
 ## Navegación principal
 
@@ -67,7 +76,7 @@ Cada guía de laboratorio se trabaja en grupos de 3 estudiantes y se compone de 
 
 ## Organización semanal
 
-El curso está organizado por semanas. Cada semana combina explicación, ejercicios guiados, laboratorio, simulación, entregas y trabajo independiente, según corresponda.
+El curso está organizado por semanas. Cada semana combina explicación, ejercicios guiados, laboratorio, simulación, entregas, avances del proyecto ABP y trabajo independiente, según corresponda.
 
 Ver carpeta: [semanas](semanas/README.md)
 

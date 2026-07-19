@@ -10,18 +10,31 @@ Esta guía resume dónde encontrar la información principal del curso y cómo s
 | Fechas y temas por semana | [Cronograma 2026-2](CRONOGRAMA_2026_2.md) |
 | Material de cada semana | [Semanas de clase](semanas/README.md) |
 | Guías de laboratorio | [Guías de laboratorio](guias-laboratorio/README.md) |
+| Estrategia ABP del proyecto | [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md) |
 | Evaluaciones y porcentajes | [Evaluación](EVALUACION.md) |
 | Calendario de quizzes, talleres y parciales | [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md) |
 | Política de publicación de evaluaciones | [Control de publicación de evaluaciones](evaluaciones/CONTROL_PUBLICACION_EVALUACIONES.md) |
-| Proyecto final | [Proyecto final](PROYECTO_FINAL.md) |
+| Proyecto de curso | [Proyecto ABP](PROYECTO_FINAL.md) |
 | Normas de clase | [Normas de clase y entrega](NORMAS_DE_CLASE.md) |
 | Plantillas de entrega | [Plantillas](plantillas/README.md) |
+
+## Estrategia ABP
+
+El curso se trabajará con **Aprendizaje Basado en Proyectos**. El proyecto no se deja para el final: empieza desde el primer corte y se construye por etapas.
+
+La problemática general será la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**.
+
+La ruta general será:
+
+1. **Corte 1:** todos los grupos construyen una etapa común de conversión AC/DC en baja tensión, con rectificación, filtrado, regulación básica, protección e indicador de estado.
+2. **Corte 2:** cada grupo define variables digitales y diseña una lógica con compuertas para responder a su problemática.
+3. **Corte 3:** cada grupo integra la solución, participa en la muestra de proyectos y sustenta individualmente.
 
 ## Grupos de trabajo
 
 - Los grupos de laboratorio serán de **3 estudiantes**.
 - Los grupos se conforman desde el inicio del curso.
-- El proyecto final también se desarrollará en grupos de **3 estudiantes**.
+- El proyecto ABP también se desarrollará en grupos de **3 estudiantes**.
 - Cada integrante debe conocer el funcionamiento completo del circuito o proyecto.
 - Toda entrega grupal debe indicar los roles y aportes de cada integrante.
 
@@ -62,3 +75,4 @@ Todo informe debe incluir:
 - No dejar el informe para el final.
 - Guardar fotos, capturas, mediciones y videos durante la práctica.
 - Prepararse para explicar el circuito aunque el trabajo sea grupal.
+- Relacionar cada laboratorio con el proyecto ABP del grupo.

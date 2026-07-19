@@ -1,6 +1,20 @@
 # Normas de clase y entrega
 
-Este documento resume las reglas de trabajo del curso. Debe explicarse desde la presentación inicial para que todos los estudiantes conozcan cómo se trabajarán las clases, laboratorios, entregas, grupos y evaluaciones.
+Este documento resume las reglas de trabajo del curso. Debe explicarse desde la presentación inicial para que todos los estudiantes conozcan cómo se trabajarán las clases, laboratorios, entregas, grupos, evaluaciones y proyecto ABP.
+
+## Estrategia ABP del curso
+
+La asignatura se trabajará con **ABP – Aprendizaje Basado en Proyectos**. El proyecto se inicia desde el primer corte y se desarrolla por etapas durante el semestre.
+
+La problemática general será la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**.
+
+Reglas principales:
+
+- Todos los grupos trabajarán una etapa común en el primer corte: conversión AC/DC en baja tensión, rectificación, filtrado, regulación básica, protección e indicador de estado.
+- Desde el segundo corte cada grupo orientará su proyecto hacia una problemática particular.
+- La muestra de proyectos se realizará preferiblemente entre las semanas 14 y 15.
+- La sustentación final incluirá preguntas individuales.
+- El proyecto debe relacionarse con los temas vistos en clase y con las guías de laboratorio.
 
 ## Asistencia y puntualidad
 
@@ -11,8 +25,8 @@ Este documento resume las reglas de trabajo del curso. Debe explicarse desde la 
 ## Organización de grupos
 
 - Desde el inicio del curso se conformarán **grupos de laboratorio de 3 estudiantes**.
-- Los grupos se mantendrán, en lo posible, durante las prácticas, guías y proyecto final.
-- El proyecto final también se desarrollará en **grupos de 3 estudiantes**.
+- Los grupos se mantendrán, en lo posible, durante las prácticas, guías y proyecto ABP.
+- El proyecto ABP también se desarrollará en **grupos de 3 estudiantes**.
 - Cada grupo debe distribuir roles de trabajo y evidenciar el aporte de cada integrante.
 - La nota grupal puede ajustarse individualmente según sustentación, participación real y dominio técnico.
 - Cualquier excepción al número de integrantes debe ser autorizada por el docente.
@@ -43,6 +57,7 @@ Reglas para esta valoración:
 - Se debe cuidar el uso de protoboard, cables, multímetro y fuente.
 - Todo montaje debe contar con evidencias: fotos, videos cortos, tablas y mediciones.
 - Todos los integrantes del grupo deben conocer el funcionamiento del circuito, no solo la parte que montaron.
+- Los montajes en protoboard deben trabajar en baja tensión. No se permite conectar montajes directamente a la red eléctrica de 120 V.
 
 ## Informes
 
@@ -52,6 +67,7 @@ Reglas para esta valoración:
 - Las referencias deben presentarse preferiblemente en formato IEEE.
 - Deben indicar los roles y aportes de cada integrante.
 - Cada estudiante debe escribir con claridad la parte en la que trabajó dentro de la práctica.
+- Cuando el laboratorio aporte al proyecto ABP, el informe debe explicar esa relación.
 
 ## Entregas
 

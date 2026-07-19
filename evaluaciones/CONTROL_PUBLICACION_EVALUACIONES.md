@@ -1,10 +1,10 @@
 # Control de publicación de evaluaciones
 
-Este documento define cómo se manejará la publicación de quizzes, talleres, parciales y actividades evaluativas en el repositorio del curso.
+Este documento define cómo se manejará la publicación de quizzes, preproyectos, parciales y actividades evaluativas en el repositorio del curso.
 
 ## Criterio general
 
-Los estudiantes deben conocer con anticipación **el día, el peso y los temas generales** de cada evaluación. Sin embargo, los ejercicios, preguntas o instrucciones específicas no se publicarán antes de la fecha programada.
+Los estudiantes deben conocer con anticipación **el día, el peso y los temas generales** de cada evaluación. Sin embargo, los ejercicios, preguntas, casos o instrucciones específicas no se publicarán antes de la fecha programada cuando la actividad requiera apertura controlada.
 
 La hora oficial de apertura será siempre:
 
@@ -14,7 +14,7 @@ La hora oficial de apertura será siempre:
 
 Antes de la apertura se puede publicar:
 
-- Nombre de la evaluación.
+- Nombre de la evaluación o entrega.
 - Corte al que pertenece.
 - Peso en la nota.
 - Fecha y hora de publicación.
@@ -33,13 +33,19 @@ No se publica antes de la hora programada:
 - Soluciones o respuestas orientadoras.
 - Rúbricas con distribución interna demasiado detallada cuando pueda anticipar la prueba.
 
+## Preproyectos ABP
+
+Los preproyectos reemplazan los talleres. Estos se publican como avances del proyecto de curso y deben estar conectados con la problemática seleccionada por cada grupo.
+
+Los preproyectos de los cortes 1 y 2 permiten recibir retroalimentación. El proyecto final no se calificará como suma automática de esos preproyectos, sino por la integración final corregida, el funcionamiento y la sustentación.
+
 ## Forma práctica de manejo
 
 Como este repositorio es público, el bloqueo se manejará así:
 
 1. El archivo público mostrará solamente la fecha, hora, temas generales y modalidad.
 2. El contenido real de la evaluación se mantendrá fuera del repositorio público hasta la fecha de apertura.
-3. A las 2:00 p. m. hora Colombia del día fijado, el docente reemplazará el archivo de aviso por el contenido completo de la evaluación.
+3. A las 2:00 p. m. hora Colombia del día fijado, el docente reemplazará el archivo de aviso por el contenido completo de la evaluación, si aplica.
 4. Las respuestas o guías de solución no se publicarán en el mismo momento de la evaluación.
 
 ## Recomendación importante

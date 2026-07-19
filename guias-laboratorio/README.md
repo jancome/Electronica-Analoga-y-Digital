@@ -10,11 +10,15 @@ Cada guía de laboratorio se califica a partir de tres componentes:
 
 | Componente | Descripción |
 |---|---|
-| Preinforme o trabajo en clase | Evidencia del avance realizado durante el laboratorio: simulación inicial, montaje, revisión de conexiones, tablas preliminares, mediciones o preguntas cortas. |
-| Informe completo | Documento final del grupo con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. |
-| Aporte individual | Cada estudiante debe indicar qué parte trabajó y demostrar dominio de su aporte y del funcionamiento general del circuito. |
+| Preinforme o trabajo en clase – 30% | Preparación, hoja de datos, simulación inicial, montaje, revisión, tablas preliminares y mediciones. |
+| Informe completo – 40% | Documento final del grupo con cálculos, circuitos, comparación de resultados, análisis, conclusiones y referencias. |
+| Aporte individual – 30% | Cada estudiante indica qué parte trabajó y demuestra dominio de su aporte y del circuito completo. |
 
 Estas tres notas internas conforman la nota final de la guía. El informe puede ser grupal, pero la participación y sustentación individual pueden modificar la nota personal de cada integrante.
+
+## Alcance de las prácticas
+
+Las guías extensas distinguen preparación y simulación previa, montajes esenciales y actividades de profundización. Las actividades opcionales no generan automáticamente una entrega adicional.
 
 ## Electrónica analógica
 

@@ -10,7 +10,7 @@ La problemática general estará orientada a la **gestión, uso eficiente y apro
 
 Todos los grupos iniciarán con una etapa común de conversión AC/DC en baja tensión. Desde el segundo corte cada proyecto empezará a diferenciarse de acuerdo con la problemática seleccionada.
 
-Los talleres se reemplazan por entregas de **preproyecto ABP** en los cortes 1 y 2. En el Corte 3 se evaluará el **proyecto ABP final**, dando oportunidad de corregir e integrar lo que haya quedado débil en las entregas previas.
+Los cortes 1 y 2 incluyen entregas de **preproyecto ABP**. En el Corte 3 se evaluará el **proyecto ABP final**, dando oportunidad de corregir e integrar lo que haya quedado débil en los avances previos.
 
 Documento base:
 
@@ -28,17 +28,17 @@ La unidad analógica concentra muchos temas y solo cuenta con cinco semanas, inc
 
 La distribución del primer corte queda así:
 
-- **Semana 01:** presentación breve, diagnóstico corto, grupos, problemática ABP, señales y medición básica.
+- **Semana 01:** presentación breve, diagnóstico corto, grupos, problemática ABP, señales, medición básica y publicación del Preproyecto ABP 1.
 - **Semana 02:** etapa común AC/DC: semiconductores, unión PN, diodos, LED, rectificación básica, Zener y Lab A01.
 - **Semana 03:** BJT como interruptor, control de carga, protección con diodo y Lab A02.
 - **Semana 04:** Quiz 1 al inicio, FET/MOSFET, control de cargas, comparación BJT/MOSFET y Lab A03.
-- **Semana 05:** repaso, aclaración de dudas, Parcial 1 y entrega de Preproyecto ABP 1. No se programa tema nuevo.
+- **Semana 05:** repaso, aclaración de dudas y Parcial 1. El Preproyecto ABP 1 se entrega antes de esta semana para evitar acumulación de evaluaciones.
 
 ## Semana de receso
 
 Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido nuevo por receso institucional. Para mantener la continuidad del curso, los temas de lógica digital se distribuyen así:
 
-- Antes del receso se avanza hasta álgebra booleana, De Morgan e introducción a Karnaugh.
+- Antes del receso se trabajan álgebra booleana, De Morgan y mapas de Karnaugh de hasta cuatro variables.
 - Durante el receso queda solo repaso autónomo y cierre de pendientes previamente asignados.
 - Después del receso se aplica el parcial del segundo corte, sin tema nuevo.
 
@@ -48,15 +48,15 @@ Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido
 
 | Semana | Fecha aproximada | Corte | Tema central | Trabajo en clase | Evaluación, guía o entrega |
 |---:|---|---|---|---|---|
-| 1 | 03 al 09 agosto | Corte 1 | Inicio del curso, diagnóstico corto y problemática ABP | Syllabus, reglas, grupos de laboratorio, diagnóstico aplicado, problemática de energía, señales analógicas/digitales y medición | Diagnóstico inicial corto + actividad de señales + grupos ABP |
+| 1 | 03 al 09 agosto | Corte 1 | Inicio del curso, diagnóstico corto y problemática ABP | Syllabus, reglas, grupos, diagnóstico aplicado, señales, medición y pregunta orientadora | Diagnóstico + publicación Preproyecto ABP 1 |
 | 2 | 10 al 16 agosto | Corte 1 | Etapa común AC/DC: diodos, rectificación básica y Zener | Unión PN, polarización del diodo, LED, resistencia limitadora, rectificación básica, filtrado introductorio y Zener | Lab A01 + inicio etapa común AC/DC |
-| 3 | 17 al 23 agosto | Corte 1 | Transistor BJT y control de cargas | BJT como interruptor, regiones de operación, resistencia de base, control de LED/relé/carga DC y diodo de protección | Lab A02 + avance de control de carga |
-| 4 | 24 al 30 agosto | Corte 1 | Quiz 1, FET/MOSFET y comparación de transistores | Quiz al inicio, MOSFET como interruptor, resistencia de compuerta, pull-down, control de cargas y comparación BJT/MOSFET | Quiz 1 + Lab A03 + cierre etapa analógica ABP |
-| 5 | 31 agosto al 06 septiembre | Corte 1 | Parcial 1 – Unidad analógica | Repaso, aclaración de dudas y aplicación del parcial | Parcial 1 + Preproyecto ABP 1. No se programa tema nuevo |
-| 6 | 07 al 13 septiembre | Corte 2 | Sistemas numéricos y variables del proyecto | Decimal, binario, hexadecimal, BCD y definición de variables de entrada/salida del ABP | Variables digitales del proyecto |
+| 3 | 17 al 23 agosto | Corte 1 | Transistor BJT y control de cargas | BJT como interruptor, regiones de operación, resistencia de base, control de LED/relé/carga DC y diodo de protección | Lab A02 + revisión formativa Preproyecto 1 |
+| 4 | 24 al 30 agosto | Corte 1 | Quiz 1, FET/MOSFET y comparación de transistores | Quiz al inicio, MOSFET como interruptor, pull-down, control de cargas y comparación BJT/MOSFET | Quiz 1 + Lab A03 + entrega Preproyecto ABP 1 |
+| 5 | 31 agosto al 06 septiembre | Corte 1 | Parcial 1 – Unidad analógica | Repaso, aclaración de dudas y aplicación del parcial | Parcial 1. No se programa tema nuevo |
+| 6 | 07 al 13 septiembre | Corte 2 | Sistemas numéricos y variables del proyecto | Decimal, binario, hexadecimal, BCD y definición de variables de entrada/salida | Publicación Preproyecto ABP 2 |
 | 7 | 14 al 20 septiembre | Corte 2 | Aritmética binaria | Suma, resta, complemento a 1, complemento a 2 y overflow | Quiz 2 |
-| 8 | 21 al 27 septiembre | Corte 2 | Compuertas lógicas | AND, OR, NOT, NAND, NOR, XOR, XNOR, tablas de verdad y lógica inicial del proyecto | Lab 01 + primer circuito lógico del ABP |
-| 9 | 28 septiembre al 04 octubre | Corte 2 | Álgebra booleana, De Morgan e introducción a Karnaugh | Leyes booleanas, simplificación, equivalencias, De Morgan y primeros mapas de Karnaugh | Labs 02 y 03 + Preproyecto ABP 2 |
+| 8 | 21 al 27 septiembre | Corte 2 | Compuertas lógicas | AND, OR, NOT, NAND, NOR, XOR, XNOR, tablas de verdad y lógica inicial del proyecto | Lab 01 + revisión formativa Preproyecto 2 |
+| 9 | 28 septiembre al 04 octubre | Corte 2 | Álgebra booleana, De Morgan y Karnaugh | Simplificación, equivalencias y mapas de hasta cuatro variables | Labs 02 y 03 + entrega Preproyecto ABP 2 |
 | 10 | 05 al 11 octubre | Receso | Receso institucional | Repaso autónomo | Sin entrega nueva, salvo pendientes acordados |
 | 11 | 12 al 18 octubre | Corte 2 | Parcial 2 – Fundamentos digitales | Repaso, aclaración de dudas y aplicación del parcial | Parcial 2. No se programa tema nuevo |
 | 12 | 19 al 25 octubre | Corte 3 | XOR, sumadores y restadores | Medio sumador, sumador completo, restador y aplicaciones en el proyecto | Labs 04 y 05 + integración inicial |
@@ -74,7 +74,7 @@ Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido
 
 - **Semanas:** 1 a 5.
 - **Enfoque:** fundamentos mínimos de circuitos, señales, medición, etapa común AC/DC, semiconductores, diodos, LED, Zener, rectificación, filtrado, BJT y FET/MOSFET.
-- **Evidencias:** diagnóstico corto, Labs A01/A02/A03, Quiz 1, Parcial 1 y Preproyecto ABP 1.
+- **Evidencias:** diagnóstico corto, Labs A01/A02/A03, Quiz 1, Preproyecto ABP 1 y Parcial 1.
 - **Semana de parcial:** semana 5, sin tema nuevo.
 
 ### Corte 2 – Fundamentos digitales y lógica combinacional

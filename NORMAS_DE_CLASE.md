@@ -18,7 +18,7 @@ Reglas principales:
 
 ## Asistencia y puntualidad
 
-- La asistencia a clase es importante para el seguimiento de prácticas, talleres y laboratorios.
+- La asistencia a clase es importante para el seguimiento de prácticas, laboratorios y avances ABP.
 - El estudiante debe llegar puntualmente y estar preparado con los materiales solicitados.
 - Las actividades realizadas durante clase pueden ser evaluables.
 
@@ -28,18 +28,19 @@ Reglas principales:
 - Los grupos se mantendrán, en lo posible, durante las prácticas, guías y proyecto ABP.
 - El proyecto ABP también se desarrollará en **grupos de 3 estudiantes**.
 - Cada grupo debe distribuir roles de trabajo y evidenciar el aporte de cada integrante.
+- Los roles de cálculo/diseño, montaje/medición y documentación/análisis deben rotar entre prácticas.
 - La nota grupal puede ajustarse individualmente según sustentación, participación real y dominio técnico.
 - Cualquier excepción al número de integrantes debe ser autorizada por el docente.
 
 ## Cómo se califica una guía de laboratorio
 
-Cada guía de laboratorio se construye con **tres notas internas**. La suma de estas tres partes conforma la nota final de esa guía.
+Cada guía de laboratorio se construye con **tres notas internas**. Estas partes conforman una única nota de guía.
 
 | Componente de la guía | Qué se evalúa | Carácter |
 |---|---|---|
-| Preinforme o trabajo en clase | Preparación, avance durante el laboratorio, revisión del circuito, simulación inicial, tablas preliminares, mediciones o evidencias tomadas durante la clase. | Grupal, con revisión del trabajo en clase. |
-| Informe completo | Documento final con portada, resumen, introducción, cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. | Grupal. |
-| Aporte individual | Parte específica desarrollada por cada estudiante, explicación de su aporte, dominio del circuito y respuesta a preguntas del docente. | Individual. |
+| Preinforme o trabajo en clase – 30% | Preparación, hoja de datos, avance, revisión del circuito, simulación inicial, tablas preliminares y mediciones. | Grupal, con revisión del trabajo en clase. |
+| Informe completo – 40% | Documento final con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. | Grupal. |
+| Aporte individual – 30% | Parte específica desarrollada, explicación del aporte, dominio del circuito y respuesta a preguntas. | Individual. |
 
 Reglas para esta valoración:
 
@@ -75,6 +76,19 @@ Reglas para esta valoración:
 - Los archivos deben tener nombres claros.
 - Las simulaciones deben ser propias y coherentes con el informe.
 - Las entregas copiadas o sin sustentación podrán recibir calificación individual diferente.
+
+## Investigación dentro del ABP
+
+- Cada corte incluye una consulta en un idioma diferente del español mediante una base de datos de la universidad.
+- Se debe informar la base de datos, citar en IEEE, resumir con palabras propias, incluir glosario bilingüe y explicar la decisión respaldada.
+- Una hoja de datos es un apoyo técnico, pero no sustituye por sí sola la consulta académica.
+
+## Retroalimentación y mejora
+
+- Los retos y rúbricas ABP se conocen desde el inicio del corte.
+- Cada grupo conserva una bitácora de decisiones, fallas, comentarios y correcciones.
+- La muestra de proyectos permite recibir crítica antes de la entrega final.
+- El proyecto final se califica por el estado integrado y corregido, no como suma automática de los preproyectos.
 
 ## Trabajo en equipo
 

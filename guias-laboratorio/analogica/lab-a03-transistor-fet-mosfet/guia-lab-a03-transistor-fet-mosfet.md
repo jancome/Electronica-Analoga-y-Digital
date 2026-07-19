@@ -5,7 +5,6 @@
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2  
 **Programa:** Ingeniería Eléctrica  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
 
 ---
 
@@ -58,6 +57,15 @@ Es obligatorio cumplir las normas de seguridad del laboratorio durante toda la p
 - Use diodo de protección cuando controle cargas inductivas como relés o motores.
 - No exceda el voltaje máximo VGS del dispositivo.
 - Desconecte la fuente antes de modificar conexiones.
+
+### Alcance de la práctica
+
+- **Preparación previa:** hoja de datos, pinout, VGS(th), RDS(on) y simulación del interruptor.
+- **Montaje esencial:** control de LED, efecto de VGS y control protegido de una carga.
+- **Profundización:** comparación extendida con BJT y control PWM.
+- **Aplicación ABP:** seleccionar y justificar el dispositivo de control del proyecto.
+
+PWM se desarrolla cuando exista generador, microcontrolador o simulador disponible. No constituye un requisito universal del montaje esencial.
 
 ---
 

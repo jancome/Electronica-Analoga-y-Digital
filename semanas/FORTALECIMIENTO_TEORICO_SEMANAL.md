@@ -14,7 +14,7 @@ La asignatura se trabajará bajo la estrategia **ABP – Aprendizaje Basado en P
 
 > **Gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe.**
 
-Los talleres fueron reemplazados por **preproyectos ABP**. Por eso, el fortalecimiento teórico de cada semana debe ayudar a que los estudiantes avancen en su proyecto y no vean los temas como contenidos aislados.
+Los **preproyectos ABP** conectan el fortalecimiento teórico con decisiones reales del proyecto y evitan que los temas se estudien como contenidos aislados.
 
 | Corte | Enfoque del proyecto | Entrega asociada |
 |---|---|---|
@@ -148,11 +148,11 @@ Preparación del **Preproyecto ABP 1**: etapa AC/DC, indicador, protección y po
 
 ---
 
-# Semana 05 – Parcial 1 y Preproyecto ABP 1
+# Semana 05 – Parcial 1 y cierre del Corte 1
 
 ## Enfoque de fortalecimiento
 
-La semana no introduce tema nuevo. Se usa para repasar la unidad analógica, aplicar el Parcial 1 y presentar el Preproyecto ABP 1.
+La semana no introduce tema nuevo. Se usa para repasar la unidad analógica, aplicar el Parcial 1 y revisar las correcciones derivadas del Preproyecto ABP 1 ya entregado.
 
 ## Conceptos que deben integrarse
 
@@ -287,11 +287,11 @@ No se debe cargar contenido nuevo. La semana puede usarse para revisar la lógic
 
 ---
 
-# Semana 11 – Parcial 2 y Preproyecto ABP 2
+# Semana 11 – Parcial 2 y cierre del Corte 2
 
 ## Enfoque de fortalecimiento
 
-La semana no introduce tema nuevo. Se usa para cerrar la unidad digital, aplicar el Parcial 2 y entregar el Preproyecto ABP 2.
+La semana no introduce tema nuevo. Se usa para cerrar la unidad digital, aplicar el Parcial 2 y revisar las correcciones del Preproyecto ABP 2 entregado antes del receso.
 
 ## Conceptos que deben integrarse
 

@@ -21,6 +21,14 @@ En esta carpeta se ubicará el modelo oficial de informe de laboratorio y las in
 
 Cada estudiante debe indicar con claridad la parte en la que trabajó. Esta información hace parte de la evaluación de la guía y puede afectar la nota individual.
 
+## Cálculo de la nota
+
+- Preinforme y trabajo en clase: 30%.
+- Informe completo: 40%.
+- Aporte y sustentación individual: 30%.
+
+Los roles deben rotar entre prácticas para que todos desarrollen experiencia en diseño, montaje, medición, análisis y comunicación.
+
 ## Recomendación
 
 El informe debe presentar análisis técnico. No basta con pegar imágenes o capturas de simulación. También se debe evidenciar qué se hizo durante la clase, qué resultados se obtuvieron y cuál fue el aporte de cada integrante.

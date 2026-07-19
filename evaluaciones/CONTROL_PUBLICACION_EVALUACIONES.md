@@ -1,59 +1,37 @@
-# Control de publicación de evaluaciones
+# Publicación de evaluaciones y entregas
 
-Este documento define cómo se manejará la publicación de quizzes, preproyectos, parciales y actividades evaluativas en el repositorio del curso.
+## Hora oficial
 
-## Criterio general
+Las aperturas controladas se realizan a las **2:00 p. m. hora Colombia**.
 
-Los estudiantes deben conocer con anticipación **el día, el peso y los temas generales** de cada evaluación. Sin embargo, los ejercicios, preguntas, casos o instrucciones específicas no se publicarán antes de la fecha programada cuando la actividad requiera apertura controlada.
+## Quizzes y parciales
 
-La hora oficial de apertura será siempre:
+Antes de la fecha se publica únicamente:
 
-**2:00 p. m. – Hora Colombia**
+- Nombre y peso.
+- Fecha y modalidad.
+- Temas generales.
+- Recursos permitidos y orientaciones de preparación.
 
-## Qué se publica antes de la fecha
+Los ejercicios, casos y tablas específicas permanecen fuera del repositorio público hasta la apertura. Las soluciones se publican solamente después del cierre de la evaluación.
 
-Antes de la apertura se puede publicar:
+## Preproyectos y proyecto final
 
-- Nombre de la evaluación o entrega.
-- Corte al que pertenece.
-- Peso en la nota.
-- Fecha y hora de publicación.
-- Modalidad: individual o grupo de 3 estudiantes.
-- Temas generales de repaso.
-- Recomendaciones de preparación.
+Los retos, entregables, criterios y rúbricas del ABP son visibles desde el inicio del corte. No se bloquean, porque los grupos necesitan planear, investigar, recibir retroalimentación y revisar su trabajo.
 
-## Qué queda bloqueado hasta la fecha
+El calendario diferencia:
 
-No se publica antes de la hora programada:
+- Publicación del reto.
+- Revisión formativa.
+- Entrega.
+- Muestra o sustentación.
 
-- Enunciados específicos.
-- Ejercicios numéricos concretos.
-- Tablas incompletas del quiz o parcial.
-- Casos de diseño.
-- Soluciones o respuestas orientadoras.
-- Rúbricas con distribución interna demasiado detallada cuando pueda anticipar la prueba.
+## Guías de laboratorio
 
-## Preproyectos ABP
+Las guías y criterios de evaluación son visibles con anticipación. El estudiante debe preparar el preinforme y consultar las hojas de datos antes del montaje.
 
-Los preproyectos reemplazan los talleres. Estos se publican como avances del proyecto de curso y deben estar conectados con la problemática seleccionada por cada grupo.
+## Manejo técnico
 
-Los preproyectos de los cortes 1 y 2 permiten recibir retroalimentación. El proyecto final no se calificará como suma automática de esos preproyectos, sino por la integración final corregida, el funcionamiento y la sustentación.
+GitHub no programa aperturas por hora. Los instrumentos reales de quiz y parcial deben mantenerse en Teams, Moodle, un repositorio privado o almacenamiento institucional hasta la fecha correspondiente.
 
-## Forma práctica de manejo
-
-Como este repositorio es público, el bloqueo se manejará así:
-
-1. El archivo público mostrará solamente la fecha, hora, temas generales y modalidad.
-2. El contenido real de la evaluación se mantendrá fuera del repositorio público hasta la fecha de apertura.
-3. A las 2:00 p. m. hora Colombia del día fijado, el docente reemplazará el archivo de aviso por el contenido completo de la evaluación, si aplica.
-4. Las respuestas o guías de solución no se publicarán en el mismo momento de la evaluación.
-
-## Recomendación importante
-
-GitHub no bloquea archivos públicos por horario de forma nativa. Por eso, las evaluaciones reales no deben quedar guardadas en el repositorio público antes de la fecha de publicación.
-
-Para un bloqueo real, el contenido completo debe mantenerse en un repositorio privado, en Moodle, en el computador del docente o en un sistema institucional, y publicarse solo cuando corresponda.
-
-## Nota de seguridad
-
-Si una evaluación ya fue publicada antes en un repositorio público, puede permanecer en el historial de Git. Para evaluaciones reales se recomienda preparar una versión nueva antes de aplicarla.
+No se debe subir anticipadamente una evaluación sensible a una rama pública: el historial de Git puede conservarla aunque luego se elimine.

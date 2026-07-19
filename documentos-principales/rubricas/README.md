@@ -1,6 +1,6 @@
 # Rúbricas
 
-En esta carpeta se ubicarán las rúbricas de evaluación de talleres, laboratorios, informes, simulaciones, proyecto final y sustentaciones.
+En esta carpeta se ubicarán las rúbricas de preproyectos, laboratorios, informes, simulaciones, proyecto final y sustentaciones.
 
 ## Criterios frecuentes
 

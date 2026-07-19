@@ -25,6 +25,10 @@ Cada grupo seleccionará una problemática particular dentro de esa línea, por 
 - Sistemas de aviso para condiciones eléctricas anormales.
 - Soluciones de bajo consumo aplicadas a vivienda, campo, comercio o institución.
 
+La pregunta general del proyecto es:
+
+> **¿Cómo diseñar y validar, mediante electrónica analógica y digital de baja tensión, una solución de bajo costo que permita medir, alertar o controlar una condición relacionada con el uso eficiente de energía o agua en Barranquilla y la región Caribe?**
+
 ## Organización de grupos
 
 El proyecto se desarrollará en **grupos de 3 estudiantes**.
@@ -82,13 +86,13 @@ Esto le da al grupo la oportunidad de corregir una etapa si no le fue bien en un
 | 02 | Inicio de etapa común AC/DC. | Rectificación, filtrado, regulación básica y primeras mediciones o simulación. |
 | 03 | Control de carga con BJT. | Etapa de activación de LED, relé o carga DC de baja potencia. |
 | 04 | Control de carga con FET/MOSFET y cierre de etapa analógica. | Comparación BJT/MOSFET y ajuste de la etapa común. |
-| 05 | Cierre del Corte 1. | Parcial y Preproyecto ABP 1. |
+| 05 | Cierre del Corte 1. | Parcial y retroalimentación del Preproyecto ABP 1 ya entregado. |
 | 06 | Definición de variables digitales del problema. | Entradas, salidas y primera tabla lógica. |
 | 07 | Representación y operaciones binarias si aplican. | Datos, códigos o estados usados por el proyecto. |
 | 08 | Implementación inicial con compuertas. | Primer circuito lógico de decisión. |
 | 09 | Simplificación lógica. | Expresión booleana, De Morgan o Karnaugh. |
 | 10 | Receso. | Repaso y ajustes autónomos. |
-| 11 | Cierre del Corte 2. | Parcial y Preproyecto ABP 2. |
+| 11 | Cierre del Corte 2. | Parcial y retroalimentación del Preproyecto ABP 2 entregado antes del receso. |
 | 12 | Integración con XOR, sumadores o restadores si aplica. | Circuito o simulación parcial. |
 | 13 | Comparadores, paridad o indicadores de decisión. | Avance funcional orientado a la problemática. |
 | 14 | Codificadores, decodificadores o display. | Primera revisión formal del prototipo. |
@@ -101,6 +105,8 @@ Esto le da al grupo la oportunidad de corregir una etapa si no le fue bien en un
 La muestra de proyectos se realizará preferiblemente entre las **semanas 14 y 15**. En esa muestra los grupos deberán presentar el avance funcional de su solución, explicar la problemática escogida y demostrar cómo se integran las etapas analógica y digital.
 
 Después de la muestra, los grupos podrán realizar ajustes finales para la sustentación y entrega definitiva.
+
+Cada grupo debe registrar los comentarios recibidos, decidir cuáles aplicará y justificar los cambios realizados o descartados.
 
 ## Requisitos mínimos del proyecto final
 
@@ -115,6 +121,8 @@ Después de la muestra, los grupos podrán realizar ajustes finales para la sust
 9. Debe incluir lista de materiales y costos.
 10. Debe explicar cálculos, tablas de verdad, expresiones booleanas o criterios de diseño empleados.
 11. Debe evidenciar qué se corrigió o mejoró frente a los preproyectos anteriores.
+12. Debe incluir una tercera consulta en otro idioma mediante una base de datos de la universidad.
+13. Debe incluir una bitácora breve de decisiones, pruebas, fallas, retroalimentación y correcciones.
 
 ## Entregables finales
 
@@ -127,6 +135,8 @@ Después de la muestra, los grupos podrán realizar ajustes finales para la sust
 - Evidencia de la muestra de proyectos.
 - Sustentación grupal e individual.
 - Registro de mejoras realizadas después de la retroalimentación.
+- Referencia académica o técnica del Corte 3, resumen propio, glosario bilingüe y evidencia de consulta institucional.
+- Bitácora del proyecto.
 
 ## Peso en la nota
 
@@ -140,10 +150,10 @@ Este 24% hace parte del **Corte 3**, que equivale al 30% de la nota final.
 
 | Criterio | Descripción | Peso dentro del proyecto |
 |---|---|---:|
-| Relación con la problemática | El proyecto responde a una necesidad real dentro de la línea del curso | 15% |
+| Relación con la problemática y evidencia | El proyecto responde a una necesidad sustentada y define criterios de éxito | 15% |
 | Funcionamiento e integración | La solución integra correctamente etapa analógica, lógica digital y aplicación final | 30% |
 | Sustentación individual | Cada estudiante explica su aporte y fundamentos técnicos | 25% |
-| Informe técnico | Claridad, estructura, cálculos, evidencias, correcciones y conclusiones | 15% |
+| Informe, investigación y bitácora | Claridad, cálculos, evidencias, fuentes, reflexión y correcciones | 15% |
 | Simulación y coherencia con el montaje | La simulación respalda el funcionamiento del prototipo | 10% |
 | Estética, orden, costos y roles | Presentación, organización, presupuesto y distribución de responsabilidades | 5% |
 

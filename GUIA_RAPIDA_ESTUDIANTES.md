@@ -33,7 +33,7 @@ La ruta general será:
 
 ## Preproyectos y oportunidad de mejora
 
-Los talleres se reemplazan por preproyectos del ABP:
+El proyecto se desarrolla mediante estas entregas:
 
 - **Preproyecto ABP 1:** avance del Corte 1, problema y etapa común AC/DC.
 - **Preproyecto ABP 2:** avance del Corte 2, variables digitales, tabla de verdad y lógica con compuertas.

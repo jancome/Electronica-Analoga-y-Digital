@@ -5,7 +5,6 @@
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2  
 **Programa:** Ingeniería Eléctrica  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
 
 ---
 
@@ -57,6 +56,15 @@ Es obligatorio cumplir las normas de seguridad del laboratorio durante toda la p
 - Verifique la polaridad del diodo de protección cuando se utilicen cargas inductivas.
 - No exceda el voltaje ni la corriente recomendada para el transistor.
 - Desconecte la alimentación antes de modificar el circuito.
+
+### Alcance de la práctica
+
+- **Preparación previa:** hoja de datos, pinout, simulación del interruptor y cálculo inicial de RB.
+- **Montaje esencial:** control de LED, variación de resistencia de base y control protegido de una carga.
+- **Profundización:** medición ampliada de corrientes, estimación de beta y amplificador en emisor común.
+- **Aplicación ABP:** justificar la etapa BJT cuando el proyecto la requiera.
+
+La etapa de amplificación es una profundización. No debe desplazar la comprobación esencial de corte, saturación y protección de cargas.
 
 ---
 

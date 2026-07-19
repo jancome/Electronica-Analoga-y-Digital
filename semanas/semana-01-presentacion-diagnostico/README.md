@@ -10,6 +10,7 @@ El diagnóstico no se manejará como un bloque extenso, sino como una actividad 
 
 - [Marco teórico – Semana 01](marco-teorico.md)
 - [Diagnóstico inicial – Fundamentos de circuitos](diagnostico-inicial-circuitos.md)
+- [Presentación de la Semana 01](../../presentaciones/semana-01/README.md)
 
 ## Desarrollo de la clase
 

@@ -24,17 +24,16 @@ Cada presentación mantiene:
 - Texto legible y contraste suficiente.
 - El color no es el único recurso para diferenciar información.
 - Tablas y diagramas con etiquetas claras.
-- Imágenes técnicas verificadas.
+- Fotografías técnicas verificadas, pertinentes al tema y con atribución cuando corresponda.
 - Referencias y términos explicados.
 
 ## Índice
 
 | Semana | Presentación | Estado |
 |---:|---|---|
-| 01 | [Inicio, diagnóstico y fundamentos](semana-01/README.md) | Piloto |
-| 02–17 | Se incorporarán por cortes después de validar el piloto | Planeado |
+| 01 | [Inicio, diagnóstico y fundamentos](semana-01/README.md) | Validada |
+| 02–17 | Se incorporarán por cortes usando la Semana 01 como modelo | Planeado |
 
 ## Uso en Teams
 
 El mismo archivo PPTX puede publicarse como material de clase en Teams. Las diapositivas destinadas al docente pueden llevar notas del presentador, mientras el contenido visible se mantiene dirigido al estudiante.
-

@@ -1,5 +1,7 @@
 # Diagnóstico inicial – Fundamentos de circuitos para Electrónica Analógica
 
+> Para la aplicación breve durante la Semana 01 se utilizará la [versión preparada para Microsoft Forms](../../evaluaciones/diagnostico-inicial/README.md). Este documento permanece como banco ampliado para actividades de recuperación y práctica posterior.
+
 **Asignatura:** Electrónica Analógica y Digital  
 **Semana:** 01  
 **Tipo de actividad:** Diagnóstico formativo  

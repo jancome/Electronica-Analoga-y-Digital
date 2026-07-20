@@ -8,7 +8,7 @@ Inicio del curso, diagnóstico, fundamentos de circuitos, señales y pregunta or
 
 - [Descargar presentación de la Semana 01](semana-01-inicio-diagnostico-y-abp.pptx)
 
-La presentación tiene 15 diapositivas y fue validada visualmente. La secuencia incluye recuperación de conocimientos previos, objetivos de aprendizaje, desarrollo conceptual, diagnóstico, conexión con el primer preproyecto y conclusión ABP. Sus decisiones de diseño y extensión se usarán como base para las semanas siguientes.
+La presentación tiene 16 diapositivas y fue validada visualmente. La secuencia parte de una demostración real de iluminación automática con LDR, recupera conocimientos previos, presenta los objetivos, orienta el diagnóstico en Microsoft Forms y conecta los fundamentos con el primer preproyecto y la conclusión ABP. Sus decisiones de diseño y extensión se usarán como base para las semanas siguientes.
 
 ## Propósito
 
@@ -29,6 +29,7 @@ Las fotografías se obtuvieron de Wikimedia Commons y se incorporaron con su atr
 
 - [Digital Oscilloscope](https://commons.wikimedia.org/wiki/File:Digital_Oscilloscope.jpg), Mikasa2025, CC BY 4.0.
 - [Electronics White Breadboard](https://commons.wikimedia.org/wiki/File:Electronics-White-Breadboard.jpg), Evan-Amos, dominio público.
+- [25 mm light-dependent resistor (LDR)](https://commons.wikimedia.org/wiki/File:25mm_light-dependent_resistor_(LDR)_(1).jpg), Suyash Dwivedi, CC BY-SA 4.0.
 - [Multimeter probes on breadboard](https://commons.wikimedia.org/wiki/File:Multimeter_probes_on_breadboard.jpg), Zeroping, CC BY 4.0.
 - [Bridge rectifiers](https://commons.wikimedia.org/wiki/File:Bridge_rectifiers.jpg), Omegatron, CC BY-SA 3.0.
 - [Photovoltaic Solar Panel](https://commons.wikimedia.org/wiki/File:Photovoltaic_Solar_Panel.jpg), AcornToOak, CC BY-SA 4.0.

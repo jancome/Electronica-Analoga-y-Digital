@@ -1,177 +1,121 @@
 # Evaluación de la asignatura
 
-La evaluación de la asignatura se desarrollará por cortes, integrando actividades teóricas, guías de laboratorio, preproyectos ABP, investigación aplicada, simulaciones, informes, parciales, proyecto final y sustentaciones individuales cuando aplique.
+La evaluación combina resolución individual de problemas, trabajo experimental y desarrollo progresivo del proyecto ABP.
 
-## Estructura general de la nota final
+## Nota final
 
-| Componente | Peso sobre nota final |
+| Componente | Peso sobre la nota final |
 |---|---:|
 | Corte 1 – Unidad analógica | 30% |
-| Corte 2 – Fundamentos digitales y lógica combinacional | 30% |
-| Corte 3 – Aplicaciones digitales, secuenciales y proyecto ABP | 30% |
-| Examen institucional de la universidad | 10% |
+| Corte 2 – Fundamentos digitales | 30% |
+| Corte 3 – Aplicaciones e integración ABP | 30% |
+| Examen institucional | 10% |
 | **Total** | **100%** |
 
-El docente desarrolla y califica el **90% correspondiente a la asignatura**. El **10% restante** corresponde al examen institucional definido por la universidad.
+El docente desarrolla y califica el 90% de la asignatura. El 10% restante corresponde al examen institucional.
 
----
+## Distribución por corte
 
-## Estrategia ABP del curso
+### Corte 1
 
-El proyecto se trabajará bajo la estrategia **ABP – Aprendizaje Basado en Proyectos**. Esto significa que el proyecto inicia desde el primer corte y se desarrolla por etapas.
+| Instrumento | Peso final |
+|---|---:|
+| Quiz 1 | 2% |
+| Preproyecto ABP 1 | 4% |
+| Guías A01, A02 y A03 | 4% |
+| Parcial 1 | 20% |
+| **Total** | **30%** |
 
-La problemática general estará orientada a la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**.
+### Corte 2
 
-La ruta general será:
+| Instrumento | Peso final |
+|---|---:|
+| Quiz 2 | 2% |
+| Preproyecto ABP 2 | 4% |
+| Labs 01, 02 y 03 | 4% |
+| Parcial 2 | 20% |
+| **Total** | **30%** |
 
-| Corte | Relación con el proyecto ABP |
-|---|---|
-| Corte 1 | Todos los grupos desarrollan una etapa común de conversión AC/DC en baja tensión, con rectificación, filtrado, regulación básica, protección e indicador de estado. |
-| Corte 2 | Cada grupo define variables digitales, tabla de verdad, expresión booleana y lógica con compuertas asociada a su problemática. |
-| Corte 3 | Cada grupo integra la solución, presenta muestra de proyecto, realiza ajustes y sustenta el prototipo final. |
+### Corte 3
 
-Documento base:
+El Corte 3 no tiene parcial escrito.
 
-- [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md)
+| Instrumento | Peso final |
+|---|---:|
+| Quiz 3 | 2% |
+| Labs 04 a 08 y avances prácticos | 4% |
+| Proyecto ABP final, muestra y sustentación | 24% |
+| **Total** | **30%** |
 
----
+## Quizzes y parciales
 
-## Preproyectos por corte
+Los quizzes son individuales, breves y orientados principalmente a ejercicios: cálculos, conversiones, análisis de circuitos, tablas de verdad e identificación de salidas.
 
-Los talleres se reemplazan por **preproyectos ABP**. La intención es que cada entrega esté conectada con el proyecto de curso y no sea una actividad aislada.
+Los parciales de los cortes 1 y 2 son individuales y se concentran en aplicación y razonamiento. La semana de parcial no introduce contenido nuevo.
 
-| Corte | Entrega ABP | Sentido de la entrega |
+Los enunciados se abren a las 2:00 p. m. hora Colombia en la fecha programada. Los temas y criterios generales permanecen visibles desde el inicio.
+
+## Proyecto ABP
+
+El proyecto se desarrolla en grupos de 3 estudiantes:
+
+| Corte | Producto | Propósito |
 |---|---|---|
-| Corte 1 | Preproyecto 1 | Planteamiento del problema y etapa común analógica AC/DC. |
-| Corte 2 | Preproyecto 2 | Variables digitales, tabla de verdad, expresión booleana, simplificación y lógica con compuertas. |
-| Corte 3 | Proyecto final ABP | Integración final de la solución, muestra, informe, video y sustentación individual. |
+| 1 | Preproyecto ABP 1 | Problema, requisitos y etapa analógica común AC/DC. |
+| 2 | Preproyecto ABP 2 | Variables, tabla de verdad, simplificación y lógica digital. |
+| 3 | Proyecto ABP final | Integración corregida, funcionamiento, muestra, informe y sustentación. |
 
-Los preproyectos de los cortes 1 y 2 sirven para avanzar, recibir retroalimentación y corregir. El **proyecto final del Corte 3 no será la suma automática de los preproyectos anteriores**. En la entrega final se calificará la parte final, el funcionamiento, la integración completa y la sustentación.
+Los preproyectos permiten recibir retroalimentación. La calificación final del proyecto no es el promedio ni la suma automática de los avances: se valora el estado final, las correcciones, la integración y el dominio técnico.
 
-Esto permite que un grupo que haya tenido dificultades en una entrega previa pueda corregir, mejorar e integrar adecuadamente su solución antes de la sustentación final.
+### Investigación en otro idioma
 
----
+Cada corte incluye una consulta obligatoria en un idioma diferente del español mediante una base de datos de la universidad:
 
-## Organización de grupos
+- Corte 1: integrada al Preproyecto ABP 1.
+- Corte 2: integrada al Preproyecto ABP 2.
+- Corte 3: integrada al informe final.
 
-Desde el inicio del curso se deben conformar **grupos de laboratorio de 3 estudiantes**. Estos grupos se mantendrán, en lo posible, durante las guías de laboratorio, preproyectos y proyecto ABP.
+Cada consulta presenta base de datos, referencia IEEE, resumen propio en español, glosario técnico bilingüe, evidencia de acceso y una decisión respaldada por la fuente.
 
-Reglas generales:
+## Grupos y responsabilidad individual
 
-- Cada grupo debe estar conformado por **3 estudiantes**.
-- Las guías de laboratorio se desarrollarán en grupos de 3 estudiantes.
-- Los preproyectos y el proyecto ABP se desarrollarán en grupos de 3 estudiantes.
-- Cada entrega grupal debe indicar roles y aportes de cada integrante.
-- La nota grupal puede ajustarse individualmente según sustentación, participación real y dominio técnico.
-- Cualquier excepción al número de integrantes debe ser autorizada por el docente.
+- Los grupos tienen 3 estudiantes.
+- Se mantienen, en lo posible, durante laboratorios y proyecto.
+- Los roles deben rotar entre cálculo/diseño, montaje/medición y documentación/análisis.
+- Cada estudiante debe comprender el circuito completo.
+- La nota grupal puede ajustarse individualmente según evidencias y sustentación.
 
----
+## Calificación de cada guía de laboratorio
 
-## Cómo se califica cada guía de laboratorio
+Cada guía genera una única nota calculada con tres componentes:
 
-La nota de cada guía de laboratorio estará conformada por tres componentes internos:
-
-| Componente | Qué se evalúa | Tipo de nota |
-|---|---|---|
-| Preinforme o trabajo en clase | Preparación, avance realizado durante el laboratorio, simulación inicial, montaje, revisión de conexiones, tablas preliminares, mediciones o preguntas cortas. | Grupal, con evidencia del trabajo en clase. |
-| Informe completo | Documento final con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. | Grupal. |
-| Aporte individual | Parte específica desarrollada por cada estudiante, explicación de su aporte, dominio técnico y respuesta a preguntas. | Individual. |
-
-Estas tres notas internas conforman la nota final de la guía. El informe completo puede ser grupal, pero cada estudiante debe indicar la parte en la que trabajó y puede recibir una valoración individual diferente según su participación y dominio.
-
----
-
-## Publicación de evaluaciones
-
-Los estudiantes podrán conocer desde el inicio el calendario, los pesos, la modalidad y los temas generales de cada evaluación. Los enunciados específicos de quizzes, preproyectos y parciales se publicarán únicamente el día señalado a las **2:00 p. m. hora Colombia**, cuando aplique.
-
-La política de publicación se encuentra en:
-
-- [Control de publicación de evaluaciones](evaluaciones/CONTROL_PUBLICACION_EVALUACIONES.md)
-- [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
-
----
-
-## Criterio para los quizzes
-
-Los quizzes serán cortos, pero estarán orientados principalmente a ejercicios de aplicación. Deben incluir cálculos, conversiones, análisis de circuitos, tablas de verdad o identificación de salidas. Las preguntas teóricas se usarán solo como apoyo para verificar comprensión básica.
-
----
-
-## Distribución interna del Corte 1
-
-| Instrumento | Peso sobre nota final | Descripción |
+| Componente | Peso dentro de la guía | Carácter |
 |---|---:|---|
-| Quiz 1 | 2% | Ejercicios cortos de circuitos, diodos, LED, Zener, BJT y MOSFET. |
-| Preproyecto ABP 1 | 4% | Problema seleccionado, justificación, etapa común AC/DC, cálculos, simulación o mediciones iniciales. |
-| Guías A01, A02 y A03 | 4% | A01 en Semana 02, A02 en Semana 03 y A03 en Semana 04. Cada guía se compone de preinforme, informe completo y aporte individual. |
-| Parcial 1 | 20% | Evaluación individual integral de la unidad analógica. |
-| **Total Corte 1** | **30%** |  |
+| Preinforme y trabajo en clase | 30% | Grupal, con evidencia de preparación y trabajo experimental |
+| Informe completo | 40% | Grupal |
+| Aporte y sustentación individual | 30% | Individual |
+| **Total de la guía** | **100%** |  |
 
-## Distribución interna del Corte 2
+El preinforme incluye preparación, hoja de datos, cálculos previos, simulación inicial, revisión del montaje, tablas preliminares y mediciones tomadas en clase.
 
-| Instrumento | Peso sobre nota final | Descripción |
-|---|---:|---|
-| Quiz 2 | 2% | Ejercicios cortos de sistemas numéricos y aritmética binaria. |
-| Preproyecto ABP 2 | 4% | Variables digitales, tabla de verdad, expresión booleana, simplificación y relación con la problemática. |
-| Guías de laboratorio / actividad práctica | 4% | Cada guía se compone de preinforme, informe completo y aporte individual. |
-| Parcial 2 | 20% | Evaluación individual integral de la unidad. |
-| **Total Corte 2** | **30%** |  |
+El informe completo reúne resultados, análisis, cálculos, comparación teórico–simulado–medido, conclusiones y referencias.
 
-Las semanas de parcial no tendrán tema nuevo.
+En el aporte individual cada estudiante identifica qué realizó, explica decisiones y responde preguntas sobre el funcionamiento general.
 
-## Distribución interna del Corte 3
+## Alcance de las guías
 
-El corte 3 **no tendrá parcial escrito**, porque el componente principal será el **proyecto ABP con muestra y sustentación**.
+Las guías extensas se organizan en:
 
-| Instrumento | Peso sobre nota final | Descripción |
-|---|---:|---|
-| Quiz 3 | 2% | Ejercicios cortos de aplicaciones digitales combinacionales y secuenciales. |
-| Guías de laboratorio / actividad práctica | 4% | Cada guía se compone de preinforme, informe completo y aporte individual. |
-| Proyecto ABP final con muestra y sustentación | 24% | Parte final, integración completa, funcionamiento, informe, video, muestra, roles y sustentación individual. |
-| **Total Corte 3** | **30%** |  |
+1. Preparación y simulación previa.
+2. Montajes esenciales.
+3. Actividades de profundización.
+4. Aplicación al proyecto cuando corresponda.
 
----
+No todas las actividades opcionales generan una entrega adicional.
 
-## Ubicación semanal de evaluaciones y avances ABP
+## Calendario y publicación
 
-| Semana | Evaluación, entrega o avance principal |
-|---:|---|
-| 01 | Diagnóstico inicial corto + presentación de problemática ABP |
-| 02 | Lab A01 + inicio etapa común AC/DC |
-| 03 | Lab A02 + control de carga con BJT |
-| 04 | Quiz 1 + Lab A03 + cierre etapa analógica ABP |
-| 05 | Parcial 1 + Preproyecto ABP 1. Sin tema nuevo |
-| 06 | Variables digitales del proyecto |
-| 07 | Quiz 2 |
-| 08 | Lab 01 + lógica inicial con compuertas |
-| 09 | Labs 02 y 03 + simplificación lógica ABP |
-| 10 | Receso institucional |
-| 11 | Parcial 2 + Preproyecto ABP 2. Sin tema nuevo |
-| 12 | Labs 04 y 05 + integración inicial |
-| 13 | Lab 06 + comparadores/paridad aplicados |
-| 14 | Lab 07 + primera revisión formal del prototipo |
-| 15 | Lab 08 + muestra de proyectos ABP |
-| 16 | Quiz 3 + ajustes finales del proyecto |
-| 17 | Sustentación final y cierre |
-
-El calendario con fechas y hora de apertura se encuentra en:
-
-- [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
-
----
-
-## Investigación aplicada dentro del ABP
-
-El componente investigativo se integra dentro de los preproyectos y del proyecto final. No se manejará como taller separado.
-
-Debe incluir, cuando aplique:
-
-1. Fuente académica o técnica consultada.
-2. Base de datos utilizada o fuente técnica confiable.
-3. Referencia en formato IEEE.
-4. Resumen propio en español.
-5. Glosario técnico bilingüe.
-6. Relación con la problemática del proyecto.
-7. Aplicación en ingeniería eléctrica.
-8. Evidencia de consulta.
+- [Calendario de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
+- [Política de publicación](evaluaciones/CONTROL_PUBLICACION_EVALUACIONES.md)
+- [Preproyectos ABP](evaluaciones/preproyectos/README.md)
+- [Proyecto final](PROYECTO_FINAL.md)

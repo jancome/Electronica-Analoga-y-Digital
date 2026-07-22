@@ -10,12 +10,17 @@ El diagnóstico no se manejará como un bloque extenso, sino como una actividad 
 
 - [Marco teórico – Semana 01](marco-teorico.md)
 - [Diagnóstico inicial – Fundamentos de circuitos](diagnostico-inicial-circuitos.md)
+- [Guion de demostración – Iluminación automática con LDR](guion-demostracion-ldr.md)
+- [Planeación activa de la clase](planeacion-activa-semana-01.md)
+- [Diagnóstico para Microsoft Forms](../../evaluaciones/diagnostico-inicial/README.md)
+- [Presentación de la Semana 01](../../presentaciones/semana-01/README.md)
 
 ## Desarrollo de la clase
 
 - Presentación del curso, repositorio, evaluación y proyecto final.
 - Organización de grupos de laboratorio de 3 estudiantes.
-- Diagnóstico corto de fundamentos de circuitos.
+- Demostración inicial de iluminación automática con LDR: observar, predecir, medir y explicar.
+- Diagnóstico corto en Microsoft Forms para identificar tendencias por tema.
 - Repaso aplicado de:
   - Ley de Ohm.
   - Voltaje, corriente, resistencia y potencia.
@@ -29,7 +34,7 @@ El diagnóstico no se manejará como un bloque extenso, sino como una actividad 
 
 ## Entrega
 
-Diagnóstico inicial corto y actividad de identificación de señales o sistemas analógicos, digitales y mixtos.
+Diagnóstico inicial en Microsoft Forms, tabla de mediciones del montaje LDR y primera formulación del reto ABP.
 
 ## Trabajo posterior
 

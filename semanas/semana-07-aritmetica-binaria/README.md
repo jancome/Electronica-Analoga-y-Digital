@@ -24,4 +24,4 @@ Resolver operaciones aritméticas básicas en sistema binario y analizar su rela
 
 ## Entrega
 
-Taller de aritmética binaria.
+Serie de ejercicios de aritmética binaria y preparación del Quiz 2.

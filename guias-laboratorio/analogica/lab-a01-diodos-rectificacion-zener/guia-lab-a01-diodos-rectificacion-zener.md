@@ -5,7 +5,6 @@
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2  
 **Programa:** Ingeniería Eléctrica  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
 
 ---
 
@@ -55,6 +54,15 @@ Es obligatorio cumplir las normas de seguridad del laboratorio durante toda la p
 - Utilice resistencias limitadoras de corriente para proteger diodos y LED.
 - No manipule conexiones energizadas.
 - Use únicamente niveles de tensión seguros para laboratorio educativo.
+
+### Alcance de la práctica
+
+- **Preparación previa:** identificación, hojas de datos y simulación de polarización, LED y media onda.
+- **Montaje esencial:** puente rectificador, filtro, regulación Zener y mediciones por etapas.
+- **Profundización:** comparación de capacitores, polarización inversa y análisis ampliado de rizado.
+- **Aplicación ABP:** documentar la etapa AC/DC que alimentará o servirá de referencia al proyecto.
+
+El docente puede seleccionar los montajes esenciales según los equipos y componentes disponibles. Las actividades de profundización no generan por sí solas una entrega adicional.
 
 ---
 

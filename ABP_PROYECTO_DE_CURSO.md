@@ -23,6 +23,25 @@ A partir de esta línea común, cada grupo podrá enfocar su proyecto hacia una 
 
 El enfoque no es hacer proyectos “por cumplir”, sino proponer una solución técnica sencilla, medible y sustentable desde los temas de la asignatura.
 
+## Pregunta orientadora
+
+> **¿Cómo diseñar y validar, mediante electrónica analógica y digital de baja tensión, una solución de bajo costo que permita medir, alertar o controlar una condición relacionada con el uso eficiente de energía o agua en Barranquilla y la región Caribe?**
+
+Cada grupo debe convertir esta pregunta general en una pregunta específica, identificar un usuario o contexto y definir criterios medibles de éxito.
+
+## Requisitos comunes
+
+- Trabajo seguro en baja tensión.
+- Problema sustentado con evidencia y fuentes confiables.
+- Requisitos funcionales y restricciones explícitas.
+- Etapa analógica común AC/DC.
+- Decisión mediante lógica digital.
+- Una salida observable o medible.
+- Lista de componentes y costo estimado.
+- Simulación previa al montaje.
+- Bitácora de decisiones, fallas, pruebas y correcciones.
+- Roles rotativos para los tres integrantes.
+
 ## Condición común para todos los grupos
 
 Todos los grupos deberán partir de una primera etapa común:
@@ -35,7 +54,7 @@ Por seguridad, esta etapa debe desarrollarse con **baja tensión AC proveniente 
 
 ## Preproyectos y proyecto final
 
-Los talleres se reemplazan por entregas de proyecto:
+El proyecto se organiza mediante las siguientes entregas:
 
 | Corte | Entrega | Sentido |
 |---|---|---|
@@ -46,6 +65,12 @@ Los talleres se reemplazan por entregas de proyecto:
 Los preproyectos no deben entenderse como partes acumulativas que se suman automáticamente al final. Funcionan como cortes de avance, retroalimentación y mejora. En el proyecto final se evaluará la solución corregida e integrada.
 
 Si un grupo tuvo dificultades en el primer o segundo preproyecto, tendrá oportunidad de corregirlas. Lo importante es que en la entrega final se evidencie que la etapa fue ajustada, integrada y comprendida por los integrantes.
+
+Los retos, entregables y rúbricas se publican desde el inicio de cada corte. Las revisiones formativas permiten recibir crítica, justificar decisiones y mejorar antes de la entrega calificada.
+
+## Investigación por corte
+
+Cada corte incorpora una fuente nueva en un idioma diferente del español, consultada mediante una base de datos de la universidad. El grupo registra la referencia IEEE, un resumen propio, un glosario técnico bilingüe, la evidencia de consulta y la decisión de diseño respaldada por la fuente.
 
 ## Etapas por corte
 
@@ -105,6 +130,8 @@ En el tercer corte cada grupo integrará la etapa analógica común con su lógi
 
 La muestra de proyectos se programará preferiblemente entre las **semanas 14 y 15**. Después de la muestra, los grupos podrán realizar ajustes, mejorar la presentación y preparar la sustentación final.
 
+La muestra funciona como producto público y revisión formativa. Cada grupo recibe comentarios de otros estudiantes, del docente y, cuando sea posible, de un invitado del programa o del área. Las decisiones tomadas después de la muestra se registran en la bitácora.
+
 ## Ruta de trabajo sugerida
 
 | Semana | Avance ABP |
@@ -113,7 +140,8 @@ La muestra de proyectos se programará preferiblemente entre las **semanas 14 y 
 | 02 | Inicio de etapa común AC/DC: diodos, rectificación, filtrado y Zener. |
 | 03 | Revisión de control de carga con BJT. |
 | 04 | Revisión de control de carga con FET/MOSFET y cierre de la etapa analógica. |
-| 05 | Corte 1: parcial y entrega del Preproyecto ABP 1. |
+| 04 | Entrega del Preproyecto ABP 1 después de la revisión formativa. |
+| 05 | Corte 1: repaso y parcial, sin tema nuevo. |
 | 06 | Definición de variables digitales del problema. |
 | 07 | Operaciones y representación de datos si el proyecto lo requiere. |
 | 08 | Implementación inicial con compuertas. |

@@ -18,8 +18,6 @@ Esta carpeta contiene diagramas técnicos en formato SVG para reforzar los marco
 
 Las imágenes se insertan en los archivos Markdown con la siguiente sintaxis:
 
-```markdown
-![Texto alternativo](ruta/de/la/imagen.svg)
-```
+Ejemplo: escribir el texto alternativo entre corchetes y la ruta relativa del archivo SVG entre paréntesis.
 
 Se recomienda usar estas imágenes como apoyo visual dentro de los marcos teóricos, guías de laboratorio y actividades de clase.

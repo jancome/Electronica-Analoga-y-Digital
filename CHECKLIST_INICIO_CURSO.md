@@ -21,7 +21,7 @@ Este checklist sirve como apoyo para la primera semana y para la presentación g
 - [ ] Explicar la estrategia **ABP – Aprendizaje Basado en Proyectos**.
 - [ ] Presentar la problemática general: gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe.
 - [ ] Explicar que el proyecto inicia desde el primer corte, no al final del semestre.
-- [ ] Explicar que los talleres se reemplazan por preproyectos ABP.
+- [ ] Explicar la ruta de preproyectos ABP y las oportunidades de mejora.
 - [ ] Aclarar que el proyecto final no será la suma automática de los preproyectos, sino la evaluación de la integración final corregida.
 - [ ] Explicar la estructura de evaluación: 90% asignatura y 10% examen institucional.
 - [ ] Aclarar que el Corte 3 no tiene parcial escrito porque se cierra con proyecto ABP final, muestra y sustentación.

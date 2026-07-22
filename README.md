@@ -12,7 +12,7 @@ La asignatura se desarrollará con una estrategia de **ABP – Aprendizaje Basad
 
 La problemática general estará orientada a la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**. Todos los grupos iniciarán con una etapa común de conversión AC/DC en baja tensión y, a partir del segundo corte, cada proyecto tomará un enfoque propio según la problemática seleccionada.
 
-Los talleres se reemplazan por **preproyectos ABP**. El proyecto final no será la suma automática de esos preproyectos; se evaluará la integración final corregida, el funcionamiento y la sustentación.
+Los cortes 1 y 2 incluyen **preproyectos ABP**. El proyecto final no será la suma automática de esos avances; se evaluará la integración corregida, el funcionamiento y la sustentación.
 
 - [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md)
 - [Preproyectos ABP](evaluaciones/preproyectos/README.md)
@@ -40,6 +40,8 @@ Los talleres se reemplazan por **preproyectos ABP**. El proyecto final no será 
 - [Syllabus resumido](SYLLABUS.md)
 - [Cronograma 2026-2](CRONOGRAMA_2026_2.md)
 - [Semanas de clase](semanas/README.md)
+- [Presentaciones](presentaciones/README.md)
+- [Informe de revisión del repositorio](INFORME_REVISION_REPOSITORIO_2026_2.md)
 - [Evaluación](EVALUACION.md)
 - [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
 - [Preproyectos ABP](evaluaciones/preproyectos/README.md)

@@ -1,4 +1,4 @@
-# Semana 09 – Álgebra booleana, De Morgan e introducción a Karnaugh
+# Semana 09 – Álgebra booleana, De Morgan y Karnaugh
 
 ## Corte
 
@@ -6,7 +6,7 @@ Corte 2 – Fundamentos digitales y lógica combinacional.
 
 ## Propósito
 
-Aplicar leyes del álgebra booleana y los teoremas de De Morgan para simplificar expresiones lógicas e introducir el uso de mapas de Karnaugh.
+Aplicar álgebra booleana, De Morgan y mapas de Karnaugh de hasta cuatro variables para simplificar funciones lógicas.
 
 ## Marco teórico
 
@@ -19,9 +19,9 @@ Aplicar leyes del álgebra booleana y los teoremas de De Morgan para simplificar
 - Leyes básicas del álgebra de Boole.
 - Teoremas de De Morgan.
 - Simplificación algebraica.
-- Introducción a minterminos y mapas de Karnaugh.
+- Minterminos y mapas de Karnaugh de 2, 3 y 4 variables.
 - Relación con Labs 02 y 03.
 
 ## Entrega
 
-Taller de simplificación y avance de Labs 02 y 03.
+Ejercicios de simplificación, Labs 02 y 03 y entrega del Preproyecto ABP 2.

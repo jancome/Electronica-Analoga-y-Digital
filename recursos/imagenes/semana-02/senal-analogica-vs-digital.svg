@@ -35,7 +35,7 @@
   <line x1="685" y1="250" x2="1080" y2="250" stroke="#333" stroke-width="3" stroke-dasharray="12 10"/>
   <line x1="685" y1="510" x2="1080" y2="510" stroke="#333" stroke-width="3" stroke-dasharray="12 10"/>
   <polyline points="685,510 740,510 740,250 830,250 830,510 925,510 925,250 1015,250 1015,510 1080,510" fill="none" stroke="#08702d" stroke-width="5"/>
-  <text x="1090" y="258" font-family="Arial" font-size="25" fill="#08702d">Nivel lógico 1</text>
-  <text x="1090" y="520" font-family="Arial" font-size="25" fill="#08702d">Nivel lógico 0</text>
+  <text x="1045" y="240" font-family="Arial" font-size="20" fill="#08702d">Nivel lógico 1</text>
+  <text x="1045" y="545" font-family="Arial" font-size="20" fill="#08702d">Nivel lógico 0</text>
   <text x="900" y="645" text-anchor="middle" font-family="Arial" font-size="27" font-style="italic" fill="#08702d">Dos niveles discretos</text>
 </svg>

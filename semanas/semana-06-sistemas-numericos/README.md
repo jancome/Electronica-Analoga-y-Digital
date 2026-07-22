@@ -25,4 +25,4 @@ Representar información digital mediante sistemas decimal, binario, hexadecimal
 
 ## Entrega
 
-Taller de conversión entre sistemas numéricos.
+Serie de ejercicios de conversión y definición de variables digitales del proyecto.

@@ -1,331 +1,183 @@
 # Marco teórico – Semana 03
 
-# Semiconductores, unión PN y diodo como elemento de circuito
+# Transistor BJT como interruptor y control de cargas
 
-## 1. Tema de la semana
+## 1. Propósito de la semana
 
-Fundamentos de los materiales semiconductores, dopaje tipo P y tipo N, formación de la unión PN y comportamiento básico del diodo semiconductor dentro de un circuito eléctrico real.
+Comprender el transistor BJT como dispositivo de control y aplicarlo a la activación segura de indicadores, relés o cargas DC de baja potencia dentro de la Fase 1 del proyecto ABPr.
 
-![Unión PN y polarización del diodo](../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
+## 2. Resultado de aprendizaje
 
----
+Al finalizar la semana, el estudiante estará en capacidad de:
 
-## 2. Objetivo de aprendizaje
+- Identificar terminales y tipos básicos de BJT.
+- Diferenciar corte, región activa y saturación.
+- Explicar por qué el BJT se considera controlado por corriente.
+- Calcular una resistencia de base para operación como interruptor.
+- Verificar corriente y potencia en la carga y en el transistor.
+- Incorporar protección para cargas inductivas.
+- Relacionar la etapa de control con la arquitectura del proyecto.
 
-Comprender el funcionamiento básico de los materiales semiconductores y de la unión PN como fundamento del diodo, diferenciando el comportamiento del dispositivo en polarización directa e inversa, y aplicando Ley de Ohm y leyes de Kirchhoff para analizar circuitos simples con diodos.
+## 3. Conexión con la Fase 1 ABPr
 
----
-
-## 3. Contexto e importancia del tema
-
-La mayoría de los dispositivos electrónicos modernos se construyen a partir de materiales semiconductores. Diodos, transistores, circuitos integrados, microcontroladores, sensores, rectificadores, reguladores y dispositivos de potencia dependen del comportamiento controlado de los semiconductores.
-
-Para un estudiante de ingeniería eléctrica, comprender la unión PN es clave porque permite entender cómo se comportan los rectificadores, fuentes de alimentación, protecciones electrónicas, controladores, variadores y sistemas de conversión de energía.
-
-Esta semana marca el paso de los circuitos puramente resistivos hacia los circuitos electrónicos. En circuitos resistivos, la relación entre voltaje y corriente suele ser lineal. En cambio, el diodo introduce un comportamiento no lineal: puede bloquear corriente en un sentido y conducir en el otro a partir de cierta condición de polarización.
-
----
-
-## 4. Relación con los fundamentos previos
-
-Antes de analizar diodos, el estudiante debe recuperar tres ideas de circuitos básicos:
-
-### Ley de Ohm
-
-Permite calcular la corriente cuando se conoce el voltaje aplicado a una resistencia.
+La etapa AC/DC desarrollada en la Semana 02 entrega energía al circuito. El BJT permite que una señal pequeña controle una carga mayor:
 
 ```text
-I = V / R
+Etapa AC/DC
+     ↓
+Señal de control
+     ↓
+BJT como interruptor
+     ↓
+LED, relé o carga DC
 ```
 
-### Ley de voltajes de Kirchhoff
+## 4. Estructura del BJT
 
-En una malla, la suma de voltajes debe cerrar el balance. En un circuito con fuente, resistencia y diodo:
+Un BJT posee tres terminales:
+
+- **Base (B):** terminal de control.
+- **Colector (C):** conduce la corriente principal hacia la carga en una configuración típica NPN.
+- **Emisor (E):** referencia de salida de la corriente principal.
+
+Tipos principales:
+
+- **NPN:** el más usado como interruptor de baja conexión.
+- **PNP:** puede emplearse para conmutación en el lado positivo.
+
+## 5. Relaciones de corriente
+
+En región activa:
 
 ```text
-VS = VR + VD
+IC ≈ β × IB
+IE = IC + IB
 ```
 
-### Potencia eléctrica
+Sin embargo, cuando se usa como interruptor no debe confiarse únicamente en el valor nominal de β. Se fuerza la saturación usando una corriente de base suficiente.
 
-Permite verificar si un componente trabaja dentro de sus límites.
+## 6. Regiones de operación
+
+### Corte
 
 ```text
-P = V × I
+IB ≈ 0
+IC ≈ 0
 ```
 
-Estas tres herramientas serán necesarias para calcular corrientes en diodos, resistencias limitadoras, LED y diodos Zener.
+El transistor se aproxima a un interruptor abierto y la carga permanece apagada.
 
----
+### Región activa
 
-## 5. Conceptos fundamentales
+La corriente de colector depende de la corriente de base. Se usa principalmente en amplificación.
 
-### 5.1 Material conductor
+### Saturación
 
-Un conductor permite el paso de corriente eléctrica con facilidad porque tiene electrones libres disponibles para moverse. Ejemplos: cobre, aluminio y plata.
-
-### 5.2 Material aislante
-
-Un aislante presenta alta oposición al paso de corriente eléctrica. Sus electrones están fuertemente ligados al átomo. Ejemplos: plástico, vidrio, cerámica y caucho.
-
-### 5.3 Material semiconductor
-
-Un semiconductor tiene una conductividad intermedia entre la de un conductor y un aislante. Su comportamiento puede modificarse mediante temperatura, luz, campos eléctricos o adición controlada de impurezas.
-
-Los semiconductores más utilizados son:
-
-- Silicio.
-- Germanio.
-- Arseniuro de galio.
-
-En electrónica general, el silicio es el material más común.
-
----
-
-## 6. Dopaje semiconductor
-
-El dopaje consiste en agregar impurezas controladas a un semiconductor puro para modificar su comportamiento eléctrico.
-
-### 6.1 Semiconductor tipo N
-
-Se obtiene al agregar impurezas con cinco electrones de valencia. Esto aumenta la cantidad de electrones libres.
-
-En un material tipo N, los portadores mayoritarios son los **electrones**.
-
-### 6.2 Semiconductor tipo P
-
-Se obtiene al agregar impurezas con tres electrones de valencia. Esto genera huecos, que pueden comportarse como portadores positivos.
-
-En un material tipo P, los portadores mayoritarios son los **huecos**.
-
----
-
-## 7. Unión PN
-
-Una unión PN se forma al unir una región tipo P con una región tipo N. Al ponerse en contacto, algunos electrones de la región N se recombinan con huecos de la región P cerca de la frontera entre ambas zonas.
-
-Como resultado se forma una zona llamada **región de agotamiento**, en la cual hay pocos portadores libres disponibles para conducir.
-
-La unión PN es la base del diodo semiconductor.
-
----
-
-## 8. Diodo semiconductor
-
-El diodo es un dispositivo de dos terminales:
-
-- **Ánodo:** terminal que debe estar a mayor potencial para conducción directa.
-- **Cátodo:** terminal normalmente identificado físicamente con una banda.
-
-Su característica principal es permitir el paso de corriente principalmente en un sentido y bloquearla en el sentido contrario, dentro de ciertos límites.
-
----
-
-## 9. Polarización directa
-
-Un diodo está en polarización directa cuando el ánodo se conecta al positivo de la fuente y el cátodo al negativo.
-
-En esta condición, si el voltaje aplicado supera aproximadamente el voltaje de conducción del diodo, la unión PN permite el paso de corriente.
-
-Para un diodo de silicio, el voltaje directo típico está alrededor de:
+El transistor conduce como interruptor cerrado. En un BJT de silicio pequeño:
 
 ```text
-VD ≈ 0.7 V
+VCE(sat) ≈ 0.1 a 0.3 V
 ```
 
-En polarización directa, el diodo puede aproximarse como un interruptor cerrado con caída de voltaje interna. Esta aproximación no es exacta, pero es útil para cálculos iniciales de laboratorio.
+## 7. Resistencia de base
 
----
-
-## 10. Polarización inversa
-
-Un diodo está en polarización inversa cuando el cátodo se conecta al positivo de la fuente y el ánodo al negativo.
-
-En esta condición, la región de agotamiento se ensancha y el diodo bloquea el paso de corriente. Solo puede circular una corriente de fuga muy pequeña.
-
-Si el voltaje inverso supera el límite máximo del componente, puede presentarse ruptura y daño del diodo, excepto en dispositivos diseñados para operar en esa región, como el diodo Zener.
-
----
-
-## 11. Modelos básicos del diodo
-
-Para resolver problemas introductorios se pueden usar tres modelos:
-
-### Modelo ideal
-
-El diodo se considera como:
-
-- Corto circuito cuando conduce.
-- Circuito abierto cuando bloquea.
-
-### Modelo práctico
-
-El diodo se considera como un interruptor con caída fija aproximada.
-
-Para silicio:
+Para una señal de control `Vcontrol`:
 
 ```text
-VD ≈ 0.7 V
+RB = (Vcontrol - VBE) / IB
 ```
 
-### Modelo real
-
-Considera la curva característica del diodo, resistencia dinámica, corriente de fuga y variación con temperatura.
-
-En el curso se inicia con el modelo práctico y luego se compara con mediciones reales.
-
----
-
-## 12. Análisis de circuito con diodo y resistencia
-
-Si se conecta una fuente DC, una resistencia y un diodo en serie, la resistencia limita la corriente del circuito.
-
-Aplicando Kirchhoff:
+Con una aproximación inicial:
 
 ```text
-VS = VR + VD
+VBE ≈ 0.7 V
+IB ≈ IC / βforzado
 ```
 
-Entonces:
+Un valor de `βforzado` entre 5 y 10 puede utilizarse como criterio introductorio para asegurar saturación, siempre verificando la hoja de datos y la capacidad de la fuente de control.
+
+## 8. Verificación de potencia
+
+La potencia aproximada en saturación es:
 
 ```text
-VR = VS - VD
+PBJT ≈ VCE(sat) × IC
 ```
 
-Y por Ley de Ohm:
+También deben verificarse:
 
-```text
-I = VR / R
-```
-
-Este procedimiento será usado para analizar diodos rectificadores, LED y reguladores Zener.
-
----
-
-## 13. Curva característica del diodo
-
-La curva característica relaciona el voltaje aplicado al diodo con la corriente que circula por él.
-
-En términos generales:
-
-- En directa, la corriente aumenta rápidamente después del voltaje umbral.
-- En inversa, la corriente es muy pequeña hasta llegar a la ruptura.
-- En un diodo real, siempre existe una caída de voltaje en conducción.
-
-La curva no es lineal, por eso un diodo no se comporta como una resistencia común.
-
----
-
-## 14. Hoja de datos del diodo
-
-Antes de usar un diodo real, se deben revisar datos como:
-
-- Corriente directa máxima.
-- Voltaje inverso máximo.
-- Caída de voltaje directa.
-- Potencia máxima.
-- Encapsulado.
+- Corriente máxima de colector.
+- Potencia máxima del encapsulado.
 - Temperatura de operación.
+- Corriente que puede entregar la señal de control.
 
-En el laboratorio se recomienda consultar la hoja de datos del diodo utilizado, por ejemplo el 1N4007 o equivalente.
+## 9. Carga inductiva y diodo de protección
 
----
+Un relé, solenoide o motor almacena energía en su campo magnético. Al interrumpir la corriente puede generar una sobretensión.
 
-## 15. Aplicaciones reales
+Se coloca un diodo en paralelo con la bobina y en polarización inversa durante la operación normal. Este diodo proporciona una ruta segura a la corriente cuando el transistor se apaga.
 
-Los diodos semiconductores se utilizan en:
+## 10. Ejemplo guiado
 
-- Rectificadores AC/DC.
-- Protección contra inversión de polaridad.
-- Protección contra transitorios.
-- Indicadores LED.
-- Fuentes de alimentación.
-- Cargadores.
-- Reguladores con Zener.
-- Sistemas de control industrial.
-- Electrónica automotriz.
+Se desea controlar una carga de 60 mA con una señal de 5 V.
 
----
-
-## 16. Ejemplo guiado
-
-Se conecta un diodo de silicio en serie con una resistencia de 1 kΩ a una fuente de 5 V. Si el diodo está en polarización directa y se asume una caída de 0.7 V, la corriente aproximada será:
+Usando `βforzado = 10`:
 
 ```text
-VS = VR + VD
-VR = VS - VD
-VR = 5 V - 0.7 V
-VR = 4.3 V
+IB = 60 mA / 10 = 6 mA
+RB = (5 V - 0.7 V) / 6 mA
+RB ≈ 717 Ω
 ```
 
-Luego:
+Se seleccionaría un valor comercial cercano, comprobando que la fuente de control pueda entregar esa corriente y que el transistor soporte la carga.
 
-```text
-I = VR / R
-I = 4.3 V / 1000 Ω
-I = 4.3 mA
-```
+## 11. Actividad de clase y Lab A02
 
-Esto significa que el diodo conduce y la resistencia limita la corriente.
+Cada grupo deberá:
 
----
+1. Identificar el pinout del transistor seleccionado.
+2. Diseñar la resistencia de base.
+3. Simular estados de corte y saturación.
+4. Medir `VBE`, `VCE` e `IC`.
+5. Activar una carga segura de baja potencia.
+6. Agregar diodo de protección si la carga es inductiva.
+7. Explicar qué bloque del proyecto utilizaría esta etapa.
 
-## 17. Ejemplo comparativo: diodo invertido
+## 12. Evidencia ABPr
 
-Si el mismo diodo se invierte, queda en polarización inversa. En ese caso, para una fuente pequeña como 5 V, se aproxima como circuito abierto.
+- Cálculo de la resistencia de base.
+- Esquema y simulación.
+- Mediciones o capturas.
+- Hoja de datos consultada.
+- Explicación del control de la carga.
+- Actualización del diagrama de bloques del proyecto.
 
-Por tanto:
+## 13. Errores comunes
 
-```text
-I ≈ 0 A
-VR ≈ 0 V
-VD ≈ VS
-```
+- Confundir colector y emisor.
+- Usar el BJT sin resistencia de base.
+- Suponer que `IC = βIB` garantiza saturación.
+- Superar la corriente de una salida lógica.
+- Omitir el diodo en cargas inductivas.
+- No compartir referencia GND entre control y potencia cuando corresponde.
 
-Esto permite comprobar en laboratorio la diferencia entre polarización directa e inversa.
+## 14. Preguntas orientadoras
 
----
+1. ¿Por qué el BJT se considera controlado por corriente?
+2. ¿Qué diferencia existe entre región activa y saturación?
+3. ¿Por qué se utiliza un β forzado?
+4. ¿Qué ocurre si la resistencia de base es demasiado grande?
+5. ¿Qué riesgo produce una bobina al desconectarse?
+6. ¿Cómo se verifica que el transistor está saturado?
 
-## 18. Errores comunes
+## 15. Trabajo independiente
 
-- Confundir ánodo y cátodo.
-- Conectar un LED sin resistencia limitadora.
-- Pensar que el diodo ideal y el diodo real se comportan igual.
-- No aplicar Kirchhoff para calcular la corriente.
-- Olvidar que la resistencia limita la corriente del diodo.
-- No revisar la hoja de datos del componente.
-- Exceder la corriente máxima del diodo.
-- Aplicar polarización inversa superior al valor permitido.
+- Completar el informe del Lab A02.
+- Comparar cálculo, simulación y medición.
+- Revisar la hoja de datos del BJT utilizado.
+- Identificar una carga del proyecto que pueda ser controlada mediante transistor.
+- Preparar una comparación preliminar entre BJT y MOSFET.
 
----
+## 16. Conexión con la Semana 04
 
-## 19. Preguntas orientadoras para clase
-
-1. ¿Por qué un semiconductor no es completamente conductor ni completamente aislante?
-2. ¿Qué diferencia existe entre material tipo P y tipo N?
-3. ¿Qué ocurre en la región de agotamiento?
-4. ¿Por qué el diodo conduce principalmente en un solo sentido?
-5. ¿Qué diferencia existe entre polarización directa e inversa?
-6. ¿Por qué es necesaria una resistencia en serie con un LED?
-7. ¿Cómo se aplica Kirchhoff en un circuito con fuente, resistencia y diodo?
-8. ¿Qué diferencia hay entre diodo ideal, práctico y real?
-
----
-
-## 20. Trabajo independiente
-
-Antes de la siguiente clase, el estudiante debe:
-
-1. Consultar la hoja de datos del diodo 1N4007.
-2. Identificar ánodo, cátodo, corriente máxima y voltaje inverso máximo.
-3. Simular un circuito simple con fuente DC, resistencia y diodo.
-4. Resolver al menos tres ejercicios aplicando `VS = VR + VD`.
-5. Preparar dudas para el inicio del laboratorio A01.
-
----
-
-## 21. Relación con laboratorio
-
-Este marco teórico sirve como base para la **Guía A01 – Diodos, rectificación y regulación con Zener**, especialmente en las secciones de polarización directa, polarización inversa e identificación de terminales.
-
-El estudiante debe llegar al laboratorio entendiendo que el diodo no se analiza aislado, sino dentro de una malla donde existen una fuente, una resistencia, una corriente y una potencia que deben verificarse.
+La siguiente semana se estudiará el MOSFET como alternativa de control eficiente de cargas y se cerrará técnicamente la Fase 1 del proyecto.

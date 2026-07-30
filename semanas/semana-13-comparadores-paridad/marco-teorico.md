@@ -1,28 +1,40 @@
 # Marco teórico – Semana 13
 
-# Comparadores y paridad
+# Comparadores, paridad y decisiones de control
 
-## 1. Tema de la semana
+## 1. Propósito de la semana
 
-Circuitos combinacionales para comparación de números binarios y detección básica de errores mediante paridad.
+Utilizar circuitos combinacionales para comparar valores, detectar igualdad o diferencia y verificar datos mediante paridad, relacionando estas funciones con decisiones reales del proyecto ABPr.
 
-## 2. Objetivo de aprendizaje
+## 2. Resultado de aprendizaje
 
-Comprender el funcionamiento de comparadores digitales y circuitos de paridad, relacionándolos con aplicaciones de control y comunicación digital.
+Al finalizar la semana, el estudiante estará en capacidad de:
 
-## 3. Contexto
+- Diseñar un comparador de 1 bit.
+- Interpretar las salidas `A>B`, `A=B` y `A<B`.
+- Explicar la comparación de palabras binarias.
+- Generar y verificar paridad par o impar.
+- Diferenciar detección y corrección de errores.
+- Seleccionar una función de comparación útil para el prototipo.
+- Comprobar la integración física del circuito.
 
-Los sistemas digitales deben tomar decisiones. Para ello comparan valores, verifican estados y detectan errores. Los comparadores y circuitos de paridad son ejemplos de lógica combinacional aplicada a problemas reales.
+## 3. Conexión con la Fase 3 ABPr
 
-## 4. Comparadores
+Los comparadores permiten convertir valores o estados en decisiones:
 
-Un comparador digital recibe dos números binarios y determina la relación entre ellos:
+```text
+Valor medido / estado
+        ↓
+Comparación con referencia
+        ↓
+Mayor, igual o menor
+        ↓
+Alarma, indicador o control
+```
 
-- A > B
-- A = B
-- A < B
+La paridad puede utilizarse para comprobar información digital, pero no corrige automáticamente los errores.
 
-## 5. Comparador de 1 bit
+## 4. Comparador de 1 bit
 
 | A | B | A>B | A=B | A<B |
 |---|---|---|---|---|
@@ -31,43 +43,107 @@ Un comparador digital recibe dos números binarios y determina la relación entr
 | 1 | 0 | 1 | 0 | 0 |
 | 1 | 1 | 0 | 1 | 0 |
 
-## 6. Paridad
-
-La paridad agrega un bit adicional para ayudar a detectar errores simples en una palabra binaria.
-
-- Paridad par: la cantidad total de unos debe ser par.
-- Paridad impar: la cantidad total de unos debe ser impar.
-
-## 7. Relación con XOR
-
-La compuerta XOR es muy útil para generar y comprobar paridad porque su salida cambia cuando cambia la cantidad de unos.
-
-## 8. Ejemplo guiado
-
-Para la palabra 1011 hay tres unos. Si se usa paridad par, se agrega un bit 1 para que el total de unos sea cuatro.
+Expresiones básicas:
 
 ```text
-Dato: 1011
-Bit de paridad par: 1
-Palabra transmitida: 10111
+A>B = A·B̅
+A<B = A̅·B
+A=B = A XNOR B
 ```
 
-## 9. Errores comunes
+## 5. Comparador de varios bits
 
-- Confundir comparación de igualdad con comparación de magnitud.
-- No ordenar correctamente los bits más significativos.
-- Confundir paridad par con paridad impar.
-- Pensar que la paridad corrige errores; realmente solo ayuda a detectarlos.
-- No verificar todas las combinaciones de entrada.
+En una palabra binaria se compara primero el bit más significativo. Si es igual, se revisa el siguiente.
 
-## 10. Preguntas orientadoras
+Circuitos como el 7485 permiten comparar palabras de 4 bits y conectar varios integrados en cascada.
+
+## 6. Comparación aplicada
+
+Ejemplos de interpretación:
+
+- Nivel actual mayor que límite permitido.
+- Conteo igual a valor de referencia.
+- Prioridad entre dos estados.
+- Activación cuando una magnitud codificada supera un umbral.
+
+En un proyecto puramente lógico, las entradas pueden generarse mediante interruptores. Para una variable analógica real puede requerirse un comparador analógico o una etapa de conversión antes de ingresar a la lógica digital.
+
+## 7. Paridad
+
+La paridad agrega un bit para que la cantidad total de unos sea:
+
+- **Paridad par:** número par.
+- **Paridad impar:** número impar.
+
+La XOR es útil para generar y verificar paridad.
+
+Ejemplo para `1011`, que contiene tres unos:
+
+```text
+Bit de paridad par = 1
+Palabra transmitida = 10111
+```
+
+## 8. Límites de la paridad
+
+La paridad:
+
+- Puede detectar ciertos cambios en uno o un número impar de bits.
+- No identifica cuál bit cambió.
+- No corrige el error.
+- Puede no detectar errores que cambien una cantidad par de bits.
+
+## 9. Ejemplo aplicado al ABPr
+
+Un sistema de nivel tiene dos bits que representan cuatro estados. El grupo puede comparar el estado actual con un código de nivel bajo y activar una alarma cuando exista coincidencia.
+
+Debe explicarse por qué se usa comparación y qué valor físico representa cada código.
+
+## 10. Actividad de clase y Lab 06
+
+1. Construir un comparador de 1 bit.
+2. Probar todas las combinaciones.
+3. Analizar un comparador de varios bits.
+4. Diseñar un generador de paridad.
+5. Simular y montar el circuito asignado.
+6. Determinar si el proyecto necesita comparación o paridad.
+7. Integrar el bloque elegido al prototipo.
+8. Registrar mediciones y fallas.
+
+## 11. Evidencia ABPr
+
+- Tabla y expresiones del comparador.
+- Simulación.
+- Montaje funcional.
+- Aplicación escogida.
+- Diagrama de bloques actualizado.
+- Fotografía del avance físico.
+- Registro de prueba y corrección.
+
+## 12. Errores comunes
+
+- Confundir igualdad con comparación de magnitud.
+- Comparar primero el bit menos significativo.
+- Confundir paridad par e impar.
+- Afirmar que la paridad corrige errores.
+- Incorporar comparadores sin definir códigos o referencias.
+- No distinguir entre una entrada analógica y una entrada digital.
+
+## 13. Preguntas orientadoras
 
 1. ¿Qué salida se activa cuando A y B son iguales?
 2. ¿Por qué se compara primero el bit más significativo?
-3. ¿Qué es un bit de paridad?
-4. ¿Qué tipo de error puede detectar la paridad?
-5. ¿Por qué la XOR es útil en sistemas de paridad?
+3. ¿Qué representa la referencia en el proyecto?
+4. ¿Qué errores puede detectar la paridad?
+5. ¿Qué etapa convierte una magnitud física en un estado digital?
 
-## 11. Trabajo independiente
+## 14. Trabajo independiente
 
-Resolver ejercicios de comparación binaria y diseñar un generador de paridad para palabras de 3 o 4 bits.
+- Completar el Lab 06.
+- Documentar la aplicación de comparación o paridad.
+- Corregir el prototipo.
+- Preparar la primera revisión física de la Semana 14.
+
+## 15. Conexión con la Semana 14
+
+La siguiente semana se estudiarán codificadores, decodificadores y display de 7 segmentos para representar o visualizar estados del sistema.

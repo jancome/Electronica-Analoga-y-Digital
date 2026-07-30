@@ -1,70 +1,155 @@
 # Marco teórico – Semana 11
 
-# Mapas de Karnaugh y cierre del Corte 2
+# Cierre de la Fase 2 ABPr y evaluación de lógica combinacional
 
-## 1. Tema de la semana
+## 1. Propósito de la semana
 
-Simplificación de funciones lógicas mediante mapas de Karnaugh.
+Cerrar el segundo corte mediante integración conceptual, presentación del Preproyecto ABPr 2, retroalimentación y aplicación del Parcial 2.
 
-## 2. Objetivo de aprendizaje
+Esta semana **no introduce contenido nuevo**. Los mapas de Karnaugh, la simplificación y el montaje deben haberse desarrollado antes del cierre.
 
-Construir e interpretar mapas de Karnaugh para simplificar funciones de 2, 3 y 4 variables, obteniendo expresiones lógicas reducidas.
+## 2. Resultado de aprendizaje
 
-## 3. Contexto
+Al finalizar la semana, el estudiante estará en capacidad de:
 
-Los mapas de Karnaugh permiten simplificar funciones digitales de forma visual. Son especialmente útiles cuando una expresión proviene de una tabla de verdad y se desea implementar con la menor cantidad posible de compuertas.
+- Explicar la relación entre variables, tabla, expresión y circuito.
+- Demostrar una simulación funcional.
+- Demostrar un montaje funcional en protoboard.
+- Comparar la lógica original y la lógica simplificada.
+- Identificar fallas y correcciones.
+- Justificar cómo la etapa digital responde a la situación problema.
+- Presentar su aporte individual.
 
-## 4. Conceptos fundamentales
-
-- Mintermino: combinación específica de variables que produce salida 1.
-- Maxtermino: combinación específica de variables que produce salida 0.
-- Adyacencia: celdas vecinas que difieren en una sola variable.
-- Agrupación: unión de celdas con valor 1 para simplificar la función.
-- Condición de no importa: combinación que puede tomarse como 0 o 1 según convenga.
-
-## 5. Reglas básicas de agrupación
-
-- Se agrupan cantidades de celdas en potencias de 2: 1, 2, 4, 8 o 16.
-- Los grupos deben ser lo más grandes posible.
-- Una celda puede pertenecer a más de un grupo si ayuda a simplificar.
-- Los bordes del mapa se consideran adyacentes.
-- Cada grupo elimina variables que cambian dentro del grupo.
-
-## 6. Ejemplo guiado
-
-Si una función de dos variables vale 1 para:
+## 3. Integración conceptual del Corte 2
 
 ```text
-A=0, B=1
-A=1, B=1
+Situación problema
+        ↓
+Variables digitales
+        ↓
+Tabla de verdad
+        ↓
+Expresión canónica
+        ↓
+Álgebra / De Morgan / Karnaugh
+        ↓
+Circuito simplificado
+        ↓
+Simulación
+        ↓
+Protoboard
+        ↓
+Pruebas y mediciones
 ```
 
-En ambos casos B permanece en 1 y A cambia. Por tanto, la función simplificada es:
+## 4. Preproyecto ABPr 2
 
-```text
-F = B
-```
+La entrega debe incluir:
 
-## 7. Relación con circuitos
+1. Situación problema y objetivos actualizados.
+2. Diagrama de bloques actualizado.
+3. Variables y significado de sus estados.
+4. Tabla de verdad completa.
+5. Expresión canónica.
+6. Simplificación algebraica o por Karnaugh.
+7. Circuito lógico final.
+8. Simulación funcional.
+9. Montaje funcional en protoboard.
+10. Comprobación de todas las combinaciones.
+11. Mediciones y evidencias.
+12. Consulta de hojas de datos.
+13. Roles y aportes.
+14. Registro de retroalimentación y mejoras.
+15. Relación explícita con la situación problema.
 
-Una expresión simplificada implica menos compuertas, menos conexiones, menor posibilidad de error en el montaje y una implementación más clara.
+## 5. Demostración mínima
 
-## 8. Errores comunes
+El grupo deberá mostrar:
 
-- Agrupar cantidades que no son potencias de 2.
-- No considerar adyacencia por los bordes.
-- Agrupar celdas que no tienen valor 1.
-- No usar condiciones de no importa cuando están disponibles.
-- Obtener la expresión sin verificarla con tabla de verdad.
+- La entrada correspondiente a cada variable.
+- La salida para cada combinación relevante.
+- Coincidencia con la tabla de verdad.
+- Alimentación y referencia correctas.
+- Ausencia de entradas flotantes.
+- Uso de una etapa de control si la carga supera la capacidad de la compuerta.
 
-## 9. Preguntas orientadoras
+## 6. Criterios de calidad
 
-1. ¿Por qué Karnaugh facilita la simplificación?
-2. ¿Qué significa que dos celdas sean adyacentes?
-3. ¿Por qué se agrupa en potencias de 2?
-4. ¿Cuándo se puede usar una condición de no importa?
-5. ¿Cómo se verifica que la expresión simplificada es correcta?
+### Coherencia lógica
 
-## 10. Trabajo independiente
+La tabla, la expresión, la simulación y el montaje deben producir el mismo resultado.
 
-Resolver mapas de 2, 3 y 4 variables y preparar la evaluación o actividad de cierre del segundo corte.
+### Funcionalidad
+
+El circuito debe responder de manera repetible a las entradas.
+
+### Calidad del montaje
+
+Se valoran orden, conexiones verificables, identificación de señales y seguridad.
+
+### Comprensión
+
+Cada integrante debe explicar la función completa y su aporte.
+
+### Mejora
+
+El grupo debe mostrar qué corrigió después de la retroalimentación.
+
+## 7. Preparación para el Parcial 2
+
+La evaluación individual puede incluir:
+
+- Conversiones entre sistemas numéricos.
+- Aritmética binaria.
+- Tablas de verdad.
+- Interpretación de compuertas.
+- Expresiones booleanas.
+- Leyes del álgebra de Boole.
+- Teoremas de De Morgan.
+- Minterminos.
+- Mapas de Karnaugh de 2, 3 y 4 variables.
+- Diseño e interpretación de circuitos combinacionales.
+
+## 8. Retroalimentación para la Fase 3
+
+La entrega de la Fase 2 tiene nota propia, pero el proyecto final se evaluará por su versión definitiva.
+
+Cada grupo deberá completar:
+
+| Observación | Corrección para Fase 3 | Responsable | Evidencia |
+|---|---|---|---|
+|  |  |  |  |
+
+## 9. Actividad de cierre
+
+Cada integrante responderá preguntas como:
+
+1. ¿Qué condición representa cada variable?
+2. ¿Cómo se obtuvo la tabla?
+3. ¿Qué método de simplificación se utilizó?
+4. ¿Qué cambió entre la expresión original y la final?
+5. ¿Cómo se comprobó el protoboard?
+6. ¿Qué falla fue la más importante?
+7. ¿Qué se integrará físicamente en el tercer corte?
+
+## 10. Evidencias de la semana
+
+- Preproyecto ABPr 2.
+- Simulación funcional.
+- Protoboard funcional.
+- Registro de mediciones.
+- Registro de retroalimentación.
+- Parcial 2 individual.
+
+## 11. Errores comunes
+
+- Entregar solo simulación sin protoboard.
+- Mostrar un protoboard sin tabla ni explicación.
+- No probar todas las combinaciones.
+- Dejar entradas flotantes.
+- No evidenciar correcciones.
+- Presentar un montaje que no se relaciona con el problema.
+
+## 12. Conexión con el Corte 3
+
+La Fase 3 integrará la etapa analógica y la lógica digital con aplicaciones combinacionales o secuenciales. El producto definitivo deberá ser físico y presentarse en una maqueta, estructura o base organizada.

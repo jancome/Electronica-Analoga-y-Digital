@@ -1,218 +1,173 @@
 # Marco teórico – Semana 04
 
-# Diodos y rectificación
+# FET/MOSFET, control eficiente de cargas y cierre analógico
 
-## 1. Tema de la semana
+## 1. Propósito de la semana
 
-Uso del diodo semiconductor como rectificador para convertir señales de corriente alterna en señales de corriente directa pulsante.
+Comprender el MOSFET como interruptor controlado por voltaje, compararlo con el BJT y seleccionar una alternativa apropiada para controlar cargas de baja potencia en el proyecto ABPr.
 
-![Rectificación y filtrado](../../recursos/imagenes/analogica/rectificacion-y-filtrado.svg)
+La semana también se utiliza para cerrar técnicamente la etapa analógica y preparar el Preproyecto ABPr 1.
 
----
+## 2. Resultado de aprendizaje
 
-## 2. Objetivo de aprendizaje
+Al finalizar la semana, el estudiante estará en capacidad de:
 
-Analizar el funcionamiento de los rectificadores de media onda y onda completa, comprendiendo la forma de onda de salida, el efecto de la caída de voltaje en los diodos y la importancia del filtrado capacitivo.
+- Identificar Gate, Drain y Source.
+- Explicar la importancia de `VGS` y `RDS(on)`.
+- Diferenciar un MOSFET de canal N de uno de canal P.
+- Implementar un MOSFET canal N como interruptor de baja conexión.
+- Seleccionar resistencias de Gate y pull-down.
+- Comparar BJT y MOSFET con criterios eléctricos.
+- Verificar corriente, potencia y temperatura.
+- Consolidar la arquitectura y la simulación de la Fase 1.
 
----
+## 3. Conexión con la Fase 1 ABPr
 
-## 3. Contexto e importancia del tema
-
-Muchos equipos electrónicos necesitan alimentación en corriente directa, pero la energía disponible en la red eléctrica normalmente se suministra en corriente alterna. Por esta razón, las fuentes de alimentación deben convertir AC en DC.
-
-El primer paso de esa conversión es la rectificación. Los diodos permiten que la corriente circule en un solo sentido, por lo que son fundamentales para construir rectificadores.
-
-En ingeniería eléctrica, los rectificadores se encuentran en cargadores, fuentes DC, variadores, UPS, sistemas de control, equipos industriales, inversores y sistemas de potencia.
-
----
-
-## 4. Conceptos fundamentales
-
-### 4.1 Corriente alterna AC
-
-Una señal AC cambia de polaridad periódicamente. En una señal senoidal, el voltaje aumenta, disminuye, cruza por cero y cambia de signo de forma repetitiva.
-
-Sus magnitudes principales son:
-
-- Voltaje pico.
-- Voltaje pico a pico.
-- Voltaje RMS.
-- Frecuencia.
-- Periodo.
-
-### 4.2 Corriente directa DC
-
-Una señal DC mantiene una polaridad definida. Puede ser constante o presentar variaciones pequeñas llamadas rizado.
-
-Una fuente DC ideal mantiene su voltaje constante en el tiempo.
-
----
-
-## 5. Voltaje RMS y voltaje pico
-
-En una señal senoidal, el voltaje RMS representa el valor efectivo de la señal. El voltaje pico se puede calcular aproximadamente como:
+El proyecto puede utilizar BJT o MOSFET para accionar una salida:
 
 ```text
-VP = VRMS × √2
+Etapa AC/DC
+     ↓
+Condición o señal de control
+     ↓
+BJT / MOSFET
+     ↓
+Indicador o carga de baja potencia
 ```
 
-Por ejemplo, si una señal AC tiene 6 V RMS:
+El componente no debe elegirse por costumbre. La selección debe justificarse según voltaje de control, corriente de carga, pérdidas y disponibilidad.
+
+## 4. Estructura del MOSFET
+
+Terminales principales:
+
+- **Gate (G):** compuerta de control.
+- **Drain (D):** drenador.
+- **Source (S):** fuente.
+
+En un MOSFET canal N de baja conexión, la carga se ubica entre la alimentación y el Drain, mientras el Source se conecta a GND.
+
+## 5. Control mediante voltaje Gate–Source
+
+La variable de control es:
 
 ```text
-VP = 6 V × 1.414
-VP ≈ 8.48 V
+VGS = VG - VS
 ```
 
-Este valor pico es importante porque determina el máximo voltaje disponible antes de considerar las caídas en los diodos.
+El dato `VGS(th)` de la hoja de datos indica el inicio de una conducción pequeña, no necesariamente la condición adecuada para manejar la corriente nominal.
 
----
+Para utilizar señales de 3.3 V o 5 V debe seleccionarse un MOSFET **logic level** cuya `RDS(on)` esté especificada al voltaje de control disponible.
 
-## 6. Rectificador de media onda
+## 6. Resistencia de Gate y pull-down
 
-Un rectificador de media onda utiliza un solo diodo en serie con la carga.
+### Resistencia de Gate
 
-Durante el semiciclo positivo de la señal AC, el diodo queda en polarización directa y permite el paso de corriente. Durante el semiciclo negativo, el diodo queda en polarización inversa y bloquea la corriente.
+Limita los picos de corriente durante la carga y descarga de la capacitancia de compuerta y ayuda a controlar oscilaciones.
 
-Por eso, la señal de salida conserva solo una mitad de la señal de entrada.
+### Resistencia pull-down
 
-### Características
+Mantiene el Gate en 0 V cuando la señal de control está desconectada o en alta impedancia.
 
-- Usa un solo diodo.
-- El aprovechamiento de la señal AC es bajo.
-- La salida tiene alto rizado.
-- La frecuencia del rizado es igual a la frecuencia de entrada.
-- Es sencillo, pero poco eficiente para fuentes de alimentación.
+Sin pull-down, la carga almacenada en el Gate puede producir encendidos no deseados.
 
----
+## 7. Pérdidas por conducción
 
-## 7. Rectificador de onda completa
-
-Un rectificador de onda completa aprovecha ambos semiciclos de la señal AC. Puede implementarse con transformador con derivación central o con un puente de cuatro diodos.
-
-En el puente rectificador, dos diodos conducen durante el semiciclo positivo y otros dos conducen durante el semiciclo negativo. La corriente por la carga siempre mantiene el mismo sentido.
-
-### Características
-
-- Usa cuatro diodos en configuración de puente.
-- Aprovecha ambos semiciclos de la señal AC.
-- La salida tiene menor rizado que la media onda.
-- La frecuencia del rizado es el doble de la frecuencia de entrada.
-- Es ampliamente usado en fuentes de alimentación.
-
----
-
-## 8. Caída de voltaje en los diodos
-
-En un diodo real existe una caída de voltaje en conducción. Para diodos de silicio, esta caída suele estar alrededor de 0.7 V.
-
-En un puente rectificador, durante cada semiciclo conducen dos diodos, por lo que la caída total aproximada es:
+Una aproximación de la potencia disipada es:
 
 ```text
-Vcaída ≈ 2 × 0.7 V
-Vcaída ≈ 1.4 V
+PMOSFET ≈ ID² × RDS(on)
 ```
 
-Esto significa que el voltaje de salida será menor que el voltaje pico ideal.
+La resistencia `RDS(on)` depende de `VGS`, temperatura y dispositivo. Debe consultarse la hoja de datos.
 
----
+## 8. Protección de cargas inductivas
 
-## 9. Filtro capacitivo
+Al igual que con el BJT, una bobina requiere una ruta de descarga. Para cargas DC se utiliza un diodo de rueda libre conectado en paralelo con la bobina.
 
-Después de la rectificación, la señal de salida todavía no es una DC completamente constante. Presenta pulsos o variaciones periódicas. A estas variaciones se les llama rizado.
+El diodo interno del MOSFET no reemplaza automáticamente la protección de la carga; la topología completa debe analizarse.
 
-El capacitor de filtrado se conecta en paralelo con la carga. Su función es cargarse cuando el voltaje rectificado sube y descargarse lentamente cuando el voltaje baja, reduciendo la variación de la salida.
+## 9. Comparación BJT y MOSFET
 
-### Efecto de aumentar la capacitancia
+| Criterio | BJT | MOSFET |
+|---|---|---|
+| Variable de control | Corriente de base | Voltaje Gate–Source |
+| Corriente de entrada permanente | Sí | Muy pequeña en estado estable |
+| Pérdida principal | `VCE(sat) × IC` | `ID² × RDS(on)` |
+| Selección de control | Resistencia de base | Nivel lógico, resistencia Gate y pull-down |
+| Aplicación introductoria | Cargas pequeñas | Control eficiente de cargas DC |
 
-Cuando se aumenta el valor del capacitor:
+## 10. Ejemplo guiado
 
-- La salida se vuelve más suave.
-- Disminuye el rizado.
-- Aumenta el voltaje DC promedio.
-- Puede aumentar la corriente inicial de carga del capacitor.
-
----
-
-## 10. Rizado
-
-El rizado es la variación residual de voltaje que queda después de rectificar y filtrar una señal AC.
-
-Una fuente DC real no siempre es perfectamente constante. El objetivo del filtro es reducir el rizado a un nivel aceptable para el circuito que se desea alimentar.
-
-En onda completa, el rizado es menor que en media onda porque el capacitor se recarga con mayor frecuencia.
-
----
-
-## 11. Aplicaciones reales
-
-Los rectificadores se utilizan en:
-
-- Cargadores de baterías.
-- Fuentes de alimentación DC.
-- Variadores de frecuencia.
-- UPS.
-- Equipos de audio.
-- Controladores industriales.
-- Fuentes de computadores.
-- Sistemas de automatización.
-- Electrónica de potencia.
-
----
-
-## 12. Ejemplo guiado
-
-Una fuente AC de 6 V RMS alimenta un puente rectificador. El voltaje pico de entrada es:
+Una carga consume 0.5 A y el MOSFET presenta:
 
 ```text
-VP = 6 V × 1.414
-VP ≈ 8.48 V
+RDS(on) = 0.08 Ω
 ```
 
-Como en el puente conducen dos diodos, se resta aproximadamente 1.4 V:
+La pérdida aproximada es:
 
 ```text
-Vsalida pico ≈ 8.48 V - 1.4 V
-Vsalida pico ≈ 7.08 V
+P = (0.5 A)² × 0.08 Ω
+P = 0.02 W
 ```
 
-Por lo tanto, la salida máxima real del puente será menor que el valor pico ideal de la señal AC.
+El cálculo debe repetirse con el valor de `RDS(on)` correspondiente al `VGS` y a la temperatura reales.
 
----
+## 11. Actividad de clase y Lab A03
 
-## 13. Errores comunes
+Cada grupo deberá:
 
-- Confundir voltaje RMS con voltaje pico.
-- Olvidar la caída de voltaje en los diodos.
-- Conectar incorrectamente el puente rectificador.
-- Invertir la polaridad del capacitor.
-- Usar un capacitor con voltaje nominal insuficiente.
-- Pensar que una señal rectificada ya es una DC perfectamente constante.
+1. Identificar el pinout del MOSFET.
+2. Consultar `VGS(th)`, `RDS(on)`, corriente y potencia máximas.
+3. Simular el control de una carga.
+4. Agregar resistencia de Gate y pull-down.
+5. Incorporar protección si la carga es inductiva.
+6. Comparar el circuito con la alternativa BJT.
+7. Seleccionar justificadamente la etapa de salida de su proyecto.
 
----
+## 12. Cierre técnico de la Fase 1
 
-## 14. Preguntas orientadoras para clase
+Antes de la entrega, el grupo debe verificar:
 
-1. ¿Por qué se necesita rectificar una señal AC?
-2. ¿Cuál es la diferencia entre media onda y onda completa?
-3. ¿Por qué el puente rectificador usa cuatro diodos?
-4. ¿Por qué el voltaje de salida es menor que el voltaje pico ideal?
-5. ¿Qué función cumple el capacitor en paralelo con la carga?
-6. ¿Qué es el rizado y por qué debe reducirse?
+- Situación específica y justificación.
+- Objetivos.
+- Diagrama de bloques.
+- Etapa AC/DC simulada.
+- Cálculos de rectificación, filtrado y regulación.
+- Indicador y protección.
+- Posible etapa de control con BJT o MOSFET.
+- Lista de materiales.
+- Roles de los integrantes.
+- Fallas pendientes y plan de corrección.
 
----
+## 13. Evidencia ABPr
+
+- Simulación consolidada de la etapa analógica.
+- Comparación técnica BJT–MOSFET.
+- Hoja de datos consultada.
+- Cálculos y capturas.
+- Diagrama de bloques actualizado.
+- Decisión de diseño justificada.
+
+## 14. Errores comunes
+
+- Elegir un MOSFET únicamente por su corriente máxima anunciada.
+- Interpretar `VGS(th)` como voltaje de encendido completo.
+- No usar resistencia pull-down.
+- Confundir Drain y Source.
+- Ignorar la disipación térmica.
+- No compartir GND cuando el circuito lo requiere.
+- Superar límites de la fuente o la carga.
 
 ## 15. Trabajo independiente
 
-Antes de la siguiente clase, el estudiante debe:
+- Completar el informe del Lab A03.
+- Consolidar el Preproyecto ABPr 1.
+- Corregir cálculos y simulación.
+- Preparar una explicación individual del bloque trabajado.
+- Repasar los temas para el Quiz 1 y el Parcial 1.
 
-1. Simular un rectificador de media onda.
-2. Simular un puente rectificador.
-3. Comparar las formas de onda de entrada y salida.
-4. Repetir la simulación agregando un capacitor de filtrado.
-5. Registrar capturas para usarlas en el informe del laboratorio A01.
+## 16. Conexión con la Semana 05
 
----
-
-## 16. Relación con laboratorio
-
-Este marco teórico sirve como base para la **Guía A01 – Diodos, rectificación y regulación con Zener**, especialmente en las secciones de rectificador de media onda, rectificador de onda completa y filtro capacitivo.
+La Semana 05 no introduce contenido nuevo. Se utilizará para integración conceptual, retroalimentación, entrega del Preproyecto ABPr 1 y aplicación del Parcial 1.

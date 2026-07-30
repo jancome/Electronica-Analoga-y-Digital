@@ -1,102 +1,108 @@
-# Plantilla de proyecto ABP
+# Plantilla de proyecto final ABPr
 
 ## Título del proyecto
 
-Nombre claro del sistema o circuito propuesto.
+Nombre claro del sistema propuesto.
 
-## Línea problemática del curso
+## Situación problema del curso
 
-Gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe.
+> ¿Cómo diseñar e implementar un sistema electrónico analógico-digital, de bajo costo y bajo consumo, que permita supervisar, indicar o controlar una variable relacionada con el uso eficiente de la energía o de los recursos en Barranquilla y la región Caribe?
 
 ## Problemática específica del grupo
 
-Describir la situación concreta que el grupo decidió trabajar. Puede estar relacionada con ahorro energético, control de cargas, monitoreo básico, riego de baja potencia, indicadores de estado, alertas eléctricas o una necesidad similar.
+Describir la situación concreta seleccionada y justificar por qué requiere una solución.
 
 ## Integrantes
 
-| Nombre | Código | Rol dentro del proyecto |
-|---|---|---|
-| Estudiante 1 |  |  |
-| Estudiante 2 |  |  |
-| Estudiante 3 |  |  |
+| Nombre | Código | Rol | Aporte principal |
+|---|---|---|---|
+| Estudiante 1 |  |  |  |
+| Estudiante 2 |  |  |  |
+| Estudiante 3 |  |  |  |
 
-## Objetivo general
+## Objetivos
 
-Indicar qué se espera lograr con el proyecto.
+### Objetivo general
 
-## Objetivos específicos
+Indicar qué solución se espera desarrollar.
 
-- Objetivo específico 1.
-- Objetivo específico 2.
-- Objetivo específico 3.
+### Objetivos específicos
 
-## Diagrama de bloques
+- Objetivo 1.
+- Objetivo 2.
+- Objetivo 3.
 
-Incluir un diagrama que muestre las etapas del sistema.
+## Arquitectura y diagrama de bloques
 
-Sugerencia mínima:
+Incluir el flujo completo desde la alimentación y las entradas hasta las salidas.
 
 ```text
-Entrada AC baja tensión
+Entrada AC de baja tensión
         ↓
-Rectificación
-        ↓
-Filtrado
+Rectificación y filtrado
         ↓
 Regulación / protección / indicador
         ↓
-Etapa de control con BJT o MOSFET
+Control con BJT o MOSFET
         ↓
 Etapa lógica digital
         ↓
-Salida, alarma, indicador o carga controlada
+Salida, alarma, indicador o carga
 ```
 
-## Etapa común del Corte 1 – AC/DC
-
-Describir la etapa común trabajada por todos los grupos:
+## Fase 1 – Etapa analógica
 
 - Entrada AC de baja tensión.
 - Rectificación.
-- Filtro capacitivo.
-- Regulación básica.
-- LED indicador de estado.
-- Protección o criterio de seguridad.
-- Mediciones realizadas.
+- Filtrado.
+- Regulación.
+- Indicador y protección.
+- Control de carga.
+- Cálculos y simulación inicial.
 
-## Etapa digital del Corte 2
+## Fase 2 – Lógica digital, simulación y protoboard
 
-Describir la lógica digital asociada al problema:
-
-- Variables de entrada.
-- Variables de salida.
+- Variables de entrada y salida.
 - Tabla de verdad.
 - Expresión booleana.
 - Simplificación.
-- Circuito con compuertas.
+- Esquema lógico.
+- Simulación funcional.
+- Fotografías del montaje en protoboard.
+- Mediciones.
+- Fallas y correcciones propuestas.
 
-## Integración del Corte 3
+## Fase 3 – Integración física definitiva
 
-Describir qué elementos finales se integran:
+- Aplicaciones combinacionales o secuenciales utilizadas.
+- Integración analógica-digital.
+- Prototipo físico funcional.
+- Maqueta, estructura o base de presentación.
+- Correcciones aplicadas después de la retroalimentación.
 
-- Comparadores.
-- Sumadores, restadores o contadores, si aplican.
-- Codificadores, decodificadores o display, si aplican.
-- Multiplexores o demultiplexores, si aplican.
-- Flip-flops o contadores, si aplican.
-- Control de carga de baja potencia.
+## Diseño de la maqueta o base
+
+Describir:
+
+- Material utilizado.
+- Distribución de componentes.
+- Ubicación de entradas y salidas.
+- Forma de presentar la aplicación.
+- Consideraciones de seguridad y orden.
+
+Agregar fotografías o esquema de la maqueta.
 
 ## Cálculos y criterios de diseño
 
-Incluir cálculos de resistencias, corrientes, voltajes, potencia, rectificación, filtrado, tablas de verdad, mapas de Karnaugh o criterios de selección de componentes.
+Incluir resistencias, corrientes, voltajes, potencia, rectificación, filtrado, tablas de verdad, Karnaugh y criterios de selección.
 
-## Simulación
+## Simulación final
 
-Agregar capturas, enlace o descripción de la simulación.
+Agregar capturas o enlace y explicar cómo se validó la solución.
 
-## Montaje físico o evidencia funcional
+## Montaje físico
 
-Agregar fotos, video o evidencia del montaje.
+Agregar fotografías claras del prototipo y la maqueta.
 
 ## Lista de materiales y costos
 
@@ -104,31 +110,37 @@ Agregar fotos, video o evidencia del montaje.
 |---|---:|---:|---|
 |  |  |  |  |
 
-## Pruebas realizadas
+## Pruebas y mediciones
 
-Explicar cómo se validó el funcionamiento.
+| Prueba | Resultado esperado | Resultado obtenido | Observación |
+|---|---|---|---|
+|  |  |  |  |
+
+## Retroalimentación y mejoras
+
+| Observación recibida | Corrección realizada | Evidencia |
+|---|---|---|
+|  |  |  |
 
 ## Aporte individual
 
-Cada estudiante debe indicar con claridad la parte en la que trabajó.
+| Estudiante | Parte trabajada | Evidencia | Dominio demostrado |
+|---|---|---|---|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
-| Estudiante | Parte trabajada | Evidencia o explicación |
-|---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+## Análisis de resultados
 
-## Fallas encontradas y correcciones
+Comparar diseño, simulación y montaje. Explicar diferencias, limitaciones y decisiones técnicas.
 
-Describir problemas encontrados durante el diseño, simulación o montaje, y cómo se resolvieron.
+## Relación con la situación problema
 
-## Relación con la problemática
-
-Explicar cómo el proyecto aporta a la problemática seleccionada y cómo se relaciona con la ingeniería eléctrica.
+Explicar cómo la solución responde a la necesidad seleccionada.
 
 ## Conclusiones
 
-Conclusiones técnicas del proyecto.
+Presentar conclusiones técnicas, aprendizajes y posibles mejoras futuras.
 
 ## Bibliografía
 

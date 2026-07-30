@@ -1,137 +1,99 @@
 # Evaluaciones – Electrónica Analógica y Digital 2026-2
 
-Esta carpeta reúne la propuesta de evaluación por cortes para la asignatura.
+Esta carpeta reúne la evaluación por cortes y fases de **ABPr – Aprendizaje Basado en Proyectos**.
 
-## Estructura general de nota
+## Estructura general
 
 | Componente | Peso sobre nota final |
 |---|---:|
-| Corte 1 – Unidad analógica | 30% |
-| Corte 2 – Fundamentos digitales y lógica combinacional | 30% |
-| Corte 3 – Aplicaciones digitales, secuenciales y proyecto ABP | 30% |
-| Examen institucional de la universidad | 10% |
+| Corte 1 – Unidad analógica y Fase 1 | 30% |
+| Corte 2 – Lógica combinacional y Fase 2 | 30% |
+| Corte 3 – Aplicaciones e integración física | 30% |
+| Examen institucional | 10% |
 | **Total** | **100%** |
 
-El docente evalúa el **90% de la asignatura**. El **10% restante** corresponde al examen institucional de la universidad y no depende directamente de la planeación del docente.
+## Fases ABPr
+
+| Corte | Entrega | Peso | Producto requerido |
+|---|---|---:|---|
+| Corte 1 | Preproyecto ABPr 1 | 4% | Problema, objetivos, arquitectura, etapa analógica y simulación inicial. |
+| Corte 2 | Preproyecto ABPr 2 | 4% | Diseño lógico, simulación funcional y montaje en protoboard. |
+| Corte 3 | Proyecto final ABPr | 24% | Prototipo físico, maqueta, informe, video, muestra y sustentación. |
+
+Los preproyectos permiten recibir retroalimentación. El proyecto final se evaluará por su estado definitivo y no como suma automática de errores anteriores.
 
 ## Organización de grupos
 
-Desde el inicio del curso se deben conformar **grupos de 3 estudiantes** para las prácticas de laboratorio. Estos grupos se mantendrán, en lo posible, durante las guías y servirán como base para los preproyectos y el proyecto ABP final.
+- Grupos de 3 estudiantes.
+- Cada entrega debe identificar roles y aportes.
+- Cada integrante debe dominar el sistema completo.
+- La nota grupal puede ajustarse individualmente.
 
-- Guías de laboratorio: grupos de 3 estudiantes.
-- Preproyectos ABP: grupos de 3 estudiantes.
-- Proyecto ABP final: grupos de 3 estudiantes.
-- Cada entrega grupal debe incluir roles y aportes de cada integrante.
-- La nota grupal puede ajustarse individualmente mediante sustentación o preguntas técnicas.
+## Nota interna de las guías
 
-## Nota interna de las guías de laboratorio
+Cada guía se compone de:
 
-Cada guía de laboratorio se compone de tres notas internas:
-
-| Componente | Descripción |
-|---|---|
-| Preinforme o trabajo en clase | Avance realizado durante el laboratorio, simulación inicial, montaje, revisión, tablas preliminares o mediciones. |
-| Informe completo | Documento final del grupo con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias. |
-| Aporte individual | Parte desarrollada por cada estudiante y dominio demostrado sobre su aporte y el circuito. |
-
-Estas tres notas conforman la nota final de la guía. El informe puede ser grupal, pero el aporte individual puede generar diferencias en la nota personal.
+1. Preinforme o trabajo en clase.
+2. Informe completo.
+3. Aporte y dominio individual.
 
 ## Publicación de evaluaciones
 
-Los estudiantes podrán ver desde el inicio el calendario, el peso, la modalidad y los temas generales de cada evaluación. Los enunciados específicos de quizzes, preproyectos y parciales se publicarán el día correspondiente a las **2:00 p. m. hora Colombia**, cuando aplique.
+Los estudiantes podrán consultar calendario, peso, modalidad y temas generales. Los enunciados específicos se publicarán a las **2:00 p. m. hora Colombia**, cuando aplique.
 
-- [Control de publicación de evaluaciones](CONTROL_PUBLICACION_EVALUACIONES.md)
-- [Calendario semanal de evaluaciones](calendario-evaluacion-semanal.md)
+- [Control de publicación](CONTROL_PUBLICACION_EVALUACIONES.md)
+- [Calendario semanal](calendario-evaluacion-semanal.md)
+- [Instrumentos por corte](instrumentos-evaluacion-por-corte.md)
 
-## Preproyectos ABP
+## Instrumentos ABPr
 
-Los talleres dejan de manejarse como entregas separadas. En su lugar, cada corte tendrá una entrega conectada al proyecto ABP.
+- [Fases y preproyectos](preproyectos/README.md)
+- [Preproyecto ABPr 1](preproyectos/preproyecto-abp-corte-1.md)
+- [Preproyecto ABPr 2](preproyectos/preproyecto-abp-corte-2.md)
+- [Proyecto final ABPr](../PROYECTO_FINAL.md)
 
-| Corte | Entrega | Peso sobre nota final | Sentido |
-|---|---|---:|---|
-| Corte 1 | Preproyecto ABP 1 | 4% | Problema, justificación y etapa común AC/DC. |
-| Corte 2 | Preproyecto ABP 2 | 4% | Variables digitales, tabla de verdad, expresión booleana y lógica con compuertas. |
-| Corte 3 | Proyecto ABP final | 24% | Parte final, integración completa, muestra, informe, video y sustentación. |
+## Corte 1
 
-El proyecto final no será la suma automática de los preproyectos anteriores. Los preproyectos sirven para avanzar, recibir observaciones y corregir. En la sustentación final se evaluará la integración completa y el estado final de la solución.
-
-### Instrumentos ABP
-
-- [Preproyectos ABP](preproyectos/README.md)
-- [Preproyecto ABP 1 – Corte 1](preproyectos/preproyecto-abp-corte-1.md)
-- [Preproyecto ABP 2 – Corte 2](preproyectos/preproyecto-abp-corte-2.md)
-- [Proyecto final ABP](../PROYECTO_FINAL.md)
-
-## Distribución interna del Corte 1
-
-| Componente Corte 1 | Peso sobre nota final |
+| Componente | Peso |
 |---|---:|
 | Quiz 1 | 2% |
-| Preproyecto ABP 1 | 4% |
+| Fase 1 – Preproyecto ABPr 1 | 4% |
 | Guías A01, A02 y A03 | 4% |
 | Parcial 1 | 20% |
-| **Total Corte 1** | **30%** |
+| **Total** | **30%** |
 
-Las guías se distribuyen así:
+## Corte 2
 
-- Semana 02: Lab A01.
-- Semana 03: Lab A02.
-- Semana 04: Lab A03.
-
-### Instrumentos del Corte 1
-
-- [Paquete Corte 1 – Unidad analógica](corte-1-analogica/README.md)
-- [Preproyecto ABP 1](preproyectos/preproyecto-abp-corte-1.md)
-- [Quiz 1 – Unidad analógica](corte-1-analogica/quiz-1-unidad-analogica.md)
-- [Parcial 1 – Unidad analógica](corte-1-analogica/parcial-1-unidad-analogica.md)
-
-## Distribución interna del Corte 2
-
-| Componente Corte 2 | Peso sobre nota final |
+| Componente | Peso |
 |---|---:|
 | Quiz 2 | 2% |
-| Preproyecto ABP 2 | 4% |
-| Guías de laboratorio / actividad práctica | 4% |
+| Fase 2 – Preproyecto ABPr 2 | 4% |
+| Guías digitales | 4% |
 | Parcial 2 | 20% |
-| **Total Corte 2** | **30%** |
+| **Total** | **30%** |
 
-Las semanas de parcial no tendrán tema nuevo.
+El Preproyecto ABPr 2 debe incluir simulación funcional y montaje en protoboard.
 
-### Instrumentos del Corte 2
+## Corte 3
 
-- [Preproyecto ABP 2](preproyectos/preproyecto-abp-corte-2.md)
-- [Quiz 2 – Fundamentos digitales](corte-2-digital/quiz-2-fundamentos-digitales.md)
-- [Parcial 2 – Fundamentos digitales](corte-2-digital/parcial-2-fundamentos-digitales.md)
-
-## Distribución interna del Corte 3
-
-El **Corte 3 no tiene parcial escrito**, porque su componente principal es el **proyecto ABP final con muestra y sustentación**.
-
-| Componente Corte 3 | Peso sobre nota final |
+| Componente | Peso |
 |---|---:|
 | Quiz 3 | 2% |
-| Guías de laboratorio / avances prácticos | 4% |
-| Proyecto ABP final con muestra y sustentación | 24% |
-| **Total Corte 3** | **30%** |
+| Guías y avances prácticos | 4% |
+| Fase 3 – Proyecto final ABPr | 24% |
+| **Total** | **30%** |
 
-### Instrumentos del Corte 3
-
-- [Quiz 3 – Aplicaciones digitales](corte-3-aplicaciones/quiz-3-aplicaciones-digitales.md)
-- [Proyecto final ABP](../PROYECTO_FINAL.md)
+El Proyecto final ABPr debe incluir prototipo físico y maqueta o base de presentación.
 
 ## Investigación aplicada
 
-El componente investigativo se integra dentro de los preproyectos y del proyecto ABP final. No se manejará como taller separado.
-
-El producto debe incluir, cuando aplique, fuente académica o técnica, base de datos o fuente consultada, referencia IEEE, resumen propio, glosario técnico bilingüe, relación con la problemática, aplicación en ingeniería eléctrica y evidencia de consulta.
-
-## Instrumentos
-
-- [Instrumentos de evaluación por corte](instrumentos-evaluacion-por-corte.md)
+La investigación se integra dentro de las fases. Puede incluir fuente técnica o académica, referencia IEEE, resumen propio, glosario bilingüe y relación con la situación problema.
 
 ## Criterios generales
 
-- Los quizzes deben ser cortos y comprobar aplicación práctica.
-- Los preproyectos deben evidenciar avance real del ABP y permitir corrección.
-- Las guías deben incluir preinforme o trabajo en clase, informe completo y aporte individual.
-- Los cortes 1 y 2 tendrán parcial individual y esa semana no tendrá tema nuevo.
+- Los quizzes comprueban aplicación práctica.
+- Los preproyectos deben evidenciar avance real.
+- El segundo corte exige simulación y protoboard.
+- El tercer corte exige prototipo físico y maqueta.
+- Las guías incluyen preinforme, informe y aporte individual.
+- Los cortes 1 y 2 tendrán parcial individual.

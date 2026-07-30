@@ -1,19 +1,29 @@
-# Preproyectos ABP
+# Fases y preproyectos ABPr
 
-Esta carpeta reúne las entregas del proyecto de curso bajo la estrategia **ABP – Aprendizaje Basado en Proyectos**.
+Esta carpeta reúne las entregas del proyecto de curso bajo la estrategia **ABPr – Aprendizaje Basado en Proyectos**.
 
-Los talleres dejan de manejarse como actividades separadas. En su lugar, los grupos entregarán preproyectos conectados con la problemática seleccionada y con el avance real del proyecto.
+Cada fase corresponde a una unidad y a un corte académico.
 
 ## Entregas
 
-| Corte | Entrega | Peso sobre nota final | Sentido |
-|---|---|---:|---|
-| Corte 1 | [Preproyecto ABP 1](preproyecto-abp-corte-1.md) | 4% | Problema, justificación y etapa común AC/DC. |
-| Corte 2 | [Preproyecto ABP 2](preproyecto-abp-corte-2.md) | 4% | Variables digitales, tabla de verdad, simplificación y compuertas. |
-| Corte 3 | [Proyecto ABP final](../../PROYECTO_FINAL.md) | 24% | Integración completa, funcionamiento, muestra, informe, video y sustentación. |
+| Fase | Corte | Entrega | Peso | Producto requerido |
+|---|---|---|---:|---|
+| Fase 1 | Corte 1 | [Preproyecto ABPr 1](preproyecto-abp-corte-1.md) | 4% | Formulación, arquitectura, etapa analógica y simulación inicial. |
+| Fase 2 | Corte 2 | [Preproyecto ABPr 2](preproyecto-abp-corte-2.md) | 4% | Simulación funcional y montaje en protoboard. |
+| Fase 3 | Corte 3 | [Proyecto final ABPr](../../PROYECTO_FINAL.md) | 24% | Prototipo físico, maqueta, informe, video, muestra y sustentación. |
+
+## Criterio institucional
+
+- La situación problema se socializa durante la primera clase.
+- Cada fase contiene actividades y entregables.
+- El segundo corte exige simulación y protoboard.
+- El tercer corte exige proyecto físico y maqueta o base de presentación.
+- La retroalimentación debe aplicarse en las fases siguientes.
 
 ## Criterio de mejora
 
-Los preproyectos de los cortes 1 y 2 permiten recibir retroalimentación y corregir. El proyecto final no será la suma automática de esas dos entregas, sino la valoración del estado final del proyecto, su integración y la sustentación.
+Los preproyectos permiten recibir retroalimentación y corregir. El proyecto final no será la suma automática de las calificaciones anteriores.
 
-Esto permite que un grupo mejore una etapa que inicialmente quedó débil, siempre que en la entrega final se evidencie la corrección y la integración adecuada.
+En la Fase 3 se evaluará la solución definitiva, el funcionamiento, la integración, las correcciones, la presentación física y la sustentación individual.
+
+Los nombres de los archivos conservan `abp` únicamente por compatibilidad con enlaces anteriores; la denominación vigente del curso es **ABPr**.

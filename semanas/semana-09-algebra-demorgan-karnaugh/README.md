@@ -1,12 +1,8 @@
-# Semana 09 – Álgebra booleana, De Morgan e introducción a Karnaugh
-
-## Corte
-
-Corte 2 – Fundamentos digitales y lógica combinacional.
+# Semana 09 – Simplificación, simulación y protoboard
 
 ## Propósito
 
-Aplicar leyes del álgebra booleana y los teoremas de De Morgan para simplificar expresiones lógicas e introducir el uso de mapas de Karnaugh.
+Aplicar álgebra booleana, De Morgan y Karnaugh a la función real del proyecto, y comprobar la solución en simulación y protoboard.
 
 ## Marco teórico
 
@@ -14,14 +10,25 @@ Aplicar leyes del álgebra booleana y los teoremas de De Morgan para simplificar
 
 ## Desarrollo de la clase
 
-- Variables booleanas.
-- Operaciones suma, producto y complemento.
-- Leyes básicas del álgebra de Boole.
+- Leyes del álgebra de Boole.
 - Teoremas de De Morgan.
-- Simplificación algebraica.
-- Introducción a minterminos y mapas de Karnaugh.
+- Minterminos y mapas de Karnaugh.
+- Simplificación de la función del proyecto.
+- Comparación entre circuito original y simplificado.
+- Ajuste de la simulación.
+- Corrección del montaje en protoboard.
 - Relación con Labs 02 y 03.
 
-## Entrega
+## Evidencia
 
-Taller de simplificación y avance de Labs 02 y 03.
+- Tabla de verdad definitiva.
+- Expresión inicial y simplificada.
+- Mapa de Karnaugh, cuando aplique.
+- Simulación funcional.
+- Protoboard funcional.
+- Mediciones de entradas y salidas.
+- Registro de fallas y correcciones.
+
+## Conexión ABPr
+
+Preparación del Preproyecto ABPr 2, cuyo producto obligatorio es la simulación funcional y el montaje en protoboard.

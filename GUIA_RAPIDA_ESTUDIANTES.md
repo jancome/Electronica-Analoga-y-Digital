@@ -1,89 +1,93 @@
 # Guía rápida para estudiantes
 
-Esta guía resume dónde encontrar la información principal del curso y cómo se trabajarán las actividades durante el semestre.
+Esta guía resume cómo se trabajará la asignatura y dónde encontrar la información principal.
 
 ## Dónde encontrar cada cosa
 
 | Necesidad | Archivo o carpeta |
 |---|---|
-| Programa general del curso | [Syllabus resumido](SYLLABUS.md) |
-| Fechas y temas por semana | [Cronograma 2026-2](CRONOGRAMA_2026_2.md) |
-| Material de cada semana | [Semanas de clase](semanas/README.md) |
+| Programa general | [Syllabus resumido](SYLLABUS.md) |
+| Fechas y temas | [Cronograma 2026-2](CRONOGRAMA_2026_2.md) |
+| Material semanal | [Semanas de clase](semanas/README.md) |
 | Guías de laboratorio | [Guías de laboratorio](guias-laboratorio/README.md) |
-| Estrategia ABP del proyecto | [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md) |
+| Estrategia del proyecto | [Estrategia ABPr](ABPR_PROYECTO_DE_CURSO.md) |
+| Directrices institucionales | [Cumplimiento ABPr](DIRECTRICES_INSTITUCIONALES_ABPR.md) |
 | Evaluaciones y porcentajes | [Evaluación](EVALUACION.md) |
-| Calendario de quizzes, preproyectos y parciales | [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md) |
-| Preproyectos ABP | [Preproyectos ABP](evaluaciones/preproyectos/README.md) |
-| Política de publicación de evaluaciones | [Control de publicación de evaluaciones](evaluaciones/CONTROL_PUBLICACION_EVALUACIONES.md) |
-| Proyecto de curso | [Proyecto ABP](PROYECTO_FINAL.md) |
-| Normas de clase | [Normas de clase y entrega](NORMAS_DE_CLASE.md) |
-| Plantillas de entrega | [Plantillas](plantillas/README.md) |
+| Calendario de evaluaciones | [Calendario semanal](evaluaciones/calendario-evaluacion-semanal.md) |
+| Fases y preproyectos | [Preproyectos ABPr](evaluaciones/preproyectos/README.md) |
+| Proyecto final | [Proyecto final ABPr](PROYECTO_FINAL.md) |
+| Normas | [Normas de clase](NORMAS_DE_CLASE.md) |
+| Plantillas | [Plantillas](plantillas/README.md) |
 
-## Estrategia ABP
+## Estrategia ABPr
 
-El curso se trabajará con **Aprendizaje Basado en Proyectos**. El proyecto no se deja para el final: empieza desde el primer corte y se construye por etapas.
+El curso se trabajará mediante **ABPr – Aprendizaje Basado en Proyectos**.
 
-La problemática general será la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**.
+La situación problema se presentará en la primera clase:
 
-La ruta general será:
+> **¿Cómo diseñar e implementar un sistema electrónico analógico-digital, de bajo costo y bajo consumo, que permita supervisar, indicar o controlar una variable relacionada con el uso eficiente de la energía o de los recursos en Barranquilla y la región Caribe?**
 
-1. **Corte 1:** todos los grupos construyen una etapa común de conversión AC/DC en baja tensión, con rectificación, filtrado, regulación básica, protección e indicador de estado.
-2. **Corte 2:** cada grupo define variables digitales y diseña una lógica con compuertas para responder a su problemática.
-3. **Corte 3:** cada grupo integra la solución, participa en la muestra de proyectos y sustenta individualmente.
+## Fases del proyecto
 
-## Preproyectos y oportunidad de mejora
+### Fase 1 – Corte 1
 
-Los talleres se reemplazan por preproyectos del ABP:
+**Preproyecto ABPr 1:** problema, objetivos, diagrama de bloques, etapa analógica AC/DC, cálculos y simulación inicial.
 
-- **Preproyecto ABP 1:** avance del Corte 1, problema y etapa común AC/DC.
-- **Preproyecto ABP 2:** avance del Corte 2, variables digitales, tabla de verdad y lógica con compuertas.
-- **Proyecto ABP final:** entrega del Corte 3, integración completa, muestra, informe, video y sustentación.
+### Fase 2 – Corte 2
 
-Los preproyectos sirven para avanzar y recibir retroalimentación. El proyecto final **no será la suma automática** de esos preproyectos. En el final se evaluará la solución integrada y corregida. Esto permite mejorar una etapa si inicialmente quedó débil.
+**Preproyecto ABPr 2:** variables digitales, tabla de verdad, simplificación, simulación funcional y montaje en protoboard.
+
+### Fase 3 – Corte 3
+
+**Proyecto final ABPr:** integración completa, prototipo físico, maqueta o base de presentación, informe, video, muestra y sustentación.
+
+Los preproyectos permiten recibir retroalimentación. El proyecto final se calificará por su estado definitivo, no como suma automática de errores previos.
 
 ## Grupos de trabajo
 
-- Los grupos de laboratorio serán de **3 estudiantes**.
-- Los grupos se conforman desde el inicio del curso.
-- Los preproyectos y el proyecto ABP final también se desarrollarán en grupos de **3 estudiantes**.
-- Cada integrante debe conocer el funcionamiento completo del circuito o proyecto.
-- Toda entrega grupal debe indicar los roles y aportes de cada integrante.
+- Grupos de 3 estudiantes desde el inicio.
+- Los mismos grupos se mantendrán, en lo posible, durante el semestre.
+- Cada integrante debe conocer el sistema completo.
+- Toda entrega debe indicar roles y aportes.
+- La sustentación tendrá preguntas individuales.
 
 ## Cómo se califica una guía de laboratorio
 
-Cada guía de laboratorio se compone de tres notas internas:
+Cada guía tiene tres componentes:
 
-1. **Preinforme o trabajo en clase:** avance realizado durante el laboratorio, simulación inicial, montaje, revisión de conexiones, tablas preliminares o mediciones.
-2. **Informe completo:** documento final del grupo con cálculos, circuitos, simulaciones, mediciones, análisis, conclusiones y referencias.
-3. **Aporte individual:** parte específica realizada por cada estudiante y dominio demostrado sobre su aporte y el circuito completo.
+1. **Preinforme o trabajo en clase.**
+2. **Informe completo del grupo.**
+3. **Aporte y dominio individual.**
 
-El informe puede ser grupal, pero la nota individual puede variar si un integrante no demuestra participación o dominio técnico.
+La nota personal puede variar si un integrante no evidencia participación o dominio técnico.
+
+## Entregables prácticos obligatorios
+
+- En el **segundo corte** debe presentarse simulación funcional y montaje en protoboard.
+- En el **tercer corte** debe presentarse un prototipo físico definitivo con maqueta o base organizada.
+- Toda fase debe registrar retroalimentación, fallas y correcciones.
 
 ## Evaluaciones
 
-Los estudiantes conocerán con anticipación el día, peso, modalidad y temas generales de cada evaluación. Los enunciados concretos de quizzes, preproyectos y parciales se publicarán únicamente el día programado a las **2:00 p. m. hora Colombia**, cuando aplique.
+Los estudiantes conocerán con anticipación fecha, peso, modalidad y temas generales. Los enunciados específicos se publicarán a las **2:00 p. m. hora Colombia**, cuando aplique.
 
 ## Qué debe tener un informe
 
-Todo informe debe incluir:
-
-1. Título de la experiencia.
-2. Integrantes.
-3. Roles y aportes de cada estudiante.
-4. Resumen.
-5. Palabras clave.
-6. Introducción.
-7. Circuitos, cálculos, tablas, mediciones y evidencias.
-8. Análisis de resultados.
+1. Título.
+2. Integrantes, roles y aportes.
+3. Resumen y palabras clave.
+4. Introducción.
+5. Circuitos, cálculos, simulaciones y mediciones.
+6. Evidencias del montaje.
+7. Análisis de resultados.
+8. Fallas y correcciones.
 9. Conclusiones.
 10. Bibliografía en formato IEEE.
 
-## Recomendaciones para no perderse
+## Recomendaciones
 
 - Revisar el repositorio cada semana.
-- Descargar o consultar la guía antes del laboratorio.
-- Llevar avances, simulaciones o cálculos previos cuando se soliciten.
-- Guardar fotos, capturas, mediciones y videos durante la práctica.
-- Prepararse para explicar el circuito aunque el trabajo sea grupal.
-- Relacionar cada laboratorio con el proyecto ABP del grupo.
-- Usar la retroalimentación de los preproyectos para mejorar la entrega final.
+- Guardar fotografías, videos, mediciones y capturas.
+- No esperar al final para construir el proyecto.
+- Aplicar la retroalimentación recibida.
+- Prepararse para explicar todo el sistema, no solo la parte asignada.

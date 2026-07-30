@@ -1,140 +1,153 @@
 # Marco teórico – Semana 06
 
-# Sistemas numéricos
+# Sistemas numéricos y definición de variables del proyecto
 
-## 1. Tema de la semana
+## 1. Propósito de la semana
 
-Representación de información digital mediante sistemas numéricos: decimal, binario, hexadecimal y BCD.
+Iniciar la Fase 2 del ABPr mostrando cómo un sistema digital representa cantidades, estados y condiciones mediante bits.
 
----
+El objetivo no es realizar conversiones de forma aislada, sino utilizarlas para definir las variables de entrada y salida del proyecto.
 
-## 2. Objetivo de aprendizaje
+## 2. Resultado de aprendizaje
 
-Comprender cómo los sistemas digitales representan cantidades usando bits y realizar conversiones entre los sistemas decimal, binario, hexadecimal y BCD.
+Al finalizar la semana, el estudiante estará en capacidad de:
 
----
+- Diferenciar decimal, binario, hexadecimal y BCD.
+- Realizar conversiones básicas entre sistemas.
+- Diferenciar número binario y código.
+- Definir variables digitales relacionadas con la situación problema.
+- Establecer qué condición física representa 0 y qué condición representa 1.
+- Actualizar el diagrama de bloques para iniciar la etapa lógica.
 
-## 3. Contexto e importancia
+## 3. Conexión con la Fase 2 ABPr
 
-Los circuitos digitales no procesan directamente números decimales como los usamos cotidianamente. Internamente trabajan con dos niveles eléctricos que se interpretan como 0 y 1. Por eso, para diseñar circuitos digitales es necesario comprender la representación binaria y sus equivalencias.
+La Fase 2 debe producir una solución digital funcional:
 
----
+```text
+Condiciones del problema
+        ↓
+Variables digitales
+        ↓
+Tabla de verdad
+        ↓
+Expresión y simplificación
+        ↓
+Simulación
+        ↓
+Montaje en protoboard
+```
 
 ## 4. Conceptos fundamentales
 
-- **Bit:** unidad mínima de información digital. Puede valer 0 o 1.
-- **Nibble:** grupo de 4 bits.
-- **Byte:** grupo de 8 bits.
-- **Sistema decimal:** base 10.
-- **Sistema binario:** base 2.
-- **Sistema hexadecimal:** base 16.
-- **BCD:** representación decimal codificada en binario.
+- **Bit:** unidad mínima de información, con valores 0 o 1.
+- **Nibble:** conjunto de 4 bits.
+- **Byte:** conjunto de 8 bits.
+- **Palabra:** grupo de bits tratado como una unidad.
+- **Base:** cantidad de símbolos utilizados por un sistema numérico.
 
----
+## 5. Sistema decimal
 
-## 5. Sistema binario
+Utiliza diez símbolos, del 0 al 9. Cada posición representa una potencia de 10.
 
-En el sistema binario cada posición representa una potencia de 2.
+## 6. Sistema binario
 
-Ejemplo:
+Utiliza 0 y 1. Cada posición representa una potencia de 2.
 
 ```text
-1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰
-1011₂ = 8 + 0 + 2 + 1 = 11₁₀
+1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 11₁₀
 ```
 
----
+## 7. Sistema hexadecimal
 
-## 6. Sistema hexadecimal
-
-El sistema hexadecimal utiliza 16 símbolos:
-
-```text
-0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
-```
-
-Cada dígito hexadecimal equivale a 4 bits. Por eso es muy usado para representar datos binarios de forma compacta.
-
-Ejemplo:
+Utiliza los símbolos 0–9 y A–F. Cada dígito hexadecimal equivale a 4 bits.
 
 ```text
 1010₂ = A₁₆
 1111₂ = F₁₆
 ```
 
----
+Es útil para representar patrones binarios de manera compacta.
 
-## 7. Código BCD
+## 8. Código BCD
 
-BCD significa **Binary Coded Decimal**. En este código cada dígito decimal se representa usando 4 bits.
-
-Ejemplo:
+Cada dígito decimal se representa mediante 4 bits.
 
 ```text
 25₁₀ en BCD = 0010 0101
+25₁₀ en binario puro = 11001₂
 ```
 
-No es lo mismo que convertir 25 a binario puro:
+BCD será importante para decodificadores y displays de 7 segmentos.
+
+## 9. Variables digitales del proyecto
+
+Una variable digital debe tener un significado físico claro.
+
+Ejemplos:
+
+| Variable | 0 lógico | 1 lógico |
+|---|---|---|
+| L | Iluminación suficiente | Lugar oscuro |
+| P | Sin presencia | Presencia detectada |
+| N | Nivel suficiente | Nivel bajo |
+| T | Temperatura normal | Temperatura alta |
+| E | Energía no disponible | Energía disponible |
+
+Los nombres deben ser cortos, pero su interpretación debe quedar documentada.
+
+## 10. Entradas y salidas
+
+- **Entradas:** representan condiciones del entorno, sensores, interruptores o estados.
+- **Salidas:** representan una decisión: alarma, indicador, habilitación, bloqueo o control de carga.
+
+Una salida digital no activa necesariamente una carga de forma directa; puede requerir BJT, MOSFET o relé.
+
+## 11. Ejemplo aplicado
+
+Un sistema de iluminación debe encender una lámpara solo cuando el sitio está oscuro y hay presencia.
 
 ```text
-25₁₀ = 11001₂
+L = 1: oscuro
+P = 1: presencia
+Y = 1: encender lámpara
 ```
 
----
+La función lógica se desarrollará posteriormente, pero desde esta semana las variables deben quedar definidas sin ambigüedad.
 
-## 8. Aplicaciones reales
+## 12. Actividad de clase
 
-- Displays de 7 segmentos.
-- Contadores digitales.
-- Calculadoras.
-- Microcontroladores.
-- Direcciones de memoria.
-- Sistemas de comunicación digital.
-- Representación interna de datos.
+Cada grupo deberá:
 
----
+1. Revisar la situación problema escogida.
+2. Definir entre 2 y 4 variables digitales de entrada.
+3. Definir al menos una salida.
+4. Especificar el significado de 0 y 1 para cada variable.
+5. Identificar si alguna magnitud debe convertirse a una condición digital mediante sensor, comparador o interruptor.
+6. Actualizar el diagrama de bloques.
 
-## 9. Ejemplo guiado
+## 13. Evidencia ABPr
 
-Convertir 45 decimal a binario:
+- Tabla de variables.
+- Diagrama de bloques actualizado.
+- Justificación de entradas y salidas.
+- Representación binaria de estados o códigos utilizados.
+- Registro de correcciones de la Fase 1 que se incorporarán.
 
-```text
-45 / 2 = 22 residuo 1
-22 / 2 = 11 residuo 0
-11 / 2 = 5  residuo 1
-5 / 2  = 2  residuo 1
-2 / 2  = 1  residuo 0
-1 / 2  = 0  residuo 1
-```
+## 14. Errores comunes
 
-Leyendo los residuos de abajo hacia arriba:
-
-```text
-45₁₀ = 101101₂
-```
-
----
-
-## 10. Errores comunes
-
+- Definir variables sin relacionarlas con una condición física.
 - Confundir BCD con binario puro.
-- No indicar la base del número.
-- Leer los residuos en el orden incorrecto.
-- Agrupar mal los bits al convertir a hexadecimal.
-- Suponer que todos los números digitales están en decimal.
+- Usar demasiadas variables para una primera implementación.
+- No indicar si una entrada es activa en alto o en bajo.
+- Pretender controlar una carga directamente desde una compuerta lógica.
 
----
+## 15. Trabajo independiente
 
-## 11. Preguntas orientadoras
+- Realizar conversiones decimal–binario–hexadecimal–BCD.
+- Completar la tabla de variables del proyecto.
+- Consultar los niveles eléctricos de los circuitos integrados que podrían utilizarse.
+- Preparar ejemplos de estados o conteos que requiera la solución.
 
-1. ¿Por qué los circuitos digitales usan 0 y 1?
-2. ¿Qué diferencia hay entre binario y BCD?
-3. ¿Por qué hexadecimal resulta útil en electrónica digital?
-4. ¿Cuántos valores se pueden representar con 4 bits?
-5. ¿Qué relación existe entre un nibble y un dígito hexadecimal?
+## 16. Conexión con la Semana 07
 
----
-
-## 12. Trabajo independiente
-
-Resolver conversiones entre decimal, binario, hexadecimal y BCD, justificando el procedimiento utilizado.
+La siguiente semana se estudiará aritmética binaria para comprender acarreo, préstamo, complemento y representación de datos, especialmente en proyectos que requieran conteo o comparación.

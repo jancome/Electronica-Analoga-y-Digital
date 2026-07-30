@@ -1,42 +1,48 @@
-# Preproyecto ABP 2 – Corte 2
+# Fase 2 – Preproyecto ABPr 2
 
 **Corte:** 2  
-**Fecha de publicación:** miércoles 30 de septiembre de 2026  
-**Hora de publicación:** 2:00 p. m. Colombia  
+**Fecha de entrega:** miércoles 14 de octubre de 2026  
+**Hora:** 2:00 p. m. Colombia  
 **Peso:** 4% de la nota final  
 **Modalidad:** grupos de 3 estudiantes
 
-## Estado
+## Propósito
 
-El contenido específico de la entrega estará disponible a partir de la fecha y hora indicadas.
+Esta entrega corresponde al diseño y comprobación de la lógica digital del proyecto.
 
-Hasta ese momento, este archivo funciona como aviso de programación para que los estudiantes conozcan el día de publicación y los temas que deben preparar.
+De acuerdo con las directrices institucionales del ABPr, la Fase 2 debe evidenciar **simulación funcional y montaje en protoboard**.
 
-## Enfoque de la entrega
+## Contenido mínimo
 
-El Preproyecto ABP 2 corresponde a la etapa digital de decisión del proyecto.
-
-A partir de la problemática seleccionada, cada grupo debe proponer una lógica digital que permita activar una salida, indicar un estado, habilitar una carga, generar una alarma o tomar una decisión básica.
-
-## Temas que debe preparar el grupo
-
-- Variables de entrada del proyecto.
-- Variable o variables de salida.
+- Diagrama de bloques actualizado.
+- Variables de entrada y salida.
+- Definición de estados del sistema.
 - Tabla de verdad.
 - Expresión booleana.
-- Simplificación mediante álgebra booleana, De Morgan o mapas de Karnaugh.
-- Implementación con compuertas lógicas.
-- Relación entre la lógica diseñada y la problemática del proyecto.
-- Consulta técnica o académica, cuando aplique, en otro idioma.
+- Simplificación mediante álgebra de Boole, De Morgan o Karnaugh.
+- Selección de compuertas y circuitos integrados.
+- Esquema del circuito digital.
+- Simulación funcional.
+- Montaje funcional en protoboard.
+- Integración con la etapa analógica, cuando sea viable.
+- Mediciones de entradas y salidas.
+- Fotografías o video del funcionamiento.
+- Relación con la situación problema.
+- Consulta técnica o académica integrada.
+- Registro de fallas y observaciones.
+- Plan de corrección para la Fase 3.
 
-## Orientación
+## Criterio de funcionamiento
 
-La entrega debe evidenciar que el proyecto ya no es solamente una fuente o etapa analógica, sino una solución que toma decisiones mediante lógica digital.
+No basta con presentar una captura de la simulación. El grupo debe demostrar:
 
-La consulta técnica o académica no se manejará como taller separado. Debe integrarse dentro del avance del proyecto, relacionándola con la aplicación de ingeniería eléctrica seleccionada por el grupo.
+1. Que la tabla de verdad representa la decisión requerida.
+2. Que la simulación coincide con el diseño lógico.
+3. Que el montaje en protoboard reproduce el comportamiento esperado.
+4. Que las entradas y salidas pueden ser explicadas por todos los integrantes.
 
-## Criterio de mejora
+## Retroalimentación
 
-Esta entrega permite recibir retroalimentación sobre la lógica digital del proyecto. Si la tabla de verdad, la simplificación o la relación con la problemática no quedan bien, el grupo podrá corregirlas antes de la entrega final.
+Las observaciones de esta fase deberán aplicarse al proyecto físico definitivo.
 
-La nota del proyecto final no será una suma automática de este preproyecto, sino una valoración de la integración final, el funcionamiento y la sustentación.
+El proyecto final se calificará por su versión corregida e integrada. Una tabla, simplificación o montaje que inicialmente haya presentado errores podrá mejorarse antes de la entrega final.

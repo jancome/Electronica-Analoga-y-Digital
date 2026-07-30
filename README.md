@@ -45,12 +45,14 @@ Los preproyectos permiten recibir retroalimentación y corregir. El proyecto fin
 - [Checklist de inicio del curso](CHECKLIST_INICIO_CURSO.md)
 - [Mapa general del curso](MAPA_DEL_CURSO.md)
 - [Estrategia ABPr – Proyecto de curso](ABPR_PROYECTO_DE_CURSO.md)
+- [Presentaciones semanales](presentaciones/README.md)
 
 ## Navegación principal
 
 - [Syllabus resumido](SYLLABUS.md)
 - [Cronograma 2026-2](CRONOGRAMA_2026_2.md)
 - [Semanas de clase](semanas/README.md)
+- [Presentaciones semanales ABPr](presentaciones/README.md)
 - [Evaluación](EVALUACION.md)
 - [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
 - [Fases y preproyectos ABPr](evaluaciones/preproyectos/README.md)

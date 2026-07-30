@@ -1,30 +1,40 @@
-# Semana 05 – Parcial 1: Unidad analógica
-
-## Corte
-
-Corte 1 – Electrónica analógica.
+# Semana 05 – Cierre de Fase 1 y Parcial 1
 
 ## Propósito
 
-Cerrar el primer corte mediante repaso, aclaración de dudas y aplicación del Parcial 1. Esta semana no se programará tema nuevo.
+Cerrar la unidad analógica, aplicar el Parcial 1 y presentar el **Preproyecto ABPr 1**. No se programa tema nuevo.
 
 ## Material de repaso
 
-- Señales, magnitudes eléctricas y medición.
-- Fundamentos mínimos de circuitos: Ley de Ohm, potencia, nodos y mallas.
-- Semiconductores, unión PN, diodos y LED.
-- Rectificación, filtrado y regulación con Zener.
-- BJT como interruptor.
-- FET/MOSFET como dispositivo de control.
-- [Imagen BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
+- Ley de Ohm, potencia, nodos y mallas.
+- Señales y medición.
+- Diodos, LED, Zener y rectificación.
+- Filtrado y regulación.
+- BJT y MOSFET como interruptores.
+- Seguridad en baja tensión.
 
 ## Desarrollo de la clase
 
-- Repaso breve de los temas del corte.
-- Aclaración de dudas.
-- Revisión de pendientes acordados.
+- Repaso y aclaración de dudas.
+- Retroalimentación de la arquitectura y simulación inicial.
 - Aplicación del Parcial 1.
+- Revisión o recepción del Preproyecto ABPr 1.
 
-## Entrega
+## Entregas
 
-Parcial 1 – Unidad analógica. No se recibe tema nuevo en esta semana, salvo pendientes previamente acordados del corte.
+### Parcial 1
+
+Evaluación individual de la unidad analógica.
+
+### Fase 1 – Preproyecto ABPr 1
+
+Debe incluir:
+
+- Situación específica y justificación.
+- Objetivos.
+- Diagrama de bloques.
+- Etapa analógica AC/DC.
+- Cálculos.
+- Simulación inicial.
+- Materiales y roles.
+- Preguntas o dificultades para retroalimentación.

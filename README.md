@@ -1,21 +1,32 @@
 # Electrónica Analógica y Digital – 2026-2
 
-Repositorio académico de la asignatura **Electrónica Analógica y Digital**, diseñado para organizar el material de clase, guías de laboratorio, preproyectos ABP, simulaciones, rúbricas, cronograma, proyecto final y documentos principales del curso.
+Repositorio académico de la asignatura **Electrónica Analógica y Digital**, diseñado para organizar el material de clase, guías de laboratorio, fases del proyecto ABPr, simulaciones, rúbricas, cronograma, proyecto final y documentos principales del curso.
 
 ## Propósito
 
 Este repositorio funcionará como aula de apoyo para el segundo semestre de 2026. Su objetivo es que los estudiantes encuentren de forma ordenada los contenidos teóricos, actividades prácticas, guías de laboratorio, documentos de evaluación, lineamientos del proyecto de curso y orientaciones de trabajo.
 
-## Estrategia de trabajo
+## Estrategia institucional de trabajo
 
-La asignatura se desarrollará con una estrategia de **ABP – Aprendizaje Basado en Proyectos**. El proyecto no se dejará para el final del semestre; se construirá por etapas desde el primer corte.
+La asignatura se desarrollará mediante **ABPr – Aprendizaje Basado en Proyectos**.
 
-La problemática general estará orientada a la **gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe**. Todos los grupos iniciarán con una etapa común de conversión AC/DC en baja tensión y, a partir del segundo corte, cada proyecto tomará un enfoque propio según la problemática seleccionada.
+El proyecto comienza desde la primera clase y se ejecuta por fases. Cada fase corresponde a una unidad y a un corte académico:
 
-Los talleres se reemplazan por **preproyectos ABP**. El proyecto final no será la suma automática de esos preproyectos; se evaluará la integración final corregida, el funcionamiento y la sustentación.
+| Fase | Corte | Producto |
+|---|---|---|
+| Fase 1 | Corte 1 | Preproyecto ABPr 1: formulación, arquitectura y etapa analógica. |
+| Fase 2 | Corte 2 | Preproyecto ABPr 2: simulación funcional y montaje en protoboard. |
+| Fase 3 | Corte 3 | Proyecto final ABPr: prototipo físico, maqueta, informe, video y sustentación. |
 
-- [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md)
-- [Preproyectos ABP](evaluaciones/preproyectos/README.md)
+La situación problema se socializará el primer día:
+
+> **¿Cómo diseñar e implementar un sistema electrónico analógico-digital, de bajo costo y bajo consumo, que permita supervisar, indicar o controlar una variable relacionada con el uso eficiente de la energía o de los recursos en Barranquilla y la región Caribe?**
+
+Los preproyectos permiten recibir retroalimentación y corregir. El proyecto final se evaluará por su estado definitivo e integración, no como suma automática de errores anteriores.
+
+- [Estrategia ABPr – Proyecto de curso](ABPR_PROYECTO_DE_CURSO.md)
+- [Cumplimiento de directrices institucionales](DIRECTRICES_INSTITUCIONALES_ABPR.md)
+- [Preproyectos y fases](evaluaciones/preproyectos/README.md)
 
 ## Unidades del curso
 
@@ -33,7 +44,7 @@ Los talleres se reemplazan por **preproyectos ABP**. El proyecto final no será 
 - [Guía rápida para estudiantes](GUIA_RAPIDA_ESTUDIANTES.md)
 - [Checklist de inicio del curso](CHECKLIST_INICIO_CURSO.md)
 - [Mapa general del curso](MAPA_DEL_CURSO.md)
-- [Estrategia ABP – Proyecto de curso](ABP_PROYECTO_DE_CURSO.md)
+- [Estrategia ABPr – Proyecto de curso](ABPR_PROYECTO_DE_CURSO.md)
 
 ## Navegación principal
 
@@ -42,9 +53,9 @@ Los talleres se reemplazan por **preproyectos ABP**. El proyecto final no será 
 - [Semanas de clase](semanas/README.md)
 - [Evaluación](EVALUACION.md)
 - [Calendario semanal de evaluaciones](evaluaciones/calendario-evaluacion-semanal.md)
-- [Preproyectos ABP](evaluaciones/preproyectos/README.md)
+- [Fases y preproyectos ABPr](evaluaciones/preproyectos/README.md)
 - [Control de publicación de evaluaciones](evaluaciones/CONTROL_PUBLICACION_EVALUACIONES.md)
-- [Proyecto final](PROYECTO_FINAL.md)
+- [Proyecto final ABPr](PROYECTO_FINAL.md)
 - [Normas de clase](NORMAS_DE_CLASE.md)
 - [Plantillas de entrega](plantillas/README.md)
 
@@ -80,7 +91,7 @@ Cada guía de laboratorio se trabaja en grupos de 3 estudiantes y se compone de 
 
 ## Organización semanal
 
-El curso está organizado por semanas. Cada semana combina explicación, ejercicios guiados, laboratorio, simulación, entregas, avances del proyecto ABP y trabajo independiente, según corresponda.
+El curso está organizado por semanas. Cada semana combina explicación, ejercicios guiados, laboratorio, simulación, montaje, avances del proyecto ABPr y trabajo independiente, según corresponda.
 
 Ver carpeta: [semanas](semanas/README.md)
 

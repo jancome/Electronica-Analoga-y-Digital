@@ -1,76 +1,154 @@
 # Marco teórico – Semana 15
 
-# Multiplexores y demultiplexores
+# Multiplexores, demultiplexores y muestra de prototipos
 
-## 1. Tema de la semana
+## 1. Propósito de la semana
 
-Circuitos combinacionales para selección y distribución de datos digitales.
+Comprender la selección y distribución de señales mediante MUX y DEMUX y realizar una muestra formativa del prototipo ABPr con su maqueta o base de presentación.
 
-## 2. Objetivo de aprendizaje
+La muestra no es necesariamente la entrega definitiva. Su propósito es detectar fallas y orientar las correcciones finales.
 
-Comprender el funcionamiento de multiplexores y demultiplexores, relacionando sus entradas de selección con aplicaciones de comunicación, control y procesamiento digital.
+## 2. Resultado de aprendizaje
 
-## 3. Contexto
+Al finalizar la semana, el estudiante estará en capacidad de:
 
-En sistemas digitales no siempre se pueden conectar todas las señales al mismo tiempo. A veces se necesita seleccionar una señal entre muchas o distribuir una señal hacia diferentes destinos. Para eso se usan multiplexores y demultiplexores.
+- Explicar el funcionamiento de un multiplexor.
+- Explicar el funcionamiento de un demultiplexor.
+- Calcular la cantidad de líneas de selección.
+- Interpretar habilitaciones y salidas activas en bajo.
+- Seleccionar o distribuir señales dentro de una aplicación.
+- Determinar si MUX o DEMUX aporta al proyecto.
+- Presentar un prototipo físico funcional y recibir retroalimentación.
+
+## 3. Conexión con la Fase 3 ABPr
+
+Un MUX o DEMUX puede optimizar conexiones, pero no debe incorporarse sin necesidad.
+
+Ejemplos:
+
+- Seleccionar una de varias señales de sensores.
+- Elegir modos de operación.
+- Compartir una línea de visualización.
+- Distribuir una señal de control a diferentes salidas.
 
 ## 4. Multiplexor
 
-Un multiplexor, o MUX, selecciona una de varias entradas y la conecta a una única salida.
+Un multiplexor selecciona una de varias entradas y la conecta a una salida.
 
-Por ejemplo, un MUX 4 a 1 tiene:
+Para un MUX de `2ⁿ` entradas se requieren `n` líneas de selección.
 
-- 4 entradas de datos.
-- 2 líneas de selección.
-- 1 salida.
+Ejemplo MUX 4 a 1:
 
-## 5. Entradas de selección
-
-Las líneas de selección determinan cuál entrada se envía a la salida.
-
-| S1 | S0 | Entrada seleccionada |
+| S1 | S0 | Salida |
 |---|---|---|
-| 0 | 0 | I0 |
-| 0 | 1 | I1 |
-| 1 | 0 | I2 |
-| 1 | 1 | I3 |
+| 0 | 0 | `Y=I0` |
+| 0 | 1 | `Y=I1` |
+| 1 | 0 | `Y=I2` |
+| 1 | 1 | `Y=I3` |
+
+## 5. Entrada de habilitación
+
+Muchos integrados tienen una entrada Enable. Puede ser activa en alto o activa en bajo.
+
+Si la habilitación no está en el estado correcto, el circuito no funcionará aunque las líneas de selección estén bien conectadas.
 
 ## 6. Demultiplexor
 
-Un demultiplexor, o DEMUX, toma una entrada y la dirige hacia una de varias salidas, según las líneas de selección.
+Un DEMUX recibe una entrada y la dirige hacia una de varias salidas según las líneas de selección.
 
-## 7. Aplicaciones reales
+Puede utilizarse para:
 
-- Selección de canales de comunicación.
-- Sistemas de adquisición de datos.
-- Control de displays.
-- Distribución de señales de control.
-- Optimización de conexiones en sistemas digitales.
+- Distribuir pulsos.
+- Seleccionar actuadores.
+- Dirigir una señal de habilitación.
+- Activar indicadores por canal.
 
-## 8. Ejemplo guiado
+## 7. Decodificador utilizado como DEMUX
 
-Si un MUX 4 a 1 tiene S1=1 y S0=0, la salida corresponde a la entrada I2.
+Algunos decodificadores pueden utilizarse como demultiplexores si su entrada de habilitación recibe la señal de datos. La hoja de datos debe confirmar el comportamiento y la polaridad de las salidas.
 
-```text
-S1S0 = 10 → Y = I2
-```
+## 8. Implementación de funciones con MUX
 
-## 9. Errores comunes
+Un multiplexor también puede implementar funciones lógicas conectando sus entradas de datos a 0, 1 o variables.
+
+El procedimiento incluye:
+
+1. Elegir variables de selección.
+2. Analizar la tabla de verdad.
+3. Determinar el valor de cada entrada de datos.
+4. Verificar la función resultante.
+
+## 9. Ejemplo aplicado
+
+Un sistema debe mostrar alternativamente el estado de cuatro sensores en una sola línea de visualización. Un MUX 4 a 1 permite seleccionar el sensor mediante dos líneas.
+
+La aplicación es válida solo si la selección mejora el diseño o reduce recursos.
+
+## 10. Actividad de clase y Lab 08
+
+1. Completar tablas de MUX y DEMUX.
+2. Simular un MUX 4 a 1.
+3. Simular o montar un DEMUX 1 a 4.
+4. Verificar la habilitación.
+5. Probar todas las selecciones.
+6. Evaluar si el bloque aporta al proyecto.
+7. Integrarlo cuando sea pertinente.
+
+## 11. Muestra formativa del proyecto
+
+Cada grupo deberá presentar:
+
+- Situación problema.
+- Diagrama de bloques.
+- Etapa analógica.
+- Lógica digital.
+- Aplicación combinacional o secuencial seleccionada.
+- Prototipo físico funcional o parcialmente funcional.
+- Maqueta, estructura o base de presentación.
+- Simulación actualizada.
+- Evidencias y mediciones.
+- Fallas abiertas y plan de corrección.
+
+## 12. Retroalimentación de la muestra
+
+La revisión debe responder:
+
+1. ¿El proyecto resuelve la situación propuesta?
+2. ¿La integración analógica–digital es coherente?
+3. ¿El prototipo funciona de manera repetible?
+4. ¿La maqueta permite comprender la aplicación?
+5. ¿La alimentación es segura?
+6. ¿Las entradas y salidas están identificadas?
+7. ¿Qué debe corregirse antes de la sustentación?
+
+## 13. Evidencia ABPr
+
+- Lab 08.
+- Tabla de selección o distribución.
+- Simulación o montaje del MUX/DEMUX.
+- Prototipo presentado.
+- Maqueta o base física.
+- Registro de retroalimentación.
+- Plan de mejora con responsables y fechas.
+
+## 14. Errores comunes
 
 - Confundir MUX con DEMUX.
-- Conectar mal las líneas de selección.
-- No identificar si las salidas son activas en bajo.
-- No considerar la entrada de habilitación del circuito integrado.
-- No verificar la hoja de datos del integrado.
+- No conectar correctamente la habilitación.
+- Ignorar salidas activas en bajo.
+- Incorporar un MUX sin necesidad.
+- Mostrar una maqueta sin circuito funcional.
+- Presentar un circuito funcional sin explicar el problema.
+- Ocultar fallas en lugar de registrarlas.
 
-## 10. Preguntas orientadoras
+## 15. Trabajo independiente
 
-1. ¿Qué función cumple un multiplexor?
-2. ¿Qué función cumple un demultiplexor?
-3. ¿Cuántas líneas de selección necesita un MUX de 8 entradas?
-4. ¿Qué significa seleccionar una entrada?
-5. ¿Dónde se usan MUX y DEMUX en sistemas reales?
+- Aplicar la retroalimentación de la muestra.
+- Completar la maqueta.
+- Mejorar orden, rotulado y conexiones.
+- Actualizar informe, simulación y video.
+- Preparar el Quiz 3 y las pruebas finales.
 
-## 11. Trabajo independiente
+## 16. Conexión con la Semana 16
 
-Simular un MUX 4 a 1 y un DEMUX 1 a 4, completando sus tablas de funcionamiento.
+La siguiente semana se estudiarán flip-flops y contadores y se realizarán los ajustes finales de funcionamiento, documentación y presentación.

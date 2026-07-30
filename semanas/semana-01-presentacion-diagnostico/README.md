@@ -1,40 +1,36 @@
-# Semana 01 – Inicio del curso, diagnóstico corto, señales y medición
+# Semana 01 – Inicio, diagnóstico y situación problema ABPr
 
 ## Propósito
 
-Presentar la asignatura, organizar los grupos de laboratorio, aplicar un diagnóstico breve de circuitos eléctricos e iniciar el trabajo con señales, magnitudes eléctricas y medición básica.
+Presentar la asignatura, socializar la situación problema, organizar los grupos de 3 estudiantes y aplicar un diagnóstico breve de circuitos.
 
-El diagnóstico no se manejará como un bloque extenso, sino como una actividad corta para identificar vacíos y conectar de inmediato con los temas de electrónica analógica.
+## Situación problema
+
+> **¿Cómo diseñar e implementar un sistema electrónico analógico-digital, de bajo costo y bajo consumo, que permita supervisar, indicar o controlar una variable relacionada con el uso eficiente de la energía o de los recursos en Barranquilla y la región Caribe?**
 
 ## Material base
 
 - [Marco teórico – Semana 01](marco-teorico.md)
-- [Diagnóstico inicial – Fundamentos de circuitos](diagnostico-inicial-circuitos.md)
+- [Diagnóstico inicial](diagnostico-inicial-circuitos.md)
+- [Estrategia ABPr](../../ABPR_PROYECTO_DE_CURSO.md)
 
 ## Desarrollo de la clase
 
-- Presentación del curso, repositorio, evaluación y proyecto final.
-- Organización de grupos de laboratorio de 3 estudiantes.
-- Diagnóstico corto de fundamentos de circuitos.
-- Repaso aplicado de:
-  - Ley de Ohm.
-  - Voltaje, corriente, resistencia y potencia.
-  - Circuitos serie/paralelo.
-  - Divisor de voltaje.
-  - Leyes de Kirchhoff: nodos y mallas.
-  - Uso básico del multímetro.
-- Señales analógicas y digitales.
-- Magnitudes eléctricas medibles.
-- Relación entre circuitos básicos y electrónica analógica.
+- Presentación del syllabus, repositorio y evaluación.
+- Diferencia entre ABPr y ABP.
+- Explicación de las tres fases.
+- Conformación de grupos de 3 estudiantes.
+- Socialización y análisis de la situación problema.
+- Diagnóstico corto de Ley de Ohm, potencia, serie/paralelo, divisor, nodos, mallas y multímetro.
+- Diferencia entre señales analógicas y digitales.
 
-## Entrega
+## Evidencia
 
-Diagnóstico inicial corto y actividad de identificación de señales o sistemas analógicos, digitales y mixtos.
+- Diagnóstico inicial.
+- Grupo conformado.
+- Roles preliminares.
+- Lista de dos o tres aplicaciones posibles dentro de la situación problema.
 
 ## Trabajo posterior
 
-Repasar los ejercicios de Ley de Ohm, divisor de voltaje, circuitos serie/paralelo y leyes de Kirchhoff que presentaron mayor dificultad. Además, identificar tres sistemas reales e indicar si son analógicos, digitales o mixtos.
-
-## Relación con la siguiente clase
-
-La siguiente semana se entra directamente a semiconductores, unión PN, diodos, LED y primera aproximación al Zener. Por eso es importante llegar con claridad sobre voltaje, corriente, polaridad, resistencia limitadora y medición.
+Repasar los temas con mayor dificultad y seleccionar una necesidad preliminar para discutirla en la siguiente clase.

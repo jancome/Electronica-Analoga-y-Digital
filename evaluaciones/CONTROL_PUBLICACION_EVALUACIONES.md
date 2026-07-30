@@ -1,59 +1,57 @@
 # Control de publicación de evaluaciones
 
-Este documento define cómo se manejará la publicación de quizzes, preproyectos, parciales y actividades evaluativas en el repositorio del curso.
+Este documento define cómo se manejará la publicación de quizzes, fases ABPr, parciales y actividades evaluativas.
 
 ## Criterio general
 
-Los estudiantes deben conocer con anticipación **el día, el peso y los temas generales** de cada evaluación. Sin embargo, los ejercicios, preguntas, casos o instrucciones específicas no se publicarán antes de la fecha programada cuando la actividad requiera apertura controlada.
+Los estudiantes deben conocer con anticipación el día, peso, modalidad y temas generales. Los ejercicios, preguntas o instrucciones específicas no se publicarán antes de la fecha programada cuando se requiera apertura controlada.
 
-La hora oficial de apertura será siempre:
-
-**2:00 p. m. – Hora Colombia**
+**Hora oficial de apertura: 2:00 p. m. – Hora Colombia**
 
 ## Qué se publica antes de la fecha
 
-Antes de la apertura se puede publicar:
-
 - Nombre de la evaluación o entrega.
-- Corte al que pertenece.
-- Peso en la nota.
-- Fecha y hora de publicación.
-- Modalidad: individual o grupo de 3 estudiantes.
-- Temas generales de repaso.
+- Corte y fase.
+- Peso.
+- Fecha y hora.
+- Modalidad.
+- Temas generales.
+- Producto institucional esperado.
 - Recomendaciones de preparación.
 
-## Qué queda bloqueado hasta la fecha
-
-No se publica antes de la hora programada:
+## Qué queda bloqueado
 
 - Enunciados específicos.
 - Ejercicios numéricos concretos.
-- Tablas incompletas del quiz o parcial.
 - Casos de diseño.
+- Preguntas de quizzes y parciales.
 - Soluciones o respuestas orientadoras.
-- Rúbricas con distribución interna demasiado detallada cuando pueda anticipar la prueba.
 
-## Preproyectos ABP
+## Fases ABPr
 
-Los preproyectos reemplazan los talleres. Estos se publican como avances del proyecto de curso y deben estar conectados con la problemática seleccionada por cada grupo.
+Los talleres se reemplazan por productos del proyecto:
 
-Los preproyectos de los cortes 1 y 2 permiten recibir retroalimentación. El proyecto final no se calificará como suma automática de esos preproyectos, sino por la integración final corregida, el funcionamiento y la sustentación.
+- **Fase 1:** Preproyecto ABPr 1.
+- **Fase 2:** Preproyecto ABPr 2 con simulación y protoboard.
+- **Fase 3:** Proyecto final ABPr con prototipo físico y maqueta.
+
+Los requisitos generales de cada fase pueden ser públicos desde el inicio, porque orientan el trabajo progresivo. Los casos específicos, variantes o preguntas de sustentación pueden mantenerse fuera del repositorio hasta su aplicación.
+
+## Retroalimentación
+
+Las observaciones realizadas sobre una fase deben registrarse. El estudiante tendrá oportunidad de corregir antes del proyecto final.
+
+El proyecto final se calificará por su estado definitivo y no como suma automática de errores anteriores.
 
 ## Forma práctica de manejo
 
-Como este repositorio es público, el bloqueo se manejará así:
+1. El archivo público muestra fecha, hora, modalidad, temas y producto esperado.
+2. El contenido específico se mantiene fuera del repositorio público hasta la apertura.
+3. A las 2:00 p. m. del día fijado se publica el contenido completo, cuando aplique.
+4. Las soluciones no se publican al mismo tiempo que la evaluación.
 
-1. El archivo público mostrará solamente la fecha, hora, temas generales y modalidad.
-2. El contenido real de la evaluación se mantendrá fuera del repositorio público hasta la fecha de apertura.
-3. A las 2:00 p. m. hora Colombia del día fijado, el docente reemplazará el archivo de aviso por el contenido completo de la evaluación, si aplica.
-4. Las respuestas o guías de solución no se publicarán en el mismo momento de la evaluación.
+## Recomendación
 
-## Recomendación importante
+GitHub no bloquea archivos públicos por horario. Las evaluaciones reales deben mantenerse en Teams, Moodle, un repositorio privado o el computador del docente hasta su publicación.
 
-GitHub no bloquea archivos públicos por horario de forma nativa. Por eso, las evaluaciones reales no deben quedar guardadas en el repositorio público antes de la fecha de publicación.
-
-Para un bloqueo real, el contenido completo debe mantenerse en un repositorio privado, en Moodle, en el computador del docente o en un sistema institucional, y publicarse solo cuando corresponda.
-
-## Nota de seguridad
-
-Si una evaluación ya fue publicada antes en un repositorio público, puede permanecer en el historial de Git. Para evaluaciones reales se recomienda preparar una versión nueva antes de aplicarla.
+Una evaluación publicada previamente puede permanecer en el historial de Git; para aplicaciones reales se recomienda preparar variantes nuevas.

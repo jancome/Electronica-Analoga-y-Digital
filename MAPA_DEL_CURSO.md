@@ -1,66 +1,74 @@
 # Mapa general del curso
 
-Este mapa muestra la ruta conceptual de la asignatura. La idea es que el estudiante entienda cómo se conectan los temas desde los fundamentos de circuitos hasta el proyecto ABP final.
+Este mapa muestra cómo se conectan los contenidos con las tres fases del **ABPr – Aprendizaje Basado en Proyectos**.
 
 ```text
-Problemática ABP:
-uso eficiente y aprovechamiento responsable de la energía eléctrica
+Situación problema socializada en la primera clase
         ↓
-Fundamentos de circuitos
+Fase 1 – Unidad analógica / Corte 1
+Fundamentos de circuitos, señales y medición
         ↓
-Señales y medición
+Diodos, rectificación, filtrado y regulación
         ↓
-Semiconductores y unión PN
+BJT y MOSFET para control de cargas
         ↓
-Diodos, LED, Zener, rectificación y filtrado
+Arquitectura, cálculos y simulación inicial
         ↓
-Etapa común AC/DC en baja tensión
+Preproyecto ABPr 1
         ↓
-Preproyecto ABP 1
-        ↓
-Transistores BJT y FET/MOSFET para control de cargas
-        ↓
+Fase 2 – Lógica combinacional / Corte 2
 Sistemas numéricos y aritmética binaria
         ↓
-Compuertas lógicas y tablas de verdad
+Compuertas y tablas de verdad
         ↓
 Álgebra booleana, De Morgan y Karnaugh
         ↓
-Etapa digital de decisión del proyecto
+Simulación funcional
         ↓
-Preproyecto ABP 2
+Montaje en protoboard
         ↓
-Circuitos combinacionales
+Preproyecto ABPr 2
         ↓
-Sumadores, comparadores, codificadores, MUX/DEMUX
+Fase 3 – Aplicaciones e integración / Corte 3
+Sumadores, comparadores y paridad
         ↓
-Lógica secuencial: flip-flops y contadores
+Codificadores, decodificadores y MUX/DEMUX
         ↓
-Integración, muestra y sustentación del proyecto ABP final
+Flip-flops y contadores
+        ↓
+Integración física y correcciones
+        ↓
+Maqueta o base de presentación
+        ↓
+Proyecto final ABPr y sustentación
 ```
 
-## Corte 1 – Electrónica analógica
+## Situación problema
 
-El primer corte inicia con los fundamentos necesarios para analizar circuitos reales: voltaje, corriente, resistencia, potencia, señales, medición, semiconductores, diodos y transistores.
+> **¿Cómo diseñar e implementar un sistema electrónico analógico-digital, de bajo costo y bajo consumo, que permita supervisar, indicar o controlar una variable relacionada con el uso eficiente de la energía o de los recursos en Barranquilla y la región Caribe?**
 
-La idea central es que todos los grupos desarrollen una **etapa común AC/DC en baja tensión**, con rectificación, filtrado, regulación básica, protección e indicador de estado. Esta etapa se presenta como **Preproyecto ABP 1**.
+## Fase 1 – Corte 1
 
-## Corte 2 – Fundamentos digitales
+La primera fase desarrolla la base analógica y la formulación del proyecto.
 
-El segundo corte cambia el enfoque hacia la representación de información y la toma de decisiones lógicas. Se estudian sistemas numéricos, aritmética binaria, compuertas, tablas de verdad, álgebra booleana, De Morgan y mapas de Karnaugh.
+**Producto:** Preproyecto ABPr 1 con problema, objetivos, arquitectura, cálculos y simulación inicial.
 
-La idea central es que cada grupo defina variables de entrada y salida asociadas a su problemática, construya una tabla de verdad y diseñe una lógica digital con compuertas. Esta etapa se presenta como **Preproyecto ABP 2**.
+## Fase 2 – Corte 2
 
-## Corte 3 – Aplicaciones digitales y proyecto ABP final
+La segunda fase transforma la necesidad en una lógica de decisión mediante variables, tablas de verdad, expresiones booleanas y compuertas.
 
-El tercer corte aplica la lógica digital en circuitos útiles: sumadores, comparadores, codificadores, decodificadores, multiplexores, demultiplexores, flip-flops y contadores.
+**Producto obligatorio:** Preproyecto ABPr 2 con simulación funcional y montaje en protoboard.
 
-La idea central es integrar la etapa analógica común con una etapa digital propia para participar en la muestra de proyectos y sustentar la solución final.
+## Fase 3 – Corte 3
 
-El proyecto final no será una suma automática de los preproyectos anteriores. Se evaluará la integración final corregida, el funcionamiento y la sustentación.
+La tercera fase integra las etapas anteriores y aplica circuitos combinacionales o secuenciales.
 
-## Pregunta guía del curso
+**Producto obligatorio:** prototipo físico definitivo con maqueta o base organizada, informe, video, muestra y sustentación.
 
-Al finalizar el semestre, cada estudiante debería poder responder:
+## Criterio de mejora
 
-> ¿Cómo se analiza, diseña, simula y explica un circuito que combine electrónica analógica y lógica digital para aportar a una solución relacionada con el uso eficiente de la energía eléctrica?
+El proyecto final no será la suma automática de los preproyectos. Se evaluará la versión definitiva y corregida, incluyendo la calidad de las mejoras realizadas.
+
+## Pregunta guía
+
+> ¿Cómo se diseña, simula, construye, prueba y explica una solución analógico-digital que responda a una necesidad de ingeniería eléctrica?

@@ -1,26 +1,35 @@
 # Marco teórico – Semana 07
 
-# Aritmética binaria
+# Aritmética binaria aplicada a estados y conteos
 
-## 1. Tema de la semana
+## 1. Propósito de la semana
 
-Operaciones aritméticas en sistema binario: suma, resta, complemento a 1, complemento a 2 y representación de números con signo.
+Comprender cómo se realizan operaciones aritméticas con bits y relacionarlas con conteos, comparación de estados y circuitos aritméticos que podrán incorporarse al proyecto.
 
----
+## 2. Resultado de aprendizaje
 
-## 2. Objetivo de aprendizaje
+Al finalizar la semana, el estudiante estará en capacidad de:
 
-Aplicar reglas de suma y resta binaria para resolver operaciones digitales, comprendiendo el uso del complemento a 2 y el concepto de desbordamiento.
+- Realizar suma y resta binaria.
+- Interpretar acarreo y préstamo.
+- Obtener complemento a 1 y complemento a 2.
+- Representar números con signo.
+- Detectar desbordamiento.
+- Determinar si el proyecto necesita operaciones, conteos o códigos binarios.
 
----
+## 3. Conexión con la Fase 2 ABPr
 
-## 3. Contexto e importancia
+No todos los proyectos necesitarán una operación aritmética, pero todos deben comprender cómo se representan los estados.
 
-Los computadores, microcontroladores y circuitos digitales realizan operaciones matemáticas usando bits. Los sumadores, restadores, contadores y unidades aritméticas trabajan con reglas binarias. Por eso, dominar la aritmética binaria es indispensable antes de estudiar sumadores y circuitos combinacionales.
+La aritmética binaria prepara el estudio de:
 
----
+- Sumadores y restadores.
+- Contadores.
+- Comparadores de magnitud.
+- Códigos de estado.
+- Indicadores numéricos.
 
-## 4. Reglas de suma binaria
+## 4. Suma binaria
 
 | Operación | Resultado | Acarreo |
 |---|---|---|
@@ -30,66 +39,58 @@ Los computadores, microcontroladores y circuitos digitales realizan operaciones 
 | 1 + 1 | 0 | 1 |
 | 1 + 1 + 1 | 1 | 1 |
 
-El acarreo se traslada a la siguiente posición, igual que ocurre en decimal, pero usando base 2.
-
----
+El acarreo se transfiere a la siguiente posición de mayor peso.
 
 ## 5. Resta binaria
 
-La resta binaria puede hacerse directamente o usando complemento a 2. En circuitos digitales, el complemento a 2 es muy importante porque permite realizar restas mediante sumadores.
+La resta puede hacerse de forma directa o mediante complemento a 2.
 
----
+| Operación | Resultado | Préstamo |
+|---|---|---|
+| 0 − 0 | 0 | 0 |
+| 1 − 0 | 1 | 0 |
+| 1 − 1 | 0 | 0 |
+| 0 − 1 | 1 | 1 |
 
 ## 6. Complemento a 1 y complemento a 2
 
-El **complemento a 1** se obtiene invirtiendo todos los bits:
+Complemento a 1: invertir todos los bits.
 
 ```text
 1010 → 0101
 ```
 
-El **complemento a 2** se obtiene sumando 1 al complemento a 1:
+Complemento a 2: sumar 1 al complemento a 1.
 
 ```text
-1010 → complemento a 1: 0101
-0101 + 1 = 0110
+1010 → 0101 + 1 = 0110
 ```
 
----
+El complemento a 2 permite representar números negativos y realizar restas utilizando circuitos sumadores.
 
-## 7. Números con signo
+## 7. Número de bits y rango
 
-En muchos sistemas digitales se utiliza el bit más significativo para representar el signo:
+Un sistema de `n` bits sin signo puede representar:
 
-- 0: número positivo.
-- 1: número negativo.
+```text
+0 a 2ⁿ - 1
+```
 
-El complemento a 2 facilita representar números negativos y operar con ellos.
+Con complemento a 2:
 
----
+```text
+-2ⁿ⁻¹ a 2ⁿ⁻¹ - 1
+```
+
+Antes de operar debe definirse cuántos bits tiene el sistema.
 
 ## 8. Overflow
 
-El overflow ocurre cuando el resultado de una operación excede la cantidad de bits disponibles.
+El overflow ocurre cuando el resultado no puede representarse con el número de bits disponible.
 
-Ejemplo: si se trabaja con 4 bits, solo se pueden representar 16 combinaciones diferentes. Si el resultado requiere más bits, se produce desbordamiento.
+En números con signo, no debe confundirse el acarreo de salida con el overflow. Este último puede detectarse cuando se suman dos números del mismo signo y el resultado aparece con signo contrario.
 
----
-
-## 9. Aplicaciones reales
-
-- Sumadores digitales.
-- Restadores.
-- Contadores.
-- Microprocesadores.
-- Unidades aritmético-lógicas.
-- Cálculos internos de controladores y sistemas embebidos.
-
----
-
-## 10. Ejemplo guiado
-
-Sumar:
+## 9. Ejemplo guiado
 
 ```text
   1011
@@ -98,30 +99,54 @@ Sumar:
  10001
 ```
 
-El resultado requiere 5 bits. Si el sistema solo permite 4 bits, el bit adicional representa acarreo de salida.
+Si el sistema es de 4 bits, el resultado requiere un bit adicional. El diseño debe decidir si conserva el acarreo, aumenta el número de bits o interpreta la condición como desbordamiento.
 
----
+## 10. Aplicación al proyecto
 
-## 11. Errores comunes
+Ejemplos de uso:
+
+- Contar activaciones de una carga.
+- Representar cuatro niveles mediante dos bits.
+- Comparar un valor actual con un límite.
+- Mostrar una cantidad en un display.
+- Registrar estados de operación.
+
+## 11. Actividad de clase
+
+Cada grupo deberá responder:
+
+1. ¿El proyecto requiere contar eventos?
+2. ¿Necesita representar más de dos estados?
+3. ¿Usará un código BCD o binario?
+4. ¿Qué cantidad máxima debe representarse?
+5. ¿Cuántos bits serían necesarios?
+
+Después resolverá ejercicios de suma, resta y complemento relacionados con esas decisiones.
+
+## 12. Evidencia ABPr
+
+- Ejercicios de aritmética binaria.
+- Definición del número de bits, cuando aplique.
+- Justificación de códigos o conteos utilizados.
+- Actualización de la tabla de variables.
+- Preparación para el Quiz 2.
+
+## 13. Errores comunes
 
 - Olvidar el acarreo.
-- Confundir complemento a 1 con complemento a 2.
-- No definir cuántos bits tiene el sistema.
-- Ignorar el overflow.
-- Mezclar binario puro con BCD.
+- Confundir complemento a 1 y complemento a 2.
+- Operar sin fijar el número de bits.
+- Confundir BCD con binario puro.
+- Interpretar todo acarreo como overflow.
+- Agregar operaciones al proyecto sin que aporten a la solución.
 
----
+## 14. Trabajo independiente
 
-## 12. Preguntas orientadoras
+- Resolver ejercicios con diferentes cantidades de bits.
+- Verificar resultados mediante conversión decimal.
+- Preparar el Quiz 2.
+- Revisar si el proyecto necesita suma, resta, comparación o conteo.
 
-1. ¿Qué ocurre cuando se suma 1 + 1 en binario?
-2. ¿Por qué el complemento a 2 permite restar usando suma?
-3. ¿Qué significa que un sistema sea de 4 bits?
-4. ¿Cuándo se presenta overflow?
-5. ¿Por qué la aritmética binaria es base para los sumadores digitales?
+## 15. Conexión con la Semana 08
 
----
-
-## 13. Trabajo independiente
-
-Resolver ejercicios de suma, resta y complemento a 2, indicando el número de bits utilizado y verificando si existe overflow.
+La siguiente semana las condiciones del proyecto se convertirán en una función lógica implementada con compuertas y se realizará el primer montaje de la Fase 2 en protoboard.

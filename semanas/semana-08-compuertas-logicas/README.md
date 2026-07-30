@@ -1,12 +1,8 @@
-# Semana 08 – Compuertas lógicas
-
-## Corte
-
-Corte 2 – Fundamentos digitales y lógica combinacional.
+# Semana 08 – Compuertas lógicas y primer protoboard
 
 ## Propósito
 
-Reconocer y comprobar el funcionamiento de las compuertas lógicas básicas mediante tablas de verdad, expresiones booleanas, simulación y montaje.
+Comprobar el funcionamiento de las compuertas lógicas y construir el primer montaje físico de la Fase 2.
 
 ## Marco teórico
 
@@ -14,14 +10,22 @@ Reconocer y comprobar el funcionamiento de las compuertas lógicas básicas medi
 
 ## Desarrollo de la clase
 
-- Concepto de variable lógica.
-- Niveles lógicos 0 y 1.
-- Compuertas AND, OR y NOT.
-- Compuertas NAND, NOR, XOR y XNOR.
+- Variables lógicas y niveles 0/1.
+- AND, OR, NOT, NAND, NOR, XOR y XNOR.
 - Tablas de verdad.
-- Expresiones booleanas asociadas a compuertas.
-- Relación con Lab 01 – Compuertas lógicas.
+- Expresiones booleanas.
+- Alimentación correcta de circuitos integrados.
+- Simulación del circuito de decisión del proyecto.
+- Montaje inicial en protoboard.
+- Relación con Lab 01.
 
-## Entrega
+## Evidencia
 
-Tabla de verdad, simulación y evidencia del Lab 01.
+- Tabla de verdad del proyecto.
+- Simulación inicial.
+- Fotografías del protoboard.
+- Verificación de al menos cuatro casos de entrada.
+
+## Conexión ABPr
+
+Esta semana inicia el producto institucional de la Fase 2: **simulación funcional y montaje en protoboard**.

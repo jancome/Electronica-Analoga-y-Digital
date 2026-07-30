@@ -1,68 +1,66 @@
 # Checklist de inicio del curso
 
-Este checklist sirve como apoyo para la primera semana y para la presentación general de la asignatura.
+Este checklist sirve como apoyo para la primera semana y garantiza que la estrategia ABPr se socialice correctamente.
 
 ## Antes de iniciar
 
 - [ ] Verificar que el repositorio esté actualizado.
-- [ ] Confirmar que el cronograma corresponde al periodo 2026-2.
-- [ ] Revisar que los enlaces principales funcionen.
-- [ ] Confirmar que las evaluaciones sensibles estén como aviso y no como enunciado completo.
+- [ ] Confirmar el cronograma 2026-2.
+- [ ] Revisar los enlaces principales.
+- [ ] Confirmar que las evaluaciones sensibles estén como aviso.
 - [ ] Tener preparado el diagnóstico inicial.
 - [ ] Definir el canal institucional de comunicación.
-- [ ] Tener clara la problemática ABP que se presentará al grupo.
+- [ ] Preparar la situación problema que se socializará el primer día.
+- [ ] Tener disponible el formato institucional ABP / ABPr ajustado al curso.
 
 ## Durante la presentación del curso
 
 - [ ] Presentar el propósito de la asignatura.
-- [ ] Explicar las tres unidades del curso.
-- [ ] Mostrar la navegación del repositorio.
-- [ ] Explicar el cronograma por semanas.
-- [ ] Explicar la estrategia **ABP – Aprendizaje Basado en Proyectos**.
-- [ ] Presentar la problemática general: gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe.
-- [ ] Explicar que el proyecto inicia desde el primer corte, no al final del semestre.
-- [ ] Explicar que los talleres se reemplazan por preproyectos ABP.
-- [ ] Aclarar que el proyecto final no será la suma automática de los preproyectos, sino la evaluación de la integración final corregida.
+- [ ] Explicar las tres unidades.
+- [ ] Mostrar el repositorio y la navegación.
+- [ ] Explicar el cronograma semanal.
+- [ ] Diferenciar **ABPr – Aprendizaje Basado en Proyectos** de ABP – Aprendizaje Basado en Problemas.
+- [ ] Explicar por qué esta asignatura utiliza ABPr.
+- [ ] Socializar la situación problema institucional del curso.
+- [ ] Explicar que cada fase corresponde a una unidad y un corte.
+- [ ] Aclarar que la retroalimentación será constante.
 - [ ] Explicar la estructura de evaluación: 90% asignatura y 10% examen institucional.
-- [ ] Aclarar que el Corte 3 no tiene parcial escrito porque se cierra con proyecto ABP final, muestra y sustentación.
-- [ ] Explicar la política de publicación de evaluaciones a las 2:00 p. m. hora Colombia.
-- [ ] Explicar que el componente investigativo se integra dentro de los preproyectos y del proyecto final.
+- [ ] Aclarar que el Corte 3 no tiene parcial escrito.
+- [ ] Explicar la política de publicación a las 2:00 p. m. hora Colombia.
+
+## Fases del proyecto
+
+- [ ] Explicar la **Fase 1 / Preproyecto ABPr 1**: formulación, arquitectura, cálculos y etapa analógica.
+- [ ] Explicar la **Fase 2 / Preproyecto ABPr 2**: diseño lógico, simulación funcional y protoboard.
+- [ ] Explicar la **Fase 3 / Proyecto final ABPr**: prototipo físico, maqueta, muestra y sustentación.
+- [ ] Aclarar que el proyecto final no es la suma automática de errores anteriores.
+- [ ] Explicar que los errores pueden corregirse antes del cierre.
+- [ ] Mostrar cómo se registrarán retroalimentación y mejoras.
 
 ## Grupos y laboratorio
 
-- [ ] Conformar grupos de laboratorio de 3 estudiantes.
-- [ ] Registrar integrantes de cada grupo.
-- [ ] Aclarar que los grupos se mantendrán, en lo posible, durante el semestre.
-- [ ] Explicar que los preproyectos y el proyecto ABP también serán en grupos de 3 estudiantes.
-- [ ] Explicar que cada estudiante debe indicar qué parte trabajó.
-- [ ] Explicar que la nota del laboratorio tiene tres componentes: preinforme, informe completo y aporte individual.
-- [ ] Recordar normas de seguridad: revisar circuito antes de energizar, VCC/GND, polaridad y manejo de fuente.
-- [ ] Aclarar que los montajes en protoboard deben trabajar con baja tensión y no directamente con red de 120 V.
+- [ ] Conformar grupos de 3 estudiantes.
+- [ ] Registrar integrantes y roles iniciales.
+- [ ] Explicar que los grupos se mantendrán, en lo posible, todo el semestre.
+- [ ] Explicar las tres notas internas de cada laboratorio.
+- [ ] Aclarar que cada estudiante debe indicar qué parte trabajó.
+- [ ] Explicar que la nota individual puede variar.
+- [ ] Recordar normas de seguridad, polaridad, VCC/GND y manejo de fuentes.
+- [ ] Aclarar que los montajes trabajarán en baja tensión y no directamente con 120 V.
 
-## Evaluaciones y entregas
+## Entregables institucionales
 
-- [ ] Mostrar el calendario semanal de evaluaciones.
-- [ ] Aclarar las fechas de quizzes, preproyectos, guías, parciales y proyecto final.
-- [ ] Explicar que las semanas de parcial no tendrán tema nuevo.
-- [ ] Explicar que los quizzes serán principalmente ejercicios cortos.
-- [ ] Explicar el formato esperado de informes.
+- [ ] Explicar que el segundo corte exige simulación funcional.
+- [ ] Explicar que el segundo corte exige montaje en protoboard.
+- [ ] Explicar que el tercer corte exige prototipo físico definitivo.
+- [ ] Explicar que el tercer corte exige maqueta, estructura o base organizada.
+- [ ] Mostrar el formato esperado de informes.
 - [ ] Mostrar las plantillas disponibles.
-
-## Proyecto ABP
-
-- [ ] Explicar que todos los grupos tendrán una primera etapa común: conversión AC/DC en baja tensión, rectificación, filtrado, regulación básica, protección e indicador de estado.
-- [ ] Explicar que desde el segundo corte cada grupo diferenciará su proyecto según una problemática particular.
-- [ ] Explicar que el Preproyecto ABP 1 corresponde a problema + etapa común AC/DC.
-- [ ] Explicar que el Preproyecto ABP 2 corresponde a variables digitales + tabla de verdad + simplificación + compuertas.
-- [ ] Mostrar los requisitos mínimos del proyecto final.
-- [ ] Presentar las fechas de avances.
-- [ ] Explicar que la muestra de proyectos se realizará preferiblemente entre las semanas 14 y 15.
-- [ ] Aclarar que la sustentación tiene componente grupal e individual.
-- [ ] Explicar que el proyecto debe integrar electrónica analógica y digital.
 
 ## Cierre de la primera clase
 
-- [ ] Aplicar diagnóstico inicial.
-- [ ] Recoger dudas sobre evaluación, grupos, preproyectos y proyecto ABP.
-- [ ] Confirmar que todos conocen dónde está el repositorio.
-- [ ] Indicar el trabajo independiente de la siguiente semana.
+- [ ] Aplicar el diagnóstico inicial.
+- [ ] Confirmar los grupos.
+- [ ] Recoger dudas sobre ABPr, evaluación y proyecto.
+- [ ] Confirmar que todos conocen el repositorio.
+- [ ] Asignar la primera reflexión sobre la situación problema.

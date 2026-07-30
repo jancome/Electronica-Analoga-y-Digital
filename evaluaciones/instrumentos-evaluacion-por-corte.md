@@ -4,130 +4,109 @@
 **Periodo:** 2026-2  
 **Programa:** Ingeniería Eléctrica
 
-Este documento presenta la estructura pública de las evaluaciones. Los estudiantes podrán consultar fechas, pesos, modalidad y temas generales. Los enunciados específicos se publicarán únicamente en la fecha indicada a las **2:00 p. m. hora Colombia**, cuando aplique.
+Este documento presenta la estructura pública de las evaluaciones y de las fases ABPr. Los enunciados específicos se publicarán a las **2:00 p. m. hora Colombia**, cuando aplique.
 
----
+## 1. Estructura general
 
-## 1. Estructura general de la nota
-
-| Componente | Peso sobre nota final |
+| Componente | Peso |
 |---|---:|
-| Corte 1 – Unidad analógica | 30% |
-| Corte 2 – Fundamentos digitales y lógica combinacional | 30% |
-| Corte 3 – Aplicaciones digitales, secuenciales y proyecto ABP | 30% |
-| Examen institucional de la universidad | 10% |
+| Corte 1 – Unidad analógica y Fase 1 | 30% |
+| Corte 2 – Lógica combinacional y Fase 2 | 30% |
+| Corte 3 – Aplicaciones e integración física | 30% |
+| Examen institucional | 10% |
 | **Total** | **100%** |
-
-El docente desarrolla y califica el **90% correspondiente a la asignatura**. El **10% restante** corresponde a un examen institucional de la universidad.
-
----
 
 ## 2. Organización de grupos
 
-Desde la primera semana se conformarán **grupos de 3 estudiantes** para las prácticas de laboratorio. Estos grupos se mantendrán, en lo posible, durante el semestre y serán la base para los preproyectos y el proyecto ABP final.
-
-- Las guías de laboratorio se desarrollarán en grupos de **3 estudiantes**.
-- Los preproyectos ABP se desarrollarán en grupos de **3 estudiantes**.
-- El proyecto ABP final se desarrollará en grupos de **3 estudiantes**.
-- Cada informe o entrega grupal debe indicar roles y aportes.
-- La nota grupal puede ajustarse individualmente según sustentación, preguntas técnicas y evidencias de trabajo.
-- Cualquier excepción debe ser autorizada por el docente.
-
----
+- Grupos de 3 estudiantes desde la primera semana.
+- Los grupos se mantendrán, en lo posible, durante el semestre.
+- Cada entrega debe indicar roles y aportes.
+- La nota grupal puede ajustarse mediante preguntas y sustentación individual.
 
 ## 3. Política de publicación
 
-Los archivos públicos de quizzes, preproyectos y parciales permanecerán como avisos de programación hasta su fecha de apertura. El contenido específico se publicará el día señalado a las **2:00 p. m. hora Colombia**, cuando aplique.
+Los archivos públicos de quizzes, preproyectos y parciales funcionarán como avisos hasta su apertura.
 
-Consultar:
+- [Control de publicación](CONTROL_PUBLICACION_EVALUACIONES.md)
+- [Calendario semanal](calendario-evaluacion-semanal.md)
 
-- [Control de publicación de evaluaciones](CONTROL_PUBLICACION_EVALUACIONES.md)
-- [Calendario semanal de evaluaciones](calendario-evaluacion-semanal.md)
+## 4. Fases ABPr
 
----
+| Fase | Corte | Entrega | Peso | Requisito principal |
+|---|---|---|---:|---|
+| Fase 1 | Corte 1 | Preproyecto ABPr 1 | 4% | Formulación, arquitectura, etapa analógica y simulación inicial. |
+| Fase 2 | Corte 2 | Preproyecto ABPr 2 | 4% | Simulación funcional y montaje en protoboard. |
+| Fase 3 | Corte 3 | Proyecto final ABPr | 24% | Prototipo físico definitivo, maqueta y sustentación. |
 
-## 4. Preproyectos ABP
+Los preproyectos permiten recibir retroalimentación y corregir. El proyecto final se calificará por su estado definitivo e integración.
 
-Los talleres se reemplazan por preproyectos. De esta forma, cada entrega se conecta con la problemática del curso y con el avance del proyecto.
+# Corte 1 – Unidad analógica / Fase 1
 
-| Corte | Entrega | Peso | Archivo |
-|---|---|---:|---|
-| Corte 1 | Preproyecto ABP 1 | 4% | [Ver aviso](preproyectos/preproyecto-abp-corte-1.md) |
-| Corte 2 | Preproyecto ABP 2 | 4% | [Ver aviso](preproyectos/preproyecto-abp-corte-2.md) |
-| Corte 3 | Proyecto ABP final | 24% | [Proyecto final](../PROYECTO_FINAL.md) |
+## Temas
 
-Los preproyectos permiten avanzar, recibir retroalimentación y corregir. El proyecto final no se calificará como una suma de preproyectos; se calificará la integración final, el funcionamiento, la calidad del informe, el video, la muestra y la sustentación.
-
----
-
-# Corte 1 – Unidad analógica
-
-## Temas del corte
-
-- Fundamentos básicos de circuitos.
-- Ley de Ohm, potencia, nodos y mallas.
+- Fundamentos de circuitos.
 - Señales y medición.
 - Semiconductores y unión PN.
 - Diodos, LED y Zener.
 - Rectificación y filtrado.
-- BJT como interruptor.
-- FET/MOSFET como dispositivo de control.
-- Etapa común AC/DC del proyecto ABP.
+- BJT y MOSFET como interruptores.
+- Arquitectura inicial del proyecto.
 
 ## Instrumentos
 
-| Instrumento | Fecha de apertura | Peso | Archivo |
-|---|---|---:|---|
-| Preproyecto ABP 1 | Miércoles 12 de agosto de 2026 – 2:00 p. m. | 4% | [Ver aviso](preproyectos/preproyecto-abp-corte-1.md) |
-| Quiz 1 | Miércoles 26 de agosto de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-1-analogica/quiz-1-unidad-analogica.md) |
-| Parcial 1 | Miércoles 2 de septiembre de 2026 – 2:00 p. m. | 20% | [Ver aviso](corte-1-analogica/parcial-1-unidad-analogica.md) |
-| Guías A01, A02 y A03 | Semanas 02, 03 y 04 | 4% | Guías de laboratorio analógicas |
-| **Total Corte 1** |  | **30%** |  |
+| Instrumento | Fecha | Peso |
+|---|---|---:|
+| Quiz 1 | 26 de agosto de 2026 | 2% |
+| Guías A01, A02 y A03 | Semanas 02–04 | 4% |
+| Parcial 1 | 2 de septiembre de 2026 | 20% |
+| Preproyecto ABPr 1 | 2 de septiembre de 2026 | 4% |
+| **Total** |  | **30%** |
 
----
+# Corte 2 – Lógica combinacional / Fase 2
 
-# Corte 2 – Fundamentos digitales y lógica combinacional
-
-## Temas del corte
+## Temas
 
 - Sistemas numéricos.
 - Aritmética binaria.
 - Compuertas lógicas.
 - Tablas de verdad.
 - Álgebra booleana.
-- Teoremas de De Morgan.
-- Mapas de Karnaugh.
-- Variables digitales y lógica del proyecto ABP.
+- De Morgan y Karnaugh.
+- Simulación y protoboard de la lógica del proyecto.
 
 ## Instrumentos
 
-| Instrumento | Fecha de apertura | Peso | Archivo |
-|---|---|---:|---|
-| Preproyecto ABP 2 | Miércoles 30 de septiembre de 2026 – 2:00 p. m. | 4% | [Ver aviso](preproyectos/preproyecto-abp-corte-2.md) |
-| Quiz 2 | Miércoles 16 de septiembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-2-digital/quiz-2-fundamentos-digitales.md) |
-| Parcial 2 | Miércoles 14 de octubre de 2026 – 2:00 p. m. | 20% | [Ver aviso](corte-2-digital/parcial-2-fundamentos-digitales.md) |
-| Labs 01, 02 y 03 | Semanas 08 y 09 | 4% | Guías de laboratorio digitales |
-| **Total Corte 2** |  | **30%** |  |
+| Instrumento | Fecha | Peso |
+|---|---|---:|
+| Quiz 2 | 16 de septiembre de 2026 | 2% |
+| Labs 01, 02 y 03 | Semanas 08–09 | 4% |
+| Parcial 2 | 14 de octubre de 2026 | 20% |
+| Preproyecto ABPr 2 | 14 de octubre de 2026 | 4% |
+| **Total** |  | **30%** |
 
----
+# Corte 3 – Aplicaciones e integración / Fase 3
 
-# Corte 3 – Aplicaciones digitales, secuenciales y proyecto ABP
+## Temas
 
-## Temas del corte
-
-- XOR y XNOR.
-- Sumadores y restadores.
+- XOR, sumadores y restadores.
 - Comparadores y paridad.
-- Codificadores y decodificadores.
+- Codificadores, decodificadores y display.
 - Multiplexores y demultiplexores.
 - Flip-flops y contadores.
-- Integración final del proyecto ABP.
+- Integración analógica-digital.
+- Prototipo físico y maqueta.
 
 ## Instrumentos
 
-| Instrumento | Fecha de apertura | Peso | Archivo |
-|---|---|---:|---|
-| Quiz 3 | Miércoles 18 de noviembre de 2026 – 2:00 p. m. | 2% | [Ver aviso](corte-3-aplicaciones/quiz-3-aplicaciones-digitales.md) |
-| Labs 04 a 08 / avances prácticos | Semanas 12 a 15 | 4% | Guías de laboratorio digitales |
-| Proyecto ABP final con muestra y sustentación | Miércoles 25 de noviembre de 2026 – 2:00 p. m. | 24% | [Proyecto final](../PROYECTO_FINAL.md) |
-| **Total Corte 3** |  | **30%** |  |
+| Instrumento | Fecha | Peso |
+|---|---|---:|
+| Quiz 3 | 18 de noviembre de 2026 | 2% |
+| Labs 04 a 08 / avances prácticos | Semanas 12–15 | 4% |
+| Proyecto final ABPr | 25 de noviembre de 2026 | 24% |
+| **Total** |  | **30%** |
+
+## 5. Requisitos institucionales de producto
+
+- Corte 1: formulación y simulación inicial.
+- Corte 2: simulación funcional y protoboard.
+- Corte 3: proyecto físico definitivo con maqueta o base organizada.

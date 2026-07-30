@@ -1,103 +1,85 @@
 # Plan de marcos teóricos por semana
 
-Este documento orienta la elaboración del material base de cada semana para la asignatura **Electrónica Analógica y Digital – 2026-2**.
+Este documento orienta la elaboración del material base semanal de **Electrónica Analógica y Digital – 2026-2**.
 
 ## Propósito
 
-Cada semana contará con un archivo `marco-teorico.md` como lectura y guía de estudio. No reemplaza la explicación del docente, pero ayuda a que el estudiante llegue con una idea previa, tenga un punto de referencia para repasar y entienda cómo cada tema aporta al proyecto ABP del curso.
+Cada semana contará con un archivo `marco-teorico.md` como lectura y guía de estudio. El marco teórico debe ayudar a comprender el tema, preparar la práctica y avanzar en la fase correspondiente del ABPr.
 
-También se dispone del documento complementario:
+Documento complementario:
 
 - [Fortalecimiento teórico semanal](semanas/FORTALECIMIENTO_TEORICO_SEMANAL.md)
 
-Allí se recopilan bibliografía base, recursos abiertos, actividades de refuerzo, conexiones entre semanas y relación con los preproyectos ABP.
+## Enfoque institucional ABPr
 
-## Enfoque ABP de los marcos teóricos
+Los marcos teóricos no deben presentarse como contenidos aislados. Cada semana debe indicar:
 
-Los marcos teóricos no deben presentarse como temas aislados. Cada semana debe dejar claro qué aporta al proyecto de curso bajo la estrategia **ABP – Aprendizaje Basado en Proyectos**.
+1. Qué concepto se estudia.
+2. Qué necesidad de la situación problema ayuda a resolver.
+3. Qué actividad o evidencia produce el estudiante.
+4. Qué aporte hace a la fase del proyecto.
+5. Qué error o decisión técnica debe revisar.
 
-La problemática general del curso será:
+La situación problema del curso es:
 
-> **Gestión, uso eficiente y aprovechamiento responsable de la energía eléctrica en Barranquilla y la región Caribe.**
+> **¿Cómo diseñar e implementar un sistema electrónico analógico-digital, de bajo costo y bajo consumo, que permita supervisar, indicar o controlar una variable relacionada con el uso eficiente de la energía o de los recursos en Barranquilla y la región Caribe?**
 
-La ruta del ABP será:
+## Relación entre unidades, fases y productos
 
-| Corte | Relación con el marco teórico | Producto asociado |
+| Unidad / corte | Enfoque teórico | Producto ABPr |
 |---|---|---|
-| Corte 1 | Fundamentos analógicos para construir una etapa común AC/DC segura en baja tensión. | Preproyecto ABP 1. |
-| Corte 2 | Fundamentos digitales para definir variables, tabla de verdad, expresión booleana y lógica de decisión. | Preproyecto ABP 2. |
-| Corte 3 | Aplicaciones combinacionales y secuenciales para integrar, mejorar y sustentar la solución final. | Proyecto ABP final. |
+| Unidad 1 / Corte 1 | Fundamentos analógicos, alimentación y control de carga. | Preproyecto ABPr 1: formulación, arquitectura y simulación inicial. |
+| Unidad 2 / Corte 2 | Representación, diseño y simplificación lógica. | Preproyecto ABPr 2: simulación funcional y montaje en protoboard. |
+| Unidad 3 / Corte 3 | Aplicaciones combinacionales, secuenciales e integración. | Proyecto final ABPr: prototipo físico, maqueta y sustentación. |
 
-## Criterio sobre preproyectos
+## Criterio de retroalimentación
 
-Los preproyectos de los cortes 1 y 2 sirven para avanzar, recibir retroalimentación y corregir. No deben entenderse como partes que se suman mecánicamente para el proyecto final.
+Los marcos teóricos deben promover revisión y mejora. Cada cierre semanal puede incluir:
 
-En el cierre del curso se calificará el **estado final integrado** del proyecto: funcionamiento, integración, correcciones realizadas, informe, video, muestra y sustentación individual.
+- Qué se comprendió.
+- Qué se comprobó mediante cálculo, simulación o medición.
+- Qué aporta al proyecto.
+- Qué error se detectó.
+- Qué debe corregirse antes de la siguiente fase.
 
-## Organización general
-
-La secuencia semanal debe mantenerse alineada con el syllabus:
-
-- **Corte 1:** unidad analógica completa y etapa común AC/DC.
-- **Corte 2:** fundamentos digitales, lógica combinacional y etapa digital de decisión del proyecto.
-- **Corte 3:** aplicaciones combinacionales, secuenciales, integración, muestra y proyecto ABP final.
-
-También se considera la semana de receso institucional del **5 al 11 de octubre de 2026**, por lo que esa semana no incluye contenido nuevo.
-
-## Ajuste del primer corte
-
-El primer corte se compacta para poder cubrir señales, medición, semiconductores, diodos, Zener, BJT y FET/MOSFET antes del Parcial 1. La Semana 05 queda reservada para repaso, Parcial 1 y entrega del **Preproyecto ABP 1**.
-
-Las guías analógicas se distribuyen así:
-
-- **Semana 02:** Lab A01 e inicio de la etapa común AC/DC.
-- **Semana 03:** Lab A02 y control de carga con BJT.
-- **Semana 04:** Lab A03 y control de carga con FET/MOSFET.
-
-## Elementos recomendados para cada marco teórico
-
-Cada marco puede incluir:
+## Elementos recomendados para cada marco
 
 1. Tema de la semana.
-2. Propósito de la clase.
-3. Importancia del tema.
+2. Propósito de aprendizaje.
+3. Relación con la situación problema.
 4. Conceptos fundamentales.
 5. Desarrollo teórico.
-6. Relación con aplicaciones reales.
-7. Conexión con la problemática ABP del curso.
-8. Aporte al preproyecto o proyecto final.
-9. Ejemplo guiado.
-10. Errores comunes o puntos de cuidado.
-11. Preguntas para orientar la discusión.
-12. Trabajo previo o posterior del estudiante.
-13. Bibliografía o recursos de apoyo.
+6. Aplicación real.
+7. Ejemplo guiado.
+8. Actividad práctica, simulación o montaje.
+9. Aporte a la fase ABPr.
+10. Errores comunes y seguridad.
+11. Preguntas de análisis.
+12. Trabajo independiente.
+13. Bibliografía y hojas de datos.
 
 ## Relación semanal
 
-| Semana | Corte | Tema | Relación ABP | Archivo teórico |
+| Semana | Fase | Tema | Relación ABPr | Archivo teórico |
 |---:|---|---|---|---|
-| 01 | Corte 1 | Inicio del curso, diagnóstico corto, señales y medición | Presentación de la problemática y conformación de grupos | `semanas/semana-01-presentacion-diagnostico/marco-teorico.md` |
-| 02 | Corte 1 | Semiconductores, diodos, rectificación básica y Zener | Inicio de etapa común AC/DC | `semanas/semana-02-senales-analogicas-digitales/marco-teorico.md` |
-| 03 | Corte 1 | Transistor BJT y control de cargas | Control de carga de baja potencia | `semanas/semana-03-semiconductores-union-pn/marco-teorico.md` |
-| 04 | Corte 1 | Quiz 1, FET/MOSFET y comparación de transistores | Cierre técnico de la etapa analógica | `semanas/semana-04-diodos-rectificacion/marco-teorico.md` |
-| 05 | Corte 1 | Parcial 1 – Unidad analógica | Preproyecto ABP 1 | `semanas/semana-05-cierre-analogico-bjt-fet-mosfet/marco-teorico.md` |
-| 06 | Corte 2 | Sistemas numéricos | Variables digitales del proyecto | `semanas/semana-06-sistemas-numericos/marco-teorico.md` |
-| 07 | Corte 2 | Aritmética binaria | Representación de datos, estados o conteos | `semanas/semana-07-aritmetica-binaria/marco-teorico.md` |
-| 08 | Corte 2 | Compuertas lógicas | Primer circuito lógico de decisión | `semanas/semana-08-compuertas-logicas/marco-teorico.md` |
-| 09 | Corte 2 | Álgebra booleana, De Morgan e introducción a Karnaugh | Simplificación lógica para Preproyecto ABP 2 | `semanas/semana-09-algebra-demorgan-karnaugh/marco-teorico.md` |
-| 10 | Receso | Receso institucional | Revisión autónoma de la lógica del proyecto | `semanas/semana-10-receso-institucional/marco-teorico.md` |
-| 11 | Corte 2 | Parcial 2 – Fundamentos digitales | Preproyecto ABP 2 | `semanas/semana-11-mapas-karnaugh-cierre-corte/marco-teorico.md` |
-| 12 | Corte 3 | XOR, sumadores y restadores | Integración inicial de aplicaciones digitales | `semanas/semana-12-xor-sumadores-restadores/marco-teorico.md` |
-| 13 | Corte 3 | Comparadores y paridad | Decisión, validación o alarma | `semanas/semana-13-comparadores-paridad/marco-teorico.md` |
-| 14 | Corte 3 | Codificadores y decodificadores | Visualización, estados o display | `semanas/semana-14-codificadores-decodificadores/marco-teorico.md` |
-| 15 | Corte 3 | Multiplexores y demultiplexores | Muestra de proyectos y selección/distribución de señales | `semanas/semana-15-multiplexores-demultiplexores/marco-teorico.md` |
-| 16 | Corte 3 | Flip-flops y contadores | Ajustes finales, memoria o conteo | `semanas/semana-16-flipflops-contadores/marco-teorico.md` |
-| 17 | Corte 3 | Proyecto final y cierre | Sustentación final e integración corregida | `semanas/semana-17-proyecto-final-cierre/marco-teorico.md` |
-
-## Nota sobre rutas
-
-Las rutas indicadas en esta tabla son la referencia principal del curso. Algunas carpetas conservan nombres de una primera versión, pero el contenido interno se ajusta a la planeación actual.
+| 01 | Fase 1 | Inicio, diagnóstico y situación problema | Socialización, grupos y primera identificación de necesidades | `semanas/semana-01-presentacion-diagnostico/marco-teorico.md` |
+| 02 | Fase 1 | Diodos, rectificación y Zener | Inicio de la etapa AC/DC y simulación | `semanas/semana-02-senales-analogicas-digitales/marco-teorico.md` |
+| 03 | Fase 1 | BJT y control de cargas | Activación de una salida de baja potencia | `semanas/semana-03-semiconductores-union-pn/marco-teorico.md` |
+| 04 | Fase 1 | MOSFET y comparación de transistores | Cierre técnico de la etapa analógica | `semanas/semana-04-diodos-rectificacion/marco-teorico.md` |
+| 05 | Fase 1 | Cierre analógico | Preproyecto ABPr 1 | `semanas/semana-05-cierre-analogico-bjt-fet-mosfet/marco-teorico.md` |
+| 06 | Fase 2 | Sistemas numéricos | Definición de variables y estados | `semanas/semana-06-sistemas-numericos/marco-teorico.md` |
+| 07 | Fase 2 | Aritmética binaria | Representación de datos, conteos o estados | `semanas/semana-07-aritmetica-binaria/marco-teorico.md` |
+| 08 | Fase 2 | Compuertas lógicas | Primer circuito y montaje en protoboard | `semanas/semana-08-compuertas-logicas/marco-teorico.md` |
+| 09 | Fase 2 | Álgebra, De Morgan y Karnaugh | Simplificación, simulación y ajuste del montaje | `semanas/semana-09-algebra-demorgan-karnaugh/marco-teorico.md` |
+| 10 | Receso | Repaso | Revisión autónoma de simulación y protoboard | `semanas/semana-10-receso-institucional/marco-teorico.md` |
+| 11 | Fase 2 | Cierre digital | Preproyecto ABPr 2 con simulación y protoboard | `semanas/semana-11-mapas-karnaugh-cierre-corte/marco-teorico.md` |
+| 12 | Fase 3 | XOR, sumadores y restadores | Integración inicial de aplicaciones | `semanas/semana-12-xor-sumadores-restadores/marco-teorico.md` |
+| 13 | Fase 3 | Comparadores y paridad | Validación, decisión o alarma | `semanas/semana-13-comparadores-paridad/marco-teorico.md` |
+| 14 | Fase 3 | Codificadores, decodificadores y display | Visualización y primera revisión física | `semanas/semana-14-codificadores-decodificadores/marco-teorico.md` |
+| 15 | Fase 3 | MUX/DEMUX | Muestra de prototipo y revisión de maqueta | `semanas/semana-15-multiplexores-demultiplexores/marco-teorico.md` |
+| 16 | Fase 3 | Flip-flops y contadores | Ajustes, memoria, conteo y pruebas | `semanas/semana-16-flipflops-contadores/marco-teorico.md` |
+| 17 | Fase 3 | Proyecto final | Prototipo físico, maqueta y sustentación | `semanas/semana-17-proyecto-final-cierre/marco-teorico.md` |
 
 ## Criterio de redacción
 
-Los marcos teóricos deben mantener un lenguaje claro, técnico y cercano al estudiante. La idea es que funcionen como apoyo real para estudiar, preparar preguntas, conectar la teoría con el laboratorio y alimentar el proyecto ABP de cada grupo.
+Los marcos deben usar lenguaje claro, técnico y cercano. Deben relacionar teoría, práctica, seguridad, evidencia y evolución del proyecto ABPr.

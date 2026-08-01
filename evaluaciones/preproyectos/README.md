@@ -8,8 +8,8 @@ Cada fase corresponde a una unidad y a un corte académico.
 
 | Fase | Corte | Entrega | Peso | Producto requerido |
 |---|---|---|---:|---|
-| Fase 1 | Corte 1 | [Preproyecto ABPr 1](preproyecto-abp-corte-1.md) | 4% | Formulación, arquitectura, etapa analógica y simulación inicial. |
-| Fase 2 | Corte 2 | [Preproyecto ABPr 2](preproyecto-abp-corte-2.md) | 4% | Simulación funcional y montaje en protoboard. |
+| Fase 1 | Corte 1 | [Preproyecto ABPr 1](preproyecto-abpr-corte-1.md) | 4% | Formulación, arquitectura, etapa analógica y simulación inicial. |
+| Fase 2 | Corte 2 | [Preproyecto ABPr 2](preproyecto-abpr-corte-2.md) | 4% | Simulación funcional y montaje en protoboard. |
 | Fase 3 | Corte 3 | [Proyecto final ABPr](../../PROYECTO_FINAL.md) | 24% | Prototipo físico, maqueta, informe, video, muestra y sustentación. |
 
 ## Criterio institucional
@@ -26,4 +26,4 @@ Los preproyectos permiten recibir retroalimentación y corregir. El proyecto fin
 
 En la Fase 3 se evaluará la solución definitiva, el funcionamiento, la integración, las correcciones, la presentación física y la sustentación individual.
 
-Los nombres de los archivos conservan `abp` únicamente por compatibilidad con enlaces anteriores; la denominación vigente del curso es **ABPr**.
+Los archivos con nombres anteriores se conservan únicamente para no romper enlaces históricos. La denominación y los enlaces vigentes del curso utilizan **ABPr**.

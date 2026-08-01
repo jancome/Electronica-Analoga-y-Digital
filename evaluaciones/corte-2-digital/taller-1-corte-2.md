@@ -1,10 +1,10 @@
 # Archivo reemplazado – Corte 2
 
-El Taller 1 del Corte 2 fue reemplazado por el **Preproyecto ABP 2**.
+El Taller 1 del Corte 2 fue reemplazado por el **Preproyecto ABPr 2**.
 
 La evaluación ahora se articula con la estrategia de Aprendizaje Basado en Proyectos. La entrega correspondiente se encuentra en:
 
-- [Preproyecto ABP 2 – Corte 2](../preproyectos/preproyecto-abp-corte-2.md)
+- [Preproyecto ABPr 2 – Corte 2](../preproyectos/preproyecto-abpr-corte-2.md)
 
 ## Criterio
 

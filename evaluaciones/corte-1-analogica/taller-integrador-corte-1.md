@@ -1,10 +1,10 @@
 # Archivo reemplazado – Corte 1
 
-El taller integrador del Corte 1 fue reemplazado por el **Preproyecto ABP 1**.
+El taller integrador del Corte 1 fue reemplazado por el **Preproyecto ABPr 1**.
 
 La evaluación ahora se articula con la estrategia de Aprendizaje Basado en Proyectos. La entrega correspondiente se encuentra en:
 
-- [Preproyecto ABP 1 – Corte 1](../preproyectos/preproyecto-abp-corte-1.md)
+- [Preproyecto ABPr 1 – Corte 1](../preproyectos/preproyecto-abpr-corte-1.md)
 
 ## Criterio
 

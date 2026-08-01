@@ -48,8 +48,8 @@ Los estudiantes podrán consultar calendario, peso, modalidad y temas generales.
 ## Instrumentos ABPr
 
 - [Fases y preproyectos](preproyectos/README.md)
-- [Preproyecto ABPr 1](preproyectos/preproyecto-abp-corte-1.md)
-- [Preproyecto ABPr 2](preproyectos/preproyecto-abp-corte-2.md)
+- [Preproyecto ABPr 1](preproyectos/preproyecto-abpr-corte-1.md)
+- [Preproyecto ABPr 2](preproyectos/preproyecto-abpr-corte-2.md)
 - [Proyecto final ABPr](../PROYECTO_FINAL.md)
 
 ## Corte 1

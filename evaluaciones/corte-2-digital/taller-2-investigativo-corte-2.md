@@ -1,10 +1,10 @@
-# Archivo integrado al Preproyecto ABP 2
+# Archivo integrado al Preproyecto ABPr 2
 
 El Taller 2 investigativo del Corte 2 deja de manejarse como entrega separada.
 
-El componente investigativo se integrará dentro del **Preproyecto ABP 2**:
+El componente investigativo se integrará dentro del **Preproyecto ABPr 2**:
 
-- [Preproyecto ABP 2 – Corte 2](../preproyectos/preproyecto-abp-corte-2.md)
+- [Preproyecto ABPr 2 – Corte 2](../preproyectos/preproyecto-abpr-corte-2.md)
 
 ## Criterio
 

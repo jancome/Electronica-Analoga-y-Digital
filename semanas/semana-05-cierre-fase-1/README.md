@@ -1,8 +1,12 @@
-# Semana 05 – Cierre de Fase 1 y Parcial 1
+# Semana 05 – Cierre de la Fase 1 y Parcial 1
 
 ## Propósito
 
 Cerrar la unidad analógica, aplicar el Parcial 1 y presentar el **Preproyecto ABPr 1**. No se programa tema nuevo.
+
+## Marco teórico
+
+- [Marco teórico – Semana 05](marco-teorico.md)
 
 ## Material de repaso
 
@@ -18,7 +22,7 @@ Cerrar la unidad analógica, aplicar el Parcial 1 y presentar el **Preproyecto A
 - Repaso y aclaración de dudas.
 - Retroalimentación de la arquitectura y simulación inicial.
 - Aplicación del Parcial 1.
-- Revisión o recepción del Preproyecto ABPr 1.
+- Revisión del Preproyecto ABPr 1.
 
 ## Entregas
 
@@ -28,13 +32,10 @@ Evaluación individual de la unidad analógica.
 
 ### Fase 1 – Preproyecto ABPr 1
 
-Debe incluir:
-
 - Situación específica y justificación.
 - Objetivos.
 - Diagrama de bloques.
 - Etapa analógica AC/DC.
-- Cálculos.
-- Simulación inicial.
+- Cálculos y simulación inicial.
 - Materiales y roles.
-- Preguntas o dificultades para retroalimentación.
+- Registro de retroalimentación.

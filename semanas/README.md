@@ -11,37 +11,25 @@ Esta sección reúne el recorrido semanal del curso. Cada semana cuenta con marc
 - [Estrategia ABPr](../ABPR_PROYECTO_DE_CURSO.md)
 - [Directrices institucionales](../DIRECTRICES_INSTITUCIONALES_ABPR.md)
 
-## Situación problema
+## Regla de navegación
 
-La situación problema se socializa el primer día de clases y orienta todas las fases del proyecto.
-
-## Fases ABPr
-
-- **Fase 1 / Corte 1:** formulación, arquitectura, etapa analógica y simulación inicial.
-- **Fase 2 / Corte 2:** diseño lógico, simulación funcional y montaje en protoboard.
-- **Fase 3 / Corte 3:** integración física, maqueta, muestra y sustentación.
-
-Los preproyectos permiten recibir retroalimentación. La entrega final se evaluará por su estado definitivo y corregido.
-
-## Criterio para parciales
-
-Las semanas de parcial no tendrán tema nuevo. Se utilizarán para repaso, retroalimentación, cierre de fase y evaluación.
+La carpeta `semanas` contiene una sola ruta vigente por semana. Los nombres de las carpetas corresponden al tema central del cronograma.
 
 ## Índice oficial
 
 | Semana | Fase | Tema | Evaluación o entrega principal | Carpeta |
 |---:|---|---|---|---|
 | 01 | Fase 1 | Inicio, diagnóstico y situación problema | Diagnóstico + socialización + grupos | [Semana 01](semana-01-presentacion-diagnostico/README.md) |
-| 02 | Fase 1 | Diodos, rectificación y Zener | Lab A01 + simulación AC/DC | [Semana 02](semana-02-senales-analogicas-digitales/README.md) |
-| 03 | Fase 1 | BJT y control de cargas | Lab A02 + arquitectura | [Semana 03](semana-03-semiconductores-union-pn/README.md) |
-| 04 | Fase 1 | MOSFET y cierre analógico | Quiz 1 + Lab A03 | [Semana 04](semana-04-diodos-rectificacion/README.md) |
-| 05 | Fase 1 | Cierre de unidad | Parcial 1 + Preproyecto ABPr 1 | [Semana 05](semana-05-cierre-analogico-bjt-fet-mosfet/README.md) |
+| 02 | Fase 1 | Diodos, rectificación y Zener | Lab A01 + simulación AC/DC | [Semana 02](semana-02-diodos-rectificacion-zener/README.md) |
+| 03 | Fase 1 | BJT y control de cargas | Lab A02 + arquitectura | [Semana 03](semana-03-bjt-control-cargas/README.md) |
+| 04 | Fase 1 | MOSFET y cierre analógico | Quiz 1 + Lab A03 | [Semana 04](semana-04-mosfet-cierre-analogico/README.md) |
+| 05 | Fase 1 | Cierre de la Fase 1 | Parcial 1 + Preproyecto ABPr 1 | [Semana 05](semana-05-cierre-fase-1/README.md) |
 | 06 | Fase 2 | Sistemas numéricos y variables | Inicio del diseño lógico | [Semana 06](semana-06-sistemas-numericos/README.md) |
 | 07 | Fase 2 | Aritmética binaria | Quiz 2 | [Semana 07](semana-07-aritmetica-binaria/README.md) |
 | 08 | Fase 2 | Compuertas lógicas | Lab 01 + primer protoboard | [Semana 08](semana-08-compuertas-logicas/README.md) |
 | 09 | Fase 2 | Álgebra, De Morgan y Karnaugh | Labs 02 y 03 + simulación y montaje | [Semana 09](semana-09-algebra-demorgan-karnaugh/README.md) |
 | 10 | Receso | Receso institucional | Repaso y ajustes autónomos | [Semana 10](semana-10-receso-institucional/README.md) |
-| 11 | Fase 2 | Cierre digital | Parcial 2 + Preproyecto ABPr 2 | [Semana 11](semana-11-mapas-karnaugh-cierre-corte/README.md) |
+| 11 | Fase 2 | Cierre de la Fase 2 | Parcial 2 + Preproyecto ABPr 2 | [Semana 11](semana-11-cierre-fase-2/README.md) |
 | 12 | Fase 3 | XOR, sumadores y restadores | Labs 04 y 05 + integración física | [Semana 12](semana-12-xor-sumadores-restadores/README.md) |
 | 13 | Fase 3 | Comparadores y paridad | Lab 06 + avance funcional | [Semana 13](semana-13-comparadores-paridad/README.md) |
 | 14 | Fase 3 | Codificadores y decodificadores | Lab 07 + primera revisión física | [Semana 14](semana-14-codificadores-decodificadores/README.md) |
@@ -51,14 +39,6 @@ Las semanas de parcial no tendrán tema nuevo. Se utilizarán para repaso, retro
 
 ## Productos institucionales
 
-### Corte 1
-
-Preproyecto ABPr 1 con formulación, arquitectura, etapa analógica y simulación inicial.
-
-### Corte 2
-
-Preproyecto ABPr 2 con simulación funcional y montaje en protoboard.
-
-### Corte 3
-
-Proyecto final ABPr con prototipo físico definitivo, maqueta o base organizada y sustentación.
+- **Corte 1:** Preproyecto ABPr 1 con formulación, arquitectura, etapa analógica y simulación inicial.
+- **Corte 2:** Preproyecto ABPr 2 con simulación funcional y montaje en protoboard.
+- **Corte 3:** Proyecto final ABPr con prototipo físico definitivo, maqueta o base organizada y sustentación.

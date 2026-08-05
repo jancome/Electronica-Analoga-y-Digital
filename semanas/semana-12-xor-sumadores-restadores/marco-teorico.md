@@ -2,6 +2,12 @@
 
 # XOR, sumadores, restadores e integración inicial
 
+## Metas de aprendizaje verificables
+
+- Derivar y comprobar XOR/XNOR, medio sumador y sumador completo.
+- Seguir carry/borrow entre etapas e identificar el primer bit divergente.
+- Integrar aritmética o detección de diferencia solo si responde a un requisito real.
+
 ## 1. Propósito de la semana
 
 Iniciar la Fase 3 integrando aplicaciones aritméticas de la lógica combinacional al proyecto, cuando aporten una función real de conteo, diferencia, validación o procesamiento.
@@ -150,3 +156,76 @@ El grupo debe responder:
 ## 15. Conexión con la Semana 13
 
 La siguiente semana se estudiarán comparadores y paridad, útiles para tomar decisiones entre valores y verificar información digital.
+
+## 16. Profundización: de la diferencia lógica a la aritmética
+
+XOR vale uno cuando sus entradas son diferentes: `A⊕B=\bar AB+A\bar B`. XNOR vale uno cuando son iguales. Esta propiedad permite detectar cambio, generar paridad y producir el bit de suma de dos operandos.
+
+El medio sumador tiene:
+
+\[
+S=A\oplus B,\qquad C=AB
+\]
+
+El sumador completo incluye acarreo de entrada:
+
+\[
+S=A\oplus B\oplus C_{in}
+\]
+
+\[
+C_{out}=AB+C_{in}(A\oplus B)
+\]
+
+El medio restador produce diferencia `D=A⊕B` y préstamo `B_{out}=\bar AB`. En palabras de varios bits, cada etapa debe propagar carry o borrow. El retardo acumulado limita la velocidad de un sumador de acarreo serie; Floyd introduce el acarreo anticipado para reducir ese problema, aunque el montaje básico del curso prioriza comprensión funcional.
+
+## 17. Ejemplo guiado adaptado
+
+Para el sumador completo con `A=1`, `B=1`, `Cin=0`:
+
+1. `A⊕B=0`.
+2. `S=0⊕0=0`.
+3. `Cout=AB+Cin(A⊕B)=1+0=1`.
+4. La salida `10₂` representa `2`, coherente con `1+1+0`.
+
+Para `A=0`, `B=1`, `Cin=1`, `S=0` y `Cout=1`: nuevamente `0+1+1=2`. Probar solo el primer caso no demuestra el circuito; un sumador completo exige las ocho combinaciones.
+
+En un proyecto, XOR puede indicar discrepancia entre orden y realimentación: `F=ORDEN⊕ESTADO`. `F=1` señala que la carga no coincide con lo esperado. Esta aplicación suele ser más pertinente que agregar un sumador sin requerimiento numérico.
+
+## 18. Procedimiento de simulación y Labs 04–05
+
+1. Construir tablas de XOR/XNOR y del bloque aritmético.
+2. Derivar expresiones y subdividir el sumador completo en dos medios sumadores.
+3. Simular ocho casos con sondas para `S` y `Cout`.
+4. En palabras de varios bits, observar el carry de cada etapa.
+5. Consultar pinout, alimentación y límites de los CIs.
+6. Montar y medir niveles; no evaluar solo LEDs.
+7. Aplicar un vector que genere propagación de carry, por ejemplo `1111+0001`.
+8. Integrar al ABPr únicamente si satisface una función trazable.
+
+## 19. Diagnóstico de fallas
+
+Si `S` falla cuando `A=B`, revisar XOR o inversión; si `Cout` falla solo con `Cin=1`, revisar la segunda rama de acarreo. En cascada, medir el carry entre etapas localiza el primer bit incorrecto. Un resultado correcto en bits bajos y erróneo en altos suele indicar propagación abierta, orden de bits o ancho insuficiente.
+
+## 20. Preguntas orientadoras y trabajo independiente
+
+- ¿XOR detecta cualquier cambio o solo diferencia instantánea?
+- ¿Qué diferencia funcional existe entre carry y overflow?
+- ¿Qué caso prueba mejor la propagación entre etapas?
+- ¿El proyecto necesita aritmética o basta comparación/alarma?
+- ¿Cómo se valida que un bloque añadido aporta valor?
+
+Entregar tabla, derivación, simulación de todos los casos, dos mediciones físicas, diagnóstico de un carry interrumpido y una decisión justificada sobre su integración al proyecto.
+
+## 21. Referencias de estudio
+
+- Floyd, 9.ª ed., cap. 3, sec. 3.6, pp. 151–154: XOR y XNOR.
+- Ibid., cap. 6, sec. 6.1, pp. 328–331: medio sumador y sumador completo.
+- Ibid., secs. 6.2–6.3, pp. 332–343: sumadores en paralelo y acarreo serie/anticipado.
+
+## 22. Ruta de profundización recomendada
+
+1. **XOR/XNOR:** Floyd, cap. 3, sec. 3.6, pp. 151–154.
+2. **Bloques básicos:** cap. 6, sec. 6.1, pp. 328–331.
+3. **Palabras de varios bits:** cap. 6, sec. 6.2, pp. 332–339.
+4. **Profundización temporal:** cap. 6, sec. 6.3, pp. 340–343, para comparar acarreo serie y anticipado.

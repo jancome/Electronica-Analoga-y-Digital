@@ -2,6 +2,12 @@
 
 # Álgebra booleana, De Morgan y mapas de Karnaugh
 
+## Metas de aprendizaje verificables
+
+- Obtener formas canónicas desde una tabla y simplificarlas por álgebra y Karnaugh.
+- Demostrar equivalencia exhaustiva y cuantificar la reducción de puertas, conexiones y niveles.
+- Tratar estados imposibles o “no importa” con criterio de seguridad del proyecto.
+
 ## 1. Propósito de la semana
 
 Simplificar la función lógica del proyecto, comprobar su equivalencia y actualizar la simulación y el montaje en protoboard de la Fase 2 ABPr.
@@ -223,3 +229,60 @@ Cada grupo deberá:
 ## 19. Conexión con la Semana 10
 
 La Semana 10 es receso institucional. No tendrá contenido nuevo ni entrega obligatoria nueva. Puede utilizarse para corregir el protoboard y preparar la entrega de la Fase 2.
+
+## 20. Profundización: equivalencia y minimización verificable
+
+El álgebra de Boole transforma expresiones sin cambiar su tabla de verdad. Entre las identidades más útiles están `X+X=X`, `XX=X`, `X+XY=X`, `X(X+Y)=X` y distributividad. De Morgan permite mover una negación a través de una operación: `\overline{XY}=\bar X+\bar Y` y `\overline{X+Y}=\bar X\bar Y`. Estas relaciones son esenciales al implementar solo con NAND o NOR.
+
+Una suma de productos canónica contiene un mintermino por cada fila donde `F=1`. El mapa de Karnaugh organiza celdas en código Gray, de manera que las adyacentes difieren en una variable. Los grupos deben contener `1,2,4,8…` celdas, pueden envolver bordes y deben hacerse tan grandes como sea posible. Cada variable que cambia dentro del grupo desaparece.
+
+La minimización persigue menor costo, potencia y probabilidad de error, pero no garantiza por sí sola menor retardo o ausencia de riesgos dinámicos. En este curso se comprobará equivalencia exhaustiva para hasta cuatro variables.
+
+## 21. Ejemplo guiado adaptado
+
+Para `F(A,B,C)=Σm(1,2,3,5,7)`:
+
+1. Se escriben los minterminos `001,010,011,101,111`.
+2. En el mapa se agrupan `1,3,5,7`, donde `C=1`, obteniendo `C`.
+3. El mintermino `2` se agrupa con `3`, donde `A=0` y `B=1`, obteniendo `\bar AB`.
+4. Resultado: `F=C+\bar AB`.
+5. La forma canónica usa cinco términos de tres literales; la simplificada usa dos términos y menos conexiones.
+6. Se prueban las ocho combinaciones y se confirma que ambas salidas coinciden.
+
+## 22. Procedimiento de simulación y Labs 02–03
+
+1. Traducir el requisito a variables y decidir estados imposibles; no asignar “no importa” sin justificación física.
+2. Construir tabla y forma canónica.
+3. Simplificar algebraicamente y con Karnaugh.
+4. Implementar original y simplificada en simulación.
+5. Crear una señal `E=F_original XOR F_simplificada`; equivalencia exige `E=0` en todas las filas.
+6. Montar la solución simplificada, fijando entradas no usadas.
+7. Contar CIs, puertas, conexiones y niveles de propagación.
+8. Registrar una falla de cableado y aislarla por nodos intermedios.
+
+## 23. Diagnóstico de fallas
+
+Si la tabla esperada es incorrecta, ninguna simplificación corregirá el requisito. Si expresión y mapa difieren, se revisan numeración de minterminos y orden de variables. Si simulación funciona y protoboard no, se comprueban niveles, negaciones, entradas flotantes y pinout. Medir términos intermedios permite ubicar el primer nodo divergente.
+
+## 24. Preguntas orientadoras y trabajo independiente
+
+- ¿Qué filas son físicamente posibles y cuáles son condiciones de seguridad?
+- ¿Puede un “no importa” convertirse en peligro si aparece en hardware?
+- ¿Cuánto reduce la forma simplificada el número de literales y niveles?
+- ¿Cómo se demuestra equivalencia sin depender de inspección visual?
+- ¿Conviene implementación NAND–NAND o NOR–NOR con los CIs disponibles?
+
+El grupo entregará requisito verbal, tabla, forma canónica, dos métodos de simplificación, comparación cuantitativa, prueba de equivalencia y diagnóstico de una salida errónea.
+
+## 25. Referencias de estudio
+
+- Floyd, 9.ª ed., cap. 4, secs. 4.1–4.7, pp. 200–227: operaciones, leyes, De Morgan, formas estándar y tablas.
+- Ibid., secs. 4.8–4.10, pp. 228–246; ejemplos 4.30 y 4.33, pp. 243–245: mapas y minimización.
+- Ibid., cap. 5, ejemplos 5.5–5.6, pp. 282–283: reducción de circuitos combinacionales.
+
+## 26. Ruta de profundización recomendada
+
+1. **Álgebra y De Morgan:** Floyd, cap. 4, secs. 4.1–4.5, pp. 200–216.
+2. **De tabla a forma estándar:** secs. 4.6–4.7, pp. 217–227; revisar el ejemplo 4.20, p. 227.
+3. **Minimización obligatoria:** secs. 4.8–4.10, pp. 228–246; analizar ejemplos 4.30 y 4.33, pp. 243–245.
+4. **Profundización de diseño:** cap. 5, especialmente ejemplos 5.5–5.6, pp. 282–283, para comparar circuitos antes y después de reducirlos.

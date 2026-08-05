@@ -2,6 +2,12 @@
 
 # Transistor BJT como interruptor y control de cargas
 
+## Metas de aprendizaje verificables
+
+- Distinguir corte, región activa y saturación mediante corrientes y tensiones medidas.
+- Dimensionar base, potencia y protección de una carga DC con margen y hoja de datos.
+- Localizar fallas de control, pinout y carga sin sustituir componentes al azar.
+
 ## 1. Propósito de la semana
 
 Comprender el transistor BJT como dispositivo de control y aplicarlo a la activación segura de indicadores, relés o cargas DC de baja potencia dentro de la Fase 1 del proyecto ABPr.
@@ -181,3 +187,71 @@ Cada grupo deberá:
 ## 16. Conexión con la Semana 04
 
 La siguiente semana se estudiará el MOSFET como alternativa de control eficiente de cargas y se cerrará técnicamente la Fase 1 del proyecto.
+
+## 17. Profundización: conmutación BJT con margen de diseño
+
+El BJT contiene dos uniones PN y cumple `I_E=I_C+I_B`. En región activa suele emplearse `I_C≈βI_B`, pero `β` varía entre unidades, con corriente y temperatura. Al usarlo como interruptor se fuerza saturación con una relación conservadora `β_forzada=I_C/I_B`, frecuentemente entre 5 y 10 para cargas didácticas, dentro de la capacidad de la fuente de mando.
+
+\[
+I_B=\frac{V_{ctrl}-V_{BE}}{R_B},\qquad R_B=\frac{V_{ctrl}-V_{BE}}{I_B}
+\]
+
+\[
+P_Q\approx V_{CE(sat)}I_C,\qquad P_R=I_B^2R_B
+\]
+
+La salida lógica o sensor debe poder entregar `I_B`; de lo contrario, un cálculo correcto en papel sobrecarga el bloque anterior.
+
+## 18. Ejemplo guiado adaptado
+
+Se controla una bobina de `5 V`, `60 mA` con una señal de `3,3 V` usando un NPN de lado bajo.
+
+1. Con `β_forzada=10`, `I_B=6 mA`.
+2. Con `V_BE≈0,8 V`, `R_B=(3,3-0,8)/6 mA=417 Ω`; se elige un valor comercial y se verifica la corriente.
+3. Si `V_CE(sat)=0,2 V`, `P_Q≈12 mW`.
+4. Se conecta un diodo de rueda libre: cátodo a `+5 V`, ánodo al colector.
+
+Al abrir el BJT, el diodo proporciona trayectoria a la corriente almacenada en `E=½LI²` y limita la sobretensión. Las masas de control y potencia deben compartir referencia cuando no hay aislamiento.
+
+## 19. Simulación, montaje y mediciones del Lab A02
+
+1. Confirmar pinout y límites `VCEO`, `IC` y `PD` en la hoja de datos.
+2. Simular corte y saturación, midiendo `VB`, `VE`, `VC`, `VBE`, `VCE` e `IC`.
+3. Validar primero con LED/resistencia.
+4. Montar con alimentación desconectada y comprobar continuidad de tierra.
+5. Energizar con límite de corriente si está disponible.
+6. Un `VCE` intermedio puede indicar base insuficiente y región activa.
+7. Conectar al final la bobina y el diodo de protección.
+
+## 20. Diagnóstico de fallas
+
+| Medición | Interpretación probable |
+|---|---|
+| `VBE≈0 V` con orden de encendido | no llega control, base abierta o tierras separadas |
+| `VBE≈0,7–0,9 V`, `VCE` alto | pinout incorrecto, carga abierta o base insuficiente |
+| `VCE≈0,1–0,3 V`, carga apagada | problema en carga, alimentación o cableado de salida |
+| transistor caliente | corriente excesiva, región activa o componente subdimensionado |
+| ruido al apagar relé | diodo ausente, invertido o retorno deficiente |
+
+## 21. Preguntas orientadoras y trabajo independiente
+
+- ¿Por qué `β` típico no garantiza saturación?
+- ¿Puede la salida de mando suministrar la corriente de base?
+- ¿Cuál es el peor caso de potencia y temperatura?
+- ¿Qué distingue una carga abierta de un transistor en corte?
+- ¿Cómo cambia el diseño si la carga es inductiva?
+
+El grupo entregará un diseño BJT propio con hoja de datos, cálculo de `R_B`, potencia, tabla de estados, simulación, seis mediciones esperadas y diagnóstico de una falla segura provocada.
+
+## 22. Referencias de estudio
+
+- Boylestad y Nashelsky, 10.ª ed., cap. 3, secs. 3.2–3.11, pp. 132–153: construcción, operación, límites, hoja de datos y prueba del BJT.
+- Ibid., cap. 4, secs. 4.2 y 4.11, pp. 162 y 194: punto de operación y diseño.
+- Ibid., cap. 4, secs. 4.15–4.18, pp. 206–228: conmutación, solución de fallas y aplicaciones.
+
+## 23. Ruta de profundización recomendada
+
+1. **Estructura y operación:** Boylestad, cap. 3, secs. 3.2–3.6, pp. 132–145.
+2. **Selección real:** cap. 3, secs. 3.8–3.11, pp. 146–153, para límites, hoja de datos, prueba y terminales.
+3. **Diseño de conmutación:** cap. 4, secs. 4.2, 4.11 y 4.15, pp. 162, 194 y 206 en adelante.
+4. **Profundización aplicada:** cap. 4, secs. 4.16 y 4.18, pp. 210–228, para diagnóstico y aplicaciones.

@@ -2,6 +2,12 @@
 
 # Cierre de la Fase 1 ABPr y evaluación de la unidad analógica
 
+## Metas de aprendizaje verificables
+
+- Integrar cálculos, simulación, hoja de datos, seguridad y diagnóstico sin introducir un tema nuevo.
+- Defender la trazabilidad entre necesidad, arquitectura, etapa analógica y mediciones esperadas.
+- Convertir la retroalimentación del Preproyecto 1 en correcciones comprobables para la Fase 2.
+
 ## 1. Propósito de la semana
 
 Cerrar el primer corte mediante integración conceptual, retroalimentación del proyecto, entrega del Preproyecto ABPr 1 y aplicación del Parcial 1.
@@ -156,3 +162,73 @@ Cada grupo realizará una explicación breve de su diagrama de bloques y respond
 ## 12. Conexión con el Corte 2
 
 La Fase 2 convertirá las condiciones del problema en variables digitales. El grupo construirá una tabla de verdad, simplificará la función, la simulará y realizará un montaje funcional en protoboard.
+
+## 13. Profundización integradora sin tema nuevo
+
+La semana no agrega otro dispositivo; consolida una forma de razonar. Cada bloque debe tener entrada, salida, función, ecuación de diseño, condición límite y punto de prueba:
+
+```text
+requisito → arquitectura → cálculo → componente → simulación
+          → medición esperada → prueba → diagnóstico → mejora
+```
+
+Una simulación que “enciende” no demuestra diseño. Se debe comprobar el peor caso de entrada, carga y tolerancia; verificar corriente y potencia; identificar referencias comunes; y explicar qué decisión deriva de cada resultado.
+
+## 14. Caso integrador guiado adaptado
+
+Considérese una fuente aislada de `9 V RMS` con puente, `470 µF`, indicador LED y una carga de `5 V/60 mA` accionada por transistor.
+
+1. Calcular `V_p`, caídas del puente y rizado con `ΔV≈I/(f_rC)`.
+2. Definir salida regulada y comprobar el peor caso de potencia.
+3. Para BJT, calcular `I_B`, `R_B` y `P_Q`; para MOSFET, verificar `R_DS(on)` a la tensión real y `P≈I²R_DS(on)`.
+4. Ubicar puntos de prueba antes/después de puente, filtro, regulación, control y carga.
+5. Construir una tabla de estados con tensiones esperadas.
+6. Provocar una falla segura y diagnosticarla por mediciones.
+
+La entrega debe mostrar continuidad entre el problema regional y el circuito: no basta con presentar una fuente y un transistor sin explicar qué variable se supervisa y qué acción eficiente produce.
+
+## 15. Auditoría técnica del Preproyecto ABPr 1
+
+| Pregunta | Evidencia exigida |
+|---|---|
+| ¿La arquitectura resuelve la necesidad? | diagrama con señales y rangos |
+| ¿La fuente soporta la carga? | balance de tensión, corriente, rizado y potencia |
+| ¿Los semiconductores tienen margen? | hoja de datos y peor caso |
+| ¿La simulación es reproducible? | esquema, parámetros y puntos de medición |
+| ¿Se puede diagnosticar? | valores esperados y árbol de fallas |
+| ¿Es segura? | baja tensión aislada, límites y procedimiento |
+
+## 16. Procedimiento de revisión y retroalimentación
+
+1. Otro equipo reconstruye la lógica del diseño con diagrama y cálculos.
+2. Marca toda entrada sin rango, salida sin carga o componente sin referencia.
+3. Comprueba unidades, márgenes y coherencia entre esquema y BOM.
+4. Ejecuta dos casos normales y uno límite en simulación.
+5. El autor clasifica cada observación como aceptada, rechazada con evidencia o pendiente.
+6. Se registra la corrección que pasa a la Fase 2.
+
+## 17. Diagnóstico, preguntas y trabajo independiente
+
+Ante una salida incorrecta se divide el sistema por bloques. Si la tensión filtrada es correcta pero la regulada no, se investiga regulación, no el puente. Si el control es válido pero la carga no responde, se mide conmutación y carga.
+
+- ¿Qué supuesto domina la incertidumbre?
+- ¿Cuál es el componente más exigido y qué margen conserva?
+- ¿Qué diferencia cálculo–simulación es aceptable?
+- ¿Qué falla única explica el síntoma?
+- ¿Qué señal entregará la etapa analógica a la lógica digital?
+
+El trabajo independiente consiste en corregir el Preproyecto 1, completar una matriz requisito–evidencia y preparar una explicación individual de dos minutos y un caso de diagnóstico.
+
+## 18. Referencias de repaso
+
+- Boylestad y Nashelsky, 10.ª ed., cap. 2, sec. 2.12, p. 103: aplicaciones prácticas de diodos.
+- Ibid., cap. 4, secs. 4.15–4.18, pp. 206–228: conmutación, fallas y aplicaciones BJT.
+- Ibid., cap. 7, secs. 7.12 y 7.15, pp. 445–462: diagnóstico y aplicaciones FET.
+- Ibid., cap. 15, secs. 15.2–15.7, pp. 774–796: filtrado, regulación y fuentes.
+
+## 19. Ruta de profundización recomendada
+
+1. **Cadena de alimentación:** Boylestad, caps. 1–2 y cap. 15, secs. 15.2–15.7.
+2. **Conmutación BJT:** caps. 3–4, priorizando cap. 4, secs. 4.15–4.18.
+3. **Conmutación MOSFET:** caps. 6–7, priorizando cap. 7, secs. 7.8, 7.11, 7.12 y 7.15.
+4. **Lectura integradora:** comparar las aplicaciones y procedimientos de fallas de los caps. 2, 4, 7 y 15; profundizar por el bloque más débil del Preproyecto 1, no por cantidad de páginas.

@@ -3,6 +3,8 @@
 Esta sección reúne el recorrido semanal del curso. Cada semana cuenta con marco teórico, actividades, laboratorio, trabajo independiente y avance de la fase ABPr correspondiente.
 
 - [Fortalecimiento teórico semanal](FORTALECIMIENTO_TEORICO_SEMANAL.md)
+- [Guía de Boylestad para el Corte 1](../referencias/BOYLESTAD_CORTE_1.md)
+- [Banco de ejercicios adaptados de Boylestad](../ejercicios/EJERCICIOS_ADAPTADOS_BOYLESTAD_CORTE_1.md)
 - [Guía de Thomas Floyd para los cortes 2 y 3](../referencias/FLOYD_CORTES_2_3.md)
 - [Banco de ejercicios adaptados de Floyd](../ejercicios/EJERCICIOS_ADAPTADOS_FLOYD_CORTES_2_3.md)
 - [Rutas oficiales](RUTAS_OFICIALES.md)

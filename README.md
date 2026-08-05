@@ -34,6 +34,8 @@ Los enunciados controlados y las entregas se manejarán mediante **Teams**. El r
 - [Semanas de clase](semanas/README.md)
 - [Presentaciones semanales](presentaciones/README.md)
 - [Estrategia ABPr](ABPR_PROYECTO_DE_CURSO.md)
+- [Guía de Boylestad para el Corte 1](referencias/BOYLESTAD_CORTE_1.md)
+- [Banco de ejercicios adaptados de Boylestad](ejercicios/EJERCICIOS_ADAPTADOS_BOYLESTAD_CORTE_1.md)
 - [Guía de Thomas Floyd para los cortes 2 y 3](referencias/FLOYD_CORTES_2_3.md)
 - [Banco de ejercicios adaptados de Floyd](ejercicios/EJERCICIOS_ADAPTADOS_FLOYD_CORTES_2_3.md)
 

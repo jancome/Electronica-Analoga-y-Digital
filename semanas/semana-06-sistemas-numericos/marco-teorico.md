@@ -2,6 +2,12 @@
 
 # Sistemas numéricos y definición de variables del proyecto
 
+## Metas de aprendizaje verificables
+
+- Convertir valores entre decimal, binario y hexadecimal y distinguir el código BCD.
+- Dimensionar bits y documentar orden, rango, resolución y estados inválidos.
+- Vincular cada condición física del ABPr con un nivel eléctrico y una representación lógica.
+
 ## 1. Propósito de la semana
 
 Iniciar la Fase 2 del ABPr mostrando cómo un sistema digital representa cantidades, estados y condiciones mediante bits.
@@ -151,3 +157,64 @@ Cada grupo deberá:
 ## 16. Conexión con la Semana 07
 
 La siguiente semana se estudiará aritmética binaria para comprender acarreo, préstamo, complemento y representación de datos, especialmente en proyectos que requieran conteo o comparación.
+
+## 17. Profundización: número, código y nivel eléctrico
+
+Un bit es una representación abstracta que en hardware se implementa mediante intervalos de tensión. Por ello, `0` y `1` no significan siempre `0 V` y `5 V`: la familia lógica define rangos garantizados de entrada y salida y una zona indeterminada. El diseño debe conservar margen de ruido y nunca dejar una entrada flotante.
+
+Un número posicional de base `r` se interpreta como:
+
+\[
+N=\sum_{i=0}^{n-1}d_i r^i
+\]
+
+En binario `r=2`; en hexadecimal `r=16`. Cada dígito hexadecimal representa exactamente cuatro bits, de modo que la conversión binario–hexadecimal se realiza agrupando nibbles. BCD no es otra base: codifica por separado cada dígito decimal con cuatro bits. Por ejemplo, `173₁₀=10101101₂=AD₁₆`, mientras su BCD es `0001 0111 0011`. Confundir valor binario con BCD produce salidas de display erróneas.
+
+Para `n` bits sin signo, el rango es `0≤N≤2^n-1`. El número de bits mínimo para `M` estados es `n=⌈log₂M⌉`. Esta relación permite dimensionar códigos de estados, buses y futuros contadores.
+
+## 18. Ejemplo guiado adaptado
+
+Un indicador de nivel cuantiza de `0` a `255` y registra `173`:
+
+1. Divisiones sucesivas o suma de potencias: `173=128+32+8+4+1`, por tanto `10101101₂`.
+2. Agrupando `1010 1101`, se obtiene `AD₁₆`.
+3. Codificando dígitos decimales: `1→0001`, `7→0111`, `3→0011`; BCD usa 12 bits.
+4. En binario/hexadecimal se representa el valor compacto; BCD facilita la presentación decimal, pero consume más bits.
+
+En el ABPr, tres variables binarias `L` (nivel bajo), `H` (nivel alto) y `E` (habilitación) no forman necesariamente un número. Son un vector de condiciones. El equipo debe distinguir datos numéricos de banderas lógicas.
+
+## 19. Procedimiento de simulación o práctica
+
+1. Definir cada variable con nombre, unidad, rango físico y criterio para `0/1`.
+2. Identificar estados imposibles o inseguros.
+3. Convertir diez valores entre decimal, binario y hexadecimal; verificar con calculadora solo al final.
+4. Implementar con interruptores un vector de 4 bits y observarlo en sondas lógicas o LEDs con resistencias.
+5. Medir tensiones reales de ALTO y BAJO y compararlas con la hoja de datos del circuito integrado.
+6. Documentar orden de bits: `MSB…LSB`; invertirlo cambia el valor aunque el cableado parezca completo.
+
+## 20. Diagnóstico de fallas
+
+Una lectura duplicada o invertida puede deberse a orden de bits, no a la conversión. Un código BCD entre `1010` y `1111` es inválido. Una entrada flotante puede alternar sin patrón. El diagnóstico sigue: verificar alimentación y referencia, fijar entradas conocidas (`0000`, `0001`, `1000`, `1111`), observar bits individualmente y recién después interpretar el valor.
+
+## 21. Preguntas orientadoras y trabajo independiente
+
+- ¿La variable es numérica, categórica o una bandera?
+- ¿Cuántos estados válidos e inválidos tiene el código?
+- ¿Qué resolución se obtiene con `n` bits?
+- ¿Cómo se detectaría un intercambio entre MSB y LSB?
+- ¿Qué tensión real garantiza la familia lógica para cada estado?
+
+Cada grupo entregará un diccionario de entradas/salidas, una codificación de estados, cinco conversiones justificadas, identificación de códigos inválidos y una tabla que vincule condición física, nivel eléctrico y bit.
+
+## 22. Referencias de estudio
+
+- Floyd, 9.ª ed., cap. 1, sec. 1.2, pp. 6–13: bits, niveles lógicos, formas de onda y transferencia de datos.
+- Ibid., cap. 2, secs. 2.2–2.3, pp. 56–62: números binarios y conversiones.
+- Ibid., sec. 2.8, pp. 82–89; sec. 2.10, pp. 93–95; sec. 2.11, pp. 96–103: hexadecimal, BCD y códigos digitales.
+
+## 23. Ruta de profundización recomendada
+
+1. **Base eléctrica:** Floyd, cap. 1, sec. 1.2, pp. 6–13.
+2. **Conversión obligatoria:** cap. 2, secs. 2.2–2.3, pp. 56–62, y sec. 2.8, pp. 82–89.
+3. **Códigos para interfaces:** cap. 2, secs. 2.10–2.11, pp. 93–103.
+4. **Ampliación:** cap. 2 completo para relacionar representación, operaciones, códigos y detección de errores antes de abordar circuitos aritméticos.

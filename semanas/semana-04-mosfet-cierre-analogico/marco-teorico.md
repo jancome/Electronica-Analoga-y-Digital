@@ -2,6 +2,12 @@
 
 # FET/MOSFET, control eficiente de cargas y cierre analógico
 
+## Metas de aprendizaje verificables
+
+- Explicar por qué `VGS(th)` no equivale a conducción plena y seleccionar un MOSFET compatible.
+- Estimar caída, pérdidas y temperatura y justificar gate, pull-down y protección inductiva.
+- Comparar BJT y MOSFET con evidencia eléctrica y escoger la etapa del ABPr.
+
 ## 1. Propósito de la semana
 
 Comprender el MOSFET como interruptor controlado por voltaje, compararlo con el BJT y seleccionar una alternativa apropiada para controlar cargas de baja potencia en el proyecto ABPr.
@@ -171,3 +177,70 @@ Antes de la entrega, el grupo debe verificar:
 ## 16. Conexión con la Semana 05
 
 La Semana 05 no introduce contenido nuevo. Se utilizará para integración conceptual, retroalimentación, entrega del Preproyecto ABPr 1 y aplicación del Parcial 1.
+
+## 17. Profundización: MOSFET como interruptor real
+
+En un MOSFET de enriquecimiento canal N, una `V_GS` positiva forma el canal conductor. La compuerta aislada demanda corriente continua casi nula, aunque en cada transición se carga o descarga su capacitancia. Una resistencia serie limita picos y oscilaciones; la pull-down fija `V_GS=0` si la señal queda desconectada.
+
+`V_GS(th)` solo identifica el comienzo de conducción con una corriente de ensayo pequeña. La selección debe basarse en `R_DS(on)` especificada a una `V_GS` compatible con el control:
+
+\[
+P_{cond}\approx I_D^2R_{DS(on)},\qquad V_{DS(on)}\approx I_DR_{DS(on)}
+\]
+
+El cálculo térmico preliminar usa `T_J≈T_A+P_Dθ_JA`. También se revisan `V_DS(max)`, `V_GS(max)`, `I_D`, área segura y protección ESD.
+
+## 18. Ejemplo guiado adaptado y comparación
+
+Una carga de `5 V`, `150 mA` se controla con `3,3 V`. Un MOSFET logic-level especifica `R_DS(on)=0,20 Ω` a `V_GS=2,5 V`.
+
+1. `V_DS(on)≈0,15×0,20=0,030 V`.
+2. `P_cond≈0,15²×0,20=4,5 mW`.
+3. Con `100 Ω` en gate y `100 kΩ` pull-down, la entrada queda definida al arrancar.
+4. Si la carga es inductiva, se añade el diodo de rueda libre.
+
+Un BJT con `V_CE(sat)≈0,2 V` disiparía cerca de `30 mW` y requeriría corriente de base. Esto favorece al MOSFET, pero la elección final incluye tensión de gate, costo, disponibilidad y robustez.
+
+## 19. Procedimiento de simulación y Lab A03
+
+1. Verificar terminales `G`, `D`, `S` y parámetros a la tensión real.
+2. Simular apagado/encendido y medir `V_GS`, `V_DS` e `I_D`.
+3. Desconectar virtualmente la entrada para demostrar la necesidad del pull-down.
+4. Comparar modelo genérico con el componente escogido.
+5. Montar con manejo ESD y alimentación desconectada.
+6. Medir primero sin carga y luego con carga resistiva segura.
+7. Incorporar la carga final y observar calentamiento y caída de tensión.
+8. Documentar la decisión BJT/MOSFET con una matriz de criterios.
+
+## 20. Diagnóstico de fallas
+
+| Síntoma | Causa probable | Prueba |
+|---|---|---|
+| carga se activa sola | gate flotante | medir `V_GS`; comprobar pull-down |
+| MOSFET calienta | `V_GS` insuficiente, pinout o selección incorrecta | medir `V_GS`, `V_DS` e `I_D` |
+| carga no enciende | tierras separadas, dispositivo invertido o señal ausente | medir terminales respecto a source |
+| daño al apagar bobina | diodo ausente o invertido | revisar polaridad y sobretensión |
+| simula bien y monta mal | modelo ideal o parámetro incompatible | contrastar `R_DS(on)` a `V_GS` real |
+
+## 21. Preguntas orientadoras y trabajo independiente
+
+- ¿La hoja de datos especifica `R_DS(on)` a la tensión disponible?
+- ¿Qué garantiza el apagado durante el arranque?
+- ¿Cuál es la diferencia entre umbral y conducción plena?
+- ¿Qué pérdidas dominan a baja y alta frecuencia?
+- ¿Qué medición separa una falla de gate de una de carga?
+
+El grupo entregará cálculos, selección por hoja de datos, simulación con falla de gate flotante, matriz BJT–MOSFET y justificación de la etapa elegida.
+
+## 22. Referencias de estudio
+
+- Boylestad y Nashelsky, 10.ª ed., cap. 6, secs. 6.8–6.13, pp. 392–405: MOSFET de enriquecimiento, manejo y síntesis FET.
+- Ibid., cap. 7, secs. 7.8 y 7.11, pp. 433 y 442: polarización y diseño.
+- Ibid., cap. 7, secs. 7.12 y 7.15, pp. 445–462: fallas y aplicaciones prácticas.
+
+## 23. Ruta de profundización recomendada
+
+1. **Fundamento del dispositivo:** Boylestad, cap. 6, sec. 6.8, p. 392 en adelante, para MOSFET de enriquecimiento.
+2. **Manejo y familias:** cap. 6, secs. 6.9–6.13, pp. 399–405.
+3. **Diseño obligatorio:** cap. 7, secs. 7.8 y 7.11, pp. 433 y 442.
+4. **Profundización aplicada:** cap. 7, secs. 7.12 y 7.15, pp. 445–462, para fallas y aplicaciones; contrastar siempre con la hoja de datos del MOSFET escogido.

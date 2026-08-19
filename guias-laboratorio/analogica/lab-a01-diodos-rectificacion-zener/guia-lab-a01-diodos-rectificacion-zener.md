@@ -1,6 +1,6 @@
 # EXPERIENCIA No. A01
 
-# DIODOS SEMICONDUCTORES, RECTIFICACIÓN Y REGULACIÓN CON ZENER
+# DIODOS, RECTIFICACIÓN, FILTRADO Y REGULACIÓN A ≈5,1 V
 
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2  
@@ -9,454 +9,430 @@
 
 ---
 
-## 1. INTRODUCCIÓN
+## 1. RETO DE LA EXPERIENCIA
 
-El diodo semiconductor es uno de los dispositivos fundamentales de la electrónica analógica. Su funcionamiento se basa en la unión PN, la cual permite el paso de corriente principalmente en un sentido cuando se encuentra polarizada directamente, y limita el paso de corriente cuando se encuentra polarizada inversamente.
+Construir, calcular y comprobar por etapas una fuente didáctica de aproximadamente `5,1 V DC` para una carga digital pequeña:
 
-Este comportamiento permite utilizar el diodo en aplicaciones como protección de polaridad, rectificación de señales, fuentes de alimentación, indicadores luminosos y regulación básica de voltaje. En ingeniería eléctrica, los diodos se encuentran presentes en cargadores, fuentes DC, sistemas de control, protecciones electrónicas, variadores, rectificadores industriales y circuitos de potencia.
+```text
+9 V RMS, 60 Hz
+      ↓
+puente de 4 diodos
+      ↓
+filtro de 470 µF
+      ↓
+Zener de 5,1 V
+      ↓
+carga equivalente + LED indicador
+```
 
-En esta experiencia se estudiará el comportamiento del diodo en polarización directa e inversa. Posteriormente, se implementarán circuitos rectificadores de media onda y onda completa, se analizará el efecto de un filtro capacitivo y se comprobará el funcionamiento de un regulador básico con diodo Zener.
+La teoría básica del diodo, su polarización y su curva característica ya se estudió. En esta experiencia el énfasis estará en **calcular, montar, medir, comparar y diagnosticar**.
+
+> **Aclaración:** `5,1 V` es la tensión aproximada de alimentación `VCC`. El nivel reconocido como HIGH depende de `VIH` y de la familia lógica utilizada. Antes de conectar un circuito digital real, consulte su hoja de datos.
 
 ---
 
-## 2. OBJETIVO
+## 2. OBJETIVOS
 
-Implementar y analizar circuitos básicos con diodos semiconductores, verificando su comportamiento en polarización directa e inversa, su aplicación en rectificación de señales AC y su uso en regulación básica de voltaje mediante diodo Zener.
+### Objetivo general
+
+Implementar y analizar una fuente didáctica de aproximadamente `5,1 V DC` utilizando rectificación de onda completa, filtrado capacitivo y regulación básica con diodo Zener.
 
 ### Objetivos específicos
 
-- Identificar los terminales ánodo y cátodo de un diodo semiconductor.
-- Comprobar experimentalmente la polarización directa e inversa de un diodo.
-- Implementar un rectificador de media onda.
-- Implementar un rectificador de onda completa tipo puente.
-- Analizar el efecto de un capacitor de filtrado en la señal rectificada.
-- Verificar el comportamiento de un regulador básico con diodo Zener.
+- Comprobar rápidamente la polaridad y caída directa de un diodo y un LED.
+- Implementar un rectificador de media onda y relacionar su forma de onda con sus valores calculados.
+- Implementar un puente rectificador y comprobar que ambos semiciclos aparecen con la misma polaridad en la carga.
+- Diferenciar la función del puente de la función del capacitor.
+- Calcular y medir tensión pico, tensión promedio, corriente de carga, frecuencia de rizado y PIV mínimo.
+- Analizar el efecto de un capacitor de filtrado sobre el rizado.
+- Diseñar y verificar un regulador Zener de `5,1 V` considerando corriente y potencia.
 - Comparar valores teóricos, simulados y medidos.
 
 ---
 
-## 3. NORMATIVA DE SEGURIDAD
+## 3. SEGURIDAD
 
-Es obligatorio cumplir las normas de seguridad del laboratorio durante toda la práctica.
-
-**PELIGRO:** Riesgo de choque eléctrico al manipular fuentes de alimentación o transformadores. Asegúrese de que el equipo esté apagado antes de realizar cualquier conexión.
-
-**AVISO:** Riesgo de daño a componentes si se invierte la polaridad o se exceden los límites de voltaje y corriente. Revise las especificaciones de cada componente antes de energizar el circuito.
-
-**PRECAUCIÓN:** Algunos componentes pueden calentarse durante el funcionamiento, especialmente resistencias, reguladores o diodos sometidos a corrientes elevadas.
-
-**ELEMENTOS DE PROTECCIÓN PERSONAL:** Bata de laboratorio y gafas de seguridad cuando el laboratorio lo exija.
-
-### Recomendaciones de seguridad
-
-- Verifique la polaridad de la fuente antes de alimentar el circuito.
-- No conecte el capacitor electrolítico con polaridad invertida.
+- Utilice únicamente una fuente AC **aislada**, de baja tensión y limitada a un máximo de `12 V RMS` para esta experiencia.
+- **Nunca conecte la protoboard directamente a la red de 120 V o 230 V.**
+- Desenergice el circuito antes de cambiar componentes, conexiones o polaridades.
+- Descargue el capacitor antes de modificar el montaje.
+- Verifique la polaridad del capacitor electrolítico, del LED y del Zener antes de energizar.
+- Utilice siempre resistencia limitadora con el LED y el Zener.
 - No alimente el circuito hasta que el docente o monitor revise el montaje.
-- Utilice resistencias limitadoras de corriente para proteger diodos y LED.
-- No manipule conexiones energizadas.
-- Use únicamente niveles de tensión seguros para laboratorio educativo.
+- No toque conexiones energizadas y suspenda la prueba si un componente se calienta, cambia de color o produce olor.
+
+### Precaución con el osciloscopio
+
+En muchos osciloscopios de banco las pinzas de tierra de todos los canales están unidas entre sí y a tierra de protección. No conecte las tierras de dos sondas a nodos diferentes del puente. Para medir entre dos puntos flotantes utilice una sonda diferencial, un instrumento con canales aislados o el procedimiento definido por el docente. **Nunca elimine la conexión de tierra de protección del osciloscopio.**
+
+Referencia de seguridad: [Keysight — Floating Measurement with Isolated Channel Oscilloscope](https://www.keysight.com/zz/en/assets/7018-03309/application-notes/5990-9777.pdf).
 
 ---
 
 ## 4. RECURSOS
 
-### Materiales o dispositivos
+### Componentes principales por grupo
 
-- Diodos rectificadores 1N4007 o equivalentes.
-- Diodo Zener de 5.1 V o 12 V.
-- LED rojo, verde o amarillo.
-- Resistencias de 220 Ω, 330 Ω, 1 kΩ, 2.2 kΩ y 10 kΩ.
-- Capacitores electrolíticos de 100 µF, 470 µF o 1000 µF.
-- Protoboard.
-- Cables de conexión.
-- Dip switch o cables para conexión manual, si aplica.
+- 4 diodos rectificadores `1N4007`.
+- 1 diodo Zener `BZX55C5V1` de `5,1 V`, o un modelo equivalente **identificado exactamente**.
+- 1 LED rojo, verde o amarillo.
+- Resistencias de `160 Ω / 0,5 W`, `270 Ω / 0,25 W`, `390 Ω / 0,25 W`, `390 Ω / 0,5 W`, `470 Ω / 0,5 W` y `1 kΩ / 0,25 W`.
+- 1 capacitor electrolítico de `470 µF / 25 V`.
+- Capacitores de `100 µF / 25 V` y `1000 µF / 25 V` para comparación opcional.
+- Protoboard y cables.
 
-### Herramientas
-
-- Pinzas de punta.
-- Cortafrío, si se requiere.
-- Computador con software de simulación.
+> Si no se dispone de `160 Ω`, puede utilizarse `150 Ω / 0,5 W`, pero deben repetirse los cálculos de corriente y potencia con el valor real.
 
 ### Equipos
 
-- Fuente de corriente directa DC.
-- Fuente AC de baja tensión o transformador didáctico, si está disponible.
+- Fuente AC aislada de `9 V RMS`, `60 Hz`, o transformador didáctico equivalente.
+- Fuente DC regulable para la caracterización opcional del Zener.
 - Multímetro digital.
-- Osciloscopio, si está disponible.
-- Generador de funciones, si está disponible.
-
-### Software sugerido
-
-- Proteus.
-- Multisim.
-- Tinkercad Circuits.
-- Falstad Circuit Simulator.
-- LTspice u otro simulador equivalente.
+- Osciloscopio y sondas adecuadas, si están disponibles.
+- Computador con Proteus, Multisim, LTspice, Falstad u otro simulador equivalente.
 
 ---
 
-## 5. RECOMENDACIÓN PREVIA
+## 5. PREPARACIÓN ANTES DE ENERGIZAR
 
-Antes de realizar la práctica, el estudiante debe consultar la hoja de datos de los siguientes componentes:
+### 5.1 Revise las hojas de datos
 
-- Diodo 1N4007.
-- Diodo Zener utilizado.
-- LED utilizado.
-- Capacitor electrolítico utilizado.
+Identifique para cada componente:
 
-Debe identificar:
+- ánodo, cátodo y marcas físicas;
+- caída directa aproximada;
+- corriente y potencia máximas;
+- tensión inversa máxima del diodo rectificador;
+- corriente de prueba y potencia máxima del Zener;
+- polaridad y tensión nominal del capacitor.
 
-- Terminal ánodo.
-- Terminal cátodo.
-- Voltaje directo aproximado.
-- Corriente máxima.
-- Potencia máxima.
-- Polaridad de capacitores electrolíticos.
+El modelo `1N4007` se utilizará porque su capacidad de corriente y tensión inversa es muy superior a los valores de esta práctica. Aun así, el estudiante debe realizar el cálculo de selección.
+
+### 5.2 Variables que se usarán
+
+| Símbolo | Significado | Unidad |
+|---|---|---|
+| `VRMS` | valor eficaz de la entrada AC | V |
+| `Vm` | valor pico de la señal de entrada | V |
+| `Vp` | pico disponible en la carga después de las caídas en diodos | V |
+| `VDC` | valor promedio o componente continua | V |
+| `Vr(pp)` | rizado pico a pico: `Vmax − Vmin` | Vpp |
+| `PIV` | tensión inversa pico que debe bloquear un diodo | V |
+| `IDC` | corriente promedio en la carga rectificada | A o mA |
+| `IL` | corriente total solicitada por la carga | A o mA |
+| `IR` | corriente por la resistencia serie del Zener | A o mA |
+| `IZ` | corriente que circula por el Zener | A o mA |
+| `fr` | frecuencia del rizado | Hz |
+| `C` | capacitancia del filtro | F |
+| `RS` | resistencia serie del regulador Zener | Ω |
+| `PZ` | potencia disipada por el Zener | W |
+
+### 5.3 Mapa de fórmulas
+
+#### Media onda, sin capacitor
+
+```text
+Vm = √2 · VRMS
+Vp = Vm − VD
+VDC ≈ 0,318 · Vp
+IDC = VDC / RL
+fr = f
+PIVmín ≈ Vm
+```
+
+#### Puente de onda completa, sin capacitor
+
+```text
+Vm = √2 · VRMS
+Vp = Vm − 2VD
+VDC ≈ 0,636 · Vp
+IDC = VDC / RL
+fr = 2f
+PIVmín por diodo ≈ Vm
+```
+
+#### Filtro capacitivo
+
+```text
+Vr(pp) ≈ IL / (fr · C)
+VDC ≈ Vp − Vr(pp)/2
+Vmin ≈ Vp − Vr(pp)
+```
+
+#### Regulador Zener
+
+```text
+IR = (Vin − Vout) / RS
+IL = Vout / RL       [si la carga se representa mediante RL]
+IR = IL + IZ
+IZ = IR − IL
+PZ = Vout · IZ
+PRS = IR² · RS
+```
+
+> Las expresiones son aproximaciones del modelo práctico. Utilice el valor medido de `VD`, `Vout` y los valores reales de los componentes cuando estén disponibles.
+
+### 5.4 Orden de trabajo
+
+```text
+calcular → revisar polaridad → montar sin energía → verificar → energizar → medir → comparar → diagnosticar
+```
 
 ---
 
 ## 6. PROCEDIMIENTO EXPERIMENTAL
 
-### 6.1 Identificación de terminales
+### 6.1 Verificación rápida de componentes
 
-1. Observe físicamente el diodo rectificador.
-2. Identifique la banda que marca el cátodo.
-3. Identifique el ánodo y el cátodo del LED.
-4. Identifique la polaridad del capacitor electrolítico.
-5. Consulte y dibuje el símbolo eléctrico de cada componente.
+1. Identifique la banda del cátodo en el `1N4007` y el Zener.
+2. Identifique ánodo, cátodo y color del LED.
+3. Identifique polaridad y tensión nominal del capacitor.
+4. Utilice la función de prueba de diodos del multímetro y registre la caída directa del `1N4007` y del LED.
 
-Complete la siguiente tabla.
-
-| Componente | Terminal positivo o ánodo | Terminal negativo o cátodo | Observación física |
-|---|---|---|---|
-| Diodo 1N4007 | | | |
+| Componente | Marca física | Caída directa medida | Observación |
+|---|---|---:|---|
+| 1N4007 | | | |
 | LED | | | |
-| Diodo Zener | | | |
-| Capacitor electrolítico | | | |
+| Zener 5,1 V | | | |
+| Capacitor | | no aplica | |
 
----
+### 6.2 LED con resistencia limitadora
 
-### 6.2 Circuito 1: Polarización directa del diodo
-
-Arme un circuito serie compuesto por fuente DC, resistencia y diodo rectificador en polarización directa.
-
-**Valores sugeridos:**
-
-- Fuente: 5 V DC.
-- Resistencia: 1 kΩ.
-- Diodo: 1N4007.
-
-#### Procedimiento
-
-1. Conecte el ánodo del diodo hacia el positivo de la fuente a través de la resistencia.
-2. Conecte el cátodo hacia tierra.
-3. Antes de energizar, revise polaridad y conexiones.
-4. Mida el voltaje en el diodo.
-5. Mida el voltaje en la resistencia.
-6. Calcule la corriente del circuito usando la ley de Ohm.
-
-#### Tabla 1. Polarización directa
-
-| Fuente VS | Resistencia R | Voltaje en diodo VD | Voltaje en resistencia VR | Corriente calculada ID | Observación |
-|---:|---:|---:|---:|---:|---|
-| 5 V | 1 kΩ | | | | |
-| 9 V | 1 kΩ | | | | |
-| 12 V | 1 kΩ | | | | |
-
----
-
-### 6.3 Circuito 2: Polarización inversa del diodo
-
-Invierta la orientación del diodo del circuito anterior para que quede en polarización inversa.
-
-#### Procedimiento
-
-1. Conecte el cátodo del diodo hacia el positivo de la fuente.
-2. Conecte el ánodo hacia tierra a través del circuito serie.
-3. Energice con 5 V DC.
-4. Mida el voltaje en el diodo.
-5. Mida el voltaje en la resistencia.
-6. Analice si circula corriente significativa.
-
-#### Tabla 2. Polarización inversa
-
-| Fuente VS | Resistencia R | Voltaje en diodo VD | Voltaje en resistencia VR | Corriente calculada | Observación |
-|---:|---:|---:|---:|---:|---|
-| 5 V | 1 kΩ | | | | |
-| 9 V | 1 kΩ | | | | |
-| 12 V | 1 kΩ | | | | |
-
----
-
-### 6.4 Circuito 3: LED con resistencia limitadora
-
-Arme un circuito con fuente DC, resistencia y LED.
-
-#### Procedimiento
-
-1. Conecte el LED en polarización directa.
-2. Utilice inicialmente una resistencia de 330 Ω.
-3. Mida el voltaje en el LED.
-4. Mida el voltaje en la resistencia.
-5. Calcule la corriente del LED.
-6. Repita el procedimiento con una resistencia de 1 kΩ.
-
-#### Tabla 3. LED con resistencia limitadora
-
-| Fuente VS | Resistencia | Voltaje LED | Corriente calculada | Intensidad observada |
-|---:|---:|---:|---:|---|
-| 5 V | 330 Ω | | | |
-| 5 V | 1 kΩ | | | |
-| 9 V | 1 kΩ | | | |
-
-### Cálculo sugerido
-
-Para calcular la resistencia limitadora del LED:
+Conecte una fuente de `5 V DC`, un LED y una resistencia de `390 Ω`.
 
 ```text
-R = (VS - VLED) / ILED
+ILED = (VS − VF) / RLED
+PR = ILED² · RLED
 ```
 
-Donde:
+1. Calcule `ILED` antes de montar.
+2. Mida `VF`, la caída en la resistencia y la corriente.
+3. Compare la corriente calculada y medida.
 
-- VS es el voltaje de la fuente.
-- VLED es el voltaje directo del LED.
-- ILED es la corriente deseada por el LED.
+| VS | RLED | VF medido | ILED calculada | ILED medida |
+|---:|---:|---:|---:|---:|
+| 5 V | 390 Ω | | | |
+
+### 6.3 Rectificador de media onda
+
+**Datos de diseño:** `VRMS = 9 V`, `f = 60 Hz`, `VD ≈ 0,7 V`, `RL = 1 kΩ`.
+
+Antes de montar, calcule en este orden:
+
+```text
+VRMS → Vm → Vp → VDC → IDC
+```
+
+Después determine `fr` y `PIVmín`.
+
+1. Implemente el rectificador con un `1N4007` y `RL`.
+2. Observe entrada y salida utilizando el método de medición autorizado.
+3. Compruebe que el semiciclo positivo aparece en la carga y que durante el negativo el diodo bloquea.
+4. Registre valores y capturas.
+
+| Magnitud | Teórico | Simulado | Medido | Unidad |
+|---|---:|---:|---:|---|
+| `VRMS` de entrada | 9 | | | V |
+| `Vm` de entrada | 12,73 | | | V |
+| `Vp` en la carga | 12,03 | | | V |
+| `VDC` sin capacitor | 3,83 | | | V |
+| `IDC` | 3,83 | | | mA |
+| `fr` | 60 | | | Hz |
+| `PIVmín` | 12,73 | | | V |
+
+**Pregunta:** ¿por qué un pico de aproximadamente `12 V` produce solamente cerca de `3,83 V DC` promedio?
+
+### 6.4 Rectificador de onda completa tipo puente
+
+**Datos de diseño:** `VRMS = 9 V`, `f = 60 Hz`, `VD ≈ 0,7 V`, `RL = 1 kΩ`.
+
+1. Arme el puente utilizando cuatro diodos.
+2. Identifique qué pareja conduce durante cada semiciclo.
+3. Compruebe que la corriente atraviesa `RL` siempre en la misma dirección.
+4. Observe que el puente produce pulsos positivos, pero **todavía no una línea horizontal**.
+5. Registre valores y capturas.
+
+| Magnitud | Teórico | Simulado | Medido | Unidad |
+|---|---:|---:|---:|---|
+| `Vm` de entrada | 12,73 | | | V |
+| `Vp` después del puente | 11,33 | | | V |
+| `VDC` sin capacitor | 7,21 | | | V |
+| `IDC` | 7,21 | | | mA |
+| `fr` | 120 | | | Hz |
+| Caída total aproximada | 1,40 | | | V |
+| `PIVmín` por diodo | 12,73 | | | V |
+
+**Pregunta:** ¿por qué se necesitan cuatro diodos para mantener la misma polaridad en la carga y por qué eso todavía no elimina el rizado?
+
+### 6.5 Filtro capacitivo
+
+Sustituya temporalmente `RL` por una resistencia de carga de `390 Ω / 0,5 W` y conecte `470 µF / 25 V` en paralelo con ella.
+
+La resistencia de `390 Ω` hace que la corriente sea cercana a la carga total de diseño de `28 mA`.
+
+1. Calcule `Vr(pp)`, `VDC` y `Vmin` antes de montar.
+2. Conecte el capacitor respetando la polaridad.
+3. Mida `VDC` con el multímetro y `Vr(pp)` con el osciloscopio.
+4. Compare la señal pulsante del puente con la señal filtrada.
+5. Descargue el capacitor antes de retirarlo.
+
+| Carga y capacitor | `IL` | `VDC` esperado | `Vr(pp)` esperado | Medido |
+|---|---:|---:|---:|---:|
+| 390 Ω, sin capacitor | variable | 7,21 V aprox. | señal pulsante | |
+| 390 Ω, 470 µF | ≈28 mA | ≈11,08 V | ≈0,50 Vpp | |
+
+Como trabajo independiente, simule `100 µF` y `1000 µF` manteniendo la misma carga.
+
+> Estos valores corresponden a la resistencia de prueba de `390 Ω`. Al conectar el regulador Zener, el capacitor también debe entregar `IZ`; por eso el rizado puede aumentar. Vuelva a medir `Vmax` y `Vmin` con el regulador conectado y utilice esos valores en el diseño final.
+
+**Pregunta:** ¿qué elemento aprovecha ambos semiciclos y qué elemento sostiene la tensión entre los picos?
+
+### 6.6 Regulador Zener de 5,1 V
+
+Utilice como entrada la salida filtrada del puente.
+
+**Valores de diseño:**
+
+- `Vin,mín ≈ 10,83 V` como estimación inicial; utilice después el valor medido con el regulador conectado.
+- `Vin,máx ≈ 11,33 V` como estimación inicial.
+- `VZ = 5,1 V`.
+- `IL,máx = 28 mA`.
+- `IZ,mín = 5 mA`, sujeto a verificación en la hoja de datos.
+- `RS = 160 Ω / 0,5 W`.
+
+1. Conecte `RS` entre la salida filtrada y el nodo regulado.
+2. Conecte el Zener en inversa: cátodo al nodo regulado y ánodo a tierra.
+3. Primero mida `Vout` sin carga y verifique `IZ` y `PZ`.
+4. Agregue una carga equivalente de `270 Ω`.
+5. Agregue en paralelo la rama `390 Ω + LED`.
+6. Mida `Vout`, `IR`, la corriente de carga y la corriente del Zener.
+7. Compruebe las potencias de `RS`, Zener y resistencia del LED.
+
+| Condición | `Vin` | `Vout` | `IR` | `IL` | `IZ` | `PZ` | ¿Regula? |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Sin carga | | | | 0 | | | |
+| Carga 270 Ω | | | | | | | |
+| Carga 270 Ω + LED | | | | | | | |
+
+> Si el Zener disponible no es BZX55C5V1, sustituya `IZ,mín` por el criterio apropiado de su hoja de datos y repita el diseño de `RS`.
+
+### 6.7 Comprobación por etapas
+
+| Punto | Qué medir | Valor esperado aproximado | Si falla, revise |
+|---|---|---:|---|
+| Secundario | `VRMS` en AC | 9 V RMS | fuente o transformador |
+| Después del puente | `Vp` y forma de onda | 11,33 V pico | orientación de diodos |
+| Después del capacitor | `VDC` y `Vr(pp)` | 11,08 V; 0,50 Vpp | polaridad, C y carga |
+| Salida Zener | `Vout` DC | 5,1 V | `RS`, Zener y sobrecarga |
+| LED | `ILED` o caída en R | 8 mA aprox. | polaridad y `RLED` |
+
+No conecte todavía una compuerta real hasta verificar su tensión de alimentación permitida, su consumo y sus umbrales lógicos.
 
 ---
 
-### 6.5 Circuito 4: Rectificador de media onda
+## 7. SIMULACIÓN Y TRABAJO INDEPENDIENTE
 
-Implemente un rectificador de media onda utilizando un diodo rectificador y una resistencia de carga.
+Antes o después de la sesión presencial, simule:
 
-**Valores sugeridos:**
+1. media onda;
+2. puente de onda completa;
+3. puente con `100 µF`, `470 µF` y `1000 µF`;
+4. regulador Zener sin carga y con carga máxima;
+5. una falla segura asignada por el docente.
 
-- Entrada AC: 6 V RMS o señal senoidal segura del generador.
-- Diodo: 1N4007.
-- Resistencia de carga: 1 kΩ.
+### Evidencias mínimas
 
-#### Procedimiento
-
-1. Arme el circuito rectificador de media onda.
-2. Observe la señal de entrada en el osciloscopio o simulador.
-3. Observe la señal de salida sobre la resistencia de carga.
-4. Registre capturas de entrada y salida.
-5. Mida el voltaje pico de entrada.
-6. Mida el voltaje pico de salida.
-
-#### Tabla 4. Rectificador de media onda
-
-| Magnitud | Valor teórico | Valor simulado | Valor medido |
-|---|---:|---:|---:|
-| Voltaje pico de entrada | | | |
-| Voltaje RMS de entrada | | | |
-| Voltaje pico de salida | | | |
-| Voltaje promedio aproximado | | | |
-| Frecuencia de salida | | | |
-
----
-
-### 6.6 Circuito 5: Rectificador de onda completa tipo puente
-
-Implemente un puente rectificador usando cuatro diodos rectificadores.
-
-#### Procedimiento
-
-1. Arme el puente rectificador.
-2. Conecte la resistencia de carga en la salida DC.
-3. Observe la señal de entrada AC.
-4. Observe la señal rectificada en la carga.
-5. Compare la forma de onda con la obtenida en media onda.
-6. Registre las capturas correspondientes.
-
-#### Tabla 5. Rectificador de onda completa
-
-| Magnitud | Valor teórico | Valor simulado | Valor medido |
-|---|---:|---:|---:|
-| Voltaje pico de entrada | | | |
-| Voltaje pico de salida | | | |
-| Voltaje promedio aproximado | | | |
-| Frecuencia de rizado | | | |
-| Caída aproximada en diodos | | | |
-
----
-
-### 6.7 Circuito 6: Filtro capacitivo
-
-Agregue un capacitor electrolítico en paralelo con la resistencia de carga del rectificador de onda completa.
-
-**Valores sugeridos:**
-
-- Capacitor 1: 100 µF.
-- Capacitor 2: 470 µF.
-- Capacitor 3: 1000 µF.
-
-#### Procedimiento
-
-1. Conecte el capacitor respetando la polaridad.
-2. Observe la señal de salida filtrada.
-3. Mida el voltaje DC promedio.
-4. Observe el rizado.
-5. Repita con diferentes valores de capacitancia.
-6. Compare el efecto del aumento de capacitancia.
-
-#### Tabla 6. Filtro capacitivo
-
-| Capacitor | Voltaje DC de salida | Rizado observado | Comentario |
-|---:|---:|---:|---|
-| Sin capacitor | | | |
-| 100 µF | | | |
-| 470 µF | | | |
-| 1000 µF | | | |
-
----
-
-### 6.8 Circuito 7: Regulador básico con diodo Zener
-
-Implemente un regulador de voltaje utilizando una resistencia serie y un diodo Zener en paralelo con la carga.
-
-**Valores sugeridos:**
-
-- Fuente DC: 9 V o 12 V.
-- Diodo Zener: 5.1 V.
-- Resistencia serie: 330 Ω, 470 Ω o 1 kΩ.
-- Resistencia de carga: 1 kΩ.
-
-#### Procedimiento
-
-1. Conecte la resistencia serie entre la fuente y el nodo de salida.
-2. Conecte el diodo Zener en polarización inversa entre la salida y tierra.
-3. Conecte la resistencia de carga en paralelo con el Zener.
-4. Mida el voltaje de salida.
-5. Cambie el valor de la fuente de entrada.
-6. Observe si el voltaje de salida se mantiene aproximadamente constante.
-
-#### Tabla 7. Regulador con Zener
-
-| Fuente VS | Resistencia serie | Zener nominal | Voltaje de salida medido | Corriente estimada | Observación |
-|---:|---:|---:|---:|---:|---|
-| 9 V | 470 Ω | 5.1 V | | | |
-| 12 V | 470 Ω | 5.1 V | | | |
-| 12 V | 1 kΩ | 5.1 V | | | |
-
----
-
-## 7. SIMULACIÓN DE CIRCUITOS
-
-Realice la simulación de los siguientes circuitos en el software de su preferencia:
-
-1. Polarización directa e inversa del diodo.
-2. LED con resistencia limitadora.
-3. Rectificador de media onda.
-4. Rectificador de onda completa tipo puente.
-5. Rectificador con filtro capacitivo.
-6. Regulador con diodo Zener.
-
-### Evidencias mínimas de simulación
-
-- Captura del circuito.
-- Captura de la forma de onda de entrada y salida en rectificación.
-- Captura del voltaje DC de salida con filtro.
-- Captura del regulador Zener mostrando el voltaje de salida.
+- Esquema con valores y polaridades.
+- Forma de onda de entrada y salida de cada rectificador.
+- Medición de `VDC` y `Vr(pp)` después del filtro.
+- Corrientes `IR`, `IL` e `IZ` en el regulador.
+- Captura de la falla y medición que permitió localizarla.
 
 ---
 
 ## 8. ANÁLISIS DE DATOS
 
-Responda en el informe:
+Responda con evidencia de cálculo y medición:
 
-1. ¿Qué diferencia se observó entre polarización directa e inversa?
-2. ¿Por qué el diodo no conduce significativamente en polarización inversa?
-3. ¿Qué caída de voltaje se midió en el diodo rectificador?
-4. ¿Qué caída de voltaje se midió en el LED?
-5. ¿Qué diferencia existe entre rectificación de media onda y onda completa?
-6. ¿Cómo cambia el rizado al aumentar el valor del capacitor?
-7. ¿Qué función cumple el diodo Zener en el regulador?
-8. ¿Qué diferencias se encontraron entre valores teóricos, simulados y medidos?
-9. ¿Qué posibles fuentes de error pueden afectar los resultados?
+1. ¿Por qué la media onda elimina un semiciclo y conserva el otro?
+2. ¿Qué parejas de diodos conducen en cada semiciclo del puente?
+3. ¿Por qué el puente requiere cuatro diodos?
+4. ¿Por qué la salida del puente todavía es pulsante?
+5. ¿Por qué el capacitor, y no los cuatro diodos, vuelve la salida casi horizontal?
+6. ¿Cómo cambia el rizado al duplicar la frecuencia de rectificación?
+7. ¿Cómo cambia el rizado al aumentar `C` o reducir `IL`?
+8. ¿Por qué deben distinguirse `IR`, `IL` e `IZ`?
+9. ¿Qué ocurre si `IZ` cae por debajo de la región de regulación?
+10. ¿Por qué `5,1 V` de alimentación no significa automáticamente que cualquier entrada lógica sea HIGH?
+11. ¿Qué diferencia se encontró entre teoría, simulación y medición?
+12. ¿Qué medición permitió localizar una falla del montaje?
 
----
-
-## 9. CÁLCULOS SOLICITADOS
-
-Incluya los siguientes cálculos en el informe:
-
-1. Corriente del diodo en polarización directa.
-2. Corriente del LED para cada resistencia utilizada.
-3. Voltaje pico a partir del voltaje RMS de entrada.
-4. Voltaje promedio aproximado del rectificador de media onda.
-5. Voltaje promedio aproximado del rectificador de onda completa.
-6. Corriente aproximada en la carga.
-7. Corriente aproximada en el Zener.
-8. Potencia disipada en la resistencia serie del regulador.
-9. Potencia aproximada del diodo Zener.
-
-### Fórmulas de referencia
+Para cada magnitud principal calcule:
 
 ```text
-VP = VRMS × √2
-```
-
-```text
-ID = (VS - VD) / R
-```
-
-```text
-ILED = (VS - VLED) / R
-```
-
-```text
-P = V × I
-```
-
-Para aproximaciones iniciales:
-
-```text
-VDC media onda ≈ VP / π
-```
-
-```text
-VDC onda completa ≈ 2VP / π
+error porcentual = |medido − teórico| / |teórico| · 100 %
 ```
 
 ---
 
-## 10. PREGUNTAS DE PROFUNDIZACIÓN
+## 9. CÁLCULOS OBLIGATORIOS
 
-1. ¿Por qué se recomienda usar un puente rectificador en fuentes DC?
-2. ¿Qué ocurre si se conecta un capacitor electrolítico con polaridad invertida?
-3. ¿Por qué el voltaje de salida del puente rectificador es menor que el voltaje pico ideal?
-4. ¿Qué pasaría si se elimina la resistencia serie del regulador Zener?
-5. ¿En qué aplicaciones reales de ingeniería eléctrica se utilizan rectificadores?
-6. ¿Cuál es la diferencia entre usar un regulador Zener y un regulador integrado?
+1. `Vm`, `Vp`, `VDC`, `IDC`, `fr` y `PIVmín` de media onda.
+2. `Vp`, `VDC`, `IDC`, `fr` y `PIVmín` del puente.
+3. `Vr(pp)`, `VDC` y `Vmin` con `470 µF`.
+4. Valor máximo y valor comercial seleccionado de `RS`.
+5. `IR`, `IL`, `IZ`, `PZ` y `PRS` sin carga y con carga.
+6. `RLED`, `ILED` y potencia de la resistencia del LED.
+7. Error porcentual entre teoría y medición.
 
 ---
 
-## 11. EVIDENCIAS OBLIGATORIAS
+## 10. ALCANCE PRESENCIAL DE TRES HORAS
+
+### Obligatorio durante la sesión
+
+- revisión de seguridad y fórmulas;
+- prueba rápida de diodo y LED;
+- media onda;
+- puente;
+- filtro de `470 µF`;
+- Zener y LED;
+- mediciones por etapas.
+
+### Trabajo independiente
+
+- comparación de los tres capacitores;
+- simulaciones completas;
+- análisis de error;
+- informe y preguntas de profundización.
+
+No es necesario construir físicamente los tres valores de capacitor durante la misma sesión si el tiempo o los equipos son limitados.
+
+---
+
+## 11. EVIDENCIAS E INFORME
 
 El informe debe incluir:
 
-- Foto o captura de cada circuito implementado.
-- Tablas de medición completas.
-- Capturas de simulación.
-- Cálculos desarrollados.
-- Comparación entre teoría, simulación y medición.
-- Análisis de errores.
-- Conclusiones relacionadas con los objetivos.
+- datos iniciales y fórmulas utilizadas;
+- esquemas con valores y puntos de medición;
+- tablas teóricas, simuladas y medidas;
+- capturas de formas de onda;
+- cálculos de corriente, potencia y PIV;
+- error porcentual y posibles causas;
+- evidencia de una falla y su diagnóstico;
+- conclusión sobre si la fuente puede alimentar la carga propuesta;
+- advertencia sobre las limitaciones del Zener como regulador didáctico.
+
+Las conclusiones deben responder a los objetivos y no limitarse a afirmar que “la práctica funcionó”.
 
 ---
 
-## 12. CONCLUSIONES
+## 12. BIBLIOGRAFÍA Y HOJAS DE DATOS
 
-Las conclusiones deben responder directamente a los objetivos de la práctica. No deben ser frases generales. Deben mencionar el comportamiento del diodo, los resultados de rectificación, el efecto del filtro capacitivo y el desempeño del regulador Zener.
-
----
-
-## 13. BIBLIOGRAFÍA SUGERIDA
-
-- Boylestad, R. y Nashelsky, L. *Teoría de circuitos y dispositivos electrónicos*.
-- Malvino, A. *Principios de electrónica*.
-- Floyd, T. *Dispositivos electrónicos*.
-- Hojas de datos del diodo 1N4007.
-- Hojas de datos del diodo Zener utilizado.
-- Hojas de datos del LED utilizado.
+- Boylestad, R. y Nashelsky, L. *Electrónica: teoría de circuitos y dispositivos electrónicos*, 10.ª edición.
+- [Referencia Boylestad para el Corte 1](../../../referencias/BOYLESTAD_CORTE_1.md).
+- [onsemi — 1N4001 a 1N4007](https://www.onsemi.com/download/data-sheet/pdf/1n4001-d.pdf).
+- [Vishay — BZX55 Series](https://www.vishay.com/docs/85604/bzx55.pdf).
+- Hoja de datos del LED utilizado.
+- Hoja de datos del capacitor utilizado.

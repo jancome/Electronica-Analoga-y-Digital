@@ -1,49 +1,54 @@
-# Lab A01 – Diodos, rectificación y regulación con Zener
+# Lab A01 – Fuente didáctica de ≈5,1 V con diodos
 
 ## Guía
 
-- [Experiencia A01 – Diodos, rectificación y regulación con Zener](guia-lab-a01-diodos-rectificacion-zener.md)
+- [Experiencia A01 – Diodos, rectificación, filtrado y regulación a ≈5,1 V](guia-lab-a01-diodos-rectificacion-zener.md)
+
+## Reto central
+
+Construir, calcular y comprobar por etapas una fuente didáctica para una carga digital pequeña:
+
+```text
+9 V RMS, 60 Hz
+→ rectificación
+→ puente de 4 diodos
+→ filtro de 470 µF
+→ Zener de 5,1 V
+→ carga equivalente + LED
+```
+
+La experiencia distingue claramente tres funciones:
+
+- el diodo de media onda bloquea un semiciclo;
+- el puente convierte ambos semiciclos a la misma polaridad;
+- el capacitor reduce el rizado y el Zener estabiliza la salida.
 
 ## Imágenes de apoyo
 
 ### Unión PN y polarización del diodo
 
-Esta imagen sirve como apoyo antes de trabajar la polarización directa e inversa.
-
 ![Unión PN y polarización del diodo](../../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
 
 ### Rectificación y filtrado capacitivo
 
-Esta imagen acompaña los circuitos de rectificación de media onda, onda completa y filtro capacitivo.
-
 ![Rectificación y filtrado capacitivo](../../../recursos/imagenes/analogica/rectificacion-y-filtrado.svg)
 
-## Propósito
+## Temas y mediciones
 
-Comprobar el comportamiento del diodo semiconductor en polarización directa e inversa, analizar circuitos rectificadores y verificar la regulación de voltaje mediante diodo Zener.
-
-## Temas asociados
-
-- Unión PN.
-- Polarización directa e inversa.
-- LED y resistencia limitadora.
+- Identificación de terminales y prueba rápida del diodo.
+- LED con resistencia limitadora.
 - Rectificación de media onda.
-- Rectificación de onda completa.
-- Puente rectificador.
-- Filtro capacitivo.
-- Regulación con Zener.
+- Puente rectificador de onda completa.
+- Filtrado capacitivo y rizado.
+- Regulación con Zener de 5,1 V.
+- Cálculo de `Vm`, `Vp`, `VDC`, `IDC`, `PIV`, `Vr(pp)`, `IR`, `IL`, `IZ` y potencia.
+- Comparación entre teoría, simulación y medición.
+- Diagnóstico por etapas.
 
-## Circuitos de la práctica
+## Seguridad esencial
 
-1. Identificación de terminales.
-2. Polarización directa del diodo.
-3. Polarización inversa del diodo.
-4. LED con resistencia limitadora.
-5. Rectificador de media onda.
-6. Rectificador de onda completa tipo puente.
-7. Filtro capacitivo.
-8. Regulador básico con diodo Zener.
+Utilice solamente una fuente AC aislada de baja tensión. Nunca conecte la protoboard directamente a la red eléctrica y respete las referencias de tierra del osciloscopio.
 
 ## Entrega
 
-Informe de laboratorio con simulaciones, mediciones, cálculos, análisis, conclusiones y evidencias del montaje o simulación.
+Informe con cálculos, simulaciones, mediciones, análisis de error, diagnóstico y evidencias del montaje.

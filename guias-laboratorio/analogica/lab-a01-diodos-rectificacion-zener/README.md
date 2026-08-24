@@ -6,6 +6,8 @@
 
 La guía incluye diagramas propios, tablas de conexión por nodos, orientación física de diodos, LED, capacitor y Zener, puntos de medición y una lista de verificación antes de energizar. Los dibujos están ubicados junto al procedimiento de cada circuito para acompañar el armado en protoboard.
 
+También incorpora cuatro capturas originales de iCircuit, organizadas en la secuencia de construcción: media onda, puente sin filtro, puente con capacitor y fuente completa con regulación Zener. Estas capturas permiten comparar el esquema con las formas de onda simuladas.
+
 ## Reto central
 
 Construir, calcular y comprobar por etapas una fuente didáctica para una carga digital pequeña:

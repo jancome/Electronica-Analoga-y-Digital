@@ -4,6 +4,8 @@
 
 - [Experiencia A01 – Diodos, rectificación, filtrado y regulación a ≈5,1 V](guia-lab-a01-diodos-rectificacion-zener.md)
 
+La guía incluye diagramas propios, tablas de conexión por nodos, orientación física de diodos, LED, capacitor y Zener, puntos de medición y una lista de verificación antes de energizar. Los dibujos están ubicados junto al procedimiento de cada circuito para acompañar el armado en protoboard.
+
 ## Reto central
 
 Construir, calcular y comprobar por etapas una fuente didáctica para una carga digital pequeña:

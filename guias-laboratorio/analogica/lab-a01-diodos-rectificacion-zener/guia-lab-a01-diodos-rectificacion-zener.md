@@ -178,6 +178,38 @@ PRS = IR² · RS
 calcular → revisar polaridad → montar sin energía → verificar → energizar → medir → comparar → diagnosticar
 ```
 
+### 5.5 Convención de nodos y uso de la protoboard
+
+Para que los diagramas, las tablas de conexión y el montaje físico usen el mismo lenguaje, se emplearán estos nombres:
+
+| Nodo | Función |
+|---|---|
+| `AC1`, `AC2` | terminales de la fuente AC aislada |
+| `V+`, `V−` | salida positiva y negativa del puente rectificador |
+| `VFILT` | salida positiva después del filtro; eléctricamente corresponde a `V+` con el capacitor conectado |
+| `VOUT` | salida regulada después de `RS` |
+
+Organice la protoboard antes de insertar componentes:
+
+- reserve dos filas independientes para `AC1` y `AC2`; **no las conecte a los rieles de alimentación**;
+- use el riel rojo para `V+` o `VFILT` y el riel azul para `V−` solamente después de comprobar el puente;
+- marque los nodos con cinta o etiquetas; no se indican números de fila porque cambian según el modelo de protoboard;
+- recuerde que la **banda del 1N4007 y del Zener identifica el cátodo**;
+- en el capacitor electrolítico, la franja marcada con signos `−` identifica el terminal negativo;
+- en un LED común, la pata larga suele ser el ánodo y el lado plano del encapsulado identifica el cátodo. Confirme con el multímetro.
+
+### 5.6 Lista de verificación antes de energizar
+
+Solicite revisión del docente o monitor después de comprobar que:
+
+- la fuente AC es aislada y no supera `12 V RMS`;
+- `AC1` y `AC2` no están unidos entre sí ni conectados por error a `V+` o `V−`;
+- las bandas de los cuatro diodos coinciden con el diagrama;
+- el capacitor tiene su terminal positivo en `V+` y el negativo en `V−`;
+- no existe continuidad directa entre `V+` y `V−` con el circuito desenergizado;
+- el Zener está en inversa y todas las ramas tienen la resistencia indicada;
+- el multímetro está configurado en la función y escala correctas antes de conectarlo.
+
 ---
 
 ## 6. PROCEDIMIENTO EXPERIMENTAL
@@ -199,6 +231,18 @@ calcular → revisar polaridad → montar sin energía → verificar → energiz
 ### 6.2 LED con resistencia limitadora
 
 Conecte una fuente de `5 V DC`, un LED y una resistencia de `390 Ω`.
+
+![Circuito de prueba del LED a 5 V](assets/01-led-5v.svg)
+
+#### Conexiones
+
+| Desde | Elemento | Hasta | Verificación |
+|---|---|---|---|
+| `+5 V` | resistencia `390 Ω` | ánodo del LED | la resistencia no tiene polaridad |
+| ánodo del LED | LED | cátodo del LED | pata larga hacia la resistencia; lado plano hacia `GND` |
+| cátodo del LED | cable | `GND` | no conecte el LED directamente a la fuente |
+
+Puntos de medición: mida `VF` entre ánodo y cátodo del LED y la caída `VR` entre los extremos de la resistencia. La corriente puede medirse insertando el amperímetro **en serie**, nunca en paralelo con la fuente.
 
 ```text
 ILED = (VS − VF) / RLED
@@ -225,6 +269,19 @@ VRMS → Vm → Vp → VDC → IDC
 
 Después determine `fr` y `PIVmín`.
 
+![Conexión del rectificador de media onda](assets/02-media-onda.svg)
+
+#### Conexiones
+
+| Desde | Elemento | Hasta | Verificación |
+|---|---|---|---|
+| `AC1` | cable | ánodo de `D1` | lado sin banda del `1N4007` |
+| cátodo de `D1` | cable | `VOUT+` | la banda de `D1` queda hacia la carga |
+| `VOUT+` | `RL = 1 kΩ` | `AC2` | `AC2` actúa como referencia de salida en este montaje |
+| fuente AC aislada | terminal 1 y terminal 2 | `AC1` y `AC2` | no conecte ninguno a los rieles DC del puente |
+
+Puntos de medición: entrada entre `AC1–AC2`; salida entre `VOUT+–AC2`. Si se usa osciloscopio, aplique la precaución indicada en la sección 3.
+
 1. Implemente el rectificador con un `1N4007` y `RL`.
 2. Observe entrada y salida utilizando el método de medición autorizado.
 3. Compruebe que el semiciclo positivo aparece en la carga y que durante el negativo el diodo bloquea.
@@ -245,6 +302,31 @@ Después determine `fr` y `PIVmín`.
 ### 6.4 Rectificador de onda completa tipo puente
 
 **Datos de diseño:** `VRMS = 9 V`, `f = 60 Hz`, `VD ≈ 0,7 V`, `RL = 1 kΩ`.
+
+![Conexión del puente rectificador de onda completa](assets/03-puente-rectificador.svg)
+
+#### Conexiones del puente
+
+| Diodo | Ánodo, lado sin banda | Cátodo, lado con banda |
+|---|---|---|
+| `D1` | `AC1` | `V+` |
+| `D2` | `AC2` | `V+` |
+| `D3` | `V−` | `AC1` |
+| `D4` | `V−` | `AC2` |
+
+Complete el montaje así:
+
+| Desde | Elemento | Hasta |
+|---|---|---|
+| `V+` | `RL = 1 kΩ` | `V−` |
+| terminal 1 de la fuente AC aislada | cable | `AC1` |
+| terminal 2 de la fuente AC aislada | cable | `AC2` |
+
+Antes de conectar la fuente, compruebe visualmente las dos uniones características del puente: en `V+` se encuentran **las dos bandas** de `D1` y `D2`; en `V−` se encuentran **los dos ánodos**, sin banda, de `D3` y `D4`.
+
+Durante un semiciclo la trayectoria es `AC1 → D1 → V+ → RL → V− → D4 → AC2`. En el otro es `AC2 → D2 → V+ → RL → V− → D3 → AC1`. Por eso la corriente atraviesa la carga siempre de `V+` a `V−`.
+
+Puntos de medición: entrada entre `AC1–AC2`; salida entre `V+–V−`.
 
 1. Arme el puente utilizando cuatro diodos.
 2. Identifique qué pareja conduce durante cada semiciclo.
@@ -267,6 +349,20 @@ Después determine `fr` y `PIVmín`.
 ### 6.5 Filtro capacitivo
 
 Sustituya temporalmente `RL` por una resistencia de carga de `390 Ω / 0,5 W` y conecte `470 µF / 25 V` en paralelo con ella.
+
+![Conexión del capacitor de filtrado y la carga](assets/04-filtro-capacitivo.svg)
+
+#### Conexiones
+
+Mantenga armado el puente de la sección anterior y realice estas conexiones con la fuente desconectada:
+
+| Desde | Elemento o terminal | Hasta | Verificación |
+|---|---|---|---|
+| `V+` | cable | terminal positivo del capacitor `470 µF` | corresponde al terminal sin la franja `−` |
+| terminal negativo del capacitor | cable | `V−` | la franja `−` queda hacia `V−` |
+| `V+` | carga `390 Ω / 0,5 W` | `V−` | la carga queda en paralelo con el capacitor |
+
+Puntos de medición: mida `VDC` y `Vr(pp)` entre `V+–V−`. Para observar mejor el rizado con osciloscopio, use acoplamiento AC si el procedimiento del equipo lo permite.
 
 La resistencia de `390 Ω` hace que la corriente sea cercana a la carga total de diseño de `28 mA`.
 
@@ -291,6 +387,8 @@ Como trabajo independiente, simule `100 µF` y `1000 µF` manteniendo la misma c
 
 Utilice como entrada la salida filtrada del puente.
 
+![Conexión del regulador Zener con carga y LED](assets/05-regulador-zener.svg)
+
 **Valores de diseño:**
 
 - `Vin,mín ≈ 10,83 V` como estimación inicial; utilice después el valor medido con el regulador conectado.
@@ -299,6 +397,26 @@ Utilice como entrada la salida filtrada del puente.
 - `IL,máx = 28 mA`.
 - `IZ,mín = 5 mA`, sujeto a verificación en la hoja de datos.
 - `RS = 160 Ω / 0,5 W`.
+
+#### Conexiones
+
+Conserve el puente y el capacitor. Retire la resistencia de prueba de `390 Ω / 0,5 W` utilizada en la sección 6.5 y conecte:
+
+| Desde | Elemento | Hasta | Verificación |
+|---|---|---|---|
+| `VFILT` (`V+` del puente) | `RS = 160 Ω / 0,5 W` | `VOUT` | esta resistencia alimenta todas las ramas reguladas |
+| `VOUT` | cátodo del Zener `5,1 V` | ánodo del Zener a `V−` | la banda del Zener queda hacia `VOUT` |
+| `VOUT` | carga `RL = 270 Ω` | `V−` | primera rama en paralelo |
+| `VOUT` | `RLED = 390 Ω` | ánodo del LED | segunda rama en paralelo |
+| cátodo del LED | cable | `V−` | lado plano del LED hacia `V−` |
+
+Puntos de medición:
+
+- `Vin`: entre `VFILT–V−`;
+- `Vout`: entre `VOUT–V−`;
+- `IR`: mida la caída en `RS` y calcule `IR = VRS/RS`, o inserte el amperímetro en serie con `RS`;
+- corriente en cada carga: mida la caída de su resistencia y aplique la Ley de Ohm;
+- `IZ`: determine `IZ = IR − IL,total` y, si se requiere medición directa, inserte el amperímetro en serie con el Zener.
 
 1. Conecte `RS` entre la salida filtrada y el nodo regulado.
 2. Conecte el Zener en inversa: cátodo al nodo regulado y ánodo a tierra.
@@ -416,6 +534,8 @@ El informe debe incluir:
 
 - datos iniciales y fórmulas utilizadas;
 - esquemas con valores y puntos de medición;
+- una fotografía legible del montaje final en protoboard, con los nodos principales identificados;
+- las tablas de conexión de esta guía marcadas o comentadas si se realizó algún cambio autorizado;
 - tablas teóricas, simuladas y medidas;
 - capturas de formas de onda;
 - cálculos de corriente, potencia y PIV;

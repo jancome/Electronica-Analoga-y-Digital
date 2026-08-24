@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="680" viewBox="0 0 1280 680" role="img" aria-labelledby="title desc">
+  <title id="title">Puente rectificador de cuatro diodos</title>
+  <desc id="desc">Los cátodos con banda de D1 y D2 se unen para formar V positivo. Los ánodos de D3 y D4 se unen para formar V negativo. AC1 se conecta al ánodo de D1 y al cátodo de D3. AC2 se conecta al ánodo de D2 y al cátodo de D4.</desc>
+  <rect width="1280" height="680" fill="#f3f7f9"/>
+  <text x="52" y="54" font-family="Arial" font-size="30" font-weight="700" fill="#11293b">Circuito 3 · Puente rectificador de onda completa</text>
+  <text x="52" y="88" font-family="Arial" font-size="19" fill="#536d7d">Regla visual: las bandas de D1 y D2 se encuentran en V+; los extremos sin banda de D3 y D4 se encuentran en V−.</text>
+  <circle cx="118" cy="316" r="54" fill="#071d2d"/><text x="118" y="322" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="white">AC1</text>
+  <circle cx="1162" cy="316" r="54" fill="#071d2d"/><text x="1162" y="322" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="white">AC2</text>
+  <circle cx="640" cy="142" r="54" fill="#03a9c7"/><text x="640" y="150" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="white">V+</text>
+  <circle cx="640" cy="510" r="54" fill="#536d7d"/><text x="640" y="518" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="white">V−</text>
+  <line x1="172" y1="316" x2="282" y2="316" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="998" y1="316" x2="1108" y2="316" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="640" y1="196" x2="640" y2="246" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="640" y1="394" x2="640" y2="456" stroke="#03a9c7" stroke-width="8"/>
+  <rect x="282" y="214" width="282" height="94" rx="12" fill="white" stroke="#f6a51c" stroke-width="4"/>
+  <text x="423" y="249" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#11293b">D1: AC1 A → K V+</text>
+  <text x="423" y="279" text-anchor="middle" font-family="Arial" font-size="16" fill="#d94c4c">banda hacia V+</text>
+  <line x1="282" y1="308" x2="282" y2="316" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="564" y1="261" x2="640" y2="261" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="640" y1="246" x2="640" y2="261" stroke="#03a9c7" stroke-width="8"/>
+  <rect x="716" y="214" width="282" height="94" rx="12" fill="white" stroke="#f6a51c" stroke-width="4"/>
+  <text x="857" y="249" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#11293b">D2: AC2 A → K V+</text>
+  <text x="857" y="279" text-anchor="middle" font-family="Arial" font-size="16" fill="#d94c4c">banda hacia V+</text>
+  <line x1="716" y1="261" x2="640" y2="261" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="998" y1="308" x2="998" y2="316" stroke="#03a9c7" stroke-width="8"/>
+  <rect x="282" y="344" width="282" height="94" rx="12" fill="white" stroke="#7567b5" stroke-width="4"/>
+  <text x="423" y="379" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#11293b">D3: V− A → K AC1</text>
+  <text x="423" y="409" text-anchor="middle" font-family="Arial" font-size="16" fill="#d94c4c">banda hacia AC1</text>
+  <line x1="282" y1="391" x2="282" y2="316" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="564" y1="391" x2="640" y2="391" stroke="#03a9c7" stroke-width="8"/>
+  <rect x="716" y="344" width="282" height="94" rx="12" fill="white" stroke="#7567b5" stroke-width="4"/>
+  <text x="857" y="379" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#11293b">D4: V− A → K AC2</text>
+  <text x="857" y="409" text-anchor="middle" font-family="Arial" font-size="16" fill="#d94c4c">banda hacia AC2</text>
+  <line x1="998" y1="391" x2="998" y2="316" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="716" y1="391" x2="640" y2="391" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="640" y1="391" x2="640" y2="456" stroke="#03a9c7" stroke-width="8"/>
+  <rect x="1000" y="474" width="190" height="116" rx="12" fill="#dcf3e8" stroke="#32a66f" stroke-width="4"/>
+  <text x="1095" y="516" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#11293b">RL = 1 kΩ</text>
+  <text x="1095" y="548" text-anchor="middle" font-family="Arial" font-size="16" fill="#536d7d">entre V+ y V−</text>
+  <line x1="694" y1="142" x2="1095" y2="142" stroke="#32a66f" stroke-width="7"/>
+  <line x1="1095" y1="142" x2="1095" y2="474" stroke="#32a66f" stroke-width="7"/>
+  <line x1="1095" y1="590" x2="1095" y2="618" stroke="#32a66f" stroke-width="7"/>
+  <line x1="1095" y1="618" x2="640" y2="618" stroke="#32a66f" stroke-width="7"/>
+  <line x1="640" y1="564" x2="640" y2="618" stroke="#32a66f" stroke-width="7"/>
+  <text x="60" y="650" font-family="Arial" font-size="17" fill="#536d7d">Medida de salida: punta roja en V+ y negra en V−. AC1 y AC2 nunca se conectan a los rieles DC.</text>
+</svg>

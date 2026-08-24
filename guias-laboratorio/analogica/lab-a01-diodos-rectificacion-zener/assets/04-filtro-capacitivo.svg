@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Filtro capacitivo después del puente</title>
+  <desc id="desc">La salida positiva y negativa del puente alimenta una resistencia de 390 ohmios y un capacitor de 470 microfaradios conectados en paralelo. El positivo del capacitor va a V positivo y el negativo a V negativo.</desc>
+  <rect width="1280" height="520" fill="#f3f7f9"/>
+  <text x="52" y="54" font-family="Arial" font-size="30" font-weight="700" fill="#11293b">Circuito 4 · Filtro capacitivo</text>
+  <text x="52" y="88" font-family="Arial" font-size="19" fill="#536d7d">El capacitor y la carga se conectan en paralelo con la salida del puente.</text>
+  <rect x="64" y="180" width="260" height="164" rx="14" fill="#071d2d"/>
+  <text x="194" y="226" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="white">Puente</text>
+  <text x="194" y="259" text-anchor="middle" font-family="Arial" font-size="18" fill="#61d9ec">AC1 / AC2</text>
+  <text x="194" y="297" text-anchor="middle" font-family="Arial" font-size="17" fill="white">salidas V+ y V−</text>
+  <line x1="324" y1="216" x2="1134" y2="216" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="324" y1="320" x2="1134" y2="320" stroke="#536d7d" stroke-width="8"/>
+  <text x="366" y="194" font-family="Arial" font-size="19" font-weight="700" fill="#03a9c7">V+ · nodo filtrado</text>
+  <text x="366" y="354" font-family="Arial" font-size="19" font-weight="700" fill="#536d7d">V− · referencia DC</text>
+  <rect x="500" y="134" width="254" height="268" rx="14" fill="white" stroke="#f6a51c" stroke-width="4"/>
+  <text x="627" y="174" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#11293b">C = 470 µF / 25 V</text>
+  <text x="627" y="210" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#d94c4c">Terminal + a V+</text>
+  <line x1="627" y1="216" x2="627" y2="248" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="574" y1="248" x2="680" y2="248" stroke="#11293b" stroke-width="7"/>
+  <line x1="574" y1="278" x2="680" y2="278" stroke="#11293b" stroke-width="4"/>
+  <line x1="627" y1="278" x2="627" y2="320" stroke="#536d7d" stroke-width="8"/>
+  <text x="627" y="356" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#536d7d">Terminal − a V−</text>
+  <rect x="858" y="134" width="254" height="268" rx="14" fill="#dcf3e8" stroke="#32a66f" stroke-width="4"/>
+  <text x="985" y="182" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#11293b">RL = 390 Ω</text>
+  <text x="985" y="214" text-anchor="middle" font-family="Arial" font-size="17" fill="#536d7d">0,5 W</text>
+  <line x1="985" y1="216" x2="985" y2="320" stroke="#32a66f" stroke-width="8"/>
+  <text x="60" y="458" font-family="Arial" font-size="18" fill="#11293b">Puntos de medición: VDC entre V+ y V−. Para Vr(pp), mida sobre los mismos nodos con el método seguro definido por el docente.</text>
+  <text x="60" y="490" font-family="Arial" font-size="17" font-weight="700" fill="#d94c4c">Antes de retirar o invertir el capacitor: desenergice y confirme que su tensión haya caído a un valor seguro.</text>
+</svg>

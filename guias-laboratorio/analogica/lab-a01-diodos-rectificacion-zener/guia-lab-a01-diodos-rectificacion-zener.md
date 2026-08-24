@@ -282,6 +282,12 @@ Después determine `fr` y `PIVmín`.
 
 Puntos de medición: entrada entre `AC1–AC2`; salida entre `VOUT+–AC2`. Si se usa osciloscopio, aplique la precaución indicada en la sección 3.
 
+#### Simulación de referencia en iCircuit
+
+![Rectificador de media onda simulado en iCircuit](assets/icircuit/01-rectificador-media-onda-icircuit.png)
+
+*Figura A01-1. Rectificador de media onda con transformador aislado, diodo y carga de 1 kΩ. La traza amarilla muestra la entrada alterna y la traza roja permite observar que en la carga solo permanece un semiciclo.*
+
 1. Implemente el rectificador con un `1N4007` y `RL`.
 2. Observe entrada y salida utilizando el método de medición autorizado.
 3. Compruebe que el semiciclo positivo aparece en la carga y que durante el negativo el diodo bloquea.
@@ -328,6 +334,12 @@ Durante un semiciclo la trayectoria es `AC1 → D1 → V+ → RL → V− → D4
 
 Puntos de medición: entrada entre `AC1–AC2`; salida entre `V+–V−`.
 
+#### Simulación de referencia en iCircuit
+
+![Puente rectificador de onda completa simulado en iCircuit](assets/icircuit/02-puente-onda-completa-icircuit.png)
+
+*Figura A01-2. Puente rectificador sin capacitor y carga de 1 kΩ. La salida que debe analizarse es la traza que conserva una sola polaridad y presenta dos pulsos por cada ciclo de entrada. Compruebe en su simulación qué color asignó iCircuit a cada nodo antes de registrar las capturas.*
+
 1. Arme el puente utilizando cuatro diodos.
 2. Identifique qué pareja conduce durante cada semiciclo.
 3. Compruebe que la corriente atraviesa `RL` siempre en la misma dirección.
@@ -363,6 +375,12 @@ Mantenga armado el puente de la sección anterior y realice estas conexiones con
 | `V+` | carga `390 Ω / 0,5 W` | `V−` | la carga queda en paralelo con el capacitor |
 
 Puntos de medición: mida `VDC` y `Vr(pp)` entre `V+–V−`. Para observar mejor el rizado con osciloscopio, use acoplamiento AC si el procedimiento del equipo lo permite.
+
+#### Simulación de referencia en iCircuit
+
+![Puente rectificador con filtro capacitivo simulado en iCircuit](assets/icircuit/03-puente-filtro-capacitivo-icircuit.png)
+
+*Figura A01-3. El capacitor de 470 µF y la carga de 390 Ω están conectados en paralelo con la salida del puente. La señal de salida debe mantenerse positiva y presentar un rizado pequeño entre los picos de recarga.*
 
 La resistencia de `390 Ω` hace que la corriente sea cercana a la carga total de diseño de `28 mA`.
 
@@ -417,6 +435,12 @@ Puntos de medición:
 - `IR`: mida la caída en `RS` y calcule `IR = VRS/RS`, o inserte el amperímetro en serie con `RS`;
 - corriente en cada carga: mida la caída de su resistencia y aplique la Ley de Ohm;
 - `IZ`: determine `IZ = IR − IL,total` y, si se requiere medición directa, inserte el amperímetro en serie con el Zener.
+
+#### Simulación de referencia en iCircuit
+
+![Fuente completa con regulador Zener simulada en iCircuit](assets/icircuit/04-fuente-zener-completa-icircuit.png)
+
+*Figura A01-4. Montaje integrado: puente, capacitor de 470 µF, resistencia serie de 160 Ω, Zener, carga de 270 Ω y rama de 390 Ω con LED. La salida regulada debe medirse después de la resistencia de 160 Ω y respecto de V−.*
 
 1. Conecte `RS` entre la salida filtrada y el nodo regulado.
 2. Conecte el Zener en inversa: cátodo al nodo regulado y ánodo a tierra.

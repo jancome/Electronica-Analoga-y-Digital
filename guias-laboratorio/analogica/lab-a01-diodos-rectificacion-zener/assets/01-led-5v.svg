@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">Conexión del LED a una fuente de 5 V</title>
+  <desc id="desc">Fuente de 5 V, resistencia de 390 ohmios y LED conectados en serie. Se indican ánodo, cátodo, puntos de medición y retorno a tierra.</desc>
+  <rect width="1280" height="480" fill="#f3f7f9"/>
+  <text x="52" y="54" font-family="Arial" font-size="30" font-weight="700" fill="#11293b">Circuito 1 · LED con resistencia limitadora</text>
+  <text x="52" y="88" font-family="Arial" font-size="19" fill="#536d7d">La corriente circula de +5 V hacia GND. La pata larga del LED es el ánodo; el lado plano identifica el cátodo.</text>
+  <line x1="120" y1="236" x2="300" y2="236" stroke="#03a9c7" stroke-width="8"/>
+  <circle cx="120" cy="236" r="48" fill="#071d2d"/><text x="120" y="228" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">+5 V</text><text x="120" y="253" text-anchor="middle" font-family="Arial" font-size="15" fill="white">DC</text>
+  <rect x="300" y="190" width="220" height="92" rx="12" fill="white" stroke="#f6a51c" stroke-width="4"/>
+  <text x="410" y="226" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#11293b">RLED = 390 Ω</text>
+  <text x="410" y="255" text-anchor="middle" font-family="Arial" font-size="17" fill="#536d7d">0,25 W</text>
+  <line x1="520" y1="236" x2="650" y2="236" stroke="#03a9c7" stroke-width="8"/>
+  <circle cx="650" cy="236" r="10" fill="#d94c4c"/><text x="650" y="178" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#d94c4c">TP1</text>
+  <line x1="650" y1="236" x2="730" y2="236" stroke="#03a9c7" stroke-width="8"/>
+  <rect x="730" y="178" width="270" height="116" rx="12" fill="#fff1d2" stroke="#f6a51c" stroke-width="4"/>
+  <text x="865" y="215" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#11293b">LED</text>
+  <text x="770" y="250" text-anchor="middle" font-family="Arial" font-size="18" fill="#11293b">Ánodo A (+)</text>
+  <text x="950" y="250" text-anchor="middle" font-family="Arial" font-size="18" fill="#11293b">Cátodo K (−)</text>
+  <text x="950" y="278" text-anchor="middle" font-family="Arial" font-size="15" fill="#536d7d">pata corta / lado plano</text>
+  <line x1="1000" y1="236" x2="1120" y2="236" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="1120" y1="236" x2="1120" y2="342" stroke="#03a9c7" stroke-width="8"/>
+  <line x1="1080" y1="342" x2="1160" y2="342" stroke="#11293b" stroke-width="5"/>
+  <line x1="1093" y1="360" x2="1147" y2="360" stroke="#11293b" stroke-width="5"/>
+  <line x1="1108" y1="378" x2="1132" y2="378" stroke="#11293b" stroke-width="5"/>
+  <text x="1120" y="414" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#11293b">GND / 0 V</text>
+  <text x="60" y="448" font-family="Arial" font-size="17" fill="#536d7d">Medidas: VF entre TP1 y GND; VR entre +5 V y TP1; corriente abriendo la serie antes de la resistencia.</text>
+</svg>

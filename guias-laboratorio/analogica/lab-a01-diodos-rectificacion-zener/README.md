@@ -4,9 +4,9 @@
 
 - [Experiencia A01 – Diodos, rectificación, filtrado y regulación a ≈5,1 V](guia-lab-a01-diodos-rectificacion-zener.md)
 
-La guía incluye diagramas propios, tablas de conexión por nodos, orientación física de diodos, LED, capacitor y Zener, puntos de medición y una lista de verificación antes de energizar. Los dibujos están ubicados junto al procedimiento de cada circuito para acompañar el armado en protoboard.
+La guía utiliza exclusivamente las cinco capturas originales de iCircuit suministradas para representar los circuitos. Las imágenes están acompañadas por tablas de conexión por nodos, orientación física de los componentes, puntos de medición y una lista de verificación antes de energizar.
 
-También incorpora cuatro capturas originales de iCircuit, organizadas en la secuencia de construcción: media onda, puente sin filtro, puente con capacitor y fuente completa con regulación Zener. Estas capturas permiten comparar el esquema con las formas de onda simuladas.
+La secuencia visual corresponde a: LED con resistencia, media onda, puente sin filtro, puente con capacitor y fuente completa con regulación Zener.
 
 ## Reto central
 
@@ -26,16 +26,6 @@ La experiencia distingue claramente tres funciones:
 - el diodo de media onda bloquea un semiciclo;
 - el puente convierte ambos semiciclos a la misma polaridad;
 - el capacitor reduce el rizado y el Zener estabiliza la salida.
-
-## Imágenes de apoyo
-
-### Unión PN y polarización del diodo
-
-![Unión PN y polarización del diodo](../../../recursos/imagenes/analogica/diodo-union-pn-polarizacion.svg)
-
-### Rectificación y filtrado capacitivo
-
-![Rectificación y filtrado capacitivo](../../../recursos/imagenes/analogica/rectificacion-y-filtrado.svg)
 
 ## Temas y mediciones
 

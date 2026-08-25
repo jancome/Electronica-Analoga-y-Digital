@@ -155,16 +155,26 @@ Arme un circuito donde el transistor BJT NPN controle el encendido de un LED con
 - Resistencia del LED: 330 Ω.
 - Resistencia de base: 10 kΩ inicialmente.
 
+#### Referencia en iCircuit
+
+![BJT en corte con el interruptor abierto](assets/icircuit/01-bjt-led-corte-icircuit.png)
+
+*Figura A02-1. Interruptor abierto: la resistencia de 100 kΩ mantiene la base en 0 V, el transistor permanece en corte y el LED está apagado.*
+
+![BJT en saturación con el interruptor cerrado](assets/icircuit/02-bjt-led-saturacion-icircuit.png)
+
+*Figura A02-2. Interruptor cerrado: circula corriente por la resistencia de base de 10 kΩ, el transistor entra en saturación y el LED enciende.*
+
 #### Procedimiento
 
-1. Conecte el emisor del transistor a tierra.
-2. Conecte el LED en serie con su resistencia hacia el positivo de la fuente.
-3. Conecte el extremo inferior del LED al colector del transistor.
-4. Conecte la base del transistor a través de una resistencia de 10 kΩ hacia 5 V.
-5. Mida el voltaje base-emisor VBE.
-6. Mida el voltaje colector-emisor VCE.
-7. Observe si el LED enciende.
-8. Retire la señal de base y observe si el LED se apaga.
+1. Conecte el emisor del transistor al negativo de la fuente, que será el nodo común `GND`.
+2. Conecte `+5 V → resistencia de 330 Ω → ánodo del LED`.
+3. Conecte el cátodo del LED al colector del transistor.
+4. Conecte `+5 V → interruptor S1 → resistencia de 10 kΩ → base`.
+5. Conecte una resistencia de `100 kΩ` entre base y `GND` para evitar que la base quede flotante.
+6. Con S1 abierto, mida `VBE`, `VCE`, `IB` e `IC`; compruebe que el LED está apagado.
+7. Cierre S1 y repita las mediciones; compruebe que el LED enciende.
+8. Compare ambos estados e identifique corte y saturación.
 
 #### Tabla 2. BJT como interruptor para LED
 

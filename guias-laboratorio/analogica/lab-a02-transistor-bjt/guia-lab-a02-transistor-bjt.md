@@ -261,17 +261,39 @@ Utilice el transistor BJT para controlar una carga diferente al LED, como un mot
 
 ### 6.5 Circuito 4: Activación de relé con diodo de protección
 
-Si se dispone de un relé, implemente un circuito de activación usando transistor BJT y diodo de protección en paralelo con la bobina del relé.
+Implemente el accionamiento de un relé de 5 V mediante un transistor BJT NPN conectado como interruptor de lado bajo. El diodo de protección debe quedar en paralelo con la bobina y normalmente polarizado en inversa.
 
-#### Procedimiento
+#### Referencia en iCircuit
 
-1. Conecte la bobina del relé entre VCC y el colector del transistor.
-2. Conecte el emisor del transistor a tierra.
-3. Conecte la base mediante resistencia a la señal de control.
-4. Conecte un diodo en paralelo con la bobina del relé.
-5. Verifique la polaridad del diodo de protección.
-6. Active y desactive el transistor.
-7. Observe el comportamiento del relé.
+![Relé de 5 V activado mediante BJT y protegido con diodo](assets/icircuit/03-rele-diodo-proteccion-icircuit.png)
+
+*Figura A02-3. Relé configurable activo. La bobina recibe 4,952 V y conduce aproximadamente 19,8 mA. El cátodo del diodo —lado marcado con la barra— está conectado a +5 V y el ánodo al colector.*
+
+#### Configuración sugerida en iCircuit
+
+- Componente: `Configurable Relay`.
+- Tipo: normalmente abierto (`NO`).
+- Número de interruptores: uno es suficiente para la práctica.
+- Voltaje de bobina: `5 V`.
+- Resistencia de bobina: `250 Ω`.
+- Inductancia de bobina: `200 mH`.
+- Transistor: BJT NPN.
+- Resistencia de base: `2,2 kΩ`.
+- Resistencia base-emisor: `100 kΩ`.
+
+#### Conexiones
+
+1. Conecte el terminal superior de la bobina a `+5 V`.
+2. Conecte el terminal inferior de la bobina al colector del transistor.
+3. Conecte el emisor al negativo de la fuente o nodo común `GND`.
+4. Conecte `+5 V → interruptor S1 → resistencia de 2,2 kΩ → base`.
+5. Conecte una resistencia de `100 kΩ` entre base y `GND`.
+6. Conecte el diodo en paralelo con la bobina: cátodo o barra hacia `+5 V` y ánodo hacia el colector.
+7. No agregue una resistencia externa de bobina en la simulación si utiliza el relé configurable; el modelo ya incorpora `250 Ω`.
+8. Active S1, compruebe el accionamiento del relé y registre `VBE`, `VCE`, voltaje y corriente de bobina.
+9. Abra S1 y explique cómo el diodo proporciona un camino temporal para la corriente de la bobina y limita la sobretensión sobre el transistor.
+
+> En el montaje físico se debe verificar en la hoja de datos la tensión, resistencia y corriente nominal de la bobina. No todos los relés de 5 V tienen los mismos valores.
 
 #### Tabla 5. Activación de relé
 

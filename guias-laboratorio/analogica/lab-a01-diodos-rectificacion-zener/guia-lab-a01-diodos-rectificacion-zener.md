@@ -232,7 +232,9 @@ Solicite revisión del docente o monitor después de comprobar que:
 
 Conecte una fuente de `5 V DC`, un LED y una resistencia de `390 Ω`.
 
-![Circuito de prueba del LED a 5 V](assets/01-led-5v.svg)
+![LED con resistencia limitadora simulado en iCircuit](assets/icircuit/01-led-resistencia-icircuit.png)
+
+*Figura A01-1. Circuito de prueba del LED con fuente de 5 V y resistencia de 390 Ω. La resistencia y el LED están en serie; el retorno se conecta a GND.*
 
 #### Conexiones
 
@@ -269,7 +271,9 @@ VRMS → Vm → Vp → VDC → IDC
 
 Después determine `fr` y `PIVmín`.
 
-![Conexión del rectificador de media onda](assets/02-media-onda.svg)
+![Rectificador de media onda simulado en iCircuit](assets/icircuit/02-rectificador-media-onda-icircuit.png)
+
+*Figura A01-2. Rectificador de media onda con transformador aislado, diodo y carga de 1 kΩ. La traza amarilla muestra la entrada alterna y la roja permite observar que en la carga solo permanece un semiciclo.*
 
 #### Conexiones
 
@@ -281,12 +285,6 @@ Después determine `fr` y `PIVmín`.
 | fuente AC aislada | terminal 1 y terminal 2 | `AC1` y `AC2` | no conecte ninguno a los rieles DC del puente |
 
 Puntos de medición: entrada entre `AC1–AC2`; salida entre `VOUT+–AC2`. Si se usa osciloscopio, aplique la precaución indicada en la sección 3.
-
-#### Simulación de referencia en iCircuit
-
-![Rectificador de media onda simulado en iCircuit](assets/icircuit/01-rectificador-media-onda-icircuit.png)
-
-*Figura A01-1. Rectificador de media onda con transformador aislado, diodo y carga de 1 kΩ. La traza amarilla muestra la entrada alterna y la traza roja permite observar que en la carga solo permanece un semiciclo.*
 
 1. Implemente el rectificador con un `1N4007` y `RL`.
 2. Observe entrada y salida utilizando el método de medición autorizado.
@@ -309,7 +307,9 @@ Puntos de medición: entrada entre `AC1–AC2`; salida entre `VOUT+–AC2`. Si s
 
 **Datos de diseño:** `VRMS = 9 V`, `f = 60 Hz`, `VD ≈ 0,7 V`, `RL = 1 kΩ`.
 
-![Conexión del puente rectificador de onda completa](assets/03-puente-rectificador.svg)
+![Puente rectificador de onda completa simulado en iCircuit](assets/icircuit/03-puente-onda-completa-icircuit.png)
+
+*Figura A01-3. Puente rectificador sin capacitor y carga de 1 kΩ. La salida conserva una sola polaridad y presenta dos pulsos por cada ciclo de entrada. Verifique en iCircuit qué color corresponde a cada nodo antes de registrar las mediciones.*
 
 #### Conexiones del puente
 
@@ -334,12 +334,6 @@ Durante un semiciclo la trayectoria es `AC1 → D1 → V+ → RL → V− → D4
 
 Puntos de medición: entrada entre `AC1–AC2`; salida entre `V+–V−`.
 
-#### Simulación de referencia en iCircuit
-
-![Puente rectificador de onda completa simulado en iCircuit](assets/icircuit/02-puente-onda-completa-icircuit.png)
-
-*Figura A01-2. Puente rectificador sin capacitor y carga de 1 kΩ. La salida que debe analizarse es la traza que conserva una sola polaridad y presenta dos pulsos por cada ciclo de entrada. Compruebe en su simulación qué color asignó iCircuit a cada nodo antes de registrar las capturas.*
-
 1. Arme el puente utilizando cuatro diodos.
 2. Identifique qué pareja conduce durante cada semiciclo.
 3. Compruebe que la corriente atraviesa `RL` siempre en la misma dirección.
@@ -362,7 +356,9 @@ Puntos de medición: entrada entre `AC1–AC2`; salida entre `V+–V−`.
 
 Sustituya temporalmente `RL` por una resistencia de carga de `390 Ω / 0,5 W` y conecte `470 µF / 25 V` en paralelo con ella.
 
-![Conexión del capacitor de filtrado y la carga](assets/04-filtro-capacitivo.svg)
+![Puente rectificador con filtro capacitivo simulado en iCircuit](assets/icircuit/04-puente-filtro-capacitivo-icircuit.png)
+
+*Figura A01-4. El capacitor de 470 µF y la carga de 390 Ω están conectados en paralelo con la salida del puente. La señal de salida debe mantenerse positiva y presentar un rizado pequeño entre los picos de recarga.*
 
 #### Conexiones
 
@@ -375,12 +371,6 @@ Mantenga armado el puente de la sección anterior y realice estas conexiones con
 | `V+` | carga `390 Ω / 0,5 W` | `V−` | la carga queda en paralelo con el capacitor |
 
 Puntos de medición: mida `VDC` y `Vr(pp)` entre `V+–V−`. Para observar mejor el rizado con osciloscopio, use acoplamiento AC si el procedimiento del equipo lo permite.
-
-#### Simulación de referencia en iCircuit
-
-![Puente rectificador con filtro capacitivo simulado en iCircuit](assets/icircuit/03-puente-filtro-capacitivo-icircuit.png)
-
-*Figura A01-3. El capacitor de 470 µF y la carga de 390 Ω están conectados en paralelo con la salida del puente. La señal de salida debe mantenerse positiva y presentar un rizado pequeño entre los picos de recarga.*
 
 La resistencia de `390 Ω` hace que la corriente sea cercana a la carga total de diseño de `28 mA`.
 
@@ -405,7 +395,9 @@ Como trabajo independiente, simule `100 µF` y `1000 µF` manteniendo la misma c
 
 Utilice como entrada la salida filtrada del puente.
 
-![Conexión del regulador Zener con carga y LED](assets/05-regulador-zener.svg)
+![Fuente completa con regulador Zener simulada en iCircuit](assets/icircuit/05-fuente-zener-completa-icircuit.png)
+
+*Figura A01-5. Montaje integrado con puente, capacitor de 470 µF, resistencia serie de 160 Ω, Zener, carga de 270 Ω y rama de 390 Ω con LED. La salida regulada se mide después de la resistencia de 160 Ω y respecto de V−.*
 
 **Valores de diseño:**
 
@@ -435,12 +427,6 @@ Puntos de medición:
 - `IR`: mida la caída en `RS` y calcule `IR = VRS/RS`, o inserte el amperímetro en serie con `RS`;
 - corriente en cada carga: mida la caída de su resistencia y aplique la Ley de Ohm;
 - `IZ`: determine `IZ = IR − IL,total` y, si se requiere medición directa, inserte el amperímetro en serie con el Zener.
-
-#### Simulación de referencia en iCircuit
-
-![Fuente completa con regulador Zener simulada en iCircuit](assets/icircuit/04-fuente-zener-completa-icircuit.png)
-
-*Figura A01-4. Montaje integrado: puente, capacitor de 470 µF, resistencia serie de 160 Ω, Zener, carga de 270 Ω y rama de 390 Ω con LED. La salida regulada debe medirse después de la resistencia de 160 Ω y respecto de V−.*
 
 1. Conecte `RS` entre la salida filtrada y el nodo regulado.
 2. Conecte el Zener en inversa: cátodo al nodo regulado y ánodo a tierra.

@@ -308,41 +308,78 @@ Implemente el accionamiento de un relé de 5 V mediante un transistor BJT NPN co
 
 ---
 
-### 6.6 Circuito 5: Medición de corrientes IB, IC e IE
+### 6.6 Circuito 5: Regiones de operación y corrientes del transistor
 
-Implemente un circuito básico con transistor BJT y mida o calcule las corrientes principales.
+Utilice un potenciómetro como divisor de voltaje para variar progresivamente la excitación de base y reconocer las regiones de corte, activa y saturación.
+
+#### Valores y conexiones
+
+- Fuente: `VCC = 5 V`.
+- Resistencia de colector: `RC = 1 kΩ`.
+- Potenciómetro: `10 kΩ`.
+- Resistencia fija de base: `RB = 10 kΩ`.
+- Transistor: BJT NPN con `β ≈ 100` en la simulación.
+- Conecte `+5 V → RC → colector`.
+- Conecte el emisor al negativo común `GND`.
+- Conecte los extremos del potenciómetro entre `+5 V` y `GND`.
+- Conecte `cursor del potenciómetro → RB → base`. No conecte el cursor directamente a la base.
+
+En iCircuit, la posición `1,00` sitúa el cursor cerca de `0 V`, mientras que la posición `0` lo acerca a `+5 V`. Por ello, el recorrido debe comenzar en `1,00` y disminuir gradualmente.
+
+#### Referencias en iCircuit
+
+![BJT en región de corte con el potenciómetro en 1,00](assets/icircuit/04-regiones-corte-pot-1000m-icircuit.png)
+
+*Figura A02-4. Corte: VBE prácticamente nulo, IC prácticamente nula y VCE igual a 5 V.*
+
+![BJT en región activa con el potenciómetro en 0,85](assets/icircuit/05-regiones-activa-pot-850m-icircuit.png)
+
+*Figura A02-5. Región activa: IB = 14,602 µA, IC = 1,460 mA y VCE = 3,540 V. Se conserva aproximadamente IC = β·IB.*
+
+![BJT en región activa con mayor corriente de base](assets/icircuit/06-regiones-activa-pot-800m-icircuit.png)
+
+*Figura A02-6. Región activa próxima al límite: IB = 33,928 µA, IC = 3,393 mA y VCE = 1,607 V.*
+
+![BJT entrando en saturación con el potenciómetro en 0,75](assets/icircuit/07-regiones-saturacion-pot-750m-icircuit.png)
+
+*Figura A02-7. Inicio de saturación: VCE disminuye a 0,155 V y VBC se vuelve positivo; la corriente de colector se aproxima al máximo permitido por RC.*
+
+![BJT en saturación profunda con el potenciómetro en 0,50](assets/icircuit/08-regiones-saturacion-profunda-pot-500m-icircuit.png)
+
+*Figura A02-8. Saturación profunda: aunque IB aumenta a 150,663 µA, IC solo alcanza 4,919 mA porque queda limitada por VCC y RC.*
+
+#### Barrido observado en la simulación
+
+| Posición | VBE | VBC | VCE | IB | IC | IE ≈ IB + IC | Región |
+|---:|---:|---:|---:|---:|---:|---:|---|
+| 1,00 | ≈ 0 V | −5,000 V | 5,000 V | ≈ 0 A | ≈ 0 A | ≈ 0 A | Corte |
+| 0,90 | 0,496 V | −4,464 V | 4,960 V | 0,403 µA | 40,30 µA | 40,70 µA | Transición / activa débil |
+| 0,85 | 0,585 V | −2,954 V | 3,540 V | 14,602 µA | 1,460 mA | 1,475 mA | Activa |
+| 0,80 | 0,606 V | −1,001 V | 1,607 V | 33,928 µA | 3,393 mA | 3,427 mA | Activa |
+| 0,75 | 0,615 V | +0,460 V | 0,155 V | 53,441 µA | 4,845 mA | 4,898 mA | Saturación |
+| 0,50 | 0,617 V | +0,535 V | 0,081 V | 150,663 µA | 4,919 mA | 5,070 mA | Saturación profunda |
+
+Los valores corresponden al modelo usado en iCircuit y deben compararse con las mediciones del transistor físico. La posición exacta de cada transición puede cambiar por la dispersión de `β` y `VBE`.
 
 #### Procedimiento
 
-1. Utilice el circuito del LED o de carga resistiva.
-2. Calcule la corriente de base a partir de la resistencia de base.
-3. Calcule la corriente de colector a partir de la resistencia de carga.
-4. Mida los voltajes necesarios.
-5. Calcule la ganancia aproximada.
+1. Revise que la resistencia `RB = 10 kΩ` esté realmente entre el cursor y la base.
+2. Ajuste el potenciómetro en `1,00` antes de energizar.
+3. Registre `VBE`, `VBC`, `VCE`, `IB` e `IC`.
+4. Disminuya la posición a `0,90`, `0,85`, `0,80`, `0,75` y `0,50`, registrando los valores después de estabilizar cada condición.
+5. Calcule `IE = IB + IC` y, cuando corresponda, `β = IC/IB`.
+6. Identifique corte cuando `IB` e `IC` sean prácticamente nulas y `VCE ≈ VCC`.
+7. Identifique región activa cuando `VBC < 0` y se cumpla aproximadamente `IC = β·IB`.
+8. Identifique saturación cuando `VBC > 0`, `VCE` sea pequeño y el aumento de `IB` produzca poca variación adicional de `IC`.
+9. Explique por qué la corriente de colector se aproxima a `(VCC − VCE(sat))/RC` durante la saturación.
 
-#### Tabla 6. Corrientes del transistor
+#### Tabla para el montaje físico
 
-| RB | RC o carga | IB calculada | IC calculada | IE aproximada | beta aproximado IC/IB |
-|---:|---:|---:|---:|---:|---:|
-| | | | | | |
-
-### Fórmulas de referencia
-
-```text
-IB = (VIN - VBE) / RB
-```
-
-```text
-IC = (VCC - VCE) / RC
-```
-
-```text
-β ≈ IC / IB
-```
-
-```text
-IE ≈ IB + IC
-```
+| Posición o voltaje del cursor | VBE | VBC | VCE | IB | IC | IE | β = IC/IB | Región |
+|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
 
 ---
 

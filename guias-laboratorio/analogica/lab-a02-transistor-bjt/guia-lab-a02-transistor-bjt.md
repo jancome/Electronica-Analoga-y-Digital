@@ -5,7 +5,6 @@
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2  
 **Programa:** Ingeniería Eléctrica  
-**Duración estimada:** 3 horas presenciales + trabajo independiente  
 
 ---
 
@@ -385,37 +384,96 @@ Los valores corresponden al modelo usado en iCircuit y deben compararse con las 
 
 ### 6.7 Circuito 6: Amplificador básico en emisor común
 
-Implemente o simule una etapa básica de amplificación en configuración de emisor común.
+Implemente una etapa amplificadora en emisor común y compruebe el punto de operación, la ganancia de voltaje y la inversión de fase. En esta configuración, la resistencia de emisor permanece sin capacitor de derivación para conservar realimentación negativa y estabilidad.
 
-**Valores sugeridos para simulación:**
+#### Valores utilizados
 
-- VCC = 9 V o 12 V.
-- RC = 2.2 kΩ o 4.7 kΩ.
-- RE = 1 kΩ.
-- Red de polarización de base con resistencias.
-- Capacitor de acoplamiento de entrada: 1 µF o 10 µF.
-- Señal de entrada: senoidal pequeña.
+- Fuente: `VCC = 9 V`.
+- Transistor: BJT NPN con `β = 100` en iCircuit.
+- Resistencia de colector: `RC = 3,3 kΩ`.
+- Resistencia de emisor: `RE = 1 kΩ`.
+- Divisor de polarización: `R1 = 47 kΩ` y `R2 = 10 kΩ`.
+- Capacitor de entrada: `Cin = 10 µF`.
+- Capacitor de salida: `Cout = 10 µF`.
+- Carga: `RL = 10 kΩ`.
+- Entrada: senoidal, `1 kHz`, amplitud `50 mV` y offset DC `0 V`.
+
+#### Conexiones
+
+1. Conecte `+9 V → RC → colector`.
+2. Conecte el emisor a `RE` y el otro terminal de `RE` al nodo común `GND`.
+3. Conecte `R1` entre `+9 V` y la base.
+4. Conecte `R2` entre la base y `GND`.
+5. Conecte el negativo del generador a `GND`.
+6. Conecte `generador positivo → terminal negativo de Cin → terminal positivo de Cin → base`.
+7. Conecte `colector → terminal positivo de Cout → terminal negativo de Cout → VOUT`.
+8. Conecte `RL` entre `VOUT` y `GND`.
+9. No conecte un capacitor en paralelo con `RE` durante esta experiencia.
+
+> En el símbolo empleado, la placa recta representa el terminal positivo y la placa curva el terminal negativo del capacitor electrolítico.
+
+#### Verificación del punto de operación DC
+
+![Punto de operación del amplificador BJT en iCircuit](assets/icircuit/09-amplificador-emisor-comun-punto-operacion-icircuit.png)
+
+*Figura A02-9. Punto de operación antes de evaluar la señal: VB = 1,503 V, VE = 0,929 V y VC = 5,964 V.*
+
+A partir de estas mediciones:
+
+```text
+VBE = VB - VE = 1,503 V - 0,929 V = 0,574 V
+VCE = VC - VE = 5,964 V - 0,929 V = 5,035 V
+IE  = VE / RE ≈ 0,929 mA
+IC  = (VCC - VC) / RC ≈ 0,920 mA
+IB  ≈ IC / β ≈ 9,20 µA
+```
+
+Como `VBC < 0` y `VCE` se mantiene lejos de la saturación, el transistor está polarizado en región activa y dispone de margen para amplificar sin recortar la señal.
+
+#### Señales de entrada y salida
+
+![Entrada y salida del amplificador BJT en iCircuit](assets/icircuit/10-amplificador-emisor-comun-vin-vout-icircuit.png)
+
+*Figura A02-10. Entrada amarilla y salida verde sobre RL. Ambas señales tienen 1 kHz; la salida está amplificada e invertida.*
+
+#### Resultados de la simulación
+
+| Magnitud | Entrada | Salida sobre RL |
+|---|---:|---:|
+| Frecuencia | 1,00 kHz | 1,00 kHz |
+| Valor pico a pico | 96,90 mV | 239,05 mV |
+| Valor RMS | 35,38 mV | 84,58 mV |
+| Valor promedio | ≈ 0 V | ≈ 0 V |
+| Relación de fase | Referencia | Invertida 180° |
+
+La ganancia medida con valores pico a pico es:
+
+```text
+AV = -Vout(pp) / Vin(pp)
+AV = -239,05 mV / 96,90 mV
+AV ≈ -2,47
+```
+
+El signo negativo representa la inversión de fase propia del emisor común. Los capacitores `Cin` y `Cout` permiten el paso de la componente alterna y separan los niveles DC de la fuente, la polarización del transistor y la carga.
 
 #### Procedimiento
 
-1. Arme o simule el amplificador en emisor común.
-2. Aplique una señal senoidal pequeña en la entrada.
-3. Observe la señal de salida en el colector.
-4. Compare fase de entrada y salida.
-5. Mida amplitud de entrada y salida.
-6. Calcule la ganancia de voltaje aproximada.
+1. Arme primero la red de polarización sin el generador y sin `RL`.
+2. Mida `VB`, `VE`, `VC`, `VBE` y `VCE`; confirme que el transistor se encuentra en región activa.
+3. Desenergice el circuito y conecte `Cin`, el generador, `Cout` y `RL`, respetando la polaridad indicada.
+4. Configure la entrada a `1 kHz`, `50 mV` de amplitud y `0 V` de offset.
+5. Observe simultáneamente `VIN` y el voltaje sobre `RL`.
+6. Registre frecuencia, valor RMS y valor pico a pico de ambas señales.
+7. Calcule la ganancia y compruebe la inversión de fase.
+8. Aumente lentamente la amplitud de entrada y determine cuándo comienza el recorte; luego regrese a `50 mV`.
+9. Compare los valores simulados con las mediciones del montaje físico.
 
 #### Tabla 7. Amplificador básico
 
-| Vin pico | Vout pico | Ganancia aproximada AV | ¿Salida invertida? | Observación |
-|---:|---:|---:|---|---|
-| | | | | |
-
-### Fórmula sugerida
-
-```text
-AV = Vout / Vin
-```
+| Procedencia | Vin(pp) | Vout(pp) | Frecuencia | AV | ¿Salida invertida? | Observación |
+|---|---:|---:|---:|---:|---|---|
+| iCircuit | 96,90 mV | 239,05 mV | 1,00 kHz | −2,47 | Sí | Señales sin recorte apreciable |
+| Montaje físico | | | | | | |
 
 ---
 

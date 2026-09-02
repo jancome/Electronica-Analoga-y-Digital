@@ -65,6 +65,12 @@ La corriente de colector deja de estar determinada principalmente por `β` y que
 IB = (VIN - VBE) / RB
 ```
 
+Esta expresión supone que no hay una resistencia adicional entre base y emisor. Si se conecta `RBE = 100 kΩ`, parte de la corriente de `RB` circula por ella. Con el control activado:
+
+```text
+IB = (VIN - VBE) / RB - VBE / RBE
+```
+
 Para calcular la corriente del LED sin abrir el circuito con el amperímetro:
 
 ```text
@@ -118,7 +124,7 @@ En saturación esta última relación ya no debe utilizarse para afirmar que la 
 - BJT NPN.
 - Motor DC pequeño o relé.
 - Diodo `1N4007` o equivalente.
-- Resistencia de base.
+- Resistencia de base de `2,2 kΩ` y resistencia base-emisor de `100 kΩ` para el circuito de referencia con relé.
 
 ---
 
@@ -163,6 +169,18 @@ emisor → GND
 ```
 
 Opcionalmente conecte `100 kΩ` entre base y GND para asegurar que la base quede en cero cuando el interruptor esté abierto.
+
+### Figuras de referencia para las experiencias físicas
+
+Las siguientes imágenes son esquemas aportados por el docente para guiar el montaje físico con LED de las Experiencias 1 y 2; no sustituyen las mediciones ni la fotografía del protoboard. En ambas, `R1 = RLED = 330 Ω` y `R2 = RB = 2,2 kΩ`. La resistencia base-emisor opcional no aparece dibujada.
+
+![BJT NPN con interruptor abierto y LED apagado: referencia del estado de corte](assets/usuario/01-bjt-interruptor-led-corte.png)
+
+**Figura 1. BJT en corte, interruptor abierto.** Observe que la excitación de base está interrumpida y el LED permanece apagado. Compruebe en el montaje que `IB` e `IC` son prácticamente nulas y registre `VBE` y `VCE`; contraste este estado con el de la Figura 2. Los colores del simulador no sustituyen las mediciones.
+
+![BJT NPN con interruptor cerrado y LED encendido: referencia de conducción y comprobación de saturación](assets/usuario/02-bjt-interruptor-led-conduccion.png)
+
+**Figura 2. BJT en conducción, interruptor cerrado.** Observe el camino de corriente desde `+5 V`, a través de `R1` y el LED, hasta el colector y el emisor; `R2` limita la corriente de base. El LED encendido evidencia conducción, pero no demuestra por sí solo saturación: mida `VCE` y compárelo con `VCE(sat)` de la hoja de datos para las condiciones de `IC` e `IB` utilizadas. El intervalo `0,1–0,3 V` es solo una referencia orientativa.
 
 ## 7.2 Procedimiento
 
@@ -216,6 +234,8 @@ Comprobar que reducir `RB` aumenta la excitación de base hasta que el transisto
 ## 8.1 Procedimiento
 
 Mantenga el mismo circuito de la Experiencia 1. Sustituya únicamente la resistencia de base.
+
+Use la [Figura 1 — LED en corte](assets/usuario/01-bjt-interruptor-led-corte.png) y la [Figura 2 — LED en conducción](assets/usuario/02-bjt-interruptor-led-conduccion.png) como referencias de comparación. Para ensayar cada `RB`, mantenga el interruptor **cerrado** y cambie `R2`, no `R1 = 330 Ω`. Observe cómo varían el brillo del LED, `IB`, `IC` y `VCE`; un LED encendido también puede corresponder a región activa. Si instaló la resistencia base-emisor de `100 kΩ`, consérvela fija y tenga en cuenta su corriente al calcular `IB`.
 
 Utilice:
 
@@ -278,6 +298,14 @@ cátodo → +V
 ```
 
 El diodo debe permanecer normalmente polarizado en inversa mientras la carga está energizada.
+
+### Circuito de referencia con relé
+
+![Simulación de relé controlado por BJT NPN con fuente de 5 V, diodo de rueda libre, RB de 2,2 kΩ y resistencia base-emisor de 100 kΩ](assets/usuario/03-bjt-rele-diodo-rueda-libre.png)
+
+**Figura 3. Experiencia simulada: relé con diodo de rueda libre.** Observe la bobina entre `+5 V` y el colector, el emisor al negativo común, `RB = 2,2 kΩ` en serie con el control y la resistencia de `100 kΩ` entre base y emisor. Al cerrar el interruptor, compruebe la corriente de bobina y el cambio de estado de los contactos del relé; mida `VCE` para verificar la saturación. Al abrirlo, la resistencia de `100 kΩ` evita que la base quede flotante y el diodo proporciona un camino para la corriente de la bobina mientras disminuye, limitando el pico de voltaje sobre el transistor.
+
+Reproduzca los valores mostrados para esta referencia. El cátodo del diodo va a `+5 V` y el ánodo al colector; no lo conecte en serie con la bobina. La captura muestra la configuración con el control cerrado, no el transitorio de apagado: para estudiar este último use el osciloscopio o la gráfica temporal del simulador, según el procedimiento siguiente. Esta figura corresponde únicamente a la Experiencia 3, **solo en simulación**.
 
 ## 9.2 Procedimiento
 

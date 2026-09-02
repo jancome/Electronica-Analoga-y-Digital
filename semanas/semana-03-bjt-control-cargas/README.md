@@ -8,6 +8,17 @@ Analizar el transistor BJT como dispositivo de control y conmutación, aplicánd
 
 - [Marco teórico – Semana 03](marco-teorico.md)
 
+## Ejercicios de cierre del tema
+
+- [Ejercicios BJT – uno guiado y uno para tablero](../../ejercicios/EJERCICIOS_BJT_CIERRE_CORTE_1.md)
+
+La secuencia recomendada es:
+
+1. resolver el Ejercicio 1 con participación del grupo;
+2. entregar el Ejercicio 2 para trabajo por parejas o equipos;
+3. seleccionar un estudiante para sustentarlo en tablero;
+4. utilizar la pregunta final para introducir el MOSFET.
+
 ## Imagen de apoyo
 
 ![Comparación BJT vs MOSFET](../../recursos/imagenes/analogica/bjt-vs-mosfet-interruptor.svg)
@@ -21,11 +32,20 @@ Analizar el transistor BJT como dispositivo de control y conmutación, aplicánd
 - Corriente y potencia del transistor.
 - Control de LED, relé o carga DC.
 - Diodo de protección en cargas inductivas.
+- Transición conceptual BJT → MOSFET.
 - Actualización de la arquitectura del proyecto ABPr.
 
 ## Laboratorio asociado
 
 - [Lab A02 – Transistor BJT](../../guias-laboratorio/analogica/lab-a02-transistor-bjt/README.md)
+
+El Lab A02 se desarrolla en formato corto:
+
+- **Experiencia 1 física:** BJT como interruptor para LED, corte y saturación.
+- **Experiencia 2 física:** efecto de `RB` sobre `IB`, `IC` y `VCE`.
+- **Experiencia 3 simulada:** control de motor o relé con diodo de protección.
+
+No se incluye amplificador en emisor común en esta práctica.
 
 ## Evidencia ABPr
 

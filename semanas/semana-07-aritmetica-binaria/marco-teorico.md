@@ -2,6 +2,12 @@
 
 # Aritmética binaria aplicada a estados y conteos
 
+## Metas de aprendizaje verificables
+
+- Resolver suma y resta en ancho fijo usando carry y complemento a 2.
+- Interpretar un patrón con y sin signo y diferenciar carry de overflow.
+- Determinar el ancho y la operación que realmente requiere el proyecto.
+
 ## 1. Propósito de la semana
 
 Comprender cómo se realizan operaciones aritméticas con bits y relacionarlas con conteos, comparación de estados y circuitos aritméticos que podrán incorporarse al proyecto.
@@ -150,3 +156,68 @@ Después resolverá ejercicios de suma, resta y complemento relacionados con esa
 ## 15. Conexión con la Semana 08
 
 La siguiente semana las condiciones del proyecto se convertirán en una función lógica implementada con compuertas y se realizará el primer montaje de la Fase 2 en protoboard.
+
+## 16. Profundización: representación finita y significado del resultado
+
+Las reglas de suma binaria son las mismas del sistema decimal, pero con base 2: `1+1=10₂`. El bit escrito es la suma módulo 2 y el bit transferido es el acarreo. En `n` bits sin signo, un acarreo fuera del MSB indica que el resultado matemático excede `2^n-1`.
+
+En complemento a 2, el rango es `-2^{n-1}` a `2^{n-1}-1`. Para representar `-X`, se invierten los bits de `X` y se suma uno. La resta `A-B` se ejecuta como `A+C2(B)` descartando el acarreo final. El overflow con signo no es equivalente al carry: ocurre al sumar operandos del mismo signo y obtener un resultado de signo opuesto.
+
+Dos reglas útiles son:
+
+\[
+C_2(X)=\overline{X}+1
+\]
+
+\[
+V=C_{n-1}\oplus C_n
+\]
+
+donde `V` detecta overflow mediante los acarreos de entrada y salida del bit de signo.
+
+## 17. Ejemplo guiado adaptado
+
+En 8 bits:
+
+1. `00110110₂ (54) + 00011101₂ (29) = 01010011₂ (83)`: no hay carry ni overflow.
+2. Para `77-27`, `27=00011011`; su complemento a 2 es `11100101`. Entonces `01001101+11100101=1 00110010`. Se descarta el carry y queda `00110010₂=50`.
+3. `01100100 (100)+00111100 (60)=10100000`. Aunque cabe como patrón de 8 bits, dos positivos produjeron bit de signo 1: existe overflow con signo; `160` tampoco cabe en el rango `-128…127`.
+
+La conclusión debe indicar formato. El mismo patrón puede significar un entero sin signo, un entero con signo o un código; una operación sin convención carece de interpretación de ingeniería.
+
+## 18. Práctica y verificación
+
+1. Fijar ancho y representación antes de operar.
+2. Resolver manualmente por columnas, mostrando carry/borrow.
+3. Verificar en decimal sin sustituir el procedimiento.
+4. Simular un sumador de 4 bits y observar `Cout`.
+5. Probar valores frontera: `0000`, `0111`, `1000`, `1111`.
+6. Registrar por separado carry y overflow.
+7. Relacionar la operación con un requisito real: conteo, diferencia de umbrales o acumulación.
+
+## 19. Diagnóstico de errores
+
+Los errores más frecuentes son extender signo con ceros en vez del bit de signo, olvidar sumar uno al complemento, descartar un carry que sí importa en aritmética sin signo o interpretar carry como overflow. Para aislarlos se revisan ancho, formato, operandos, columnas y condición de bandera en ese orden.
+
+## 20. Preguntas orientadoras y trabajo independiente
+
+- ¿Cuál es el rango de 6, 8 y 10 bits con y sin signo?
+- ¿Por qué `10000000₂` representa `128` sin signo y `-128` en C2?
+- ¿Cuándo un carry es válido sin que exista overflow?
+- ¿Qué ancho requiere el contador del proyecto antes de reiniciarse?
+- ¿Conviene restar valores o comparar directamente?
+
+Resolver un conjunto propio con dos sumas, dos restas por C2 y dos casos frontera. Cada operación debe incluir ancho, formato, resultado decimal, carry, overflow y una interpretación dentro del ABPr.
+
+## 21. Referencias de estudio
+
+- Floyd, 9.ª ed., cap. 2, sec. 2.4, pp. 63–66: aritmética binaria.
+- Ibid., sec. 2.5, pp. 67–68 y ejemplos 2.12–2.13, p. 68: complementos.
+- Ibid., secs. 2.6–2.7, pp. 69–81: números con signo, operaciones y overflow.
+
+## 22. Ruta de profundización recomendada
+
+1. **Operaciones básicas:** Floyd, cap. 2, sec. 2.4, pp. 63–66.
+2. **Resta y negativos:** sec. 2.5, pp. 67–68, incluidos ejemplos 2.12–2.13.
+3. **Análisis prioritario:** secs. 2.6–2.7, pp. 69–81, para números con signo, extensión y overflow.
+4. **Puente al Corte 3:** cap. 6, secs. 6.1–6.3, pp. 328–343, como lectura anticipada sobre la implementación física de la aritmética.

@@ -2,6 +2,12 @@
 
 # Flip-flops, contadores y ajustes finales del proyecto
 
+## Metas de aprendizaje verificables
+
+- Interpretar estado, flanco, entradas asíncronas y restricciones temporales.
+- Diseñar y comprobar una secuencia de conteo, incluidos arranque y estados no usados.
+- Diagnosticar rebote, reset, reloj y retardos antes de integrar lógica secuencial.
+
 ## 1. Propósito de la semana
 
 Introducir la lógica secuencial mediante flip-flops y contadores, evaluar su posible aporte al proyecto y completar las correcciones finales de funcionamiento, documentación y presentación física.
@@ -167,3 +173,63 @@ Como mínimo:
 ## 16. Conexión con la Semana 17
 
 La siguiente semana se presentará el proyecto físico definitivo con su maqueta, informe, video y sustentación grupal e individual.
+
+## 17. Profundización: estado, tiempo y secuencia
+
+Un circuito combinacional depende solo de entradas presentes; uno secuencial depende además del estado previo. Un latch responde a nivel, mientras un flip-flop actualiza normalmente en un flanco de reloj. Para el flip-flop D, `Q^+=D` en el flanco activo. Para T, `Q^+=T⊕Q`; con `T=1` alterna. JK evita el estado no permitido del SR y con `J=K=1` conmuta.
+
+La temporización exige respetar setup, hold y retardo de propagación. Una entrada que cambia demasiado cerca del flanco puede producir metastabilidad; por eso señales asíncronas y pulsadores requieren sincronización o antirrebote. Las entradas preset/clear asíncronas dominan el reloj y no deben quedar flotantes.
+
+Un contador de `n` bits posee hasta `2^n` estados. Para módulo `M`, se requiere `n=⌈log₂M⌉`; los estados restantes deben manejarse para que el circuito recupere una secuencia válida. En un contador asíncrono, los retardos se acumulan; en uno síncrono, los flip-flops comparten reloj y la lógica define qué bits cambian.
+
+## 18. Ejemplo guiado adaptado: contador módulo 6
+
+Para registrar ciclos de una bomba:
+
+1. `n=⌈log₂6⌉=3` flip-flops.
+2. Secuencia válida: `000→001→010→011→100→101→000`.
+3. `110` y `111` son estados no usados; se diseña recuperación hacia `000`.
+4. Se detecta `110` para generar reset en una realización simple, verificando la polaridad y duración requeridas.
+5. Un pulsador directo puede generar múltiples conteos; se incluye antirrebote.
+6. Se prueba arranque, seis pulsos, reset, estado no usado y recuperación.
+
+Para un flip-flop D, se prepara una tabla de `D` antes de cada flanco y se predice `Q` después del retardo. Los cambios entre flancos no se almacenan hasta el siguiente evento activo.
+
+## 19. Procedimiento de simulación y práctica
+
+1. Dibujar diagrama de tiempos antes de conectar.
+2. Definir flanco, frecuencia, reset y estado inicial.
+3. Simular con reloj lento y observar `CLK`, entradas y `Q` simultáneamente.
+4. Probar entradas asíncronas por separado.
+5. Construir contador y recorrer toda la secuencia.
+6. Forzar cada estado no usado y verificar recuperación.
+7. Comparar asíncrono/síncrono observando transitorios de salidas.
+8. Si se usa pulsador, demostrar el efecto del rebote y la corrección.
+
+## 20. Diagnóstico de fallas
+
+Si no hay conteo, verificar reloj en el pin, reset/preset y alimentación. Si salta estados, revisar rebote, orden de bits y decodificación de reset. Si inicia aleatoriamente, falta inicialización. Si un LED parece mostrar códigos breves inesperados, medir retardos y distinguir transitorios de una secuencia lógica incorrecta.
+
+## 21. Preguntas orientadoras y trabajo independiente
+
+- ¿Qué información debe persistir y durante cuánto tiempo?
+- ¿La señal de reloj está limpia y dentro de límites?
+- ¿Qué sucede al encender y desde estados no usados?
+- ¿Cuál contador tolera mejor la decodificación de salidas?
+- ¿Memoria o conteo aporta una función necesaria al ABPr?
+
+Entregar diagrama de tiempos, tabla de estados, cálculo de módulo, simulación de recuperación, prueba de antirrebote, mediciones y justificación de inclusión o exclusión del bloque secuencial.
+
+## 22. Referencias de estudio
+
+- Floyd, 9.ª ed., cap. 7, secs. 7.1–7.4, pp. 412–440: latches, flip-flops y aplicaciones.
+- Ibid., sec. 7.6, pp. 448–453: temporizador 555 como ampliación opcional.
+- Ibid., cap. 8, secs. 8.1–8.3, pp. 476–498: contadores asíncronos, síncronos y ascendente/descendente.
+- Ibid., secs. 8.5–8.7, pp. 509–522: cascada, decodificación y aplicaciones; cap. 14, pp. 884–914: retardos y límites eléctricos.
+
+## 23. Ruta de profundización recomendada
+
+1. **Memoria elemental:** Floyd, cap. 7, secs. 7.1–7.4, pp. 412–440.
+2. **Reloj opcional:** cap. 7, sec. 7.6, pp. 448–453, para temporizador 555.
+3. **Conteo obligatorio:** cap. 8, secs. 8.1–8.3, pp. 476–498.
+4. **Profundización de sistema:** cap. 8, secs. 8.5–8.7, pp. 509–522, y cap. 14 para retardos; comparar arranque, cascada, decodificación y recuperación.

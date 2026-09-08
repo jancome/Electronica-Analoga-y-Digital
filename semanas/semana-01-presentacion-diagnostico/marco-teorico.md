@@ -2,6 +2,12 @@
 
 # Presentación del curso, diagnóstico y situación problema ABPr
 
+## Metas de aprendizaje verificables
+
+- Modelar un circuito resistivo con polaridades, Ohm, Kirchhoff y potencia, y predecir sus mediciones.
+- Diferenciar señal analógica, nivel lógico y etapa de potencia dentro de una arquitectura mixta.
+- Formular una necesidad regional en términos de variable, rango, entrada, decisión y salida segura.
+
 ## 1. Propósito de la semana
 
 Presentar la asignatura, socializar la situación problema institucional, conformar los grupos de trabajo y aplicar un diagnóstico breve de los fundamentos eléctricos necesarios para iniciar la unidad analógica.
@@ -149,3 +155,67 @@ La idea todavía puede cambiar después de recibir orientación del docente.
 ## 13. Conexión con la Semana 02
 
 La siguiente semana inicia la construcción conceptual de la etapa común del proyecto: semiconductores, diodos, rectificación, filtrado y regulación básica con Zener. Todo montaje deberá trabajar con **AC de baja tensión**, fuente de laboratorio o simulador.
+
+## 14. Profundización: del fenómeno físico al sistema electrónico
+
+Un sistema de ingeniería no comienza por escoger componentes, sino por traducir una necesidad en variables medibles. La cadena mínima es `fenómeno → sensor → acondicionamiento → decisión → actuación`. En ella, una magnitud continua —iluminancia, nivel de agua, temperatura o tensión— puede conservarse como señal analógica o convertirse en estados digitales mediante un umbral. Esa frontera deberá quedar explícita en el diagrama de bloques del grupo.
+
+El análisis eléctrico usa una convención consistente: se define una referencia de potencial, se asignan polaridades y sentidos de corriente, y solo después se escriben ecuaciones. Las relaciones fundamentales son:
+
+\[
+V=IR,\qquad P=VI=I^2R=\frac{V^2}{R}
+\]
+
+\[
+\sum I_{\text{entra}}=\sum I_{\text{sale}},\qquad \sum V_k=0
+\]
+
+Kirchhoff no constituye una fórmula aislada: expresa conservación de carga en un nodo y conservación de energía en una trayectoria cerrada. Si un resultado contradice esas conservaciones, la causa suele ser una polaridad, una unidad o una conexión mal definida.
+
+### Ejemplo guiado adaptado
+
+Una fuente aislada de `9 V` alimenta un LED mediante `470 Ω`. Si se adopta una caída práctica de `2 V` en el LED:
+
+1. La resistencia recibe `V_R=9-2=7 V`.
+2. La corriente estimada es `I=7/470=14,9 mA`.
+3. La potencia en la resistencia es `P_R=7×14,9 mA≈0,104 W`; una resistencia de `1/4 W` ofrece margen.
+4. La potencia suministrada es aproximadamente `0,134 W` y se reparte entre LED y resistencia.
+
+El cálculo debe acompañarse con una predicción de mediciones: `9 V` entre los terminales de la fuente, cerca de `2 V` en el LED y cerca de `7 V` en la resistencia. Esta tabla de valores esperados será luego una herramienta de diagnóstico.
+
+### Procedimiento de exploración y medición
+
+1. Dibujar el circuito y marcar referencia, polaridades y nodos.
+2. Calcular valores esperados antes de montar.
+3. Construir únicamente con la fuente apagada.
+4. Medir continuidad sin energía; después medir tensión con el instrumento en paralelo.
+5. Para corriente, abrir la rama e insertar el amperímetro en serie; nunca conectar el amperímetro directamente entre los bornes de la fuente.
+6. Comparar cálculo, simulación y medición mediante error porcentual: `|medido-calculado|/|calculado|×100 %`.
+
+### Diagnóstico razonado
+
+Si el LED no enciende, no se cambia todo el montaje. Se comprueba en orden: tensión de la fuente, polaridad del LED, continuidad, valor de la resistencia y caída de tensión en cada elemento. Una fuente correcta con `9 V` sobre el LED y casi `0 V` sobre la resistencia sugiere circuito abierto; casi `0 V` sobre el LED puede indicar inversión, corto o medición referida a un nodo incorrecto.
+
+## 15. Preguntas orientadoras ampliadas
+
+- ¿Qué variable física resuelve el proyecto y en qué unidad se mide?
+- ¿Qué valores representan operación normal, advertencia y alarma?
+- ¿Dónde termina el dominio analógico y comienza la decisión digital?
+- ¿Qué corriente y potencia exige la carga, y puede entregarlas directamente el bloque lógico?
+- ¿Qué medición distinguiría una falla de alimentación de una falla de carga?
+
+## 16. Trabajo independiente verificable
+
+Cada grupo elaborará una hoja con: situación específica, variable y rango, diagrama de bloques, circuito resistivo de comprobación, cálculos con unidades, tabla de mediciones esperadas, tres fallas probables y una regla de seguridad. Debe incluir al menos una fuente técnica o académica y registrar las dudas surgidas en el diagnóstico.
+
+## 17. Referencias de estudio
+
+- Boylestad y Nashelsky, *Electrónica: teoría de circuitos y dispositivos electrónicos*, 10.ª ed., prefacio y cap. 1, sec. 1.1, p. 1: enfoque de dispositivos dentro de sistemas, aplicaciones, simulación y localización de fallas.
+- Floyd, *Fundamentos de sistemas digitales*, 9.ª ed., cap. 1, sec. 1.2, pp. 6–13: niveles lógicos, impulsos y representación digital.
+- La Ley de Ohm, Kirchhoff y potencia se consideran prerrequisitos que Boylestad aplica, pero no desarrolla como núcleo del cap. 1; por ello se complementan con apuntes de análisis de circuitos y prácticas de medición.
+
+## 18. Ruta de profundización recomendada
+
+1. **Lectura prioritaria:** Boylestad, prefacio y cap. 1, sec. 1.1, p. 1, para estudiar el dispositivo dentro de un sistema y el enfoque de medición/simulación.
+2. **Puente analógico–digital:** Floyd, cap. 1, secs. 1.1–1.2, especialmente pp. 6–13, para profundizar en magnitudes, niveles, impulsos y bloques digitales.
+3. **Ampliación necesaria:** un texto de análisis de circuitos para Ohm, Kirchhoff, serie/paralelo y potencia; estos son prerrequisitos, no el propósito central de Boylestad.

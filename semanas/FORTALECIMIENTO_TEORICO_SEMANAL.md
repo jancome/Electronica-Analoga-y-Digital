@@ -7,6 +7,8 @@
 
 Este documento complementa los marcos teóricos semanales con conceptos clave, aplicaciones, actividades de refuerzo y relación con las fases del **ABPr – Aprendizaje Basado en Proyectos**.
 
+> Este archivo es una vista panorámica. La versión desarrollada y canónica de cada tema está en el `marco-teorico.md` de su semana, donde se incluyen ecuaciones, ejemplo guiado, práctica, diagnóstico, preguntas, trabajo independiente, referencias por página y ruta de capítulos para profundizar. Consulte el [índice semanal](README.md) para el mapa bibliográfico completo.
+
 ## Situación problema
 
 > **¿Cómo diseñar e implementar un sistema electrónico analógico-digital, de bajo costo y bajo consumo, que permita supervisar, indicar o controlar una variable relacionada con el uso eficiente de la energía o de los recursos en Barranquilla y la región Caribe?**

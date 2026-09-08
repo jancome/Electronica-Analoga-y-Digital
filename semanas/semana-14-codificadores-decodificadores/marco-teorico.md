@@ -2,6 +2,12 @@
 
 # Codificadores, decodificadores, displays y primera revisión física
 
+## Metas de aprendizaje verificables
+
+- Diferenciar codificación, prioridad, decodificación y validez de datos.
+- Interpretar señales activas en bajo y dimensionar un display con hoja de datos.
+- Diseñar una interfaz visual legible y eléctricamente compatible con el prototipo.
+
 ## 1. Propósito de la semana
 
 Comprender cómo los sistemas digitales transforman y presentan información mediante codificadores, decodificadores y displays, utilizando estos bloques para mejorar la interfaz del proyecto ABPr.
@@ -178,3 +184,62 @@ La maqueta todavía puede estar en construcción, pero debe existir una propuest
 ## 16. Conexión con la Semana 15
 
 La siguiente semana se estudiarán multiplexores y demultiplexores y se realizará la muestra de prototipos con revisión de la maqueta.
+
+## 17. Profundización: traducción entre eventos, códigos y salidas
+
+Un codificador convierte una entrada activa entre `2^n` posibilidades en un código de `n` bits. El codificador simple presupone una sola entrada activa; si pueden coexistir varias, se necesita prioridad y, preferiblemente, una salida de validez. Un decodificador realiza la operación inversa: para cada código habilitado activa una de varias salidas.
+
+Las burbujas y barras indican señales activas en bajo. Una salida `/Y=0` puede significar “seleccionada”, no “apagada”. Ignorar esta convención es una causa frecuente de LEDs y displays invertidos.
+
+En un display de 7 segmentos cada LED requiere limitación de corriente:
+
+\[
+R_{seg}=\frac{V_S-V_F-V_{salida}}{I_{seg}}
+\]
+
+El controlador 74LS47 está orientado a display de ánodo común y emplea salidas activas en bajo; su corriente, pinout y pines de control se verifican en la hoja de datos. Los códigos BCD `1010…1111` no representan dígitos decimales válidos y su respuesta debe definirse o bloquearse.
+
+## 18. Ejemplo guiado adaptado
+
+Un proyecto declara estados `00 normal`, `01 advertencia`, `10 alarma`, `11 mantenimiento`. Un decodificador 2-a-4 genera una línea por estado. Si las salidas son activas en bajo, el LED y su resistencia se conectan de acuerdo con la capacidad de hundimiento del CI, y la tabla debe anotar `0=activo`.
+
+Para mostrar el dígito `5`, el código BCD es `0101`; el 74LS47 activa en bajo los segmentos correspondientes. El cálculo de resistencia no se reemplaza por “usar 220 Ω” de memoria: se parte de alimentación, `V_F`, caída de salida y corriente segura.
+
+## 19. Procedimiento de simulación y Lab 07
+
+1. Definir código, prioridad, habilitación y validez.
+2. Construir tabla con estados válidos e inválidos.
+3. Confirmar polaridad activa antes de conectar indicadores.
+4. Simular cada código y rotular salidas.
+5. Consultar hoja de datos del CI y tipo de display.
+6. Calcular resistencias por segmento y estimar corriente total.
+7. Montar y verificar un estado a la vez.
+8. Realizar la primera revisión física del ABPr: legibilidad, conectores, referencias y acceso a puntos de prueba.
+
+## 20. Diagnóstico de fallas
+
+Si todos los segmentos están invertidos, comprobar tipo de display y polaridad activa. Si un segmento nunca enciende, intercambiar prueba entre segmento, resistencia y salida para aislar la falla. Si el código mostrado no coincide, revisar orden `D C B A`, entradas de blanking/lamp test y valores BCD inválidos. En codificadores, múltiples entradas activas sin prioridad producen códigos ambiguos.
+
+## 21. Preguntas orientadoras y trabajo independiente
+
+- ¿Qué sucede si se activan dos entradas del codificador?
+- ¿Cómo indica el circuito que ninguna entrada es válida?
+- ¿Qué significa una salida activa en bajo en la tabla y el montaje?
+- ¿Cuál es la corriente total en el peor dígito?
+- ¿Visualizar un número aporta más que indicadores de estado en este proyecto?
+
+El grupo entregará tabla completa, selección de CI/display, cálculo de resistencias, simulación, mediciones, prueba de código inválido y justificación de la interfaz de usuario elegida.
+
+## 22. Referencias de estudio
+
+- Floyd, 9.ª ed., cap. 6, sec. 6.5, pp. 348–358: decodificadores y controlador BCD–7 segmentos.
+- Ibid., sec. 6.6, pp. 359–363: codificadores y prioridad.
+- Ibid., sec. 6.7, pp. 364–366: convertidores de código.
+- Ibid., desarrollo del 74LS47, pp. 356–358: salidas activas en bajo y display de 7 segmentos.
+
+## 23. Ruta de profundización recomendada
+
+1. **Decodificación y display:** Floyd, cap. 6, sec. 6.5, pp. 348–358.
+2. **Caso 74LS47:** pp. 356–358, acompañado por su hoja de datos.
+3. **Codificación y prioridad:** cap. 6, sec. 6.6, pp. 359–363.
+4. **Conversión entre códigos:** cap. 6, sec. 6.7, pp. 364–366; volver al cap. 2, secs. 2.10–2.11, para BCD y códigos válidos.

@@ -2,6 +2,12 @@
 
 # Compuertas lógicas y primer montaje en protoboard
 
+## Metas de aprendizaje verificables
+
+- Pasar de requisito a tabla, expresión y circuito con compuertas.
+- Verificar alimentación, umbrales, carga, fan-out y entradas no utilizadas de un CI real.
+- Diagnosticar una discrepancia entre tabla, simulación y protoboard por nodos.
+
 ## 1. Propósito de la semana
 
 Convertir las variables digitales del proyecto en una primera función de decisión e implementarla mediante compuertas lógicas, simulación y montaje en protoboard.
@@ -182,3 +188,64 @@ El circuito inicial utiliza una compuerta AND. Posteriormente se evaluará si la
 ## 17. Conexión con la Semana 09
 
 La siguiente semana se simplificará la función mediante álgebra de Boole, De Morgan y mapas de Karnaugh. Después se actualizarán la simulación y el montaje en protoboard.
+
+## 18. Profundización funcional y eléctrica
+
+Una puerta lógica implementa una función, pero el encapsulado real también impone alimentación, corriente, fan-out, retardo y umbrales. AND exige todas las condiciones; OR, al menos una; NOT invierte; XOR detecta diferencia o paridad impar; XNOR detecta igualdad. NAND y NOR son universales porque permiten construir cualquier función.
+
+Para una salida que alimenta varias entradas, el fan-out debe comprobarse por corriente:
+
+\[
+FO_H=\frac{|I_{OH,max}|}{I_{IH,max}},\qquad FO_L=\frac{I_{OL,max}}{|I_{IL,max}|}
+\]
+
+Se usa el menor valor. Los márgenes de ruido se estiman con `NM_H=V_OH(min)-V_IH(min)` y `NM_L=V_IL(max)-V_OL(max)`. Estas relaciones explican por qué una salida visualmente “alta” puede no estar garantizada y por qué una carga pesada degrada el nivel.
+
+## 19. Ejemplo guiado adaptado
+
+Para `Y=A·B`, `A=1` significa oscuridad y `B=1` habilitación. La tabla contiene cuatro casos y solo `11` activa el LED. Con un SN74LS08:
+
+1. Se identifica el pin de la puerta, `VCC` y `GND` en la hoja de datos.
+2. Los switches fijan niveles definidos; ninguna entrada queda abierta.
+3. El LED lleva resistencia y se conecta según la capacidad de source/sink de la familia.
+4. Se miden las tensiones de `A`, `B` y `Y`, no solo el estado visual.
+
+Si la salida lógica controla una carga mayor, se mantiene como señal y se utiliza la etapa BJT/MOSFET del Corte 1. Una puerta no debe accionar un relé directamente.
+
+## 20. Procedimiento de simulación y Lab 01
+
+1. Construir y revisar la tabla antes del esquema.
+2. Simular los cuatro casos y etiquetar entradas/salida.
+3. Consultar pinout, alimentación, entradas no utilizadas y límites de corriente.
+4. Montar rieles de alimentación y medirlos antes de insertar el CI.
+5. Aplicar combinaciones en orden Gray para cambiar un bit a la vez cuando sea útil.
+6. Registrar tensión de entrada y salida de cada caso.
+7. Comparar tabla, simulación y montaje.
+8. Integrar la salida con la etapa de potencia mediante referencia común y niveles compatibles.
+
+## 21. Diagnóstico sistemático
+
+La localización de averías sigue alimentación → entradas → puerta → salida → carga. Si todas las combinaciones fallan igual, se sospecha alimentación, referencia o pinout. Si falla solo una combinación, se revisa la entrada que cambia y la tabla. Si la salida del CI es correcta pero el LED no, la falla está aguas abajo. Sustituir el integrado es la última prueba, no la primera.
+
+## 22. Preguntas orientadoras y trabajo independiente
+
+- ¿La expresión representa realmente el requisito verbal?
+- ¿Qué entradas no usadas deben fijarse y cómo?
+- ¿Son compatibles los niveles entre sensor, CI y transistor?
+- ¿Cuántas cargas puede manejar la salida?
+- ¿Qué patrón mínimo aísla una puerta defectuosa?
+
+El grupo documentará tabla, expresión, CI real, pinout, límites eléctricos, simulación, cuatro mediciones y una falla provocada segura. Explicará cómo la salida se conecta a la carga sin exceder al CI.
+
+## 23. Referencias de estudio
+
+- Floyd, 9.ª ed., cap. 3, secs. 3.1–3.6, pp. 124–154: NOT, AND, OR, NAND, NOR, XOR y XNOR.
+- Ibid., sec. 3.8, pp. 164–173; sec. 3.9, pp. 174–197: lógica de función fija y localización de averías.
+- Ibid., cap. 14, secs. 14.1–14.5, pp. 884–914: niveles, disipación, retardos, fan-out, CMOS y TTL.
+
+## 24. Ruta de profundización recomendada
+
+1. **Funciones lógicas:** Floyd, cap. 3, secs. 3.1–3.6, pp. 124–154.
+2. **Circuitos integrados reales:** cap. 3, sec. 3.8, pp. 164–173.
+3. **Diagnóstico prioritario:** cap. 3, sec. 3.9, pp. 174–197.
+4. **Profundización eléctrica:** cap. 14, secs. 14.1–14.5, pp. 884–914, comparando niveles, corriente, fan-out, potencia y retardo TTL/CMOS.

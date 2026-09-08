@@ -2,6 +2,12 @@
 
 # Proyecto físico definitivo, maqueta y sustentación ABPr
 
+## Metas de aprendizaje verificables
+
+- Validar el sistema integrado con casos normal, límite y de falla, usando mediciones repetibles.
+- Defender decisiones, márgenes, correcciones y limitaciones con trazabilidad documental.
+- Demostrar dominio individual del sistema completo y un método de diagnóstico por bloques.
+
 ## 1. Propósito de la semana
 
 Demostrar la integración de los aprendizajes mediante la presentación del proyecto físico definitivo, su maqueta o base de presentación, el informe, el video y la sustentación grupal e individual.
@@ -159,3 +165,73 @@ Cada estudiante deberá responder:
 ## 13. Entrega final
 
 La entrega se realizará según las indicaciones del docente y deberá contener todos los productos definidos en la rúbrica del proyecto final ABPr.
+
+## 14. Profundización integradora sin tema nuevo
+
+El proyecto final no es una colección de laboratorios. Es una solución trazable desde la necesidad hasta la evidencia. La arquitectura debe permitir seguir energía e información:
+
+```text
+variable física → sensor/acondicionamiento → decisión lógica
+→ memoria o aplicación combinacional, si aporta → etapa de potencia
+→ carga/indicador → medición y realimentación
+```
+
+Cada bloque debe declarar rangos de entrada/salida, referencia eléctrica, consumo, función y prueba. Integrar significa además comprobar compatibilidad de niveles, tierra común o aislamiento, corriente de salida, arranque seguro y respuesta ante fallas. Un circuito que funciona por separado puede fallar al integrarse por caída de fuente, ruido, carga, polaridad o estados transitorios.
+
+## 15. Caso de validación guiada
+
+Antes de sustentar, el equipo selecciona un caso normal, uno límite y uno de falla:
+
+1. **Normal:** la variable cruza el umbral y la salida responde como predice la tabla.
+2. **Límite:** se aplica el valor cercano al umbral o máxima carga y se miden estabilidad, tensión y corriente.
+3. **Falla segura:** se desconecta una entrada, se abre una carga en simulación o se aplica un código inválido previsto; el equipo formula hipótesis, mide y recupera el sistema.
+
+Para cada caso se registra requisito, estímulo, valor esperado, valor medido, tolerancia, resultado y acción. La demostración debe poder repetirse, no depender de acomodar cables durante la presentación.
+
+## 16. Coherencia cuantitativa final
+
+Se verifican al menos:
+
+- balance de corriente de la fuente y margen de potencia;
+- tensión de alimentación en cada CI durante carga máxima;
+- rizado o estabilidad de la etapa analógica;
+- niveles ALTO/BAJO en interfaces;
+- caída y disipación en BJT/MOSFET;
+- cobertura de tabla de verdad y secuencia de estados;
+- tiempo de respuesta y estado al encender;
+- costo/BOM y correspondencia entre referencias y montaje.
+
+La diferencia entre simulación y medición se explica por modelos, tolerancias, temperatura, instrumentos y montaje. “En físico da distinto” no es análisis suficiente.
+
+## 17. Diagnóstico durante la sustentación
+
+El estudiante debe poder aislar una falla con el orden: energía → referencias → entradas → procesamiento → salida → carga. Se busca el primer nodo donde el valor real difiere del esperado. Después se corrige una causa y se repite la prueba. El modelo de integración progresiva de Floyd —lógica combinacional, temporización, secuencia, interfaz y localización de averías— orienta esta demostración sin imponer el ejemplo de semáforo como proyecto.
+
+## 18. Preguntas orientadoras para dominio individual
+
+- ¿Qué decisión de diseño cambió después de cada preproyecto y qué evidencia la motivó?
+- ¿Cuál es el peor caso eléctrico del prototipo?
+- ¿Qué pasaría si una entrada queda flotante o la fuente cae 10 %?
+- ¿Cómo se demuestra que la tabla, la simulación y el montaje son equivalentes?
+- ¿Por qué se eligió BJT o MOSFET?
+- ¿Qué bloque combinacional/secuencial aporta valor y cuál se descartó?
+- ¿Qué medición localizaría una falla sin reemplazar componentes?
+- ¿Cuál es la principal limitación y la siguiente mejora viable?
+
+## 19. Trabajo independiente final
+
+Realizar ensayo cronometrado, revisión cruzada del informe y una prueba en frío después de transportar el prototipo. Congelar una versión del esquema, código de estados y BOM; rotular conectores; preparar repuestos no destructivos; y conservar evidencia de la prueba final. Cada integrante debe explicar el sistema completo y no solo el bloque que montó.
+
+## 20. Referencias de integración
+
+- Floyd, 9.ª ed., caps. 6–8, pp. 328–522: aplicaciones combinacionales, flip-flops y contadores; la aplicación progresiva de control de semáforos se usa como modelo de documentación e integración, no como reproducción.
+- Ibid., cap. 3, sec. 3.9, pp. 174–197 y cap. 5, sec. 5.7: localización de averías en puertas y sistemas combinacionales.
+- Ibid., cap. 14, pp. 884–914: niveles, carga, disipación y retardo TTL/CMOS.
+- Boylestad y Nashelsky, 10.ª ed., cap. 2, sec. 2.12, p. 103; cap. 4, secs. 4.15–4.18, pp. 206–228; cap. 7, secs. 7.12 y 7.15, pp. 445–462: aplicaciones y diagnóstico de la etapa analógica y de potencia.
+
+## 21. Ruta de profundización recomendada
+
+1. **Bloque analógico débil:** Boylestad, cap. 2 para diodos/fuente, cap. 4 para BJT o cap. 7 para MOSFET; priorizar sus secciones de aplicaciones y fallas.
+2. **Bloque combinacional:** Floyd, caps. 5–6, pp. 270–382.
+3. **Bloque secuencial:** Floyd, caps. 7–8, pp. 412–522.
+4. **Integridad eléctrica y diagnóstico:** Floyd, cap. 3, sec. 3.9, y cap. 14. La lectura final debe seguir la limitación real encontrada en las pruebas, no añadir bloques nuevos antes de la sustentación.

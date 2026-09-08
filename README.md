@@ -39,6 +39,8 @@ Los enunciados controlados y las entregas se manejarán mediante **Teams**. El r
 - [Guía de Thomas Floyd para los cortes 2 y 3](referencias/FLOYD_CORTES_2_3.md)
 - [Banco de ejercicios adaptados de Floyd](ejercicios/EJERCICIOS_ADAPTADOS_FLOYD_CORTES_2_3.md)
 
+Los 17 marcos teóricos semanales incluyen una ruta de lectura para profundizar por capítulos y secciones: Boylestad, 10.ª edición, guía el Corte 1; Floyd, 9.ª edición, guía los Cortes 2 y 3. Las explicaciones, valores y ejercicios son propios del curso y las fuentes se citan sin reproducir extensamente los libros.
+
 ## Evaluación y proyecto
 
 - [Evaluación de la asignatura](EVALUACION.md)

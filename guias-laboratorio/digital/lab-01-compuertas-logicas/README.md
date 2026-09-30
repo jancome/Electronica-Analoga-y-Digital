@@ -2,6 +2,8 @@
 
 ## Guía
 
+- [Guía del estudiante en PDF](guia-lab-01-compuertas-logicas-estudiante.pdf): práctica de compuertas, once diagramas conservados, tablas y mediciones.
+
 - [Resumen Lab 01 – Compuertas lógicas](resumen-lab-01-compuertas-logicas.md)
 
 ## Propósito

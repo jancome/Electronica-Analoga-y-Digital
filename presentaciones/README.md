@@ -18,4 +18,8 @@ Las diapositivas son apoyo visual para la clase y se complementan con los marcos
 - [Estrategia ABPr](../ABPR_PROYECTO_DE_CURSO.md)
 - [Cronograma](../CRONOGRAMA_2026_2.md)
 
+## Presentación disponible
+
+- [Semana 08 – Compuertas lógicas](semana-08-compuertas-logicas.pptx): tablas de verdad, circuito por etapas, tres problemas aplicados y cierre del Lab 01.
+
 Las versiones utilizadas en clase también podrán publicarse en **Microsoft Teams** junto con las actividades correspondientes.

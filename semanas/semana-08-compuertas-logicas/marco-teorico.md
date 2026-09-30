@@ -68,14 +68,42 @@ La tabla de verdad contiene todas las combinaciones posibles. Para `n` variables
 2ⁿ combinaciones
 ```
 
-Para dos variables A y B:
+Para dos variables A y B, esta tabla permite cerrar las seis funciones de dos entradas. NOT actúa sobre una sola variable: `¬0=1` y `¬1=0`.
 
-| A | B | A·B | A+B | A⊕B |
-|---|---|---|---|---|
-| 0 | 0 | 0 | 0 | 0 |
-| 0 | 1 | 0 | 1 | 1 |
-| 1 | 0 | 0 | 1 | 1 |
-| 1 | 1 | 1 | 1 | 0 |
+| A | B | AND `A·B` | OR `A+B` | NAND `¬(A·B)` | NOR `¬(A+B)` | XOR `A⊕B` | XNOR `¬(A⊕B)` |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 1 | 1 | 0 | 1 | 0 |
+| 1 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |
+| 1 | 1 | 1 | 1 | 0 | 0 | 0 | 1 |
+
+OR se activa si **al menos una** entrada vale 1, incluso cuando ambas valen 1. XOR se activa si las entradas **son distintas**. NAND y NOR invierten las salidas completas de AND y OR; la barra de negación abarca toda la operación.
+
+### 6.1 De un circuito de varias etapas a su tabla
+
+La presentación de José Caicedo suministrada para la clase muestra un circuito de tres entradas con señales intermedias. Reescrito con una notación uniforme:
+
+```text
+U = ¬A
+V = U·B
+W = B·C
+X = V+W
+```
+
+Se calcula cada columna de izquierda a derecha. Por ejemplo, para `A=0, B=1, C=0`: `U=1`, `V=1`, `W=0` y `X=1`.
+
+| A | B | C | U=¬A | V=U·B | W=B·C | X=V+W |
+|---:|---:|---:|---:|---:|---:|---:|
+| 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 0 | 0 | 0 | 0 |
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 0 | 0 | 1 | 1 |
+
+Con tres entradas hay ocho filas. En un circuito de cuatro entradas habrá 16; no se deben omitir combinaciones cuando se solicita una tabla completa. Identifique primero cada salida intermedia y **después** calcule la salida final. Esta secuencia evita adivinar el resultado por la forma del dibujo.
 
 ## 7. Compuertas universales
 
@@ -129,7 +157,7 @@ La tabla de verdad es:
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-El circuito inicial utiliza una compuerta AND. Posteriormente se evaluará si la lógica requiere simplificación o más variables.
+El circuito inicial utiliza una compuerta AND. Después de este ejemplo se desarrollan [tres problemas aplicados](problemas-aplicados.md) de iluminación, permiso de bombeo y diagnóstico de sensores. Cada uno requiere tabla completa, expresión, circuito y verificación por casos.
 
 ## 12. Procedimiento de simulación y montaje
 
@@ -172,13 +200,19 @@ El circuito inicial utiliza una compuerta AND. Posteriormente se evaluará si la
 4. ¿Por qué NAND y NOR son universales?
 5. ¿Qué etapa se necesita para controlar una carga mayor?
 
-## 16. Trabajo independiente
+## 16. Cierre y laboratorio 01
 
-- Completar el Lab 01.
-- Corregir el montaje.
-- Documentar todas las combinaciones.
-- Preparar la expresión lógica del proyecto para simplificarla en la Semana 09.
+1. Termine la tabla maestra de NAND, NOR, XOR y XNOR y explique por qué OR y XOR difieren en `A=B=1`.
+2. Analice el circuito por etapas y complete los [tres problemas aplicados](problemas-aplicados.md).
+3. Realice la [guía del laboratorio 01 de compuertas lógicas](../../guias-laboratorio/digital/lab-01-compuertas-logicas/guia-lab-01-compuertas-logicas.md): identificación de CI, mediciones, tablas y simulación.
+4. Compare las salidas lógicas esperadas con las medidas. No trate `0` y `1` como tensiones exactas de `0 V` y `5 V`.
+5. Documente el montaje y deje preparada la expresión del proyecto para la simplificación posterior.
 
 ## 17. Conexión con la Semana 09
 
-La siguiente semana se simplificará la función mediante álgebra de Boole, De Morgan y mapas de Karnaugh. Después se actualizarán la simulación y el montaje en protoboard.
+Una vez comprobadas las compuertas y el laboratorio 01, se simplificará la función mediante álgebra de Boole, De Morgan y mapas de Karnaugh. Después se actualizarán la simulación y el montaje en protoboard. Si el grupo aún está terminando NAND, NOR, XOR y XNOR, cierre primero estos contenidos antes de iniciar la simplificación.
+
+## Referencias para este cierre
+
+- José Caicedo Ortiz, *3. Compuertas lógicas*, PDF suministrado por el docente, pp. 3–12. Se contrastaron sus tablas y el ejemplo de circuito por señales intermedias.
+- José Caicedo, [*Introducción a las compuertas lógicas*](https://www.youtube.com/watch?v=-XmCSXRkrBw&t=1200s), video de apoyo compartido por el docente.

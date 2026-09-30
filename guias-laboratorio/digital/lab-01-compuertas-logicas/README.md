@@ -1,10 +1,12 @@
 # Lab 01 – Compuertas lógicas
 
-## Guía
+## Guía e informe
 
-- [Guía del estudiante en PDF](guia-lab-01-compuertas-logicas-estudiante.pdf): práctica de compuertas, once diagramas conservados, tablas y mediciones.
+- [Guía de laboratorio 01 – Compuertas lógicas](guia-lab-01-compuertas-logicas.md): se lee directamente en GitHub, como las guías de Analógica. Conserva los once dibujos de la experiencia original, el procedimiento, las tablas, la simulación y el cuestionario.
+- [Informe editable para estudiantes](informe-lab-01-compuertas-logicas.html): contiene la guía y campos para completar las tablas y respuestas. En GitHub, use **Download raw file** para guardar el HTML y ábralo en un navegador. No requiere cuenta ni modifica el repositorio.
+- [Resumen Lab 01 – Compuertas lógicas](resumen-lab-01-compuertas-logicas.md).
 
-- [Resumen Lab 01 – Compuertas lógicas](resumen-lab-01-compuertas-logicas.md)
+El botón **Descargar informe editable** crea una copia autónoma con las respuestas actuales; úselo para conservar el avance. **Imprimir o guardar PDF** permite entregar una copia final si el docente la solicita. Conserve también las fotos de los montajes y las capturas de simulación para adjuntarlas a la entrega.
 
 ## Propósito
 

@@ -69,7 +69,7 @@ Los enunciados controlados y las entregas se manejarán mediante **Teams**. El r
 - [Lab 01 – Compuertas lógicas](guias-laboratorio/digital/lab-01-compuertas-logicas/README.md)
 - [Lab 02 – Álgebra booleana](guias-laboratorio/digital/lab-02-algebra-booleana/README.md)
 - [Lab 03 – Teorema de De Morgan](guias-laboratorio/digital/lab-03-teorema-demorgan/README.md)
-- [Lab 04 – XOR y aplicaciones](guias-laboratorio/digital/lab-04-xor-aplicaciones/README.md)
+- [Lab 04 – XOR y aplicaciones](guias-laboratorio/digital/lab-04-xor-aplicaciones/README.md) — guía interactiva con tablas descargables y PDF original.
 - [Lab 05 – Sumadores y aplicaciones](guias-laboratorio/digital/lab-05-sumadores-aplicaciones/README.md)
 - [Lab 07 – Codificadores y decodificadores](guias-laboratorio/digital/lab-07-codificadores-decodificadores/README.md)
 - [Lab 08 – Multiplexores y demultiplexores](guias-laboratorio/digital/lab-08-multiplexores-demultiplexores/README.md)
@@ -81,3 +81,4 @@ Los enunciados controlados y las entregas se manejarán mediante **Teams**. El r
 ## Seguridad
 
 Los montajes de laboratorio y protoboard deben operar en baja tensión. No se permite conectar circuitos estudiantiles directamente a la red eléctrica de 120 V.
+

@@ -27,7 +27,7 @@ Estas tres notas internas conforman la nota final de la guía. El informe puede 
 - [Lab 01 – Compuertas lógicas](digital/lab-01-compuertas-logicas/README.md)
 - [Lab 02 – Álgebra booleana](digital/lab-02-algebra-booleana/README.md)
 - [Lab 03 – Teorema de De Morgan](digital/lab-03-teorema-demorgan/README.md)
-- [Lab 04 – XOR y aplicaciones](digital/lab-04-xor-aplicaciones/README.md)
+- [Lab 04 – XOR y aplicaciones](digital/lab-04-xor-aplicaciones/README.md) — guía interactiva con tablas descargables y PDF original.
 - [Lab 05 – Sumadores y aplicaciones](digital/lab-05-sumadores-aplicaciones/README.md)
 - [Lab 07 – Codificadores y decodificadores](digital/lab-07-codificadores-decodificadores/README.md)
 - [Lab 08 – Multiplexores y demultiplexores](digital/lab-08-multiplexores-demultiplexores/README.md)
@@ -43,3 +43,4 @@ La [ruta 3.1 a 3.7](../CORTE_3_APLICACIONES.md) relaciona las guías con las pr�
 ## Entrega general
 
 Cada guía debe entregarse con evidencias suficientes: simulación, montaje o captura del circuito, tablas de datos, cálculos, análisis de resultados, conclusiones propias y aportes individuales claramente identificados.
+

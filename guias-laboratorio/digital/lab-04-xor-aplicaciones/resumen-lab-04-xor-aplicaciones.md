@@ -3,58 +3,47 @@
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2
 
+## Material de la práctica
+
+- [Guía completa con figuras y tablas](guia-lab-04-xor-aplicaciones.md).
+- [Informe interactivo descargable](informe-lab-04-xor-aplicaciones.html).
+- [PDF original](guia-original-lab-04-xor-aplicaciones.pdf).
+- [Instrucciones para descargar y guardar resultados](README.md).
+
 ## Propósito
 
-Estudiar la compuerta OR exclusiva, su comportamiento lógico y sus aplicaciones en circuitos combinacionales como medio sumador y medio restador.
+Estudiar la función XOR y comprobar sus aplicaciones mediante montaje, simulación y medición, siguiendo la experiencia original proporcionada por el docente.
 
-## Lo que se espera comprobar
+## Recursos del PDF
 
-- Tabla de verdad de la compuerta XOR.
-- Implementación de XOR con circuito integrado dedicado.
-- Construcción de XOR a partir de compuertas básicas.
-- Uso de XOR como detector de diferencia entre bits.
-- Suma, acarreo, diferencia y préstamo en aplicaciones de un bit.
-
-## Temas asociados
-
-- Compuerta XOR.
-- Compuerta XNOR.
-- Medio sumador.
-- Medio restador.
-
-## Recursos sugeridos
-
-- Protoboard.
-- Fuente DC de 5 V.
-- Multímetro digital.
-- LED indicadores.
-- Resistencias.
-- Cables de conexión.
-- Circuitos integrados 7486, 7408, 7432, 7404 o equivalentes.
+- IC 7400, 7402, 7404, 7420 y 7486.
+- Cables de conexión y protoboard.
+- Fuente de corriente directa y multímetro.
+- Hojas de datos de las referencias completas.
 - Software de simulación.
 
-## Desarrollo de la práctica
+Verifique alimentación, terminales y límites eléctricos antes de conectar. El procedimiento original utiliza 0 V y +5 V.
 
-1. Construir la tabla de verdad de XOR y XNOR.
-2. Simular la compuerta XOR.
-3. Implementar XOR con circuito integrado dedicado.
-4. Construir una aplicación básica con XOR.
-5. Comprobar medio sumador y medio restador para las cuatro combinaciones de entrada.
-6. Comparar teoría, simulación y montaje.
+## Desarrollo
 
-## Evidencias
+| Tabla | Circuito | Trabajo indicado en el PDF |
+|---|---|---|
+| 1 | XOR y salida complementaria | Montaje y medición de X̄ y X |
+| 2 | XOR con NOR e inversores | Montaje y medición de X |
+| 3 | XOR con NOR, NAND e inversor | Montaje y medición de X |
+| 4 | XOR con 74LS86 | Montaje y medición de X |
+| 5 | Medio sumador | Montaje y medición de S y C |
+| 6 | Medio sustractor (A) | Simulación y medición de D y Bo |
+| 7 | Comparador binario (B) | Simulación, ajuste de B3…B0 hasta X < 0,5 V |
+| 8 | Generador de paridad (C) | Simulación y medición de X |
 
-- Tablas de verdad.
-- Circuitos usados.
-- Capturas de simulación.
-- Fotos o capturas del montaje.
-- Análisis de resultados.
-- Conclusiones.
+## Análisis y evidencias
 
-## Entrega
+Compare teoría y medición. Identifique los resultados más cercanos y más alejados de la referencia entre los circuitos 1 a 5. El error porcentual requiere una referencia distinta de cero; para VE = 0 V, use el error absoluto. Los valores ideales no sustituyen la hoja de datos.
 
-Informe con montaje, simulación, tablas de verdad, evidencias y análisis de resultados.
+Conserve fotos del montaje, al menos una captura de cada circuito simulado, las respuestas al cuestionario, conclusiones y aportes individuales. El interactivo permite exportar CSV, guardar un informe HTML con evidencias, respaldar JSON e imprimir PDF.
 
 ## Alcance en el tercer corte
 
-Esta práctica apoya el tema 3.2. Las actividades de comparación y paridad que aparezcan en la guía original se conservan como ampliación opcional, fuera del temario obligatorio.
+Esta práctica apoya el tema 3.2. Los circuitos B y C de comparación y paridad del PDF se conservan completos como ampliación opcional, fuera del temario obligatorio.
+

@@ -11,7 +11,7 @@ El tercer corte no tendrá parcial escrito. El componente principal será el pro
 | Taller 1 – Corte 3 | Miércoles 21 de octubre de 2026 – 2:00 p. m. | 2% |
 | Taller 2 investigativo – Corte 3 | Miércoles 4 de noviembre de 2026 – 2:00 p. m. | 2% |
 | Quiz 3 – Aplicaciones digitales | Miércoles 18 de noviembre de 2026 – 2:00 p. m. | 2% |
-| Labs 04 a 08 / avances prácticos | Semanas 12 a 15 | 4% |
+| Labs 04, 05, 07 y 08 / prácticas de los temas 3.1 a 3.7 | Semanas 12 a 16 | 4% |
 | Proyecto final con sustentación | Miércoles 25 de noviembre de 2026 – 2:00 p. m. | 20% |
 | **Total Corte 3** |  | **30%** |
 
@@ -24,10 +24,12 @@ El tercer corte no tendrá parcial escrito. El componente principal será el pro
 
 ## Temas del corte
 
-- XOR y XNOR.
-- Sumadores y restadores.
-- Comparadores y paridad.
-- Codificadores y decodificadores.
-- Multiplexores y demultiplexores.
-- Flip-flops y contadores.
-- Proyecto final.
+- 3.1 Diseño de aplicaciones basados en mapas de Karnaugh.
+- 3.2 Aplicaciones con sumadores y restadores.
+- 3.3 Aplicaciones con codificadores y decodificadores.
+- 3.4 Aplicaciones con multiplexores y demultiplexores.
+- 3.5 Teclado matricial y display 7 segmentos.
+- 3.6 Flip Flop.
+- 3.7 Aplicaciones con contadores.
+
+[Secuencia y prácticas](../../CORTE_3_APLICACIONES.md). El proyecto final integra las aplicaciones que correspondan al problema elegido.

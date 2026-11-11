@@ -46,12 +46,14 @@ Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido
 | 9 | 28 septiembre al 04 octubre | Corte 2 / Fase 2 | Álgebra booleana, De Morgan y Karnaugh | Simplificación, simulación y ajuste del circuito | Labs 02 y 03 + avance funcional en protoboard |
 | 10 | 05 al 11 octubre | Receso | Receso institucional | Repaso y ajustes autónomos | Sin entrega nueva |
 | 11 | 12 al 18 octubre | Corte 2 / Fase 2 | Cierre de fundamentos digitales | Repaso, retroalimentación y parcial | Parcial 2 + Preproyecto ABPr 2 con simulación y protoboard |
-| 12 | 19 al 25 octubre | Corte 3 / Fase 3 | XOR, sumadores y restadores | Aplicaciones combinacionales e integración inicial | Labs 04 y 05 + integración física |
-| 13 | 26 octubre al 01 noviembre | Corte 3 / Fase 3 | Comparadores y paridad | Decisión, validación y alarmas | Lab 06 + avance funcional |
-| 14 | 02 al 08 noviembre | Corte 3 / Fase 3 | Codificadores, decodificadores y display | Visualización de estados y primera revisión física | Lab 07 + prototipo preliminar |
-| 15 | 09 al 15 noviembre | Corte 3 / Fase 3 | MUX/DEMUX y muestra de proyectos | Selección de señales, revisión de proyecto y maqueta | Lab 08 + muestra de prototipos |
-| 16 | 16 al 22 noviembre | Corte 3 / Fase 3 | Flip-flops, contadores y ajustes | Memoria, conteo, pruebas y correcciones | Quiz 3 + informe, video y ajustes finales |
+| 12 | 19 al 25 octubre | Corte 3 / Fase 3 | 3.1 Diseño con Karnaugh y 3.2 sumadores/restadores | Requisito, tabla, mapa, circuito y aritmética de bits | Práctica de Karnaugh + Labs 04 y 05 |
+| 13 | 26 octubre al 01 noviembre | Corte 3 / Fase 3 | 3.3 Codificadores y decodificadores | Codificación, prioridad y decodificación | Lab 07 + avance funcional |
+| 14 | 02 al 08 noviembre | Corte 3 / Fase 3 | 3.4 Multiplexores y demultiplexores | Selección y distribución de señales, primera revisión física | Lab 08 + prototipo preliminar |
+| 15 | 09 al 15 noviembre | Corte 3 / Fase 3 | 3.5 Teclado matricial y display 7 segmentos | Barrido, código de tecla, visualización y muestra del proyecto | Práctica teclado/display + muestra de prototipos |
+| 16 | 16 al 22 noviembre | Corte 3 / Fase 3 | 3.6 Flip Flop y 3.7 aplicaciones con contadores | Memoria, reloj, conteo, reinicio y pruebas | Práctica secuencial + Quiz 3 + ajustes finales |
 | 17 | 23 al 30 noviembre | Corte 3 / Fase 3 | Proyecto final y cierre | Presentación, demostración y preguntas individuales | Proyecto físico definitivo + maqueta + sustentación |
+
+La distribución del tercer corte sigue los [temas 3.1 a 3.7](CORTE_3_APLICACIONES.md). Las fechas son las referencias de la planeación y no un registro de clases ya impartidas.
 
 ## Distribución por cortes
 
@@ -76,14 +78,19 @@ Durante la semana del **5 al 11 de octubre de 2026** no se programará contenido
 
 ### Corte 3 – Aplicaciones e integración / Fase 3
 
-- Sumadores, restadores, comparadores y paridad.
-- Codificadores, decodificadores, MUX/DEMUX y display.
-- Flip-flops y contadores.
-- Integración analógica-digital.
-- Prototipo físico definitivo.
-- Maqueta o base de presentación.
-- Muestra y sustentación.
+- 3.1 Diseño de aplicaciones basados en mapas de Karnaugh.
+- 3.2 Aplicaciones con sumadores y restadores.
+- 3.3 Aplicaciones con codificadores y decodificadores.
+- 3.4 Aplicaciones con multiplexores y demultiplexores.
+- 3.5 Teclado matricial y display 7 segmentos.
+- 3.6 Flip Flop.
+- 3.7 Aplicaciones con contadores.
+
+- Integración analógica-digital y prototipo físico definitivo.
+- Maqueta o base de presentación, muestra y sustentación.
 - **Producto:** Proyecto final ABPr.
+
+Comparadores y paridad quedan como ampliación opcional, sin semana obligatoria propia.
 
 ## Observaciones metodológicas
 

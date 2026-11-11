@@ -1,4 +1,6 @@
-# Marco teórico – Semana 13
+# Marco teórico complementario
+
+> Material opcional. Comparadores y paridad no forman parte del temario obligatorio 3.1 a 3.7. La [semana 13 vigente](../semana-13-codificadores-decodificadores/README.md) desarrolla codificadores y decodificadores.
 
 # Comparadores, paridad y decisiones de control
 
@@ -142,8 +144,4 @@ Debe explicarse por qué se usa comparación y qué valor físico representa cad
 - Completar el Lab 06.
 - Documentar la aplicación de comparación o paridad.
 - Corregir el prototipo.
-- Preparar la primera revisión física de la Semana 14.
 
-## 15. Conexión con la Semana 14
-
-La siguiente semana se estudiarán codificadores, decodificadores y display de 7 segmentos para representar o visualizar estados del sistema.

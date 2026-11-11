@@ -92,9 +92,9 @@ El Proyecto final ABPr debe incluir prototipo físico, maqueta, informe, video, 
 | 09 | Labs 02 y 03, simplificación y montaje |
 | 10 | Receso institucional |
 | 11 | Parcial 2 y Preproyecto ABPr 2 |
-| 12 | Labs 04 y 05 e integración inicial |
-| 13 | Lab 06 y avance funcional |
-| 14 | Lab 07 y revisión física |
-| 15 | Lab 08 y muestra de prototipo y maqueta |
+| 12 | Práctica de Karnaugh y Labs 04/05 |
+| 13 | Lab 07 y avance funcional |
+| 14 | Lab 08 y revisión física |
+| 15 | Práctica teclado/display y muestra de prototipo y maqueta |
 | 16 | Quiz 3 y correcciones finales |
 | 17 | Proyecto físico definitivo y sustentación |

@@ -52,7 +52,9 @@ Los enunciados controlados y las entregas se manejarán mediante **Teams**. El r
 
 1. **Electrónica analógica básica:** diodos, rectificación, Zener, BJT y MOSFET.
 2. **Lógica combinacional:** sistemas numéricos, aritmética binaria, compuertas, álgebra de Boole y Karnaugh.
-3. **Aplicaciones combinacionales y secuenciales:** sumadores, comparadores, codificadores, decodificadores, MUX/DEMUX, flip-flops y contadores.
+3. **Aplicaciones combinacionales y secuenciales:** diseño con Karnaugh, sumadores y restadores, codificadores y decodificadores, MUX/DEMUX, teclado matricial y display de 7 segmentos, flip-flops y aplicaciones con contadores.
+
+- [Temario del Corte 3: puntos 3.1 a 3.7 y prácticas](CORTE_3_APLICACIONES.md)
 
 ## Guías de laboratorio
 
@@ -69,9 +71,12 @@ Los enunciados controlados y las entregas se manejarán mediante **Teams**. El r
 - [Lab 03 – Teorema de De Morgan](guias-laboratorio/digital/lab-03-teorema-demorgan/README.md)
 - [Lab 04 – XOR y aplicaciones](guias-laboratorio/digital/lab-04-xor-aplicaciones/README.md)
 - [Lab 05 – Sumadores y aplicaciones](guias-laboratorio/digital/lab-05-sumadores-aplicaciones/README.md)
-- [Lab 06 – Comparadores y paridad](guias-laboratorio/digital/lab-06-comparadores-paridad/README.md)
 - [Lab 07 – Codificadores y decodificadores](guias-laboratorio/digital/lab-07-codificadores-decodificadores/README.md)
 - [Lab 08 – Multiplexores y demultiplexores](guias-laboratorio/digital/lab-08-multiplexores-demultiplexores/README.md)
+
+### Material complementario opcional
+
+- [Lab 06 – Comparadores y paridad](guias-laboratorio/digital/lab-06-comparadores-paridad/README.md). No forma parte del temario obligatorio del tercer corte.
 
 ## Seguridad
 

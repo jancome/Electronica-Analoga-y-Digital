@@ -8,6 +8,7 @@ Esta guía resume cómo se trabajará la asignatura y dónde encontrar cada recu
 |---|---|
 | Programa general | [Syllabus resumido](SYLLABUS.md) |
 | Fechas y temas | [Cronograma 2026-2](CRONOGRAMA_2026_2.md) |
+| Temario del tercer corte | [Temas 3.1 a 3.7 y prácticas](CORTE_3_APLICACIONES.md) |
 | Material semanal | [Semanas de clase](semanas/README.md) |
 | Presentaciones | [Presentaciones semanales](presentaciones/README.md) |
 | Guías de laboratorio | [Guías de laboratorio](guias-laboratorio/README.md) |

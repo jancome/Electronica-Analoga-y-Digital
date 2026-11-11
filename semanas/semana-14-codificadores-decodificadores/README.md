@@ -1,27 +1,8 @@
-# Semana 14 – Codificadores y decodificadores
+# Ruta anterior
 
-## Corte
+Este contenido se trasladó al alinear el tercer corte con los temas 3.1 a 3.7.
 
-Corte 3 – Aplicaciones combinacionales y secuenciales.
+- [Contenido vigente](../semana-13-codificadores-decodificadores/README.md)
+- [Temario del tercer corte](../../CORTE_3_APLICACIONES.md)
 
-## Propósito
-
-Analizar circuitos de codificación y decodificación, incluyendo aplicaciones con BCD y display de 7 segmentos.
-
-## Marco teórico
-
-- [Marco teórico – Semana 14](marco-teorico.md)
-
-## Desarrollo de la clase
-
-- Codificadores.
-- Codificadores con prioridad.
-- Decodificadores.
-- Código BCD.
-- Decodificador BCD a 7 segmentos.
-- Display de 7 segmentos.
-- Relación con Lab 07.
-
-## Entrega
-
-Simulación o montaje del Lab 07 con tabla de funcionamiento.
+Esta ruta se conserva para que los enlaces anteriores sigan funcionando.

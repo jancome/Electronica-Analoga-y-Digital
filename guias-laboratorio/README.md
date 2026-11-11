@@ -29,9 +29,16 @@ Estas tres notas internas conforman la nota final de la guía. El informe puede 
 - [Lab 03 – Teorema de De Morgan](digital/lab-03-teorema-demorgan/README.md)
 - [Lab 04 – XOR y aplicaciones](digital/lab-04-xor-aplicaciones/README.md)
 - [Lab 05 – Sumadores y aplicaciones](digital/lab-05-sumadores-aplicaciones/README.md)
-- [Lab 06 – Comparadores y paridad](digital/lab-06-comparadores-paridad/README.md)
 - [Lab 07 – Codificadores y decodificadores](digital/lab-07-codificadores-decodificadores/README.md)
 - [Lab 08 – Multiplexores y demultiplexores](digital/lab-08-multiplexores-demultiplexores/README.md)
+
+### Material complementario opcional
+
+- [Lab 06 – Comparadores y paridad](digital/lab-06-comparadores-paridad/README.md). No forma parte del temario obligatorio del tercer corte.
+
+## Prácticas del tercer corte
+
+La [ruta 3.1 a 3.7](../CORTE_3_APLICACIONES.md) relaciona las guías con las prácticas de Karnaugh, teclado matricial/display, flip-flops y contadores. Se conserva la numeración de las guías originales.
 
 ## Entrega general
 

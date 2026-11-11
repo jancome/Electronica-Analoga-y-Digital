@@ -12,6 +12,8 @@ Las diapositivas son apoyo visual para la clase y se complementan con los marcos
 | Fase 2 | 06–11 | Diseño lógico, simulación y protoboard. |
 | Fase 3 | 12–17 | Integración física, maqueta, pruebas y sustentación. |
 
+Las presentaciones del tercer corte deben seguir los [temas 3.1 a 3.7](../CORTE_3_APLICACIONES.md). Comparadores y paridad se reservan para material complementario opcional.
+
 ## Consulta
 
 - [Semanas de clase](../semanas/README.md)

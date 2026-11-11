@@ -43,14 +43,14 @@ Este documento resume en qué semana se ubican los quizzes, talleres, talleres i
 
 | Semana | Actividad evaluativa o guía | Observación |
 |---:|---|---|
-| 12 | Labs 04 y 05 | XOR, sumadores y aplicaciones. |
+| 12 | Práctica de Karnaugh y Labs 04/05 | 3.1 Diseño con Karnaugh y 3.2 sumadores/restadores. |
 | 12 | Taller 1 Corte 3 – aplicación y diseño | Circuitos combinacionales y secuenciales básicos. |
-| 13 | Lab 06 | Comparadores y paridad. |
-| 14 | Lab 07 | Codificadores, decodificadores y display. |
+| 13 | Lab 07 | 3.3 Codificadores y decodificadores. |
+| 14 | Lab 08 | 3.4 Multiplexores y demultiplexores. |
 | 14 | Taller 2 investigativo Corte 3 | Investigación en inglés sobre aplicaciones digitales en ingeniería eléctrica. |
-| 15 | Lab 08 | Multiplexores y demultiplexores. |
+| 15 | Práctica de integración | 3.5 Teclado matricial y display 7 segmentos. |
 | 15 | Propuesta o avance de proyecto final | Revisión de idea, bloques, componentes y simulación inicial. |
-| 16 | Quiz 3 | Aplicaciones digitales combinacionales y secuenciales. |
+| 16 | Práctica secuencial y Quiz 3 | 3.6 Flip Flop y 3.7 contadores. El quiz repasa los temas 3.1 a 3.7. |
 | 16 | Avance de proyecto final | Revisión de simulación, montaje o evidencias parciales. |
 | 17 | Proyecto final con sustentación | No hay parcial escrito en el tercer corte. |
 

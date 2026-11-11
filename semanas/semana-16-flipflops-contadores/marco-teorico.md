@@ -26,7 +26,7 @@ Al finalizar la semana, el estudiante estará en capacidad de:
 
 La memoria permite construir contadores, registros, temporizadores y máquinas de estados.
 
-## 4. Flip-flop
+## 4. Tema 3.6 - Flip Flop
 
 Un flip-flop almacena un bit de información.
 
@@ -59,7 +59,7 @@ Las señales mecánicas pueden producir rebote y generar múltiples pulsos. Debe
 
 Entradas como preset y clear pueden modificar el estado sin esperar el reloj. Frecuentemente son activas en bajo y no deben dejarse flotantes.
 
-## 7. Contadores
+## 7. Tema 3.7 - Aplicaciones con contadores
 
 Un contador avanza por una secuencia de estados.
 
@@ -86,7 +86,7 @@ No debe agregarse lógica secuencial si no aporta a la situación problema.
 
 ## 9. Ejemplo aplicado
 
-Un sistema debe contar hasta cuatro activaciones de una carga y encender una advertencia en el cuarto evento. Se puede utilizar un contador de 2 bits y una lógica de detección del estado `11`.
+Un sistema comienza en `000`, cuenta cuatro activaciones y enciende una advertencia al llegar a `100`. Se requieren al menos 3 bits para representar los valores de 0 a 4. La secuencia de prueba es `000, 001, 010, 011, 100`. El estado `11` de un contador de 2 bits corresponde al tercer evento cuando se parte de cero. Debe definirse si, después de cuatro eventos, el contador se detiene, continúa o se reinicia.
 
 El diseño debe incluir:
 

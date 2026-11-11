@@ -14,18 +14,16 @@ Hasta ese momento, este archivo funciona únicamente como aviso de programación
 
 ## Temas que debe repasar el estudiante
 
-- Compuerta XOR y XNOR.
-- Medio sumador.
-- Sumador completo.
-- Comparadores.
-- Paridad par e impar.
-- Codificadores y decodificadores.
-- Multiplexores y demultiplexores.
-- Flip-flops.
-- Contadores básicos.
+- 3.1 Diseño de aplicaciones basados en mapas de Karnaugh.
+- 3.2 Aplicaciones con sumadores y restadores.
+- 3.3 Aplicaciones con codificadores y decodificadores.
+- 3.4 Aplicaciones con multiplexores y demultiplexores.
+- 3.5 Teclado matricial y display 7 segmentos.
+- 3.6 Flip Flop.
+- 3.7 Aplicaciones con contadores.
 
 ## Orientación
 
-El quiz será principalmente práctico. Tendrá ejercicios cortos de tablas de verdad, salidas lógicas, sumadores, comparadores, paridad, MUX/DEMUX y lógica secuencial básica.
+El quiz será principalmente práctico y se ajustará a los temas 3.1 a 3.7: diseño con Karnaugh, suma y resta, codificación/decodificación, MUX/DEMUX, teclado/display, flip-flops y contadores. Comparadores y paridad no forman parte del repaso obligatorio.
 
 No se publican los ejercicios antes de la hora programada.

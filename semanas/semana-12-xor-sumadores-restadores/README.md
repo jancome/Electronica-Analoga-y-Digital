@@ -1,27 +1,8 @@
-# Semana 12 – XOR, sumadores y restadores
+# Ruta anterior
 
-## Corte
+Este contenido se trasladó al alinear el tercer corte con los temas 3.1 a 3.7.
 
-Corte 3 – Aplicaciones combinacionales y secuenciales.
+- [Contenido vigente](../semana-12-karnaugh-sumadores-restadores/README.md)
+- [Temario del tercer corte](../../CORTE_3_APLICACIONES.md)
 
-## Propósito
-
-Analizar la compuerta XOR y aplicarla en circuitos aritméticos básicos como medio sumador, sumador completo y restador.
-
-## Marco teórico
-
-- [Marco teórico – Semana 12](marco-teorico.md)
-
-## Desarrollo de la clase
-
-- Compuerta XOR y XNOR.
-- Detección de diferencia entre bits.
-- Medio sumador.
-- Sumador completo.
-- Medio restador.
-- Restador completo, si aplica.
-- Relación con Labs 04 y 05.
-
-## Entrega
-
-Tablas de verdad, simulaciones y evidencias de Labs 04 y 05.
+Esta ruta se conserva para que los enlaces anteriores sigan funcionando.

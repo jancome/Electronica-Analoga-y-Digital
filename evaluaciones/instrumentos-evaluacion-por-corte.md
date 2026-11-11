@@ -88,20 +88,22 @@ Los preproyectos permiten recibir retroalimentación y corregir. El proyecto fin
 
 ## Temas
 
-- XOR, sumadores y restadores.
-- Comparadores y paridad.
-- Codificadores, decodificadores y display.
-- Multiplexores y demultiplexores.
-- Flip-flops y contadores.
-- Integración analógica-digital.
-- Prototipo físico y maqueta.
+- 3.1 Diseño de aplicaciones basados en mapas de Karnaugh.
+- 3.2 Aplicaciones con sumadores y restadores.
+- 3.3 Aplicaciones con codificadores y decodificadores.
+- 3.4 Aplicaciones con multiplexores y demultiplexores.
+- 3.5 Teclado matricial y display 7 segmentos.
+- 3.6 Flip Flop.
+- 3.7 Aplicaciones con contadores.
+
+Integración analógica-digital, prototipo físico y maqueta. [Ruta de prácticas](../CORTE_3_APLICACIONES.md).
 
 ## Instrumentos
 
 | Instrumento | Fecha | Peso |
 |---|---|---:|
 | Quiz 3 | 18 de noviembre de 2026 | 2% |
-| Labs 04 a 08 / avances prácticos | Semanas 12–15 | 4% |
+| Labs 04, 05, 07 y 08 / prácticas 3.1 a 3.7 | Semanas 12–16 | 4% |
 | Proyecto final ABPr | 25 de noviembre de 2026 | 24% |
 | **Total** |  | **30%** |
 

@@ -184,11 +184,11 @@ La evaluación final tendrá en cuenta:
 | 09 | Simplificación, simulación y avance en protoboard. |
 | 10 | Receso y ajustes autónomos. |
 | 11 | Entrega del Preproyecto ABPr 2 con simulación y protoboard. |
-| 12 | Integración de XOR, sumadores o restadores, cuando aplique. |
-| 13 | Comparadores, paridad o decisiones de control. |
-| 14 | Visualización mediante codificadores, decodificadores o display. Primera revisión física. |
-| 15 | Muestra de prototipos y revisión de la maqueta. |
-| 16 | Correcciones finales, pruebas, informe y video. |
+| 12 | Diseño con Karnaugh e integración de sumadores/restadores cuando aporten al proyecto. |
+| 13 | Codificación y decodificación de entradas o estados. |
+| 14 | Selección de señales con MUX/DEMUX y primera revisión física. |
+| 15 | Teclado matricial/display, muestra de prototipos y revisión de maqueta. |
+| 16 | Flip-flops y contadores, correcciones finales, pruebas, informe y video. |
 | 17 | Proyecto físico definitivo, maqueta y sustentación. |
 
 ## Organización de grupos

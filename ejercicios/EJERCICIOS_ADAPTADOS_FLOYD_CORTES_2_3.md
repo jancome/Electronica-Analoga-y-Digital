@@ -236,7 +236,9 @@ El grupo que recibe el montaje debe:
 
 # Corte 3
 
-## Semana 12 – XOR, sumadores y restadores
+## Semana 12 - 3.1 Karnaugh aplicado y 3.2 sumadores/restadores
+
+El diseño con Karnaugh parte de un requisito y termina en un circuito comprobado. [Ejemplo y tabla de la aplicación](../semanas/semana-12-karnaugh-sumadores-restadores/marco-teorico.md).
 
 ### Ejercicio 12.1 – Semi-sumador
 
@@ -273,46 +275,9 @@ Dos sensores redundantes deberían entregar el mismo estado. Diseñar una salida
 
 ---
 
-## Semana 13 – Comparadores y paridad
+## Semana 13 - 3.3 Codificadores y decodificadores
 
-### Ejercicio 13.1 – Comparación de consumo
-
-`A` representa el consumo actual y `B` el límite, ambos en 4 bits.
-
-Evaluar:
-
-```text
-A=0110, B=1001
-A=1010, B=1010
-A=1101, B=0101
-```
-
-Para cada caso indicar `A>B`, `A=B` y `A<B` y explicar la decisión de control que podría tomarse.
-
-### Ejercicio 13.2 – Comparador de 1 bit
-
-1. Construir la tabla completa.
-2. Obtener las expresiones de `A>B`, `A=B` y `A<B`.
-3. Implementar.
-4. Verificar las cuatro combinaciones.
-
-### Ejercicio 13.3 – Paridad
-
-Para cada palabra, generar el bit de paridad par:
-
-```text
-1011010
-0110011
-1111000
-```
-
-Luego modificar un bit y verificar la detección. Finalmente modificar dos bits y explicar la limitación observada.
-
----
-
-## Semana 14 – Codificadores y decodificadores
-
-### Ejercicio 14.1 – Decodificador de estados
+### Ejercicio 13.1 – Decodificador de estados
 
 Diseñar un decodificador para:
 
@@ -328,7 +293,7 @@ Diseñar un decodificador para:
 3. Implementar o simular.
 4. Indicar si las salidas son activas en alto o en bajo.
 
-### Ejercicio 14.2 – BCD a 7 segmentos
+### Ejercicio 13.2 – BCD a 7 segmentos
 
 Utilizando la hoja de datos del 74LS47:
 
@@ -340,7 +305,7 @@ Utilizando la hoja de datos del 74LS47:
 6. probar los códigos de 0 a 9;
 7. observar qué sucede con 10 a 15.
 
-### Ejercicio 14.3 – Prioridad
+### Ejercicio 13.3 – Prioridad
 
 Tres alarmas pueden activarse al mismo tiempo:
 
@@ -352,9 +317,9 @@ Diseñar una prioridad y producir un código de 2 bits que indique la condición
 
 ---
 
-## Semana 15 – Multiplexores y demultiplexores
+## Semana 14 - 3.4 Multiplexores y demultiplexores
 
-### Ejercicio 15.1 – MUX 4 a 1
+### Ejercicio 14.1 – MUX 4 a 1
 
 Cuatro señales `I0–I3` representan sensores. Completar la tabla de selección para `S1S0` y comprobar cada entrada.
 
@@ -364,7 +329,7 @@ Después responder:
 - ¿cuántas líneas de selección necesitaría un MUX 8 a 1?;
 - ¿qué ventaja aporta frente a conectar cuatro indicadores separados?
 
-### Ejercicio 15.2 – Función mediante MUX
+### Ejercicio 14.2 – Función mediante MUX
 
 Implementar con un MUX 4 a 1:
 
@@ -374,7 +339,7 @@ F(A,B,C)=Σm(1,2,6,7)
 
 Usar `A` y `B` como selectores y determinar qué debe conectarse en cada entrada de datos: `0`, `1`, `C` o `C̅`.
 
-### Ejercicio 15.3 – Distribución de alarma
+### Ejercicio 14.3 – Distribución de alarma
 
 Una entrada de alarma debe dirigirse a una de cuatro zonas mediante dos bits de selección.
 
@@ -385,7 +350,17 @@ Una entrada de alarma debe dirigirse a una de cuatro zonas mediante dos bits de 
 
 ---
 
-## Semana 16 – Flip-flops y contadores
+## Semana 15 - 3.5 Teclado matricial y display 7 segmentos
+
+La [práctica de integración](../semanas/semana-15-teclado-matricial-display/marco-teorico.md) relaciona fila, columna, código BCD y segmentos. Utiliza las bases de codificación, decodificación y selección de señales ya estudiadas.
+
+### Actividad 15.1 - Identificación y visualización
+
+Para las teclas 2, 5 y 0, identificar fila, columna, BCD y segmentos encendidos. Comprobar ausencia de tecla y pulsación prolongada. Explicar qué memoria se necesita para conservar el último dígito.
+
+---
+
+## Semana 16 - 3.6 Flip Flop y 3.7 aplicaciones con contadores
 
 ### Ejercicio 16.1 – Flip-flop D
 
@@ -459,3 +434,43 @@ Una respuesta numérica o una salida correcta no es suficiente. Debe existir coh
 ```text
 requisito = tabla = expresión = simulación = montaje = medición
 ```
+
+# Material complementario fuera del temario obligatorio 3.1 a 3.7
+
+## Ampliación opcional - Comparadores y paridad
+
+### Ejercicio C.1 – Comparación de consumo
+
+`A` representa el consumo actual y `B` el límite, ambos en 4 bits.
+
+Evaluar:
+
+```text
+A=0110, B=1001
+A=1010, B=1010
+A=1101, B=0101
+```
+
+Para cada caso indicar `A>B`, `A=B` y `A<B` y explicar la decisión de control que podría tomarse.
+
+### Ejercicio C.2 – Comparador de 1 bit
+
+1. Construir la tabla completa.
+2. Obtener las expresiones de `A>B`, `A=B` y `A<B`.
+3. Implementar.
+4. Verificar las cuatro combinaciones.
+
+### Ejercicio C.3 – Paridad
+
+Para cada palabra, generar el bit de paridad par:
+
+```text
+1011010
+0110011
+1111000
+```
+
+Luego modificar un bit y verificar la detección. Finalmente modificar dos bits y explicar la limitación observada.
+
+---
+

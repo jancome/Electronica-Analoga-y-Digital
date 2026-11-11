@@ -13,9 +13,12 @@ Estudiar la compuerta OR exclusiva, su construcción con compuertas básicas y s
 - Compuerta XOR.
 - Compuerta XNOR.
 - Medio sumador.
-- Comparador binario.
-- Generador de paridad.
+- Medio restador.
 
 ## Entrega
 
 Informe con montaje, simulación, tablas de verdad, evidencias y análisis de resultados.
+
+## Alcance en el tercer corte
+
+Esta práctica apoya el tema 3.2. Las actividades de comparación y paridad que aparezcan en la guía original se conservan como ampliación opcional, fuera del temario obligatorio.

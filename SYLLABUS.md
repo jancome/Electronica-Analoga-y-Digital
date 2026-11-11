@@ -77,13 +77,15 @@ Diseñar e implementar circuitos basados en semiconductores, compuertas lógicas
 
 ### Temas
 
-- XOR y XNOR.
-- Sumadores y restadores.
-- Comparadores y paridad.
-- Codificadores y decodificadores.
-- Teclado matricial y display de 7 segmentos.
-- Multiplexores y demultiplexores.
-- Flip-flops y contadores.
+- 3.1 Diseño de aplicaciones basados en mapas de Karnaugh.
+- 3.2 Aplicaciones con sumadores y restadores.
+- 3.3 Aplicaciones con codificadores y decodificadores.
+- 3.4 Aplicaciones con multiplexores y demultiplexores.
+- 3.5 Teclado matricial y display 7 segmentos.
+- 3.6 Flip Flop.
+- 3.7 Aplicaciones con contadores.
+
+[Secuencia y prácticas del tercer corte](CORTE_3_APLICACIONES.md).
 
 ### Fase ABPr asociada
 
@@ -93,9 +95,11 @@ Diseñar e implementar circuitos basados en semiconductores, compuertas lógicas
 
 - Lab 04 – XOR y aplicaciones.
 - Lab 05 – Sumadores y aplicaciones.
-- Lab 06 – Comparadores y paridad.
 - Lab 07 – Codificadores y decodificadores.
 - Lab 08 – Multiplexores y demultiplexores.
+- Prácticas de diseño con Karnaugh, teclado/display y flip-flops/contadores.
+
+El Lab 06 de comparadores y paridad se conserva como material complementario opcional, fuera del temario obligatorio del corte.
 
 ## Evaluación formativa
 

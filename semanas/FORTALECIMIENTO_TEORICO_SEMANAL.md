@@ -230,95 +230,85 @@ No se introduce contenido nuevo.
 
 ---
 
-# Semana 12 – XOR, sumadores y restadores
+# Semana 12 - Diseño con Karnaugh, sumadores y restadores
 
 ## Conceptos
 
-- XOR y XNOR.
-- Medio sumador y sumador completo.
-- Restador.
+- 3.1 Requisito, tabla, mapa y circuito.
+- 3.2 Medio sumador, sumador completo, resta y préstamo.
 
 ## Actividad
 
-Analizar si la aplicación requiere detección de diferencia, suma, resta o generación de acarreo.
+Diseñar una función con Karnaugh y comprobar Labs 04 y 05.
 
 ## Conexión ABPr
 
-Inicio de la integración física definitiva.
+Integración física inicial.
 
 ---
 
-# Semana 13 – Comparadores y paridad
+# Semana 13 - Codificadores y decodificadores
 
 ## Conceptos
 
-- Comparadores de igualdad y magnitud.
-- Salidas mayor, igual y menor.
-- Paridad par e impar.
+- 3.3 Codificación, prioridad, decodificación y BCD.
 
 ## Actividad
 
-Incorporar una decisión, validación o alarma útil al proyecto.
+Completar tablas e implementar el Lab 07.
 
 ## Conexión ABPr
 
-Avance funcional del prototipo físico.
+Identificación de entradas y visualización de estados.
 
 ---
 
-# Semana 14 – Codificadores, decodificadores y display
+# Semana 14 - Multiplexores y demultiplexores
 
 ## Conceptos
 
-- Codificadores y prioridad.
-- Decodificadores.
-- BCD y display de 7 segmentos.
-- Entradas o salidas activas en bajo.
+- 3.4 Selección, distribución y habilitación.
 
 ## Actividad
 
-Diseñar una forma clara de visualizar estados o datos.
+Comprobar el Lab 08 y todas las selecciones.
 
 ## Conexión ABPr
 
-Primera revisión física del prototipo y de la distribución de la maqueta.
+Primera revisión física del prototipo.
 
 ---
 
-# Semana 15 – Multiplexores, demultiplexores y muestra
+# Semana 15 - Teclado matricial y display 7 segmentos
 
 ## Conceptos
 
-- Selector y distribuidor de datos.
-- Líneas de selección.
-- Habilitación.
+- 3.5 Matriz, barrido, código de tecla, BCD y segmentos.
 
 ## Actividad
 
-Revisar selección de señales y presentar un prototipo preliminar.
+Probar los dígitos 0 a 9 y registrar rebote y ausencia de tecla.
 
 ## Conexión ABPr
 
-Muestra de proyectos y revisión de la maqueta o base de presentación.
+Muestra de proyectos y revisión de maqueta.
 
 ---
 
-# Semana 16 – Flip-flops, contadores y ajustes
+# Semana 16 - Flip Flop y aplicaciones con contadores
 
 ## Conceptos
 
-- Lógica combinacional y secuencial.
-- Flip-flops SR, D, JK y T.
-- Reloj y estado almacenado.
-- Contadores.
+- 3.6 Memoria, reloj y flancos.
+- 3.7 Conteo, módulo, reinicio y aplicaciones.
 
 ## Actividad
 
-Aplicar memoria o conteo cuando sea pertinente y ejecutar pruebas finales.
+Simular un flip-flop y un contador, y justificar sus secuencias.
 
 ## Conexión ABPr
 
-Corregir el prototipo, terminar maqueta, informe y video.
+Pruebas y correcciones finales, informe y video.
 
 ---
 

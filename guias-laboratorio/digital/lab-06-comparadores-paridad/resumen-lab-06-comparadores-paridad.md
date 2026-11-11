@@ -1,5 +1,7 @@
 # Lab 06 – Comparadores, generadores y comprobadores de paridad
 
+> Material complementario opcional. Esta guía conserva su numeración original y no forma parte de los temas obligatorios 3.1 a 3.7 ni del repaso obligatorio del Quiz 3.
+
 **Asignatura:** Electrónica Analógica y Digital  
 **Periodo:** 2026-2
 

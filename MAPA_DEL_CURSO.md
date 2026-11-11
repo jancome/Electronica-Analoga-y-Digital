@@ -30,9 +30,15 @@ Montaje en protoboard
 Preproyecto ABPr 2
         ↓
 Fase 3 – Aplicaciones e integración / Corte 3
-Sumadores, comparadores y paridad
+Diseño de aplicaciones con Karnaugh
         ↓
-Codificadores, decodificadores y MUX/DEMUX
+Sumadores y restadores
+        ↓
+Codificadores y decodificadores
+        ↓
+Multiplexores y demultiplexores
+        ↓
+Teclado matricial y display de 7 segmentos
         ↓
 Flip-flops y contadores
         ↓
@@ -61,7 +67,7 @@ La segunda fase transforma la necesidad en una lógica de decisión mediante var
 
 ## Fase 3 – Corte 3
 
-La tercera fase integra las etapas anteriores y aplica circuitos combinacionales o secuenciales.
+La tercera fase integra las etapas anteriores y desarrolla los [temas 3.1 a 3.7](CORTE_3_APLICACIONES.md).
 
 **Producto obligatorio:** prototipo físico definitivo con maqueta o base organizada, informe, video, muestra y sustentación.
 

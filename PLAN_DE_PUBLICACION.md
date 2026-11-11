@@ -42,11 +42,15 @@ Este documento organiza el estado de avance del repositorio académico de la asi
 | Lab 03 | Teorema de De Morgan | Estructura creada | Agregar resumen Markdown y enlazar PDF original. |
 | Lab 04 | XOR y aplicaciones | Estructura creada | Agregar resumen Markdown y enlazar PDF original. |
 | Lab 05 | Sumadores y aplicaciones | Estructura creada | Agregar resumen Markdown y enlazar PDF original. |
-| Lab 06 | Comparadores y paridad | Estructura creada | Agregar resumen Markdown y enlazar PDF original. |
+| Lab 06 | Comparadores y paridad | Complementario opcional | Conservar la guía fuera del temario obligatorio 3.1 a 3.7. |
 | Lab 07 | Codificadores y decodificadores | Estructura creada | Agregar resumen Markdown y enlazar PDF original. |
 | Lab 08 | Multiplexores y demultiplexores | Estructura creada | Agregar resumen Markdown y enlazar PDF original. |
 
 ---
+
+## Alineación del tercer corte
+
+El [temario 3.1 a 3.7](CORTE_3_APLICACIONES.md) organiza las semanas 12 a 16. Las prácticas de Karnaugh, teclado/display y flip-flops/contadores complementan los Labs 04, 05, 07 y 08. Los materiales de comparadores y paridad quedan como ampliación opcional.
 
 ## 4. Próximas fases recomendadas
 

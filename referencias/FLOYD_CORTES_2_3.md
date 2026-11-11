@@ -183,7 +183,9 @@ Este caso conserva el enfoque de Floyd, pero se contextualiza al uso eficiente d
 
 # Corte 3 – Aplicaciones combinacionales y secuenciales
 
-## Semana 12 – XOR, sumadores y restadores
+## Semana 12 - 3.1 Karnaugh aplicado y 3.2 sumadores/restadores
+
+El diseño con Karnaugh parte de un requisito y termina en un circuito comprobado. [Ejemplo y tabla de la aplicación](../semanas/semana-12-karnaugh-sumadores-restadores/marco-teorico.md).
 
 ### Base en Floyd
 
@@ -194,12 +196,12 @@ Este caso conserva el enfoque de Floyd, pero se contextualiza al uso eficiente d
 
 ### Ejemplo docente adaptado
 
-Diseñar un semi-sumador para dos pulsos binarios `A` y `B`:
+Diseñar un medio sumador para dos niveles binarios simultáneos `A` y `B`:
 
 - obtener la tabla;
 - demostrar `S=A⊕B`;
 - demostrar `C=A·B`;
-- interpretar `S` como resultado y `C` como evento doble.
+- interpretar `S` con peso 1 y `C` con peso 2. El sumador no almacena ni cuenta pulsos en el tiempo.
 
 Después ampliar a sumador completo con `Cin` y verificar ocho combinaciones.
 
@@ -209,38 +211,7 @@ El bloque solo se integra cuando el proyecto necesita sumar eventos, detectar di
 
 ---
 
-## Semana 13 – Comparadores y paridad
-
-### Base en Floyd
-
-- Capítulo 6, Sección 6.4: comparadores, pp. 344–347.
-- Sección 6.10: generadores y comprobadores de paridad, pp. 379–382.
-- Sección 2.12: detección y corrección de errores, pp. 104–121.
-
-### Ejemplo docente adaptado – Comparación
-
-Dos palabras de 4 bits representan consumo actual `A` y límite programado `B`.
-
-Determinar para varios casos:
-
-- `A>B`;
-- `A=B`;
-- `A<B`.
-
-Explicar por qué el bit más significativo tiene prioridad en la comparación.
-
-### Ejemplo docente adaptado – Paridad
-
-Para la palabra `1011010`:
-
-1. generar paridad par;
-2. construir la palabra transmitida;
-3. invertir un bit y comprobar el error;
-4. invertir dos bits y analizar la limitación del método.
-
----
-
-## Semana 14 – Codificadores, decodificadores y display
+## Semana 13 - 3.3 Codificadores y decodificadores
 
 ### Base en Floyd
 
@@ -264,7 +235,7 @@ Diseñar un decodificador que active un indicador por estado. Después analizar 
 
 ---
 
-## Semana 15 – Multiplexores y demultiplexores
+## Semana 14 - 3.4 Multiplexores y demultiplexores
 
 ### Base en Floyd
 
@@ -286,7 +257,17 @@ El estudiante debe:
 
 ---
 
-## Semana 16 – Flip-flops y contadores
+## Semana 15 - 3.5 Teclado matricial y display 7 segmentos
+
+La [práctica de integración](../semanas/semana-15-teclado-matricial-display/marco-teorico.md) relaciona fila, columna, código BCD y segmentos. Utiliza las bases de codificación, decodificación y selección de señales ya estudiadas.
+
+### Actividad 15.1 - Identificación y visualización
+
+Para las teclas 2, 5 y 0, identificar fila, columna, BCD y segmentos encendidos. Comprobar ausencia de tecla y pulsación prolongada. Explicar qué memoria se necesita para conservar el último dígito.
+
+---
+
+## Semana 16 - 3.6 Flip Flop y 3.7 aplicaciones con contadores
 
 ### Base en Floyd
 
@@ -359,3 +340,37 @@ Cada marco teórico semanal deberá incluir cuatro elementos:
 4. **Comprobación:** tabla, simulación, protoboard o medición.
 
 Así el libro se convierte en una base rigurosa sin transformar el repositorio en una reproducción de la obra.
+
+# Material complementario fuera del temario obligatorio 3.1 a 3.7
+
+## Ampliación opcional - Comparadores y paridad
+
+### Base en Floyd
+
+- Capítulo 6, Sección 6.4: comparadores, pp. 344–347.
+- Sección 6.10: generadores y comprobadores de paridad, pp. 379–382.
+- Sección 2.12: detección y corrección de errores, pp. 104–121.
+
+### Ejemplo docente adaptado – Comparación
+
+Dos palabras de 4 bits representan consumo actual `A` y límite programado `B`.
+
+Determinar para varios casos:
+
+- `A>B`;
+- `A=B`;
+- `A<B`.
+
+Explicar por qué el bit más significativo tiene prioridad en la comparación.
+
+### Ejemplo docente adaptado – Paridad
+
+Para la palabra `1011010`:
+
+1. generar paridad par;
+2. construir la palabra transmitida;
+3. invertir un bit y comprobar el error;
+4. invertir dos bits y analizar la limitación del método.
+
+---
+

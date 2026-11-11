@@ -10,6 +10,8 @@ Esta sección reúne el recorrido semanal del curso. Cada semana cuenta con marc
 - [Rutas oficiales](RUTAS_OFICIALES.md)
 - [Estrategia ABPr](../ABPR_PROYECTO_DE_CURSO.md)
 
+- [Temario del tercer corte: 3.1 a 3.7](../CORTE_3_APLICACIONES.md)
+
 ## Índice oficial
 
 | Semana | Fase | Tema | Entrega principal | Carpeta |
@@ -25,9 +27,9 @@ Esta sección reúne el recorrido semanal del curso. Cada semana cuenta con marc
 | 09 | Fase 2 | Álgebra, De Morgan y Karnaugh | Labs 02 y 03 | [Semana 09](semana-09-algebra-demorgan-karnaugh/README.md) |
 | 10 | Receso | Receso institucional | Repaso autónomo | [Semana 10](semana-10-receso-institucional/README.md) |
 | 11 | Fase 2 | Cierre de la Fase 2 | Parcial 2 y Preproyecto ABPr 2 | [Semana 11](semana-11-cierre-fase-2/README.md) |
-| 12 | Fase 3 | XOR, sumadores y restadores | Labs 04 y 05 | [Semana 12](semana-12-xor-sumadores-restadores/README.md) |
-| 13 | Fase 3 | Comparadores y paridad | Lab 06 | [Semana 13](semana-13-comparadores-paridad/README.md) |
-| 14 | Fase 3 | Codificadores y decodificadores | Lab 07 | [Semana 14](semana-14-codificadores-decodificadores/README.md) |
-| 15 | Fase 3 | MUX/DEMUX y muestra | Lab 08 y maqueta preliminar | [Semana 15](semana-15-multiplexores-demultiplexores/README.md) |
-| 16 | Fase 3 | Flip-flops, contadores y ajustes | Quiz 3 y correcciones | [Semana 16](semana-16-flipflops-contadores/README.md) |
+| 12 | Fase 3 | 3.1 Karnaugh aplicado y 3.2 sumadores/restadores | Práctica de Karnaugh y Labs 04/05 | [Semana 12](semana-12-karnaugh-sumadores-restadores/README.md) |
+| 13 | Fase 3 | 3.3 Codificadores y decodificadores | Lab 07 | [Semana 13](semana-13-codificadores-decodificadores/README.md) |
+| 14 | Fase 3 | 3.4 Multiplexores y demultiplexores | Lab 08 y primera revisión física | [Semana 14](semana-14-multiplexores-demultiplexores/README.md) |
+| 15 | Fase 3 | 3.5 Teclado matricial y display | Práctica de integración y muestra | [Semana 15](semana-15-teclado-matricial-display/README.md) |
+| 16 | Fase 3 | 3.6 Flip Flop y 3.7 contadores | Práctica secuencial, Quiz 3 y ajustes | [Semana 16](semana-16-flipflops-contadores/README.md) |
 | 17 | Fase 3 | Proyecto final | Prototipo, maqueta y sustentación | [Semana 17](semana-17-proyecto-final-cierre/README.md) |

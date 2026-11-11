@@ -17,11 +17,11 @@ Los enunciados específicos y los espacios de entrega se publicarán mediante **
 | 09 | 30 de septiembre de 2026 | Corte 2 / Fase 2 | Labs 02 y 03, simulación y montaje |
 | 10 | 7 de octubre de 2026 | Receso | Sin entrega nueva |
 | 11 | 14 de octubre de 2026 | Corte 2 / Fase 2 | Parcial 2 y Preproyecto ABPr 2 |
-| 12 | 21 de octubre de 2026 | Corte 3 / Fase 3 | Labs 04 y 05 e integración física |
-| 13 | 28 de octubre de 2026 | Corte 3 / Fase 3 | Lab 06 y avance funcional |
-| 14 | 4 de noviembre de 2026 | Corte 3 / Fase 3 | Lab 07 y primera revisión física |
-| 15 | 11 de noviembre de 2026 | Corte 3 / Fase 3 | Lab 08 y muestra de prototipo y maqueta |
-| 16 | 18 de noviembre de 2026 | Corte 3 / Fase 3 | Quiz 3 y ajustes finales |
+| 12 | 21 de octubre de 2026 | Corte 3 / Fase 3 | Práctica de Karnaugh y Labs 04/05 |
+| 13 | 28 de octubre de 2026 | Corte 3 / Fase 3 | Lab 07 y avance funcional |
+| 14 | 4 de noviembre de 2026 | Corte 3 / Fase 3 | Lab 08 y primera revisión física |
+| 15 | 11 de noviembre de 2026 | Corte 3 / Fase 3 | Práctica teclado/display y muestra de prototipo y maqueta |
+| 16 | 18 de noviembre de 2026 | Corte 3 / Fase 3 | Práctica de flip-flops/contadores, Quiz 3 y ajustes finales |
 | 17 | 25 de noviembre de 2026 | Corte 3 / Fase 3 | Proyecto final ABPr y sustentación |
 
 ## Distribución por corte

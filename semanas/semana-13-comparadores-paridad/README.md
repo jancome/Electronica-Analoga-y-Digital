@@ -1,4 +1,6 @@
-# Semana 13 – Comparadores y paridad
+# Material complementario - Comparadores y paridad
+
+> Material opcional. Comparadores y paridad no forman parte del temario obligatorio 3.1 a 3.7. La [semana 13 vigente](../semana-13-codificadores-decodificadores/README.md) desarrolla codificadores y decodificadores.
 
 ## Corte
 
@@ -10,7 +12,7 @@ Diseñar y analizar circuitos combinacionales de comparación y circuitos de gen
 
 ## Marco teórico
 
-- [Marco teórico – Semana 13](marco-teorico.md)
+- [Marco teórico complementario](marco-teorico.md)
 
 ## Desarrollo de la clase
 
